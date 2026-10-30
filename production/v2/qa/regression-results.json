@@ -1,0 +1,3108 @@
+{
+  "started": "2026-10-28T08:21:41.853Z",
+  "protocol": "file:",
+  "offline": true,
+  "browser": "Microsoft Edge headless",
+  "results": [
+    {
+      "viewport": "1440x900",
+      "name": "state 0 enter",
+      "pass": true,
+      "elapsedMs": 1937,
+      "detail": {
+        "scene": {
+          "index": 0,
+          "motion": "enter",
+          "title": "蜀道难"
+        },
+        "after": {
+          "index": 1,
+          "chapter": 0,
+          "paused": false,
+          "busy": false,
+          "modal": null,
+          "interaction": 0,
+          "motion": {
+            "sceneIndex": 1,
+            "worldName": "gate",
+            "time": 2.0827,
+            "paused": false,
+            "busy": false,
+            "view": {
+              "x": 0,
+              "y": 2.45,
+              "z": 6.2,
+              "tx": 0.1,
+              "ty": 2.8,
+              "tz": -25,
+              "fov": 54
+            },
+            "hand": 0,
+            "lamp": 0,
+            "walks": 0,
+            "flight": 0,
+            "water": 0.45,
+            "gate": {
+              "left": 0,
+              "right": 0
+            },
+            "frames": 121,
+            "action": "",
+            "progress": 0,
+            "completed": 1
+          }
+        },
+        "layout": {
+          "scroll": 1440,
+          "viewport": 1440,
+          "title": "蜀道难",
+          "next": {
+            "x": 1143,
+            "y": 730.8125,
+            "width": 225,
+            "height": 54,
+            "top": 730.8125,
+            "right": 1368,
+            "bottom": 784.8125,
+            "left": 1143
+          }
+        }
+      }
+    },
+    {
+      "viewport": "1440x900",
+      "name": "state 1 open-gate",
+      "pass": true,
+      "elapsedMs": 3797,
+      "detail": {
+        "scene": {
+          "index": 1,
+          "motion": "open-gate",
+          "title": "蜀道在前，我欲入山。"
+        },
+        "after": {
+          "index": 2,
+          "chapter": 0,
+          "paused": false,
+          "busy": false,
+          "modal": null,
+          "interaction": 0,
+          "motion": {
+            "sceneIndex": 2,
+            "worldName": "mountain",
+            "time": 5.717500000000014,
+            "paused": false,
+            "busy": false,
+            "view": {
+              "x": 0,
+              "y": 2.45,
+              "z": 9,
+              "tx": 0,
+              "ty": 2.7,
+              "tz": -25,
+              "fov": 54
+            },
+            "hand": 0,
+            "lamp": 0,
+            "walks": 0,
+            "flight": 0,
+            "water": 0.45,
+            "gate": {
+              "left": -1.48,
+              "right": 1.48
+            },
+            "frames": 335,
+            "action": "",
+            "progress": 0,
+            "completed": 2
+          }
+        },
+        "layout": {
+          "scroll": 1440,
+          "viewport": 1440,
+          "title": "蜀道在前，我欲入山。",
+          "next": {
+            "x": 1143,
+            "y": 730.8125,
+            "width": 225,
+            "height": 54,
+            "top": 730.8125,
+            "right": 1368,
+            "bottom": 784.8125,
+            "left": 1143
+          }
+        }
+      }
+    },
+    {
+      "viewport": "1440x900",
+      "name": "state 2 look-up",
+      "pass": true,
+      "elapsedMs": 2508,
+      "detail": {
+        "scene": {
+          "index": 2,
+          "motion": "look-up",
+          "title": "噫吁嚱，危乎高哉！"
+        },
+        "after": {
+          "index": 3,
+          "chapter": 1,
+          "paused": false,
+          "busy": false,
+          "modal": null,
+          "interaction": 0,
+          "motion": {
+            "sceneIndex": 3,
+            "worldName": "mountain",
+            "time": 8.237600000000027,
+            "paused": false,
+            "busy": false,
+            "view": {
+              "x": 0,
+              "y": 2.45,
+              "z": 9,
+              "tx": 0,
+              "ty": 14,
+              "tz": -25,
+              "fov": 61
+            },
+            "hand": 0,
+            "lamp": 0,
+            "walks": 0,
+            "flight": 0,
+            "water": 0.45,
+            "gate": {
+              "left": -1.48,
+              "right": 1.48
+            },
+            "frames": 486,
+            "action": "",
+            "progress": 0,
+            "completed": 3
+          }
+        },
+        "layout": {
+          "scroll": 1440,
+          "viewport": 1440,
+          "title": "噫吁嚱，危乎高哉！",
+          "next": {
+            "x": 1143,
+            "y": 730.8125,
+            "width": 225,
+            "height": 54,
+            "top": 730.8125,
+            "right": 1368,
+            "bottom": 784.8125,
+            "left": 1143
+          }
+        }
+      }
+    },
+    {
+      "viewport": "1440x900",
+      "name": "state 3 cross-cloud",
+      "pass": true,
+      "elapsedMs": 2838,
+      "detail": {
+        "scene": {
+          "index": 3,
+          "motion": "cross-cloud",
+          "title": "蚕丛及鱼凫，开国何茫然！"
+        },
+        "after": {
+          "index": 4,
+          "chapter": 1,
+          "paused": false,
+          "busy": false,
+          "modal": null,
+          "interaction": 0,
+          "motion": {
+            "sceneIndex": 4,
+            "worldName": "bridge",
+            "time": 11.074700000000007,
+            "paused": false,
+            "busy": false,
+            "view": {
+              "x": -0.15,
+              "y": 2.05,
+              "z": 9,
+              "tx": 1.6,
+              "ty": 0.8,
+              "tz": -25,
+              "fov": 54
+            },
+            "hand": 0,
+            "lamp": 0,
+            "walks": 0,
+            "flight": 0,
+            "water": 0.45,
+            "gate": {
+              "left": -1.48,
+              "right": 1.48
+            },
+            "frames": 655,
+            "action": "",
+            "progress": 0,
+            "completed": 4
+          }
+        },
+        "layout": {
+          "scroll": 1440,
+          "viewport": 1440,
+          "title": "蚕丛及鱼凫，开国何茫然！",
+          "next": {
+            "x": 1143,
+            "y": 730.8125,
+            "width": 225,
+            "height": 54,
+            "top": 730.8125,
+            "right": 1368,
+            "bottom": 784.8125,
+            "left": 1143
+          }
+        }
+      }
+    },
+    {
+      "viewport": "1440x900",
+      "name": "state 4 lay-planks",
+      "pass": true,
+      "elapsedMs": 3751,
+      "detail": {
+        "scene": {
+          "index": 4,
+          "motion": "lay-planks",
+          "title": "地崩山摧壮士死，然后天梯石栈相钩连。"
+        },
+        "after": {
+          "index": 5,
+          "chapter": 2,
+          "paused": false,
+          "busy": false,
+          "modal": null,
+          "interaction": 0,
+          "motion": {
+            "sceneIndex": 5,
+            "worldName": "bridge",
+            "time": 14.803199999999993,
+            "paused": false,
+            "busy": false,
+            "view": {
+              "x": -0.15,
+              "y": 2.05,
+              "z": 7.3,
+              "tx": 1.6,
+              "ty": 0.8,
+              "tz": -25,
+              "fov": 54
+            },
+            "hand": 8.082668874372532e-17,
+            "lamp": 0,
+            "walks": 0,
+            "flight": 0,
+            "water": 0.45,
+            "gate": {
+              "left": -1.48,
+              "right": 1.48
+            },
+            "frames": 876,
+            "action": "",
+            "progress": 0,
+            "completed": 5
+          }
+        },
+        "layout": {
+          "scroll": 1440,
+          "viewport": 1440,
+          "title": "地崩山摧壮士死，然后天梯石栈相钩连。",
+          "next": {
+            "x": 1143,
+            "y": 730.8125,
+            "width": 225,
+            "height": 54,
+            "top": 730.8125,
+            "right": 1368,
+            "bottom": 784.8125,
+            "left": 1143
+          }
+        }
+      }
+    },
+    {
+      "viewport": "1440x900",
+      "name": "state 5 look-down",
+      "pass": true,
+      "elapsedMs": 2925,
+      "detail": {
+        "scene": {
+          "index": 5,
+          "motion": "look-down",
+          "title": "上有六龙回日之高标，下有冲波逆折之回川。"
+        },
+        "after": {
+          "index": 6,
+          "chapter": 2,
+          "paused": false,
+          "busy": false,
+          "modal": null,
+          "interaction": 0,
+          "motion": {
+            "sceneIndex": 6,
+            "worldName": "bridge",
+            "time": 17.740299999999955,
+            "paused": false,
+            "busy": false,
+            "view": {
+              "x": -0.75,
+              "y": 2.05,
+              "z": 7.3,
+              "tx": 1.6,
+              "ty": -4.5,
+              "tz": -25,
+              "fov": 64
+            },
+            "hand": 5.5109105961630896e-17,
+            "lamp": 0,
+            "walks": 0,
+            "flight": 0,
+            "water": 0.45,
+            "gate": {
+              "left": -1.48,
+              "right": 1.48
+            },
+            "frames": 1051,
+            "action": "",
+            "progress": 0,
+            "completed": 6
+          }
+        },
+        "layout": {
+          "scroll": 1440,
+          "viewport": 1440,
+          "title": "上有六龙回日之高标，下有冲波逆折之回川。",
+          "next": {
+            "x": 1143,
+            "y": 730.8125,
+            "width": 225,
+            "height": 54,
+            "top": 730.8125,
+            "right": 1368,
+            "bottom": 784.8125,
+            "left": 1143
+          }
+        }
+      }
+    },
+    {
+      "viewport": "1440x900",
+      "name": "state 6 walk",
+      "pass": true,
+      "elapsedMs": 4688,
+      "detail": {
+        "scene": {
+          "index": 6,
+          "motion": "walk",
+          "title": "青泥何盘盘，百步九折萦岩峦。"
+        },
+        "after": {
+          "index": 7,
+          "chapter": 2,
+          "paused": false,
+          "busy": false,
+          "modal": null,
+          "interaction": 0,
+          "motion": {
+            "sceneIndex": 7,
+            "worldName": "bridge",
+            "time": 22.429999999999886,
+            "paused": false,
+            "busy": false,
+            "view": {
+              "x": 0.4,
+              "y": 2.05,
+              "z": 0.9999999999999991,
+              "tx": 1.6,
+              "ty": 0.6,
+              "tz": -25,
+              "fov": 54
+            },
+            "hand": 1.7145055188062947e-17,
+            "lamp": 0,
+            "walks": 3,
+            "flight": 0,
+            "water": 0.45,
+            "gate": {
+              "left": -1.48,
+              "right": 1.48
+            },
+            "frames": 1332,
+            "action": "",
+            "progress": 0,
+            "completed": 9
+          }
+        },
+        "layout": {
+          "scroll": 1440,
+          "viewport": 1440,
+          "title": "青泥何盘盘，百步九折萦岩峦。",
+          "next": {
+            "x": 1143,
+            "y": 730.8125,
+            "width": 225,
+            "height": 54,
+            "top": 730.8125,
+            "right": 1368,
+            "bottom": 784.8125,
+            "left": 1143
+          }
+        }
+      }
+    },
+    {
+      "viewport": "1440x900",
+      "name": "state 7 reach",
+      "pass": true,
+      "elapsedMs": 3302,
+      "detail": {
+        "scene": {
+          "index": 7,
+          "motion": "reach",
+          "title": "扪参历井仰胁息，以手抚膺坐长叹。"
+        },
+        "after": {
+          "index": 8,
+          "chapter": 2,
+          "paused": false,
+          "busy": false,
+          "modal": null,
+          "interaction": 0,
+          "motion": {
+            "sceneIndex": 8,
+            "worldName": "bridge",
+            "time": 25.71829999999983,
+            "paused": false,
+            "busy": false,
+            "view": {
+              "x": 0.4,
+              "y": 2.05,
+              "z": 0.9999999999999991,
+              "tx": 1.6,
+              "ty": 18,
+              "tz": -25,
+              "fov": 66
+            },
+            "hand": 0.93,
+            "lamp": 0,
+            "walks": 3,
+            "flight": 0,
+            "water": 0.45,
+            "gate": {
+              "left": -1.48,
+              "right": 1.48
+            },
+            "frames": 1529,
+            "action": "",
+            "progress": 0,
+            "completed": 10
+          }
+        },
+        "layout": {
+          "scroll": 1440,
+          "viewport": 1440,
+          "title": "扪参历井仰胁息，以手抚膺坐长叹。",
+          "next": {
+            "x": 1143,
+            "y": 730.8125,
+            "width": 225,
+            "height": 54,
+            "top": 730.8125,
+            "right": 1368,
+            "bottom": 784.8125,
+            "left": 1143
+          }
+        }
+      }
+    },
+    {
+      "viewport": "1440x900",
+      "name": "state 8 breathe",
+      "pass": true,
+      "elapsedMs": 3011,
+      "detail": {
+        "scene": {
+          "index": 8,
+          "motion": "breathe",
+          "title": "屏住呼吸，才知山之高。"
+        },
+        "after": {
+          "index": 9,
+          "chapter": 3,
+          "paused": false,
+          "busy": false,
+          "modal": null,
+          "interaction": 0,
+          "motion": {
+            "sceneIndex": 9,
+            "worldName": "forest",
+            "time": 28.5849999999998,
+            "paused": false,
+            "busy": false,
+            "view": {
+              "x": 0,
+              "y": 2.5,
+              "z": 9,
+              "tx": 1.1,
+              "ty": 3.2,
+              "tz": -25,
+              "fov": 54
+            },
+            "hand": 0,
+            "lamp": 0.45,
+            "walks": 0,
+            "flight": 0,
+            "water": 0.45,
+            "gate": {
+              "left": -1.48,
+              "right": 1.48
+            },
+            "frames": 1697,
+            "action": "",
+            "progress": 0,
+            "completed": 11
+          }
+        },
+        "layout": {
+          "scroll": 1440,
+          "viewport": 1440,
+          "title": "屏住呼吸，才知山之高。",
+          "next": {
+            "x": 1143,
+            "y": 730.8125,
+            "width": 225,
+            "height": 54,
+            "top": 730.8125,
+            "right": 1368,
+            "bottom": 784.8125,
+            "left": 1143
+          }
+        }
+      }
+    },
+    {
+      "viewport": "1440x900",
+      "name": "state 9 lantern",
+      "pass": true,
+      "elapsedMs": 3542,
+      "detail": {
+        "scene": {
+          "index": 9,
+          "motion": "lantern",
+          "title": "但见悲鸟号古木，雄飞雌从绕林间。"
+        },
+        "after": {
+          "index": 10,
+          "chapter": 3,
+          "paused": false,
+          "busy": false,
+          "modal": null,
+          "interaction": 0,
+          "motion": {
+            "sceneIndex": 10,
+            "worldName": "forest",
+            "time": 32.11309999999975,
+            "paused": false,
+            "busy": false,
+            "view": {
+              "x": 0,
+              "y": 2.5,
+              "z": 9,
+              "tx": 3.3,
+              "ty": 4.1,
+              "tz": -25,
+              "fov": 54
+            },
+            "hand": 0,
+            "lamp": 1,
+            "walks": 0,
+            "flight": 3.6690333333333283,
+            "water": 0.45,
+            "gate": {
+              "left": -1.48,
+              "right": 1.48
+            },
+            "frames": 1907,
+            "action": "",
+            "progress": 0,
+            "completed": 12
+          }
+        },
+        "layout": {
+          "scroll": 1440,
+          "viewport": 1440,
+          "title": "但见悲鸟号古木，雄飞雌从绕林间。",
+          "next": {
+            "x": 1143,
+            "y": 730.8125,
+            "width": 225,
+            "height": 54,
+            "top": 730.8125,
+            "right": 1368,
+            "bottom": 784.8125,
+            "left": 1143
+          }
+        }
+      }
+    },
+    {
+      "viewport": "1440x900",
+      "name": "state 10 listen",
+      "pass": true,
+      "elapsedMs": 2289,
+      "detail": {
+        "scene": {
+          "index": 10,
+          "motion": "listen",
+          "title": "又闻子规啼夜月，愁空山。"
+        },
+        "after": {
+          "index": 11,
+          "chapter": 3,
+          "paused": false,
+          "busy": false,
+          "modal": null,
+          "interaction": 0,
+          "motion": {
+            "sceneIndex": 11,
+            "worldName": "forest",
+            "time": 34.41639999999986,
+            "paused": false,
+            "busy": false,
+            "view": {
+              "x": 0,
+              "y": 2.5,
+              "z": 9,
+              "tx": 1.1,
+              "ty": 5.5,
+              "tz": -25,
+              "fov": 54
+            },
+            "hand": 0,
+            "lamp": 0.44999999999999996,
+            "walks": 0,
+            "flight": 5.972333333333344,
+            "water": 0.45,
+            "gate": {
+              "left": -1.48,
+              "right": 1.48
+            },
+            "frames": 2044,
+            "action": "",
+            "progress": 0,
+            "completed": 13
+          }
+        },
+        "layout": {
+          "scroll": 1440,
+          "viewport": 1440,
+          "title": "又闻子规啼夜月，愁空山。",
+          "next": {
+            "x": 1143,
+            "y": 730.8125,
+            "width": 225,
+            "height": 54,
+            "top": 730.8125,
+            "right": 1368,
+            "bottom": 784.8125,
+            "left": 1143
+          }
+        }
+      }
+    },
+    {
+      "viewport": "1440x900",
+      "name": "state 11 cross-cloud",
+      "pass": true,
+      "elapsedMs": 2864,
+      "detail": {
+        "scene": {
+          "index": 11,
+          "motion": "cross-cloud",
+          "title": "蜀道之难，难于上青天。"
+        },
+        "after": {
+          "index": 12,
+          "chapter": 4,
+          "paused": false,
+          "busy": false,
+          "modal": null,
+          "interaction": 0,
+          "motion": {
+            "sceneIndex": 12,
+            "worldName": "waterfall",
+            "time": 37.27690000000002,
+            "paused": false,
+            "busy": false,
+            "view": {
+              "x": -0.4,
+              "y": 2.8,
+              "z": 9,
+              "tx": 2.8,
+              "ty": 3.8,
+              "tz": -25,
+              "fov": 54
+            },
+            "hand": 0,
+            "lamp": 0,
+            "walks": 0,
+            "flight": 0,
+            "water": 0.45,
+            "gate": {
+              "left": -1.48,
+              "right": 1.48
+            },
+            "frames": 2214,
+            "action": "",
+            "progress": 0,
+            "completed": 14
+          }
+        },
+        "layout": {
+          "scroll": 1440,
+          "viewport": 1440,
+          "title": "蜀道之难，难于上青天。",
+          "next": {
+            "x": 1143,
+            "y": 730.8125,
+            "width": 225,
+            "height": 54,
+            "top": 730.8125,
+            "right": 1368,
+            "bottom": 784.8125,
+            "left": 1143
+          }
+        }
+      }
+    },
+    {
+      "viewport": "1440x900",
+      "name": "state 12 torrent",
+      "pass": true,
+      "elapsedMs": 5387,
+      "detail": {
+        "scene": {
+          "index": 12,
+          "motion": "torrent",
+          "title": "飞湍瀑流争喧豗，砯崖转石万壑雷。"
+        },
+        "after": {
+          "index": 13,
+          "chapter": 4,
+          "paused": false,
+          "busy": false,
+          "modal": null,
+          "interaction": 0,
+          "motion": {
+            "sceneIndex": 13,
+            "worldName": "pass",
+            "time": 42.66760000000038,
+            "paused": false,
+            "busy": false,
+            "view": {
+              "x": 0.1,
+              "y": 2.7,
+              "z": 7.4,
+              "tx": 1.5,
+              "ty": 3,
+              "tz": -25,
+              "fov": 54
+            },
+            "hand": 0,
+            "lamp": 0,
+            "walks": 0,
+            "flight": 0,
+            "water": 0.45,
+            "gate": {
+              "left": 0,
+              "right": 0
+            },
+            "frames": 2536,
+            "action": "",
+            "progress": 0,
+            "completed": 15
+          }
+        },
+        "layout": {
+          "scroll": 1440,
+          "viewport": 1440,
+          "title": "飞湍瀑流争喧豗，砯崖转石万壑雷。",
+          "next": {
+            "x": 1143,
+            "y": 730.8125,
+            "width": 225,
+            "height": 54,
+            "top": 730.8125,
+            "right": 1368,
+            "bottom": 784.8125,
+            "left": 1143
+          }
+        }
+      }
+    },
+    {
+      "viewport": "1440x900",
+      "name": "state 13 blocked-gate",
+      "pass": true,
+      "elapsedMs": 4791,
+      "detail": {
+        "scene": {
+          "index": 13,
+          "motion": "blocked-gate",
+          "title": "一夫当关，万夫莫开。"
+        },
+        "after": {
+          "index": 14,
+          "chapter": 4,
+          "paused": false,
+          "busy": false,
+          "modal": null,
+          "interaction": 0,
+          "motion": {
+            "sceneIndex": 14,
+            "worldName": "pass",
+            "time": 47.45730000000068,
+            "paused": false,
+            "busy": false,
+            "view": {
+              "x": 0.1,
+              "y": 2.7,
+              "z": 6.2,
+              "tx": 1.5,
+              "ty": 3,
+              "tz": -25,
+              "fov": 54
+            },
+            "hand": 1.1021821192326179e-16,
+            "lamp": 0,
+            "walks": 0,
+            "flight": 0,
+            "water": 0.45,
+            "gate": {
+              "left": -1.310931339122076e-18,
+              "right": 1.310931339122076e-18
+            },
+            "frames": 2823,
+            "action": "",
+            "progress": 0,
+            "completed": 16
+          }
+        },
+        "layout": {
+          "scroll": 1440,
+          "viewport": 1440,
+          "title": "一夫当关，万夫莫开。",
+          "next": {
+            "x": 1143,
+            "y": 730.8125,
+            "width": 225,
+            "height": 54,
+            "top": 730.8125,
+            "right": 1368,
+            "bottom": 784.8125,
+            "left": 1143
+          }
+        }
+      }
+    },
+    {
+      "viewport": "1440x900",
+      "name": "state 14 turn-back",
+      "pass": true,
+      "elapsedMs": 3013,
+      "detail": {
+        "scene": {
+          "index": 14,
+          "motion": "turn-back",
+          "title": "所守或匪亲，化为狼与豺。"
+        },
+        "after": {
+          "index": 15,
+          "chapter": 5,
+          "paused": false,
+          "busy": false,
+          "modal": null,
+          "interaction": 0,
+          "motion": {
+            "sceneIndex": 15,
+            "worldName": "mountain",
+            "time": 50.478100000000815,
+            "paused": false,
+            "busy": false,
+            "view": {
+              "x": 0,
+              "y": 2.45,
+              "z": 9,
+              "tx": 0,
+              "ty": 2.7,
+              "tz": -25,
+              "fov": 54
+            },
+            "hand": 0,
+            "lamp": 0,
+            "walks": 0,
+            "flight": 0,
+            "water": 0.45,
+            "gate": {
+              "left": -1.310931339122076e-18,
+              "right": 1.310931339122076e-18
+            },
+            "frames": 3004,
+            "action": "",
+            "progress": 0,
+            "completed": 17
+          }
+        },
+        "layout": {
+          "scroll": 1440,
+          "viewport": 1440,
+          "title": "所守或匪亲，化为狼与豺。",
+          "next": {
+            "x": 1143,
+            "y": 730.8125,
+            "width": 225,
+            "height": 54,
+            "top": 730.8125,
+            "right": 1368,
+            "bottom": 784.8125,
+            "left": 1143
+          }
+        }
+      }
+    },
+    {
+      "viewport": "1440x900",
+      "name": "state 15 look-west",
+      "pass": true,
+      "elapsedMs": 2992,
+      "detail": {
+        "scene": {
+          "index": 15,
+          "motion": "look-west",
+          "title": "锦城虽云乐，不如早还家。"
+        },
+        "after": {
+          "index": 16,
+          "chapter": 5,
+          "paused": false,
+          "busy": false,
+          "modal": null,
+          "interaction": 0,
+          "motion": {
+            "sceneIndex": 16,
+            "worldName": "mountain",
+            "time": 53.465600000000975,
+            "paused": false,
+            "busy": false,
+            "view": {
+              "x": -1,
+              "y": 2.45,
+              "z": 9,
+              "tx": 8,
+              "ty": 5,
+              "tz": -25,
+              "fov": 54
+            },
+            "hand": 0,
+            "lamp": 0,
+            "walks": 0,
+            "flight": 0,
+            "water": 0.45,
+            "gate": {
+              "left": -1.310931339122076e-18,
+              "right": 1.310931339122076e-18
+            },
+            "frames": 3183,
+            "action": "",
+            "progress": 0,
+            "completed": 18
+          }
+        },
+        "layout": {
+          "scroll": 1440,
+          "viewport": 1440,
+          "title": "锦城虽云乐，不如早还家。",
+          "next": {
+            "x": 1143,
+            "y": 730.8125,
+            "width": 225,
+            "height": 54,
+            "top": 730.8125,
+            "right": 1368,
+            "bottom": 784.8125,
+            "left": 1143
+          }
+        }
+      }
+    },
+    {
+      "viewport": "1440x900",
+      "name": "state 16 settle",
+      "pass": true,
+      "elapsedMs": 2400,
+      "detail": {
+        "scene": {
+          "index": 16,
+          "motion": "settle",
+          "title": "蜀道之难，难于上青天。"
+        },
+        "after": {
+          "index": 17,
+          "chapter": 6,
+          "paused": false,
+          "busy": false,
+          "modal": null,
+          "interaction": 0,
+          "motion": {
+            "sceneIndex": 17,
+            "worldName": "mountain",
+            "time": 55.868800000001066,
+            "paused": false,
+            "busy": false,
+            "view": {
+              "x": -1,
+              "y": 2.45,
+              "z": 9,
+              "tx": 2,
+              "ty": 5,
+              "tz": -25,
+              "fov": 52
+            },
+            "hand": 0,
+            "lamp": 0,
+            "walks": 0,
+            "flight": 0,
+            "water": 0.45,
+            "gate": {
+              "left": -1.310931339122076e-18,
+              "right": 1.310931339122076e-18
+            },
+            "frames": 3327,
+            "action": "",
+            "progress": 0,
+            "completed": 19
+          }
+        },
+        "layout": {
+          "scroll": 1440,
+          "viewport": 1440,
+          "title": "蜀道之难，难于上青天。",
+          "next": {
+            "x": 1143,
+            "y": 730.8125,
+            "width": 225,
+            "height": 54,
+            "top": 730.8125,
+            "right": 1368,
+            "bottom": 784.8125,
+            "left": 1143
+          }
+        }
+      }
+    },
+    {
+      "viewport": "1440x900",
+      "name": "state 17 end",
+      "pass": true,
+      "elapsedMs": 951,
+      "detail": {
+        "scene": {
+          "index": 17,
+          "motion": "end",
+          "title": "这一程，我听见了三声长叹。"
+        },
+        "after": {
+          "index": 17,
+          "chapter": 6,
+          "paused": false,
+          "busy": false,
+          "modal": null,
+          "interaction": 0,
+          "motion": {
+            "sceneIndex": 17,
+            "worldName": "mountain",
+            "time": 56.77000000000113,
+            "paused": false,
+            "busy": false,
+            "view": {
+              "x": -1,
+              "y": 2.45,
+              "z": 9,
+              "tx": 2,
+              "ty": 5,
+              "tz": -25,
+              "fov": 52
+            },
+            "hand": 0,
+            "lamp": 0,
+            "walks": 0,
+            "flight": 0,
+            "water": 0.45,
+            "gate": {
+              "left": -1.310931339122076e-18,
+              "right": 1.310931339122076e-18
+            },
+            "frames": 3384,
+            "action": "",
+            "progress": 0,
+            "completed": 19
+          }
+        },
+        "layout": {
+          "scroll": 1440,
+          "viewport": 1440,
+          "title": "这一程，我听见了三声长叹。",
+          "next": {
+            "x": 1143,
+            "y": 730.8125,
+            "width": 225,
+            "height": 54,
+            "top": 730.8125,
+            "right": 1368,
+            "bottom": 784.8125,
+            "left": 1143
+          }
+        }
+      }
+    },
+    {
+      "viewport": "1440x900",
+      "name": "pause freezes active motion and resumes",
+      "pass": true,
+      "elapsedMs": 4766,
+      "detail": {
+        "before": {
+          "index": 1,
+          "chapter": 0,
+          "paused": true,
+          "busy": true,
+          "modal": null,
+          "interaction": 0,
+          "motion": {
+            "sceneIndex": 1,
+            "worldName": "gate",
+            "time": 57.29410000000116,
+            "paused": true,
+            "busy": true,
+            "view": {
+              "x": 0,
+              "y": 2.45,
+              "z": 6.2,
+              "tx": 0.1,
+              "ty": 2.8,
+              "tz": -25,
+              "fov": 54
+            },
+            "hand": 0.41058416365924083,
+            "lamp": 0,
+            "walks": 0,
+            "flight": 0,
+            "water": 0.45,
+            "gate": {
+              "left": -0.05915733885056044,
+              "right": 0.05915733885056044
+            },
+            "frames": 3424,
+            "action": "open-gate",
+            "progress": 0.13354285714285763,
+            "completed": 19
+          }
+        },
+        "afterFrozen": {
+          "index": 1,
+          "chapter": 0,
+          "paused": true,
+          "busy": true,
+          "modal": null,
+          "interaction": 0,
+          "motion": {
+            "sceneIndex": 1,
+            "worldName": "gate",
+            "time": 57.29410000000116,
+            "paused": true,
+            "busy": true,
+            "view": {
+              "x": 0,
+              "y": 2.45,
+              "z": 6.2,
+              "tx": 0.1,
+              "ty": 2.8,
+              "tz": -25,
+              "fov": 54
+            },
+            "hand": 0.41058416365924083,
+            "lamp": 0,
+            "walks": 0,
+            "flight": 0,
+            "water": 0.45,
+            "gate": {
+              "left": -0.05915733885056044,
+              "right": 0.05915733885056044
+            },
+            "frames": 3467,
+            "action": "open-gate",
+            "progress": 0.13354285714285763,
+            "completed": 19
+          }
+        },
+        "afterResumed": {
+          "index": 2,
+          "chapter": 0,
+          "paused": false,
+          "busy": false,
+          "modal": null,
+          "interaction": 0,
+          "motion": {
+            "sceneIndex": 2,
+            "worldName": "mountain",
+            "time": 60.33160000000136,
+            "paused": false,
+            "busy": false,
+            "view": {
+              "x": 0,
+              "y": 2.45,
+              "z": 9,
+              "tx": 0,
+              "ty": 2.7,
+              "tz": -25,
+              "fov": 54
+            },
+            "hand": 0,
+            "lamp": 0,
+            "walks": 0,
+            "flight": 0,
+            "water": 0.45,
+            "gate": {
+              "left": -1.48,
+              "right": 1.48
+            },
+            "frames": 3666,
+            "action": "",
+            "progress": 0,
+            "completed": 20
+          }
+        }
+      }
+    },
+    {
+      "viewport": "1440x900",
+      "name": "modal freezes active motion and resumes",
+      "pass": true,
+      "elapsedMs": 4404,
+      "detail": {
+        "before": {
+          "index": 1,
+          "chapter": 0,
+          "paused": false,
+          "busy": true,
+          "modal": "poem",
+          "interaction": 0,
+          "motion": {
+            "sceneIndex": 1,
+            "worldName": "gate",
+            "time": 60.8488000000014,
+            "paused": true,
+            "busy": true,
+            "view": {
+              "x": 0,
+              "y": 2.45,
+              "z": 6.2,
+              "tx": 0.1,
+              "ty": 2.8,
+              "tz": -25,
+              "fov": 54
+            },
+            "hand": 0.4104248738476839,
+            "lamp": 0,
+            "walks": 0,
+            "flight": 0,
+            "water": 0.45,
+            "gate": {
+              "left": -0.05908143123940105,
+              "right": 0.05908143123940105
+            },
+            "frames": 3705,
+            "action": "open-gate",
+            "progress": 0.1334857142857156,
+            "completed": 20
+          }
+        },
+        "afterFrozen": {
+          "index": 1,
+          "chapter": 0,
+          "paused": false,
+          "busy": true,
+          "modal": "poem",
+          "interaction": 0,
+          "motion": {
+            "sceneIndex": 1,
+            "worldName": "gate",
+            "time": 60.8488000000014,
+            "paused": true,
+            "busy": true,
+            "view": {
+              "x": 0,
+              "y": 2.45,
+              "z": 6.2,
+              "tx": 0.1,
+              "ty": 2.8,
+              "tz": -25,
+              "fov": 54
+            },
+            "hand": 0.4104248738476839,
+            "lamp": 0,
+            "walks": 0,
+            "flight": 0,
+            "water": 0.45,
+            "gate": {
+              "left": -0.05908143123940105,
+              "right": 0.05908143123940105
+            },
+            "frames": 3747,
+            "action": "open-gate",
+            "progress": 0.1334857142857156,
+            "completed": 20
+          }
+        },
+        "afterResumed": {
+          "index": 2,
+          "chapter": 0,
+          "paused": false,
+          "busy": false,
+          "modal": null,
+          "interaction": 0,
+          "motion": {
+            "sceneIndex": 2,
+            "worldName": "mountain",
+            "time": 63.88690000000159,
+            "paused": false,
+            "busy": false,
+            "view": {
+              "x": 0,
+              "y": 2.45,
+              "z": 9,
+              "tx": 0,
+              "ty": 2.7,
+              "tz": -25,
+              "fov": 54
+            },
+            "hand": 0,
+            "lamp": 0,
+            "walks": 0,
+            "flight": 0,
+            "water": 0.45,
+            "gate": {
+              "left": -1.48,
+              "right": 1.48
+            },
+            "frames": 3930,
+            "action": "",
+            "progress": 0,
+            "completed": 21
+          }
+        }
+      }
+    },
+    {
+      "viewport": "1440x900",
+      "name": "chapter jump cancels active action",
+      "pass": true,
+      "elapsedMs": 4268,
+      "detail": {
+        "after": {
+          "index": 9,
+          "chapter": 3,
+          "paused": false,
+          "busy": false,
+          "modal": null,
+          "interaction": 0,
+          "motion": {
+            "sceneIndex": 9,
+            "worldName": "forest",
+            "time": 64.33700000000162,
+            "paused": false,
+            "busy": false,
+            "view": {
+              "x": 0,
+              "y": 2.5,
+              "z": 9,
+              "tx": 1.1,
+              "ty": 3.2,
+              "tz": -25,
+              "fov": 54
+            },
+            "hand": 0,
+            "lamp": 0.45,
+            "walks": 0,
+            "flight": 0,
+            "water": 0.45,
+            "gate": {
+              "left": -0.032779086138436275,
+              "right": 0.032779086138436275
+            },
+            "frames": 3957,
+            "action": "",
+            "progress": 0,
+            "completed": 21
+          }
+        },
+        "settled": {
+          "index": 9,
+          "chapter": 3,
+          "paused": false,
+          "busy": false,
+          "modal": null,
+          "interaction": 0,
+          "motion": {
+            "sceneIndex": 9,
+            "worldName": "forest",
+            "time": 68.15880000000188,
+            "paused": false,
+            "busy": false,
+            "view": {
+              "x": 0,
+              "y": 2.5,
+              "z": 9,
+              "tx": 1.1,
+              "ty": 3.2,
+              "tz": -25,
+              "fov": 54
+            },
+            "hand": 0,
+            "lamp": 0.45,
+            "walks": 0,
+            "flight": 0,
+            "water": 0.45,
+            "gate": {
+              "left": -0.032779086138436275,
+              "right": 0.032779086138436275
+            },
+            "frames": 4186,
+            "action": "",
+            "progress": 0,
+            "completed": 21
+          }
+        }
+      }
+    },
+    {
+      "viewport": "1440x900",
+      "name": "modal poem",
+      "pass": true,
+      "elapsedMs": 770
+    },
+    {
+      "viewport": "1440x900",
+      "name": "modal study",
+      "pass": true,
+      "elapsedMs": 934
+    },
+    {
+      "viewport": "1440x900",
+      "name": "modal practice",
+      "pass": true,
+      "elapsedMs": 764
+    },
+    {
+      "viewport": "1440x900",
+      "name": "modal space",
+      "pass": true,
+      "elapsedMs": 1100
+    },
+    {
+      "viewport": "1440x900",
+      "name": "modal classroom",
+      "pass": true,
+      "elapsedMs": 316
+    },
+    {
+      "viewport": "1440x900",
+      "name": "modal audio",
+      "pass": true,
+      "elapsedMs": 332
+    },
+    {
+      "viewport": "1440x900",
+      "name": "no runtime JavaScript or WebGL errors",
+      "pass": true,
+      "elapsedMs": 0,
+      "detail": {
+        "pageErrors": [],
+        "consoleErrors": [],
+        "failedRequests": []
+      }
+    },
+    {
+      "viewport": "1280x720",
+      "name": "state 0 enter",
+      "pass": true,
+      "elapsedMs": 2005,
+      "detail": {
+        "scene": {
+          "index": 0,
+          "motion": "enter",
+          "title": "蜀道难"
+        },
+        "after": {
+          "index": 1,
+          "chapter": 0,
+          "paused": false,
+          "busy": false,
+          "modal": null,
+          "interaction": 0,
+          "motion": {
+            "sceneIndex": 1,
+            "worldName": "gate",
+            "time": 2.1060999999999996,
+            "paused": false,
+            "busy": false,
+            "view": {
+              "x": 0,
+              "y": 2.45,
+              "z": 6.2,
+              "tx": 0.1,
+              "ty": 2.8,
+              "tz": -25,
+              "fov": 54
+            },
+            "hand": 0,
+            "lamp": 0,
+            "walks": 0,
+            "flight": 0,
+            "water": 0.45,
+            "gate": {
+              "left": 0,
+              "right": 0
+            },
+            "frames": 122,
+            "action": "",
+            "progress": 0,
+            "completed": 1
+          }
+        },
+        "layout": {
+          "scroll": 1280,
+          "viewport": 1280,
+          "title": "蜀道难",
+          "next": {
+            "x": 991,
+            "y": 575.84375,
+            "width": 225,
+            "height": 52,
+            "top": 575.84375,
+            "right": 1216,
+            "bottom": 627.84375,
+            "left": 991
+          }
+        }
+      }
+    },
+    {
+      "viewport": "1280x720",
+      "name": "state 1 open-gate",
+      "pass": true,
+      "elapsedMs": 3699,
+      "detail": {
+        "scene": {
+          "index": 1,
+          "motion": "open-gate",
+          "title": "蜀道在前，我欲入山。"
+        },
+        "after": {
+          "index": 2,
+          "chapter": 0,
+          "paused": false,
+          "busy": false,
+          "modal": null,
+          "interaction": 0,
+          "motion": {
+            "sceneIndex": 2,
+            "worldName": "mountain",
+            "time": 5.824700000000011,
+            "paused": false,
+            "busy": false,
+            "view": {
+              "x": 0,
+              "y": 2.45,
+              "z": 9,
+              "tx": 0,
+              "ty": 2.7,
+              "tz": -25,
+              "fov": 54
+            },
+            "hand": 0,
+            "lamp": 0,
+            "walks": 0,
+            "flight": 0,
+            "water": 0.45,
+            "gate": {
+              "left": -1.48,
+              "right": 1.48
+            },
+            "frames": 342,
+            "action": "",
+            "progress": 0,
+            "completed": 2
+          }
+        },
+        "layout": {
+          "scroll": 1280,
+          "viewport": 1280,
+          "title": "蜀道在前，我欲入山。",
+          "next": {
+            "x": 991,
+            "y": 575.84375,
+            "width": 225,
+            "height": 52,
+            "top": 575.84375,
+            "right": 1216,
+            "bottom": 627.84375,
+            "left": 991
+          }
+        }
+      }
+    },
+    {
+      "viewport": "1280x720",
+      "name": "state 2 look-up",
+      "pass": true,
+      "elapsedMs": 2483,
+      "detail": {
+        "scene": {
+          "index": 2,
+          "motion": "look-up",
+          "title": "噫吁嚱，危乎高哉！"
+        },
+        "after": {
+          "index": 3,
+          "chapter": 1,
+          "paused": false,
+          "busy": false,
+          "modal": null,
+          "interaction": 0,
+          "motion": {
+            "sceneIndex": 3,
+            "worldName": "mountain",
+            "time": 8.311300000000015,
+            "paused": false,
+            "busy": false,
+            "view": {
+              "x": 0,
+              "y": 2.45,
+              "z": 9,
+              "tx": 0,
+              "ty": 14,
+              "tz": -25,
+              "fov": 61
+            },
+            "hand": 0,
+            "lamp": 0,
+            "walks": 0,
+            "flight": 0,
+            "water": 0.45,
+            "gate": {
+              "left": -1.48,
+              "right": 1.48
+            },
+            "frames": 491,
+            "action": "",
+            "progress": 0,
+            "completed": 3
+          }
+        },
+        "layout": {
+          "scroll": 1280,
+          "viewport": 1280,
+          "title": "噫吁嚱，危乎高哉！",
+          "next": {
+            "x": 991,
+            "y": 575.84375,
+            "width": 225,
+            "height": 52,
+            "top": 575.84375,
+            "right": 1216,
+            "bottom": 627.84375,
+            "left": 991
+          }
+        }
+      }
+    },
+    {
+      "viewport": "1280x720",
+      "name": "state 3 cross-cloud",
+      "pass": true,
+      "elapsedMs": 2831,
+      "detail": {
+        "scene": {
+          "index": 3,
+          "motion": "cross-cloud",
+          "title": "蚕丛及鱼凫，开国何茫然！"
+        },
+        "after": {
+          "index": 4,
+          "chapter": 1,
+          "paused": false,
+          "busy": false,
+          "modal": null,
+          "interaction": 0,
+          "motion": {
+            "sceneIndex": 4,
+            "worldName": "bridge",
+            "time": 11.132200000000006,
+            "paused": false,
+            "busy": false,
+            "view": {
+              "x": -0.15,
+              "y": 2.05,
+              "z": 9,
+              "tx": 1.6,
+              "ty": 0.8,
+              "tz": -25,
+              "fov": 54
+            },
+            "hand": 0,
+            "lamp": 0,
+            "walks": 0,
+            "flight": 0,
+            "water": 0.45,
+            "gate": {
+              "left": -1.48,
+              "right": 1.48
+            },
+            "frames": 660,
+            "action": "",
+            "progress": 0,
+            "completed": 4
+          }
+        },
+        "layout": {
+          "scroll": 1280,
+          "viewport": 1280,
+          "title": "蚕丛及鱼凫，开国何茫然！",
+          "next": {
+            "x": 991,
+            "y": 575.84375,
+            "width": 225,
+            "height": 52,
+            "top": 575.84375,
+            "right": 1216,
+            "bottom": 627.84375,
+            "left": 991
+          }
+        }
+      }
+    },
+    {
+      "viewport": "1280x720",
+      "name": "state 4 lay-planks",
+      "pass": true,
+      "elapsedMs": 3539,
+      "detail": {
+        "scene": {
+          "index": 4,
+          "motion": "lay-planks",
+          "title": "地崩山摧壮士死，然后天梯石栈相钩连。"
+        },
+        "after": {
+          "index": 5,
+          "chapter": 2,
+          "paused": false,
+          "busy": false,
+          "modal": null,
+          "interaction": 0,
+          "motion": {
+            "sceneIndex": 5,
+            "worldName": "bridge",
+            "time": 14.659999999999986,
+            "paused": false,
+            "busy": false,
+            "view": {
+              "x": -0.15,
+              "y": 2.05,
+              "z": 7.3,
+              "tx": 1.6,
+              "ty": 0.8,
+              "tz": -25,
+              "fov": 54
+            },
+            "hand": 8.082668874372532e-17,
+            "lamp": 0,
+            "walks": 0,
+            "flight": 0,
+            "water": 0.45,
+            "gate": {
+              "left": -1.48,
+              "right": 1.48
+            },
+            "frames": 868,
+            "action": "",
+            "progress": 0,
+            "completed": 5
+          }
+        },
+        "layout": {
+          "scroll": 1280,
+          "viewport": 1280,
+          "title": "地崩山摧壮士死，然后天梯石栈相钩连。",
+          "next": {
+            "x": 991,
+            "y": 575.84375,
+            "width": 225,
+            "height": 52,
+            "top": 575.84375,
+            "right": 1216,
+            "bottom": 627.84375,
+            "left": 991
+          }
+        }
+      }
+    },
+    {
+      "viewport": "1280x720",
+      "name": "state 5 look-down",
+      "pass": true,
+      "elapsedMs": 2913,
+      "detail": {
+        "scene": {
+          "index": 5,
+          "motion": "look-down",
+          "title": "上有六龙回日之高标，下有冲波逆折之回川。"
+        },
+        "after": {
+          "index": 6,
+          "chapter": 2,
+          "paused": false,
+          "busy": false,
+          "modal": null,
+          "interaction": 0,
+          "motion": {
+            "sceneIndex": 6,
+            "worldName": "bridge",
+            "time": 17.580699999999943,
+            "paused": false,
+            "busy": false,
+            "view": {
+              "x": -0.75,
+              "y": 2.05,
+              "z": 7.3,
+              "tx": 1.6,
+              "ty": -4.5,
+              "tz": -25,
+              "fov": 64
+            },
+            "hand": 5.5109105961630896e-17,
+            "lamp": 0,
+            "walks": 0,
+            "flight": 0,
+            "water": 0.45,
+            "gate": {
+              "left": -1.48,
+              "right": 1.48
+            },
+            "frames": 1043,
+            "action": "",
+            "progress": 0,
+            "completed": 6
+          }
+        },
+        "layout": {
+          "scroll": 1280,
+          "viewport": 1280,
+          "title": "上有六龙回日之高标，下有冲波逆折之回川。",
+          "next": {
+            "x": 991,
+            "y": 575.84375,
+            "width": 225,
+            "height": 52,
+            "top": 575.84375,
+            "right": 1216,
+            "bottom": 627.84375,
+            "left": 991
+          }
+        }
+      }
+    },
+    {
+      "viewport": "1280x720",
+      "name": "state 6 walk",
+      "pass": true,
+      "elapsedMs": 4634,
+      "detail": {
+        "scene": {
+          "index": 6,
+          "motion": "walk",
+          "title": "青泥何盘盘，百步九折萦岩峦。"
+        },
+        "after": {
+          "index": 7,
+          "chapter": 2,
+          "paused": false,
+          "busy": false,
+          "modal": null,
+          "interaction": 0,
+          "motion": {
+            "sceneIndex": 7,
+            "worldName": "bridge",
+            "time": 22.220199999999874,
+            "paused": false,
+            "busy": false,
+            "view": {
+              "x": 0.4,
+              "y": 2.05,
+              "z": 0.9999999999999991,
+              "tx": 1.6,
+              "ty": 0.6,
+              "tz": -25,
+              "fov": 54
+            },
+            "hand": 1.7145055188062947e-17,
+            "lamp": 0,
+            "walks": 3,
+            "flight": 0,
+            "water": 0.45,
+            "gate": {
+              "left": -1.48,
+              "right": 1.48
+            },
+            "frames": 1321,
+            "action": "",
+            "progress": 0,
+            "completed": 9
+          }
+        },
+        "layout": {
+          "scroll": 1280,
+          "viewport": 1280,
+          "title": "青泥何盘盘，百步九折萦岩峦。",
+          "next": {
+            "x": 991,
+            "y": 575.84375,
+            "width": 225,
+            "height": 52,
+            "top": 575.84375,
+            "right": 1216,
+            "bottom": 627.84375,
+            "left": 991
+          }
+        }
+      }
+    },
+    {
+      "viewport": "1280x720",
+      "name": "state 7 reach",
+      "pass": true,
+      "elapsedMs": 3276,
+      "detail": {
+        "scene": {
+          "index": 7,
+          "motion": "reach",
+          "title": "扪参历井仰胁息，以手抚膺坐长叹。"
+        },
+        "after": {
+          "index": 8,
+          "chapter": 2,
+          "paused": false,
+          "busy": false,
+          "modal": null,
+          "interaction": 0,
+          "motion": {
+            "sceneIndex": 8,
+            "worldName": "bridge",
+            "time": 25.491399999999828,
+            "paused": false,
+            "busy": false,
+            "view": {
+              "x": 0.4,
+              "y": 2.05,
+              "z": 0.9999999999999991,
+              "tx": 1.6,
+              "ty": 18,
+              "tz": -25,
+              "fov": 66
+            },
+            "hand": 0.93,
+            "lamp": 0,
+            "walks": 3,
+            "flight": 0,
+            "water": 0.45,
+            "gate": {
+              "left": -1.48,
+              "right": 1.48
+            },
+            "frames": 1517,
+            "action": "",
+            "progress": 0,
+            "completed": 10
+          }
+        },
+        "layout": {
+          "scroll": 1280,
+          "viewport": 1280,
+          "title": "扪参历井仰胁息，以手抚膺坐长叹。",
+          "next": {
+            "x": 991,
+            "y": 575.84375,
+            "width": 225,
+            "height": 52,
+            "top": 575.84375,
+            "right": 1216,
+            "bottom": 627.84375,
+            "left": 991
+          }
+        }
+      }
+    },
+    {
+      "viewport": "1280x720",
+      "name": "state 8 breathe",
+      "pass": true,
+      "elapsedMs": 2871,
+      "detail": {
+        "scene": {
+          "index": 8,
+          "motion": "breathe",
+          "title": "屏住呼吸，才知山之高。"
+        },
+        "after": {
+          "index": 9,
+          "chapter": 3,
+          "paused": false,
+          "busy": false,
+          "modal": null,
+          "interaction": 0,
+          "motion": {
+            "sceneIndex": 9,
+            "worldName": "forest",
+            "time": 28.295199999999756,
+            "paused": false,
+            "busy": false,
+            "view": {
+              "x": 0,
+              "y": 2.5,
+              "z": 9,
+              "tx": 1.1,
+              "ty": 3.2,
+              "tz": -25,
+              "fov": 54
+            },
+            "hand": 0,
+            "lamp": 0.45,
+            "walks": 0,
+            "flight": 0,
+            "water": 0.45,
+            "gate": {
+              "left": -1.48,
+              "right": 1.48
+            },
+            "frames": 1685,
+            "action": "",
+            "progress": 0,
+            "completed": 11
+          }
+        },
+        "layout": {
+          "scroll": 1280,
+          "viewport": 1280,
+          "title": "屏住呼吸，才知山之高。",
+          "next": {
+            "x": 991,
+            "y": 575.84375,
+            "width": 225,
+            "height": 52,
+            "top": 575.84375,
+            "right": 1216,
+            "bottom": 627.84375,
+            "left": 991
+          }
+        }
+      }
+    },
+    {
+      "viewport": "1280x720",
+      "name": "state 9 lantern",
+      "pass": true,
+      "elapsedMs": 3242,
+      "detail": {
+        "scene": {
+          "index": 9,
+          "motion": "lantern",
+          "title": "但见悲鸟号古木，雄飞雌从绕林间。"
+        },
+        "after": {
+          "index": 10,
+          "chapter": 3,
+          "paused": false,
+          "busy": false,
+          "modal": null,
+          "interaction": 0,
+          "motion": {
+            "sceneIndex": 10,
+            "worldName": "forest",
+            "time": 31.5729999999997,
+            "paused": false,
+            "busy": false,
+            "view": {
+              "x": 0,
+              "y": 2.5,
+              "z": 9,
+              "tx": 3.3,
+              "ty": 4.1,
+              "tz": -25,
+              "fov": 54
+            },
+            "hand": 0,
+            "lamp": 1,
+            "walks": 0,
+            "flight": 3.6690333333333305,
+            "water": 0.45,
+            "gate": {
+              "left": -1.48,
+              "right": 1.48
+            },
+            "frames": 1879,
+            "action": "",
+            "progress": 0,
+            "completed": 12
+          }
+        },
+        "layout": {
+          "scroll": 1280,
+          "viewport": 1280,
+          "title": "但见悲鸟号古木，雄飞雌从绕林间。",
+          "next": {
+            "x": 991,
+            "y": 575.84375,
+            "width": 225,
+            "height": 52,
+            "top": 575.84375,
+            "right": 1216,
+            "bottom": 627.84375,
+            "left": 991
+          }
+        }
+      }
+    },
+    {
+      "viewport": "1280x720",
+      "name": "state 10 listen",
+      "pass": true,
+      "elapsedMs": 2286,
+      "detail": {
+        "scene": {
+          "index": 10,
+          "motion": "listen",
+          "title": "又闻子规啼夜月，愁空山。"
+        },
+        "after": {
+          "index": 11,
+          "chapter": 3,
+          "paused": false,
+          "busy": false,
+          "modal": null,
+          "interaction": 0,
+          "motion": {
+            "sceneIndex": 11,
+            "worldName": "forest",
+            "time": 33.85949999999975,
+            "paused": false,
+            "busy": false,
+            "view": {
+              "x": 0,
+              "y": 2.5,
+              "z": 9,
+              "tx": 1.1,
+              "ty": 5.5,
+              "tz": -25,
+              "fov": 54
+            },
+            "hand": 0,
+            "lamp": 0.44999999999999996,
+            "walks": 0,
+            "flight": 5.95553333333334,
+            "water": 0.45,
+            "gate": {
+              "left": -1.48,
+              "right": 1.48
+            },
+            "frames": 2016,
+            "action": "",
+            "progress": 0,
+            "completed": 13
+          }
+        },
+        "layout": {
+          "scroll": 1280,
+          "viewport": 1280,
+          "title": "又闻子规啼夜月，愁空山。",
+          "next": {
+            "x": 991,
+            "y": 575.84375,
+            "width": 225,
+            "height": 52,
+            "top": 575.84375,
+            "right": 1216,
+            "bottom": 627.84375,
+            "left": 991
+          }
+        }
+      }
+    },
+    {
+      "viewport": "1280x720",
+      "name": "state 11 cross-cloud",
+      "pass": true,
+      "elapsedMs": 2785,
+      "detail": {
+        "scene": {
+          "index": 11,
+          "motion": "cross-cloud",
+          "title": "蜀道之难，难于上青天。"
+        },
+        "after": {
+          "index": 12,
+          "chapter": 4,
+          "paused": false,
+          "busy": false,
+          "modal": null,
+          "interaction": 0,
+          "motion": {
+            "sceneIndex": 12,
+            "worldName": "waterfall",
+            "time": 36.62999999999989,
+            "paused": false,
+            "busy": false,
+            "view": {
+              "x": -0.4,
+              "y": 2.8,
+              "z": 9,
+              "tx": 2.8,
+              "ty": 3.8,
+              "tz": -25,
+              "fov": 54
+            },
+            "hand": 0,
+            "lamp": 0,
+            "walks": 0,
+            "flight": 0,
+            "water": 0.45,
+            "gate": {
+              "left": -1.48,
+              "right": 1.48
+            },
+            "frames": 2182,
+            "action": "",
+            "progress": 0,
+            "completed": 14
+          }
+        },
+        "layout": {
+          "scroll": 1280,
+          "viewport": 1280,
+          "title": "蜀道之难，难于上青天。",
+          "next": {
+            "x": 991,
+            "y": 575.84375,
+            "width": 225,
+            "height": 52,
+            "top": 575.84375,
+            "right": 1216,
+            "bottom": 627.84375,
+            "left": 991
+          }
+        }
+      }
+    },
+    {
+      "viewport": "1280x720",
+      "name": "state 12 torrent",
+      "pass": true,
+      "elapsedMs": 4960,
+      "detail": {
+        "scene": {
+          "index": 12,
+          "motion": "torrent",
+          "title": "飞湍瀑流争喧豗，砯崖转石万壑雷。"
+        },
+        "after": {
+          "index": 13,
+          "chapter": 4,
+          "paused": false,
+          "busy": false,
+          "modal": null,
+          "interaction": 0,
+          "motion": {
+            "sceneIndex": 13,
+            "worldName": "pass",
+            "time": 41.60340000000017,
+            "paused": false,
+            "busy": false,
+            "view": {
+              "x": 0.1,
+              "y": 2.7,
+              "z": 7.4,
+              "tx": 1.5,
+              "ty": 3,
+              "tz": -25,
+              "fov": 54
+            },
+            "hand": 0,
+            "lamp": 0,
+            "walks": 0,
+            "flight": 0,
+            "water": 0.45,
+            "gate": {
+              "left": 0,
+              "right": 0
+            },
+            "frames": 2478,
+            "action": "",
+            "progress": 0,
+            "completed": 15
+          }
+        },
+        "layout": {
+          "scroll": 1280,
+          "viewport": 1280,
+          "title": "飞湍瀑流争喧豗，砯崖转石万壑雷。",
+          "next": {
+            "x": 991,
+            "y": 575.84375,
+            "width": 225,
+            "height": 52,
+            "top": 575.84375,
+            "right": 1216,
+            "bottom": 627.84375,
+            "left": 991
+          }
+        }
+      }
+    },
+    {
+      "viewport": "1280x720",
+      "name": "state 13 blocked-gate",
+      "pass": true,
+      "elapsedMs": 4425,
+      "detail": {
+        "scene": {
+          "index": 13,
+          "motion": "blocked-gate",
+          "title": "一夫当关，万夫莫开。"
+        },
+        "after": {
+          "index": 14,
+          "chapter": 4,
+          "paused": false,
+          "busy": false,
+          "modal": null,
+          "interaction": 0,
+          "motion": {
+            "sceneIndex": 14,
+            "worldName": "pass",
+            "time": 46.04270000000044,
+            "paused": false,
+            "busy": false,
+            "view": {
+              "x": 0.1,
+              "y": 2.7,
+              "z": 6.2,
+              "tx": 1.5,
+              "ty": 3,
+              "tz": -25,
+              "fov": 54
+            },
+            "hand": 1.1021821192326179e-16,
+            "lamp": 0,
+            "walks": 0,
+            "flight": 0,
+            "water": 0.45,
+            "gate": {
+              "left": -1.310931339122076e-18,
+              "right": 1.310931339122076e-18
+            },
+            "frames": 2744,
+            "action": "",
+            "progress": 0,
+            "completed": 16
+          }
+        },
+        "layout": {
+          "scroll": 1280,
+          "viewport": 1280,
+          "title": "一夫当关，万夫莫开。",
+          "next": {
+            "x": 991,
+            "y": 575.84375,
+            "width": 225,
+            "height": 52,
+            "top": 575.84375,
+            "right": 1216,
+            "bottom": 627.84375,
+            "left": 991
+          }
+        }
+      }
+    },
+    {
+      "viewport": "1280x720",
+      "name": "state 14 turn-back",
+      "pass": true,
+      "elapsedMs": 2985,
+      "detail": {
+        "scene": {
+          "index": 14,
+          "motion": "turn-back",
+          "title": "所守或匪亲，化为狼与豺。"
+        },
+        "after": {
+          "index": 15,
+          "chapter": 5,
+          "paused": false,
+          "busy": false,
+          "modal": null,
+          "interaction": 0,
+          "motion": {
+            "sceneIndex": 15,
+            "worldName": "mountain",
+            "time": 49.03020000000057,
+            "paused": false,
+            "busy": false,
+            "view": {
+              "x": 0,
+              "y": 2.45,
+              "z": 9,
+              "tx": 0,
+              "ty": 2.7,
+              "tz": -25,
+              "fov": 54
+            },
+            "hand": 0,
+            "lamp": 0,
+            "walks": 0,
+            "flight": 0,
+            "water": 0.45,
+            "gate": {
+              "left": -1.310931339122076e-18,
+              "right": 1.310931339122076e-18
+            },
+            "frames": 2923,
+            "action": "",
+            "progress": 0,
+            "completed": 17
+          }
+        },
+        "layout": {
+          "scroll": 1280,
+          "viewport": 1280,
+          "title": "所守或匪亲，化为狼与豺。",
+          "next": {
+            "x": 991,
+            "y": 575.84375,
+            "width": 225,
+            "height": 52,
+            "top": 575.84375,
+            "right": 1216,
+            "bottom": 627.84375,
+            "left": 991
+          }
+        }
+      }
+    },
+    {
+      "viewport": "1280x720",
+      "name": "state 15 look-west",
+      "pass": true,
+      "elapsedMs": 2981,
+      "detail": {
+        "scene": {
+          "index": 15,
+          "motion": "look-west",
+          "title": "锦城虽云乐，不如早还家。"
+        },
+        "after": {
+          "index": 16,
+          "chapter": 5,
+          "paused": false,
+          "busy": false,
+          "modal": null,
+          "interaction": 0,
+          "motion": {
+            "sceneIndex": 16,
+            "worldName": "mountain",
+            "time": 52.00090000000076,
+            "paused": false,
+            "busy": false,
+            "view": {
+              "x": -1,
+              "y": 2.45,
+              "z": 9,
+              "tx": 8,
+              "ty": 5,
+              "tz": -25,
+              "fov": 54
+            },
+            "hand": 0,
+            "lamp": 0,
+            "walks": 0,
+            "flight": 0,
+            "water": 0.45,
+            "gate": {
+              "left": -1.310931339122076e-18,
+              "right": 1.310931339122076e-18
+            },
+            "frames": 3101,
+            "action": "",
+            "progress": 0,
+            "completed": 18
+          }
+        },
+        "layout": {
+          "scroll": 1280,
+          "viewport": 1280,
+          "title": "锦城虽云乐，不如早还家。",
+          "next": {
+            "x": 991,
+            "y": 575.84375,
+            "width": 225,
+            "height": 52,
+            "top": 575.84375,
+            "right": 1216,
+            "bottom": 627.84375,
+            "left": 991
+          }
+        }
+      }
+    },
+    {
+      "viewport": "1280x720",
+      "name": "state 16 settle",
+      "pass": true,
+      "elapsedMs": 2410,
+      "detail": {
+        "scene": {
+          "index": 16,
+          "motion": "settle",
+          "title": "蜀道之难，难于上青天。"
+        },
+        "after": {
+          "index": 17,
+          "chapter": 6,
+          "paused": false,
+          "busy": false,
+          "modal": null,
+          "interaction": 0,
+          "motion": {
+            "sceneIndex": 17,
+            "worldName": "mountain",
+            "time": 54.42080000000088,
+            "paused": false,
+            "busy": false,
+            "view": {
+              "x": -1,
+              "y": 2.45,
+              "z": 9,
+              "tx": 2,
+              "ty": 5,
+              "tz": -25,
+              "fov": 52
+            },
+            "hand": 0,
+            "lamp": 0,
+            "walks": 0,
+            "flight": 0,
+            "water": 0.45,
+            "gate": {
+              "left": -1.310931339122076e-18,
+              "right": 1.310931339122076e-18
+            },
+            "frames": 3246,
+            "action": "",
+            "progress": 0,
+            "completed": 19
+          }
+        },
+        "layout": {
+          "scroll": 1280,
+          "viewport": 1280,
+          "title": "蜀道之难，难于上青天。",
+          "next": {
+            "x": 991,
+            "y": 575.84375,
+            "width": 225,
+            "height": 52,
+            "top": 575.84375,
+            "right": 1216,
+            "bottom": 627.84375,
+            "left": 991
+          }
+        }
+      }
+    },
+    {
+      "viewport": "1280x720",
+      "name": "state 17 end",
+      "pass": true,
+      "elapsedMs": 730,
+      "detail": {
+        "scene": {
+          "index": 17,
+          "motion": "end",
+          "title": "这一程，我听见了三声长叹。"
+        },
+        "after": {
+          "index": 17,
+          "chapter": 6,
+          "paused": false,
+          "busy": false,
+          "modal": null,
+          "interaction": 0,
+          "motion": {
+            "sceneIndex": 17,
+            "worldName": "mountain",
+            "time": 55.12180000000093,
+            "paused": false,
+            "busy": false,
+            "view": {
+              "x": -1,
+              "y": 2.45,
+              "z": 9,
+              "tx": 2,
+              "ty": 5,
+              "tz": -25,
+              "fov": 52
+            },
+            "hand": 0,
+            "lamp": 0,
+            "walks": 0,
+            "flight": 0,
+            "water": 0.45,
+            "gate": {
+              "left": -1.310931339122076e-18,
+              "right": 1.310931339122076e-18
+            },
+            "frames": 3290,
+            "action": "",
+            "progress": 0,
+            "completed": 19
+          }
+        },
+        "layout": {
+          "scroll": 1280,
+          "viewport": 1280,
+          "title": "这一程，我听见了三声长叹。",
+          "next": {
+            "x": 991,
+            "y": 575.84375,
+            "width": 225,
+            "height": 52,
+            "top": 575.84375,
+            "right": 1216,
+            "bottom": 627.84375,
+            "left": 991
+          }
+        }
+      }
+    },
+    {
+      "viewport": "1280x720",
+      "name": "pause freezes active motion and resumes",
+      "pass": true,
+      "elapsedMs": 4654,
+      "detail": {
+        "before": {
+          "index": 1,
+          "chapter": 0,
+          "paused": true,
+          "busy": true,
+          "modal": null,
+          "interaction": 0,
+          "motion": {
+            "sceneIndex": 1,
+            "worldName": "gate",
+            "time": 55.65590000000096,
+            "paused": true,
+            "busy": true,
+            "view": {
+              "x": 0,
+              "y": 2.45,
+              "z": 6.2,
+              "tx": 0.1,
+              "ty": 2.8,
+              "tz": -25,
+              "fov": 54
+            },
+            "hand": 0.42373238275351555,
+            "lamp": 0,
+            "walks": 0,
+            "flight": 0,
+            "water": 0.45,
+            "gate": {
+              "left": -0.06568687333026507,
+              "right": 0.06568687333026507
+            },
+            "frames": 3332,
+            "action": "open-gate",
+            "progress": 0.13828571428571435,
+            "completed": 19
+          }
+        },
+        "afterFrozen": {
+          "index": 1,
+          "chapter": 0,
+          "paused": true,
+          "busy": true,
+          "modal": null,
+          "interaction": 0,
+          "motion": {
+            "sceneIndex": 1,
+            "worldName": "gate",
+            "time": 55.65590000000096,
+            "paused": true,
+            "busy": true,
+            "view": {
+              "x": 0,
+              "y": 2.45,
+              "z": 6.2,
+              "tx": 0.1,
+              "ty": 2.8,
+              "tz": -25,
+              "fov": 54
+            },
+            "hand": 0.42373238275351555,
+            "lamp": 0,
+            "walks": 0,
+            "flight": 0,
+            "water": 0.45,
+            "gate": {
+              "left": -0.06568687333026507,
+              "right": 0.06568687333026507
+            },
+            "frames": 3374,
+            "action": "open-gate",
+            "progress": 0.13828571428571435,
+            "completed": 19
+          }
+        },
+        "afterResumed": {
+          "index": 2,
+          "chapter": 0,
+          "paused": false,
+          "busy": false,
+          "modal": null,
+          "interaction": 0,
+          "motion": {
+            "sceneIndex": 2,
+            "worldName": "mountain",
+            "time": 58.67670000000109,
+            "paused": false,
+            "busy": false,
+            "view": {
+              "x": 0,
+              "y": 2.45,
+              "z": 9,
+              "tx": 0,
+              "ty": 2.7,
+              "tz": -25,
+              "fov": 54
+            },
+            "hand": 0,
+            "lamp": 0,
+            "walks": 0,
+            "flight": 0,
+            "water": 0.45,
+            "gate": {
+              "left": -1.48,
+              "right": 1.48
+            },
+            "frames": 3569,
+            "action": "",
+            "progress": 0,
+            "completed": 20
+          }
+        }
+      }
+    },
+    {
+      "viewport": "1280x720",
+      "name": "modal freezes active motion and resumes",
+      "pass": true,
+      "elapsedMs": 4386,
+      "detail": {
+        "before": {
+          "index": 1,
+          "chapter": 0,
+          "paused": false,
+          "busy": true,
+          "modal": "poem",
+          "interaction": 0,
+          "motion": {
+            "sceneIndex": 1,
+            "worldName": "gate",
+            "time": 59.1941000000011,
+            "paused": true,
+            "busy": true,
+            "view": {
+              "x": 0,
+              "y": 2.45,
+              "z": 6.2,
+              "tx": 0.1,
+              "ty": 2.8,
+              "tz": -25,
+              "fov": 54
+            },
+            "hand": 0.410584163659235,
+            "lamp": 0,
+            "walks": 0,
+            "flight": 0,
+            "water": 0.45,
+            "gate": {
+              "left": -0.05915733885055766,
+              "right": 0.05915733885055766
+            },
+            "frames": 3607,
+            "action": "open-gate",
+            "progress": 0.13354285714285555,
+            "completed": 20
+          }
+        },
+        "afterFrozen": {
+          "index": 1,
+          "chapter": 0,
+          "paused": false,
+          "busy": true,
+          "modal": "poem",
+          "interaction": 0,
+          "motion": {
+            "sceneIndex": 1,
+            "worldName": "gate",
+            "time": 59.1941000000011,
+            "paused": true,
+            "busy": true,
+            "view": {
+              "x": 0,
+              "y": 2.45,
+              "z": 6.2,
+              "tx": 0.1,
+              "ty": 2.8,
+              "tz": -25,
+              "fov": 54
+            },
+            "hand": 0.410584163659235,
+            "lamp": 0,
+            "walks": 0,
+            "flight": 0,
+            "water": 0.45,
+            "gate": {
+              "left": -0.05915733885055766,
+              "right": 0.05915733885055766
+            },
+            "frames": 3649,
+            "action": "open-gate",
+            "progress": 0.13354285714285555,
+            "completed": 20
+          }
+        },
+        "afterResumed": {
+          "index": 2,
+          "chapter": 0,
+          "paused": false,
+          "busy": false,
+          "modal": null,
+          "interaction": 0,
+          "motion": {
+            "sceneIndex": 2,
+            "worldName": "mountain",
+            "time": 62.23150000000124,
+            "paused": false,
+            "busy": false,
+            "view": {
+              "x": 0,
+              "y": 2.45,
+              "z": 9,
+              "tx": 0,
+              "ty": 2.7,
+              "tz": -25,
+              "fov": 54
+            },
+            "hand": 0,
+            "lamp": 0,
+            "walks": 0,
+            "flight": 0,
+            "water": 0.45,
+            "gate": {
+              "left": -1.48,
+              "right": 1.48
+            },
+            "frames": 3832,
+            "action": "",
+            "progress": 0,
+            "completed": 21
+          }
+        }
+      }
+    },
+    {
+      "viewport": "1280x720",
+      "name": "chapter jump cancels active action",
+      "pass": true,
+      "elapsedMs": 4288,
+      "detail": {
+        "after": {
+          "index": 9,
+          "chapter": 3,
+          "paused": false,
+          "busy": false,
+          "modal": null,
+          "interaction": 0,
+          "motion": {
+            "sceneIndex": 9,
+            "worldName": "forest",
+            "time": 62.69900000000126,
+            "paused": false,
+            "busy": false,
+            "view": {
+              "x": 0,
+              "y": 2.5,
+              "z": 9,
+              "tx": 1.1,
+              "ty": 3.2,
+              "tz": -25,
+              "fov": 54
+            },
+            "hand": 0,
+            "lamp": 0.45,
+            "walks": 0,
+            "flight": 0,
+            "water": 0.45,
+            "gate": {
+              "left": -0.03275347747854737,
+              "right": 0.03275347747854737
+            },
+            "frames": 3860,
+            "action": "",
+            "progress": 0,
+            "completed": 21
+          }
+        },
+        "settled": {
+          "index": 9,
+          "chapter": 3,
+          "paused": false,
+          "busy": false,
+          "modal": null,
+          "interaction": 0,
+          "motion": {
+            "sceneIndex": 9,
+            "worldName": "forest",
+            "time": 66.52070000000143,
+            "paused": false,
+            "busy": false,
+            "view": {
+              "x": 0,
+              "y": 2.5,
+              "z": 9,
+              "tx": 1.1,
+              "ty": 3.2,
+              "tz": -25,
+              "fov": 54
+            },
+            "hand": 0,
+            "lamp": 0.45,
+            "walks": 0,
+            "flight": 0,
+            "water": 0.45,
+            "gate": {
+              "left": -0.03275347747854737,
+              "right": 0.03275347747854737
+            },
+            "frames": 4089,
+            "action": "",
+            "progress": 0,
+            "completed": 21
+          }
+        }
+      }
+    },
+    {
+      "viewport": "1280x720",
+      "name": "modal poem",
+      "pass": true,
+      "elapsedMs": 681
+    },
+    {
+      "viewport": "1280x720",
+      "name": "modal study",
+      "pass": true,
+      "elapsedMs": 818
+    },
+    {
+      "viewport": "1280x720",
+      "name": "modal practice",
+      "pass": true,
+      "elapsedMs": 683
+    },
+    {
+      "viewport": "1280x720",
+      "name": "modal space",
+      "pass": true,
+      "elapsedMs": 985
+    },
+    {
+      "viewport": "1280x720",
+      "name": "modal classroom",
+      "pass": true,
+      "elapsedMs": 249
+    },
+    {
+      "viewport": "1280x720",
+      "name": "modal audio",
+      "pass": true,
+      "elapsedMs": 242
+    },
+    {
+      "viewport": "1280x720",
+      "name": "no runtime JavaScript or WebGL errors",
+      "pass": true,
+      "elapsedMs": 0,
+      "detail": {
+        "pageErrors": [],
+        "consoleErrors": [],
+        "failedRequests": []
+      }
+    }
+  ],
+  "pageErrors": [],
+  "consoleErrors": [],
+  "failedRequests": [
+    {
+      "viewport": "1440x900",
+      "url": "file:///C:/Users/lenovo/Desktop/%E6%95%99%E5%B8%88%E7%AB%AF/%E8%9C%80%E9%81%93%E9%9A%BE%E8%AF%BE%E4%BB%B6/%E8%A7%86%E9%A2%91%E5%A4%8D%E5%88%BB%E7%89%88/assets/audio/music.mp3",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "1280x720",
+      "url": "file:///C:/Users/lenovo/Desktop/%E6%95%99%E5%B8%88%E7%AB%AF/%E8%9C%80%E9%81%93%E9%9A%BE%E8%AF%BE%E4%BB%B6/%E8%A7%86%E9%A2%91%E5%A4%8D%E5%88%BB%E7%89%88/assets/audio/music.mp3",
+      "error": "net::ERR_ABORTED"
+    }
+  ],
+  "sourceHashes": {
+    "app.js": "a4a865ee56c705a74a23025f56272c1dbc3c2948b6c1f5ad3e8ea50cdfea9822",
+    "cinema.js": "3841802189406d84747f200f1e61e636ed147ef9ff210bec9f8138e1872596e9",
+    "props.js": "a62685cc0ce83fa2477b608b0893684f93f7fc5bd51523ccb8af7a41f7e5651d",
+    "story.js": "6d6c1c63f3a5eac065dd47e6e359e7c53ae74f4f238b4c1788bd02dc1478cc37"
+  },
+  "browserVersion": "156.0.4314.50",
+  "finished": "2026-10-28T08:24:12.348Z",
+  "summary": {
+    "passed": 56,
+    "failed": 0
+  }
+}

@@ -1,0 +1,395 @@
+{
+  "errors": [],
+  "checks": [
+    "用户点击后人声与BGM可播放",
+    "全部24幕正常推进，包含全部行走步骤",
+    "举杯中暂停与继续：动作、人声、BGM同步",
+    "重演动作可完成",
+    "快速连续切章无残影",
+    "space可打开关闭",
+    "study可打开关闭",
+    "poem可打开关闭",
+    "practice可打开关闭",
+    "classroom可打开关闭",
+    "audio可打开关闭",
+    "两首原诗独立点播",
+    "五道题反馈与翻页",
+    "1280桌面与390窄屏可操作"
+  ],
+  "frames": {
+    "count": 5349,
+    "p95": 17,
+    "max": 83.20000000000073,
+    "over34": 4
+  },
+  "flow": [
+    {
+      "from": 1,
+      "to": 1,
+      "interaction": 0,
+      "done": true
+    },
+    {
+      "from": 1,
+      "to": 2,
+      "interaction": 0,
+      "done": false
+    },
+    {
+      "from": 2,
+      "to": 2,
+      "interaction": 0,
+      "done": true
+    },
+    {
+      "from": 2,
+      "to": 3,
+      "interaction": 0,
+      "done": false
+    },
+    {
+      "from": 3,
+      "to": 3,
+      "interaction": 0,
+      "done": true
+    },
+    {
+      "from": 3,
+      "to": 4,
+      "interaction": 0,
+      "done": false
+    },
+    {
+      "from": 4,
+      "to": 4,
+      "interaction": 0,
+      "done": true
+    },
+    {
+      "from": 4,
+      "to": 5,
+      "interaction": 0,
+      "done": false
+    },
+    {
+      "from": 5,
+      "to": 5,
+      "interaction": 0,
+      "done": true
+    },
+    {
+      "from": 5,
+      "to": 6,
+      "interaction": 0,
+      "done": false
+    },
+    {
+      "from": 6,
+      "to": 6,
+      "interaction": 0,
+      "done": true
+    },
+    {
+      "from": 6,
+      "to": 7,
+      "interaction": 0,
+      "done": false
+    },
+    {
+      "from": 7,
+      "to": 7,
+      "interaction": 0,
+      "done": true
+    },
+    {
+      "from": 7,
+      "to": 8,
+      "interaction": 0,
+      "done": false
+    },
+    {
+      "from": 8,
+      "to": 8,
+      "interaction": 1,
+      "done": false
+    },
+    {
+      "from": 8,
+      "to": 8,
+      "interaction": 2,
+      "done": true
+    },
+    {
+      "from": 8,
+      "to": 9,
+      "interaction": 0,
+      "done": false
+    },
+    {
+      "from": 9,
+      "to": 9,
+      "interaction": 0,
+      "done": true
+    },
+    {
+      "from": 9,
+      "to": 10,
+      "interaction": 0,
+      "done": false
+    },
+    {
+      "from": 10,
+      "to": 10,
+      "interaction": 1,
+      "done": false
+    },
+    {
+      "from": 10,
+      "to": 10,
+      "interaction": 2,
+      "done": true
+    },
+    {
+      "from": 10,
+      "to": 11,
+      "interaction": 0,
+      "done": false
+    },
+    {
+      "from": 11,
+      "to": 11,
+      "interaction": 0,
+      "done": true
+    },
+    {
+      "from": 11,
+      "to": 12,
+      "interaction": 0,
+      "done": false
+    },
+    {
+      "from": 12,
+      "to": 12,
+      "interaction": 1,
+      "done": false
+    },
+    {
+      "from": 12,
+      "to": 12,
+      "interaction": 2,
+      "done": false
+    },
+    {
+      "from": 12,
+      "to": 12,
+      "interaction": 3,
+      "done": true
+    },
+    {
+      "from": 12,
+      "to": 13,
+      "interaction": 0,
+      "done": false
+    },
+    {
+      "from": 13,
+      "to": 13,
+      "interaction": 0,
+      "done": true
+    },
+    {
+      "from": 13,
+      "to": 14,
+      "interaction": 0,
+      "done": false
+    },
+    {
+      "from": 14,
+      "to": 14,
+      "interaction": 0,
+      "done": true
+    },
+    {
+      "from": 14,
+      "to": 15,
+      "interaction": 0,
+      "done": false
+    },
+    {
+      "from": 15,
+      "to": 15,
+      "interaction": 0,
+      "done": true
+    },
+    {
+      "from": 15,
+      "to": 16,
+      "interaction": 0,
+      "done": false
+    },
+    {
+      "from": 16,
+      "to": 16,
+      "interaction": 0,
+      "done": true
+    },
+    {
+      "from": 16,
+      "to": 17,
+      "interaction": 0,
+      "done": false
+    },
+    {
+      "from": 17,
+      "to": 17,
+      "interaction": 0,
+      "done": true
+    },
+    {
+      "from": 17,
+      "to": 18,
+      "interaction": 0,
+      "done": false
+    },
+    {
+      "from": 18,
+      "to": 18,
+      "interaction": 0,
+      "done": true
+    },
+    {
+      "from": 18,
+      "to": 19,
+      "interaction": 0,
+      "done": false
+    },
+    {
+      "from": 19,
+      "to": 19,
+      "interaction": 0,
+      "done": true
+    },
+    {
+      "from": 19,
+      "to": 20,
+      "interaction": 0,
+      "done": false
+    },
+    {
+      "from": 20,
+      "to": 20,
+      "interaction": 0,
+      "done": true
+    },
+    {
+      "from": 20,
+      "to": 21,
+      "interaction": 0,
+      "done": false
+    },
+    {
+      "from": 21,
+      "to": 21,
+      "interaction": 0,
+      "done": true
+    },
+    {
+      "from": 21,
+      "to": 22,
+      "interaction": 0,
+      "done": false
+    },
+    {
+      "from": 22,
+      "to": 22,
+      "interaction": 0,
+      "done": true
+    },
+    {
+      "from": 22,
+      "to": 23,
+      "interaction": 0,
+      "done": false
+    }
+  ],
+  "startAudio": {
+    "music": true,
+    "narration": true,
+    "muted": false,
+    "musicVolume": 0.23,
+    "voiceVolume": 0.92,
+    "started": true,
+    "paused": false,
+    "playing": true,
+    "musicPlaying": true,
+    "ambientTrack": "",
+    "ambientPlaying": false,
+    "track": "stage-1",
+    "kind": "stage",
+    "currentTime": 1.016337,
+    "duration": 9.024,
+    "status": "正在播放场景旁白"
+  },
+  "rapid": {
+    "s": {
+      "index": 22,
+      "ready": true,
+      "busy": false,
+      "paused": false,
+      "modal": null,
+      "actionDone": false,
+      "interaction": 0,
+      "studyIndex": 0,
+      "question": 0,
+      "answers": {},
+      "source": "李白《行路难·其一》",
+      "motion": {
+        "ready": true,
+        "sceneIndex": 22,
+        "worldName": "sea",
+        "time": 130.42709999997544,
+        "paused": false,
+        "busy": false,
+        "transition": null,
+        "view": {
+          "x": 0,
+          "y": 2.45,
+          "z": 9,
+          "tx": 0,
+          "ty": 2.7,
+          "tz": -25,
+          "fov": 54
+        },
+        "hand": 0,
+        "lamp": 0,
+        "handTurn": 0,
+        "walks": 0,
+        "flight": 0,
+        "water": 0.45,
+        "celestial": 0,
+        "bob": 0,
+        "cup": 0,
+        "sword": 0,
+        "chop": 0,
+        "sail": 0,
+        "daylight": 1,
+        "vista": 0,
+        "vistaName": "",
+        "shotZoom": 1,
+        "gate": {
+          "left": 0,
+          "right": 0
+        },
+        "frames": 7836,
+        "action": "",
+        "progress": 0,
+        "completed": 36,
+        "transitions": 33,
+        "frameGaps": 9,
+        "maxFrameMs": 83.40000000000009
+      }
+    },
+    "ghost": 0,
+    "freeze": 0
+  }
+}

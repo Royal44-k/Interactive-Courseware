@@ -1,0 +1,174 @@
+{
+  "full": {
+    "at": "2026-10-30T02:58:13.076Z",
+    "score": {
+      "choice": 20,
+      "fill": 16,
+      "matching": 12,
+      "puzzle": 12,
+      "appreciation": 24,
+      "reflection": 16,
+      "objective": 60,
+      "self": 40,
+      "total": 100
+    }
+  },
+  "zero": {
+    "choice": 0,
+    "fill": 0,
+    "matching": 0,
+    "puzzle": 0,
+    "appreciation": 0,
+    "reflection": 0,
+    "objective": 0,
+    "self": 0,
+    "total": 0
+  },
+  "layouts": [
+    {
+      "lang": "zh",
+      "w": 375,
+      "h": 667,
+      "box": {
+        "x": 11,
+        "y": 25,
+        "width": 353,
+        "height": 617
+      }
+    },
+    {
+      "lang": "zh",
+      "w": 390,
+      "h": 844,
+      "box": {
+        "x": 11,
+        "y": 25,
+        "width": 368,
+        "height": 794
+      }
+    },
+    {
+      "lang": "zh",
+      "w": 844,
+      "h": 390,
+      "box": {
+        "x": 50.625,
+        "y": 25,
+        "width": 742.75,
+        "height": 340
+      }
+    },
+    {
+      "lang": "zh",
+      "w": 1280,
+      "h": 800,
+      "box": {
+        "x": 76.796875,
+        "y": 25,
+        "width": 1126.40625,
+        "height": 750
+      }
+    },
+    {
+      "lang": "bi",
+      "w": 375,
+      "h": 667,
+      "box": {
+        "x": 11,
+        "y": 25,
+        "width": 353,
+        "height": 617
+      }
+    },
+    {
+      "lang": "bi",
+      "w": 390,
+      "h": 844,
+      "box": {
+        "x": 11,
+        "y": 25,
+        "width": 368,
+        "height": 794
+      }
+    },
+    {
+      "lang": "bi",
+      "w": 844,
+      "h": 390,
+      "box": {
+        "x": 50.625,
+        "y": 25,
+        "width": 742.75,
+        "height": 340
+      }
+    },
+    {
+      "lang": "bi",
+      "w": 1280,
+      "h": 800,
+      "box": {
+        "x": 76.796875,
+        "y": 25,
+        "width": 1126.40625,
+        "height": 750
+      }
+    },
+    {
+      "lang": "en",
+      "w": 375,
+      "h": 667,
+      "box": {
+        "x": 11,
+        "y": 25,
+        "width": 353,
+        "height": 617
+      }
+    },
+    {
+      "lang": "en",
+      "w": 390,
+      "h": 844,
+      "box": {
+        "x": 11,
+        "y": 25,
+        "width": 368,
+        "height": 794
+      }
+    },
+    {
+      "lang": "en",
+      "w": 844,
+      "h": 390,
+      "box": {
+        "x": 50.625,
+        "y": 25,
+        "width": 742.75,
+        "height": 340
+      }
+    },
+    {
+      "lang": "en",
+      "w": 1280,
+      "h": 800,
+      "box": {
+        "x": 76.796875,
+        "y": 25,
+        "width": 1126.40625,
+        "height": 750
+      }
+    }
+  ],
+  "errors": [],
+  "checks": [
+    "four review gates",
+    "mandatory ending gate",
+    "incomplete submission",
+    "selection/completion/matching/puzzle",
+    "full rubric scoring",
+    "draft reload",
+    "export",
+    "return home after assessment",
+    "zero-point boundary",
+    "bilingual responsive layouts"
+  ]
+}

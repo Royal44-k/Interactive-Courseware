@@ -1,0 +1,20 @@
+window.COURSE_STORY=[
+ {chapter:-1,bg:'mountains',type:'cover',label:'一首诗，一次身在其中的远行',title:['蜀道难'],sub:'李白 · 第一人称诗境',caption:'借我的眼睛，走一程蜀道。',action:'成为诗中的“我”',motion:'enter',scene:'mountain',voice:0},
+ {chapter:0,bg:'mountains',label:'山门 · 我欲入蜀',title:['蜀道在前，','我欲入山。'],sub:'',caption:'山门之外，风起群峰。',action:'伸手，推开山门',motion:'open-gate',scene:'gate',voice:1},
+ {chapter:0,bg:'mountains',label:'仰望 · 山高入云',title:['噫吁嚱，','危乎高哉！'],sub:'',caption:'蜀道之难，难于上青天！',action:'仰望群峰',motion:'look-up',scene:'mountain',voice:1},
+ {chapter:1,bg:'mountains',label:'开辟 · 云深不知处',title:['蚕丛及鱼凫，','开国何茫然！'],sub:'',caption:'尔来四万八千岁，不与秦塞通人烟。',action:'走进云深处',motion:'cross-cloud',scene:'mountain',voice:3},
+ {chapter:1,bg:'cliff-clean',label:'绝壁 · 天梯石栈',title:['地崩山摧壮士死，','然后天梯石栈相钩连。'],sub:'',caption:'绝壁之间，脚下还缺一块木板。',action:'把木板搭上去',motion:'lay-planks',scene:'bridge',voice:4},
+ {chapter:2,bg:'cliff-clean',label:'山势 · 仰观俯察',title:['上有六龙回日之高标，','下有冲波逆折之回川。'],sub:'',caption:'上是高山，下是回川。',action:'俯身，望向深谷',motion:'look-down',scene:'bridge',voice:5},
+ {chapter:2,bg:'cliff-clean',label:'青泥 · 一步一折',title:['青泥何盘盘，','百步九折萦岩峦。'],sub:'',caption:'路在脚下，我仍向前。',action:'向前迈一步',motion:'walk',scene:'bridge',voice:6},
+ {chapter:2,bg:'cliff-clean',label:'仰息 · 星辰仿佛可触',title:['扪参历井仰胁息，','以手抚膺坐长叹。'],sub:'',caption:'山高得仿佛伸手便能触到星辰。',action:'伸手，仰望星辰',motion:'reach',scene:'stars',voice:7},
+ {chapter:2,bg:'cliff-clean',label:'长叹 · 以身知险',title:['屏住呼吸，','才知山之高。'],sub:'',caption:'仰望星辰，呼吸也不觉放轻。',action:'收回手，歇一歇',motion:'breathe',scene:'stars',voice:8},
+ {chapter:3,bg:'moon',label:'夜行 · 古木悲鸟',title:['但见悲鸟号古木，','雄飞雌从绕林间。'],sub:'',caption:'林间传来声音，我提起手中的灯。',action:'举灯，循声望去',motion:'lantern',scene:'forest',voice:9},
+ {chapter:3,bg:'moon',label:'月夜 · 愁在空山',title:['又闻子规啼夜月，','愁空山。'],sub:'',caption:'鸟已飞远，鸣声还在山间回荡。',action:'放低灯，听一会儿',motion:'listen',scene:'forest',voice:10},
+ {chapter:3,bg:'moon',label:'再叹 · 闻之失色',title:['蜀道之难，','难于上青天。'],sub:'',caption:'使人听此凋朱颜！',action:'循水声，继续向前',motion:'cross-cloud',scene:'forest',voice:11},
+ {chapter:4,bg:'waterfall-bg',label:'飞湍 · 万壑如雷',title:['飞湍瀑流争喧豗，','砯崖转石万壑雷。'],sub:'',caption:'水撞崖壁，石落深壑。',action:'走近飞瀑',motion:'torrent',scene:'waterfall',voice:12},
+ {chapter:4,bg:'pass',label:'剑阁 · 雄关在前',title:['一夫当关，','万夫莫开。'],sub:'',caption:'两壁夹峙，一线通行。',action:'推一推，这扇关门',motion:'blocked-gate',scene:'pass',voice:13},
+ {chapter:4,bg:'pass',label:'人事 · 山险之外',title:['所守或匪亲，','化为狼与豺。'],sub:'',caption:'若守关者不可托付，险要又意味着什么？',action:'转身，回望来路',motion:'turn-back',scene:'pass',voice:14},
+ {chapter:5,bg:'mountains',label:'回望 · 一声劝归',title:['锦城虽云乐，','不如早还家。'],sub:'',caption:'走过高山与险关，这一句劝告有了分量。',action:'侧身，向西望去',motion:'look-west',scene:'return',voice:15},
+ {chapter:5,bg:'mountains',label:'三叹 · 忧思未尽',title:['蜀道之难，','难于上青天。'],sub:'',caption:'侧身西望长咨嗟！',action:'带着经历，再读一次',motion:'settle',scene:'return',voice:16},
+ {chapter:6,bg:'mountains',type:'ending',label:'归来 · 诗句仍在回响',title:['这一程，','我听见了三声长叹。'],sub:'',caption:'此刻再读“蜀道之难”，你听见的是什么？',action:'重读全诗',motion:'end',scene:'return',voice:17}
+];

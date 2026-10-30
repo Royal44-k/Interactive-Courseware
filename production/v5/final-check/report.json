@@ -1,0 +1,543 @@
+{
+  "errors": [],
+  "checks": [
+    "30 viewport/language/scene combinations: navigation and main actions inside screen",
+    "All seven panels visible; focus is contained; Escape closes them",
+    "87 audio files decode offline",
+    "English action cue, scene narration and BGM play from a real click",
+    "Both English poem readings play",
+    "Reduced motion stops automatic pan and completes the new vista"
+  ],
+  "layouts": [
+    {
+      "w": 1440,
+      "h": 900,
+      "lang": "bi",
+      "i": 0
+    },
+    {
+      "w": 1440,
+      "h": 900,
+      "lang": "bi",
+      "i": 11
+    },
+    {
+      "w": 1440,
+      "h": 900,
+      "lang": "bi",
+      "i": 22
+    },
+    {
+      "w": 1440,
+      "h": 900,
+      "lang": "en",
+      "i": 0
+    },
+    {
+      "w": 1440,
+      "h": 900,
+      "lang": "en",
+      "i": 11
+    },
+    {
+      "w": 1440,
+      "h": 900,
+      "lang": "en",
+      "i": 22
+    },
+    {
+      "w": 1280,
+      "h": 720,
+      "lang": "bi",
+      "i": 0
+    },
+    {
+      "w": 1280,
+      "h": 720,
+      "lang": "bi",
+      "i": 11
+    },
+    {
+      "w": 1280,
+      "h": 720,
+      "lang": "bi",
+      "i": 22
+    },
+    {
+      "w": 1280,
+      "h": 720,
+      "lang": "en",
+      "i": 0
+    },
+    {
+      "w": 1280,
+      "h": 720,
+      "lang": "en",
+      "i": 11
+    },
+    {
+      "w": 1280,
+      "h": 720,
+      "lang": "en",
+      "i": 22
+    },
+    {
+      "w": 390,
+      "h": 844,
+      "lang": "bi",
+      "i": 0
+    },
+    {
+      "w": 390,
+      "h": 844,
+      "lang": "bi",
+      "i": 11
+    },
+    {
+      "w": 390,
+      "h": 844,
+      "lang": "bi",
+      "i": 22
+    },
+    {
+      "w": 390,
+      "h": 844,
+      "lang": "en",
+      "i": 0
+    },
+    {
+      "w": 390,
+      "h": 844,
+      "lang": "en",
+      "i": 11
+    },
+    {
+      "w": 390,
+      "h": 844,
+      "lang": "en",
+      "i": 22
+    },
+    {
+      "w": 375,
+      "h": 667,
+      "lang": "bi",
+      "i": 0
+    },
+    {
+      "w": 375,
+      "h": 667,
+      "lang": "bi",
+      "i": 11
+    },
+    {
+      "w": 375,
+      "h": 667,
+      "lang": "bi",
+      "i": 22
+    },
+    {
+      "w": 375,
+      "h": 667,
+      "lang": "en",
+      "i": 0
+    },
+    {
+      "w": 375,
+      "h": 667,
+      "lang": "en",
+      "i": 11
+    },
+    {
+      "w": 375,
+      "h": 667,
+      "lang": "en",
+      "i": 22
+    },
+    {
+      "w": 844,
+      "h": 390,
+      "lang": "bi",
+      "i": 0
+    },
+    {
+      "w": 844,
+      "h": 390,
+      "lang": "bi",
+      "i": 11
+    },
+    {
+      "w": 844,
+      "h": 390,
+      "lang": "bi",
+      "i": 22
+    },
+    {
+      "w": 844,
+      "h": 390,
+      "lang": "en",
+      "i": 0
+    },
+    {
+      "w": 844,
+      "h": 390,
+      "lang": "en",
+      "i": 11
+    },
+    {
+      "w": 844,
+      "h": 390,
+      "lang": "en",
+      "i": 22
+    }
+  ],
+  "durations": [
+    {
+      "name": "amb-river.mp3",
+      "duration": 30
+    },
+    {
+      "name": "amb-sea.mp3",
+      "duration": 30
+    },
+    {
+      "name": "amb-wind.mp3",
+      "duration": 30
+    },
+    {
+      "name": "bird.mp3",
+      "duration": 4.2
+    },
+    {
+      "name": "cue-1-open-en.mp3",
+      "duration": 3.36
+    },
+    {
+      "name": "cue-1-open.mp3",
+      "duration": 2.808
+    },
+    {
+      "name": "cue-1-touch-en.mp3",
+      "duration": 2.064
+    },
+    {
+      "name": "cue-1-touch.mp3",
+      "duration": 1.872
+    },
+    {
+      "name": "cue-13-sigh-en.mp3",
+      "duration": 3.624
+    },
+    {
+      "name": "cue-13-sigh.mp3",
+      "duration": 2.88
+    },
+    {
+      "name": "cue-13-stars-en.mp3",
+      "duration": 2.856
+    },
+    {
+      "name": "cue-13-stars.mp3",
+      "duration": 2.928
+    },
+    {
+      "name": "cue-14-distance-en.mp3",
+      "duration": 2.904
+    },
+    {
+      "name": "cue-14-distance.mp3",
+      "duration": 3.192
+    },
+    {
+      "name": "cue-14-light-en.mp3",
+      "duration": 1.896
+    },
+    {
+      "name": "cue-14-light.mp3",
+      "duration": 2.52
+    },
+    {
+      "name": "cue-2-cup-en.mp3",
+      "duration": 3.192
+    },
+    {
+      "name": "cue-2-cup.mp3",
+      "duration": 3.504
+    },
+    {
+      "name": "cue-2-lower-en.mp3",
+      "duration": 2.448
+    },
+    {
+      "name": "cue-2-lower.mp3",
+      "duration": 3
+    },
+    {
+      "name": "cue-2-swallow-en.mp3",
+      "duration": 2.256
+    },
+    {
+      "name": "cue-2-swallow.mp3",
+      "duration": 2.328
+    },
+    {
+      "name": "cue-2-taste-en.mp3",
+      "duration": 3.648
+    },
+    {
+      "name": "cue-2-taste.mp3",
+      "duration": 3.216
+    },
+    {
+      "name": "cue-3-hesitate-en.mp3",
+      "duration": 2.16
+    },
+    {
+      "name": "cue-3-hesitate.mp3",
+      "duration": 3.168
+    },
+    {
+      "name": "cue-3-stop-en.mp3",
+      "duration": 1.824
+    },
+    {
+      "name": "cue-3-stop.mp3",
+      "duration": 2.568
+    },
+    {
+      "name": "cue-4-dark-en.mp3",
+      "duration": 2.208
+    },
+    {
+      "name": "cue-4-dark.mp3",
+      "duration": 1.92
+    },
+    {
+      "name": "cue-4-draw-en.mp3",
+      "duration": 1.848
+    },
+    {
+      "name": "cue-4-draw.mp3",
+      "duration": 1.944
+    },
+    {
+      "name": "cue-4-gaze-en.mp3",
+      "duration": 3.792
+    },
+    {
+      "name": "cue-4-gaze.mp3",
+      "duration": 2.88
+    },
+    {
+      "name": "music.mp3",
+      "duration": 60
+    },
+    {
+      "name": "poem-shu-en.mp3",
+      "duration": 151.248
+    },
+    {
+      "name": "poem-shu.mp3",
+      "duration": 103.32
+    },
+    {
+      "name": "poem-xing-en.mp3",
+      "duration": 50.088
+    },
+    {
+      "name": "poem-xing.mp3",
+      "duration": 28.944
+    },
+    {
+      "name": "stage-0-en.mp3",
+      "duration": 12.72
+    },
+    {
+      "name": "stage-0.mp3",
+      "duration": 13.392
+    },
+    {
+      "name": "stage-1-en.mp3",
+      "duration": 7.896
+    },
+    {
+      "name": "stage-1.mp3",
+      "duration": 9.024
+    },
+    {
+      "name": "stage-10-en.mp3",
+      "duration": 16.248
+    },
+    {
+      "name": "stage-10.mp3",
+      "duration": 16.128
+    },
+    {
+      "name": "stage-11-en.mp3",
+      "duration": 13.608
+    },
+    {
+      "name": "stage-11.mp3",
+      "duration": 13.248
+    },
+    {
+      "name": "stage-12-en.mp3",
+      "duration": 16.344
+    },
+    {
+      "name": "stage-12.mp3",
+      "duration": 13.44
+    },
+    {
+      "name": "stage-13-en.mp3",
+      "duration": 14.88
+    },
+    {
+      "name": "stage-13.mp3",
+      "duration": 13.728
+    },
+    {
+      "name": "stage-14-en.mp3",
+      "duration": 15.336
+    },
+    {
+      "name": "stage-14.mp3",
+      "duration": 13.992
+    },
+    {
+      "name": "stage-15-en.mp3",
+      "duration": 13.344
+    },
+    {
+      "name": "stage-15.mp3",
+      "duration": 13.32
+    },
+    {
+      "name": "stage-16-en.mp3",
+      "duration": 14.76
+    },
+    {
+      "name": "stage-16.mp3",
+      "duration": 13.416
+    },
+    {
+      "name": "stage-17-en.mp3",
+      "duration": 15.24
+    },
+    {
+      "name": "stage-17.mp3",
+      "duration": 15.504
+    },
+    {
+      "name": "stage-18-en.mp3",
+      "duration": 14.088
+    },
+    {
+      "name": "stage-18.mp3",
+      "duration": 15.36
+    },
+    {
+      "name": "stage-19-en.mp3",
+      "duration": 13.824
+    },
+    {
+      "name": "stage-19.mp3",
+      "duration": 17.424
+    },
+    {
+      "name": "stage-2-en.mp3",
+      "duration": 16.944
+    },
+    {
+      "name": "stage-2.mp3",
+      "duration": 14.424
+    },
+    {
+      "name": "stage-20-en.mp3",
+      "duration": 14.16
+    },
+    {
+      "name": "stage-20.mp3",
+      "duration": 12.456
+    },
+    {
+      "name": "stage-21-en.mp3",
+      "duration": 11.976
+    },
+    {
+      "name": "stage-21.mp3",
+      "duration": 13.656
+    },
+    {
+      "name": "stage-22-en.mp3",
+      "duration": 17.136
+    },
+    {
+      "name": "stage-22.mp3",
+      "duration": 17.592
+    },
+    {
+      "name": "stage-23-en.mp3",
+      "duration": 13.944
+    },
+    {
+      "name": "stage-23.mp3",
+      "duration": 16.008
+    },
+    {
+      "name": "stage-3-en.mp3",
+      "duration": 15.624
+    },
+    {
+      "name": "stage-3.mp3",
+      "duration": 11.424
+    },
+    {
+      "name": "stage-4-en.mp3",
+      "duration": 7.896
+    },
+    {
+      "name": "stage-4.mp3",
+      "duration": 6
+    },
+    {
+      "name": "stage-5-en.mp3",
+      "duration": 10.512
+    },
+    {
+      "name": "stage-5.mp3",
+      "duration": 13.992
+    },
+    {
+      "name": "stage-6-en.mp3",
+      "duration": 12.864
+    },
+    {
+      "name": "stage-6.mp3",
+      "duration": 13.536
+    },
+    {
+      "name": "stage-7-en.mp3",
+      "duration": 14.784
+    },
+    {
+      "name": "stage-7.mp3",
+      "duration": 13.008
+    },
+    {
+      "name": "stage-8-en.mp3",
+      "duration": 15.72
+    },
+    {
+      "name": "stage-8.mp3",
+      "duration": 15.36
+    },
+    {
+      "name": "stage-9-en.mp3",
+      "duration": 13.344
+    },
+    {
+      "name": "stage-9.mp3",
+      "duration": 16.656
+    }
+  ]
+}

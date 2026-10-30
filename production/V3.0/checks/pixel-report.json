@@ -1,0 +1,21 @@
+{
+  "cloud-verified": {
+    "size": [
+      1358,
+      764
+    ],
+    "meanDifference": 1.0022450342743023,
+    "changedFraction": 0.21392234499456392,
+    "rockDifference": 0.0,
+    "cloudDifference": 3.5111227579781037
+  },
+  "fish-raw": {
+    "size": [
+      1332,
+      749
+    ],
+    "meanDifference": 1.4924837220397968,
+    "changedFraction": 0.3349891948022789,
+    "protectedLineDifference": 0.0
+  }
+}

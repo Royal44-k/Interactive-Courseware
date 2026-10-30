@@ -1,0 +1,53 @@
+(() => {
+ 'use strict';
+ const $ = s => document.querySelector(s);
+ const story=window.COURSE_STORY,data=window.COURSE_CONTENT,audio=()=>window.CourseAudio;
+ const chapterNames=['入山','开辟','攀行','夜行','剑阁','回望'],chapterMarks=['壹','贰','叁','肆','伍','陆'];
+ const backgrounds=['mountains','cliff','cliff','moon','pass','mountains'];
+ const chapterStarts=chapterNames.map((_,i)=>story.findIndex(s=>s.chapter===i));
+ const state={index:0,paused:false,busy:false,modal:null,interaction:0,found:new Set(),visited:new Set(),studyTab:'about',studyPage:0,studyLine:0,studyDetail:'reading',practicePage:0,poemPage:0,poemPart:0,look:'up',water:30,lastFocus:null};
+ let imageSide=0,currentBg='',toastTimer,audioTimer,transitionId=0;
+ const scene=()=>story[state.index];
+ const escape=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+ const cleanButton=(action,text,extra='')=>`<button data-action="${action}" ${extra}>${text}</button>`;
+ function toast(message){$('#toast').textContent=message;$('#toast').classList.add('visible');clearTimeout(toastTimer);toastTimer=setTimeout(()=>$('#toast').classList.remove('visible'),3000);}
+ function chapter(){return data.chapters[Math.min(5,Math.max(0,scene().chapter))];}
+ function setCaption(text){$('#subtitle').textContent=text;}
+ function activeBackdrop(){return $('.backdrop.active');}
+ function background(name){if(currentBg===name)return;currentBg=name;imageSide=1-imageSide;const next=$('#backdrop'+(imageSide?'B':'A')),prev=$('#backdrop'+(imageSide?'A':'B'));next.style.backgroundImage=`url("assets/${name}.png")`;next.classList.add('active');prev.classList.remove('active');}
+ function render(continuous=false){
+  const s=scene();state.interaction=0;state.found.clear();state.visited.add(s.chapter);audio()?.stopVoice();clearTimeout(audioTimer);
+  $('#course').className=`course ${s.type||''}${state.paused?' is-paused':''}`;
+  background(s.bg);CinemaEngine.enter(state.index,continuous);
+  $('#location').textContent=s.label;$('#eyebrow').textContent=s.label;
+  $('#sceneTitle').innerHTML=s.title.map(t=>`<span>${escape(t)}</span>`).join('');$('#sceneSub').textContent=s.sub;setCaption(s.caption);$('#actionLabel').textContent=s.action;
+  $('#sceneExtra').innerHTML=s.type==='cover'?'<p class="cover-note">从山门，到绝壁。从惊叹，到长叹。<br>进入后开启配乐与旁白 · 可随时关闭</p>':'';
+  $('#readLine').hidden=s.type==='cover';$('#sceneGuide').textContent='跟随动作 · 走入诗境';
+  const indices=story.map((x,i)=>x.chapter===s.chapter?i:-1).filter(i=>i>=0);
+  $('#stepCount').textContent=s.chapter<0?'序 / 入境':s.chapter===6?'终 / 回望':`${chapterMarks[s.chapter]} / ${indices.indexOf(state.index)+1} · ${indices.length}`;
+  $('#chapterNav').innerHTML=`<button data-chapter="-1" class="${s.chapter<0?'active':''}">序 · 入境</button>`+chapterNames.map((n,i)=>`<button data-chapter="${i}" aria-label="${n}章节" aria-current="${s.chapter===i?'step':'false'}" class="${s.chapter===i?'active':''} ${state.visited.has(i)?'visited':''}">${chapterMarks[i]} · ${n}</button>`).join('');
+  $('#journeyProgress').style.width=`${state.index/(story.length-1)*100}%`;$('#storyCopy').classList.remove('reveal');void $('#storyCopy').offsetWidth;$('#storyCopy').classList.add('reveal');
+  $('#paused').hidden=!state.paused;$('#pauseButton').innerHTML=state.paused?'继续体验 <span>▷</span>':'暂停体验 <span>Ⅱ</span>';
+  $('#interaction').innerHTML='';$('#sceneActions').innerHTML=s.motion==='walk'?'<span class="walk-count">落脚 · <b id="walkCount">0</b> / 3</span>':'';
+  if(s.type==='ending')$('#sceneActions').innerHTML=cleanButton('restart','从头，再走一次')+cleanButton('review-sighs','梳理三叹的回响 ↗');
+  if(audio()?.getState().started&&!state.paused&&!state.modal)audioTimer=setTimeout(()=>audio()?.playStage(state.index),300);
+ }
+ function go(index,continuous=false){closeModal();transitionId++;CinemaEngine.cancel();state.busy=false;$('#nextButton').disabled=false;$('#course').classList.remove('acting');state.index=Math.max(0,Math.min(story.length-1,index));state.paused=false;CinemaEngine.setPaused(false);audio()?.resume();render(continuous);}
+ async function next(){
+  if(state.modal||state.paused||state.busy)return;
+  const s=scene();audio()?.start();if(s.type==='ending'){openModal('poem');return;}
+  if(s.motion==='walk'&&state.interaction>=3){go(state.index+1,true);return;}
+  const id=++transitionId;state.busy=true;$('#nextButton').disabled=true;$('#course').classList.add('acting');clearTimeout(audioTimer);audio()?.stopVoice();
+  const completed=await CinemaEngine.perform(s.motion);
+  if(!completed||id!==transitionId)return;
+  state.busy=false;$('#nextButton').disabled=false;$('#course').classList.remove('acting');
+  if(s.motion==='walk'){
+   state.interaction++;$('#walkCount').textContent=state.interaction;
+   setCaption(['脚下的木板，承住了这一步。','木板忽然松动。我赶紧扶住栏杆。','回头看，来路已悬在身后。'][state.interaction-1]);
+   $('#actionLabel').textContent=state.interaction===3?'抬头，仰望星辰':'稳住，再向前一步';
+   return;
+  }
+  go(state.index+1,true);
+ }
+ function togglePause(){state.paused=!state.paused;$('#course').classList.toggle('is-paused',state.paused);$('#paused').hidden=!state.paused;$('#pauseButton').innerHTML=state.paused?'继续体验 <span>▷</span>':'暂停体验 <span>Ⅱ</span>';CinemaEngine.setPaused(state.paused);if(state.paused){clearTimeout(audioTimer);audio()?.pause();}else audio()?.resume();window.PoetrySpace?.setPaused(state.paused);}
+ function bird(){next();}function gate(){next();}function touchNode(){next();}

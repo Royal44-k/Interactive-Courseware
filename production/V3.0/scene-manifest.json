@@ -1,0 +1,1445 @@
+[
+  {
+    "chapter": -1,
+    "bg": "mountains",
+    "world": "mountain",
+    "scene": "mountain",
+    "source": "bridge",
+    "title": [
+      "山海行歌"
+    ],
+    "action": "走入山海",
+    "motion": "enter",
+    "caption": "李太白邀君同游。诗吟蜀道之险峻，歌咏云海之壮丽。",
+    "narration": "李太白邀君同游。诗吟蜀道之险峻，歌咏云海之壮丽。循一径山川，听千回心曲；从金樽前的迟疑，走向云帆下的曙光。",
+    "explanation": "山海行歌。我们将沿着行路这一共同意象，对读李白的行路难与蜀道难。这是一段诗意编排，不是李白生平路线的复原。",
+    "voice": 0,
+    "sub": "李白 ·《行路难·其一》×《蜀道难》",
+    "label": "双诗之间 · 情境衔接",
+    "type": "cover",
+    "en": {
+      "title": [
+        "A Song through Mountains and Seas"
+      ],
+      "action": "Begin the journey",
+      "caption": "Li Bai invites you to wander.  Hear the perilous road to Shu, and the splendour of a sea of clouds.",
+      "narration": "Li Bai invites you to wander. Sing of the perilous roads of Shu, and the splendour of a sea of clouds. Across two poems, follow a journey from uncertainty to hope.",
+      "explanation": "Li Bai invites you to wander. Sing of the perilous roads of Shu, and the splendour of a sea of clouds. Across two poems, follow a journey from uncertainty to hope."
+    },
+    "intro": {
+      "zh": "李太白邀君同游。|诗吟蜀道之险峻，歌咏云海之壮丽。",
+      "en": "Li Bai invites you to wander. | Hear the perilous road to Shu, and the splendour of a sea of clouds."
+    },
+    "cues": [],
+    "baseDuration": 0.8,
+    "palette": [
+      "#e8be73",
+      "#b76e51"
+    ],
+    "spokenIntro": {
+      "zh": "李太白邀君同游。|诗吟蜀道之险峻，歌咏云海之壮丽。|且循一声长吟，从心中歧路，行向万里沧海。",
+      "en": "Li Bai invites you to wander. | Hear the perilous road to Shu, and the splendour of a sea of clouds. | Follow the song, from the heart’s uncertain paths towards the open sea."
+    }
+  },
+  {
+    "chapter": 0,
+    "bg": "v2-entry-courtyard",
+    "world": "gate",
+    "scene": "gate",
+    "source": "bridge",
+    "title": [
+      "灯火正盛，",
+      "心事未平。"
+    ],
+    "action": "推门，入席",
+    "motion": "open-gate",
+    "caption": "门外是长安夜色。门内，一席灯火正盛。",
+    "narration": "推开这扇门，走进诗人眼前的宴席。美酒与珍馐已备，心中的道路却并不明朗。",
+    "explanation": "推开这扇门，走进诗人眼前的宴席。美酒与珍馐已备，心中的道路却并不明朗。",
+    "voice": 1,
+    "sub": "",
+    "label": "双诗之间 · 情境衔接",
+    "en": {
+      "title": [
+        "The lanterns glow;",
+        "the heart is restless."
+      ],
+      "action": "Open the doors",
+      "caption": "Beyond the door lies Chang’an at night.  Within, the lamplight glows.",
+      "narration": "Push open the doors. Wine and delicacies await, but the road in the poet’s heart is still uncertain.",
+      "explanation": "Push open the doors. Wine and delicacies await, but the road in the poet’s heart is still uncertain."
+    },
+    "intro": {
+      "zh": "门外是长安夜色。|门内，一席灯火正盛。",
+      "en": "Beyond the door lies Chang’an at night. | Within, the lamplight glows."
+    },
+    "cues": [
+      {
+        "at": 0.02,
+        "key": "touch",
+        "zh": "门扉微凉。",
+        "en": "The door is cool to the touch.",
+        "reading": {
+          "zh": "隔着一道门，尘世的喧声渐远，眼前的灯影渐近。",
+          "en": "Beyond the threshold, the noise of the world recedes and the lamplight draws us in."
+        }
+      },
+      {
+        "at": 0.43,
+        "key": "open",
+        "zh": "灯火深处，且入诗中。",
+        "en": "Beyond the lamplight, let us enter the poem.",
+        "reading": {
+          "zh": "随这一线渐开的光，走入诗人的心境；盛筵之中，也会有难言的孤独。",
+          "en": "Follow the widening light into the poet’s state of mind. Even a splendid feast may hold an unspoken loneliness."
+        }
+      }
+    ],
+    "baseDuration": 12,
+    "palette": [
+      "#e8be73",
+      "#b76e51"
+    ],
+    "spokenIntro": {
+      "zh": "门外是长安夜色，门内是一席灯火。|这一程，先从繁华深处，听一颗未得舒展的心。",
+      "en": "Beyond the door lies Chang’an at night; within, a banquet glows. | Our journey begins amid splendour, with a heart that cannot find ease."
+    }
+  },
+  {
+    "chapter": 0,
+    "bg": "banquet-clean",
+    "world": "banquet",
+    "scene": "banquet",
+    "source": "xing",
+    "title": [
+      "金樽清酒斗十千，",
+      "玉盘珍羞直万钱。"
+    ],
+    "action": "举樽浅酌，尝一箸珍馐",
+    "motion": "cup",
+    "caption": "清酒映灯，珍馐满席。眼前的丰盛，照不亮心底的阴影。",
+    "narration": "金樽清酒斗十千，玉盘珍羞直万钱。举樽，浅酌。轻轻放下，再尝一箸珍馐。席间的丰盛，终究留不住心中的安宁。",
+    "explanation": "金樽、美酒、玉盘、珍馐，极写宴席丰盛。本幕的浅尝属于进入诗境的铺垫；下一幕转入原诗“停杯投箸不能食”，迟疑后不再进食，形成外在丰盛与内心忧思的反差。",
+    "voice": 2,
+    "sub": "",
+    "label": "《行路难·其一》",
+    "en": {
+      "title": [
+        "Fine wine in golden cups;",
+        "rare food on jade plates."
+      ],
+      "action": "Raise the cup, taste the feast",
+      "caption": "Clear wine catches the lamplight; fine dishes fill the table.  Yet abundance cannot dispel the shadow in the heart.",
+      "narration": "Fine wine in golden cups costs ten thousand a measure; rare food on jade plates is worth a fortune. Raise the cup, lower it gently, and taste a morsel. This brief banquet prelude makes the coming hesitation more poignant.",
+      "explanation": "Fine wine in golden cups costs ten thousand a measure; rare food on jade plates is worth a fortune. Raise the cup, lower it gently, and taste a morsel. This brief banquet prelude makes the coming hesitation more poignant."
+    },
+    "intro": {
+      "zh": "清酒映灯，珍馐满席。|眼前的丰盛，照不亮心底的阴影。",
+      "en": "Clear wine catches the lamplight; fine dishes fill the table. | Yet abundance cannot dispel the shadow in the heart."
+    },
+    "cues": [
+      {
+        "at": 0.02,
+        "key": "cup",
+        "zh": "金樽清酒，斗十千。",
+        "en": "Clear wine in golden cups, ten thousand coins a measure.",
+        "reading": {
+          "zh": "一个“金”字，先写器物的华美；酒价极言其贵，盛情也随之可见。",
+          "en": "The golden vessel establishes the feast’s splendour. Its extravagant price magnifies the value of the wine and the generosity of the occasion."
+        }
+      },
+      {
+        "at": 0.37,
+        "key": "taste",
+        "zh": "玉盘珍羞，直万钱。",
+        "en": "Fine delicacies on jade plates, worth ten thousand more.",
+        "reading": {
+          "zh": "珍羞，是珍贵的美味。“万钱”与“十千”相映，把筵席的丰盛推到眼前。",
+          "en": "These are rare delicacies. The two immense prices echo each other, making the abundance of the banquet almost tangible."
+        }
+      },
+      {
+        "at": 0.7,
+        "key": "swallow",
+        "zh": "珍馐入口，心事难消。",
+        "en": "A taste of fine food. | Yet the troubled heart finds no ease.",
+        "reading": {
+          "zh": "这一口浅尝，是我们入诗的铺垫。满席滋味，终究难解心中郁结。",
+          "en": "This brief taste is our imagined prelude to the verse. The table offers every pleasure, yet the heart remains troubled."
+        }
+      }
+    ],
+    "baseDuration": 24,
+    "palette": [
+      "#e8be73",
+      "#b76e51"
+    ],
+    "spokenIntro": {
+      "zh": "清酒映灯，珍馐满席。|主人待客的盛意，都在这一案之间；而诗人的心，似乎另有所系。",
+      "en": "Clear wine catches the lamplight; fine dishes fill the table. | The feast speaks of a host’s generosity, yet the poet’s thoughts are elsewhere."
+    }
+  },
+  {
+    "chapter": 0,
+    "bg": "v2-banquet-table",
+    "world": "banquet",
+    "scene": "banquet",
+    "source": "xing",
+    "title": [
+      "停杯投箸",
+      "不能食。"
+    ],
+    "action": "欲食又止，停杯投箸",
+    "motion": "drop",
+    "caption": "灯影未动，心绪已乱。",
+    "narration": "停杯投箸不能食。箸至半途，忽然停住。心事重重，难以下咽。放下，便不再举起。",
+    "explanation": "停杯投箸不能食。不是食物不美，而是忧思使人难以下咽。停杯、投箸这两个动作，把无形的心事变成了可见的停顿。",
+    "voice": 3,
+    "sub": "",
+    "label": "《行路难·其一》",
+    "initialCup": 0,
+    "en": {
+      "title": [
+        "I set down my cup and cast aside my chopsticks;",
+        "I cannot eat."
+      ],
+      "action": "Hesitate, then set them down",
+      "caption": "The lamplight is still.  The heart is restless.",
+      "narration": "I set down my cup and cast aside my chopsticks; I cannot eat. The hand hesitates before the food reaches the mouth. No further bite is taken. These interrupted gestures make sorrow visible.",
+      "explanation": "I set down my cup and cast aside my chopsticks; I cannot eat. The hand hesitates before the food reaches the mouth. No further bite is taken. These interrupted gestures make sorrow visible."
+    },
+    "intro": {
+      "zh": "灯影未动，心绪已乱。",
+      "en": "The lamplight is still. | The heart is restless."
+    },
+    "cues": [
+      {
+        "at": 0.03,
+        "key": "hesitate",
+        "zh": "停杯。",
+        "en": "I set down my cup.",
+        "reading": {
+          "zh": "杯在手中，却无心再饮。动作忽然顿住，繁华与愁绪，便隔在了这一停之间。",
+          "en": "The cup is close at hand, but the wish to drink has gone. In this arrested gesture, outward splendour meets inward sorrow."
+        }
+      },
+      {
+        "at": 0.54,
+        "key": "stop",
+        "zh": "投箸，不能食。",
+        "en": "I cast aside my chopsticks. | I cannot eat.",
+        "reading": {
+          "zh": "并非佳肴不美，而是心事难平。箸落案头，无须直说愁苦，愁苦已然可见。",
+          "en": "The food has lost none of its richness. It is the troubled heart that cannot accept it. The fallen chopsticks give sorrow a visible form."
+        }
+      }
+    ],
+    "baseDuration": 11,
+    "palette": [
+      "#e8be73",
+      "#b76e51"
+    ],
+    "spokenIntro": {
+      "zh": "灯影未动，心绪已乱。|满席佳肴依旧，先前的从容，却渐渐留不住了。",
+      "en": "The lamplight is still; the heart is restless. | The feast has not changed, but its guest can no longer feel at ease."
+    }
+  },
+  {
+    "chapter": 0,
+    "bg": "v2-sword-hall",
+    "world": "banquet",
+    "scene": "banquet",
+    "source": "xing",
+    "title": [
+      "拔剑四顾",
+      "心茫然。"
+    ],
+    "action": "拔剑四顾，举剑问途",
+    "motion": "sword",
+    "caption": "满堂繁华，忽然退成寂静。",
+    "narration": "拔剑四顾，心茫然。剑已出鞘，去路何方？",
+    "explanation": "拔剑四顾心茫然。拔剑是激烈的动作，茫然却是无处着力的内心。这里没有对手，剑锋指向的是难以排解的困惑。",
+    "voice": 4,
+    "sub": "",
+    "label": "《行路难·其一》",
+    "autoNext": true,
+    "en": {
+      "title": [
+        "I draw my sword and look around,",
+        "my heart bewildered."
+      ],
+      "action": "Draw the sword and look around",
+      "caption": "The splendour of the hall recedes into silence.",
+      "narration": "I draw my sword and look around, my heart bewildered. The blade is drawn; where does the road lead?",
+      "explanation": "I draw my sword and look around, my heart bewildered. The blade is drawn; where does the road lead?"
+    },
+    "intro": {
+      "zh": "满堂繁华，忽然退成寂静。",
+      "en": "The splendour of the hall recedes into silence."
+    },
+    "cues": [
+      {
+        "at": 0.04,
+        "key": "draw",
+        "zh": "拔剑。",
+        "en": "I draw my sword.",
+        "reading": {
+          "zh": "胸中的不平，化作这一拔。剑锋虽出，心中仍寻不到可以施展的方向。",
+          "en": "The drawn blade gives shape to an agitated spirit. Yet resolve alone cannot reveal where that strength should be directed."
+        }
+      },
+      {
+        "at": 0.42,
+        "key": "gaze",
+        "zh": "四顾。|心茫然。",
+        "en": "I look about me. | My heart is lost.",
+        "reading": {
+          "zh": "举目四望，却无所适从。这一刻，有想要有所作为的力量，也有无路可行的迷惘。",
+          "en": "The gaze searches every direction and finds no answer. The desire to act remains strong, but it cannot yet find a path."
+        }
+      }
+    ],
+    "baseDuration": 14,
+    "palette": [
+      "#e8be73",
+      "#b76e51"
+    ],
+    "spokenIntro": {
+      "zh": "满堂繁华，忽然退成寂静。|心中的不甘，还在寻找一个出口。",
+      "en": "The splendour of the hall recedes into silence. | An unyielding spirit is still searching for a way forward."
+    }
+  },
+  {
+    "chapter": 0,
+    "bg": "palace-balcony",
+    "world": "banquet",
+    "scene": "banquet",
+    "source": "bridge",
+    "title": [
+      "四顾茫茫，",
+      "去路何方。"
+    ],
+    "action": "四顾天地",
+    "motion": "four-views",
+    "caption": "夜色四合。天地虽阔，去路未明。",
+    "narration": "向四周望去，席外是另一番景象。金樽、珍羞和长剑，都不能回答眼下的去路。诗中的视线，随之转向冰封的河川。",
+    "explanation": "向四周望去，席外是另一番景象。金樽、珍羞和长剑，都不能回答眼下的去路。诗中的视线，随之转向冰封的河川。",
+    "voice": 5,
+    "sub": "",
+    "label": "《行路难·其一》",
+    "initialSword": 0,
+    "vista": null,
+    "pan": 0,
+    "en": {
+      "title": [
+        "Beyond the feast,",
+        "which way now?"
+      ],
+      "action": "Look in every direction",
+      "caption": "Night closes in.  The world is vast, but the way ahead is unclear.",
+      "narration": "Outside the feast, the city offers no answer. The poet’s bewilderment now unfolds into images of frozen rivers and mountains buried in snow.",
+      "explanation": "Outside the feast, the city offers no answer. The poet’s bewilderment now unfolds into images of frozen rivers and mountains buried in snow."
+    },
+    "views": [
+      "v2-empty-corridor",
+      "v2-night-eaves",
+      "v2-city-east",
+      "v2-stone-courtyard"
+    ],
+    "intro": {
+      "zh": "夜色四合。|天地虽阔，去路未明。",
+      "en": "Night closes in. | The world is vast, but the way ahead is unclear."
+    },
+    "cues": [
+      {
+        "at": 0.03,
+        "key": "left",
+        "zh": "廊下无人。",
+        "en": "No one in the corridor.",
+        "reading": {
+          "zh": "目光向左，只有层层廊影。四顾，是寻路，也是心中反复的追问。",
+          "en": "To the left, corridor follows corridor. This searching gaze turns an outward movement into an inward question."
+        }
+      },
+      {
+        "at": 0.26,
+        "key": "up",
+        "zh": "抬眼，是一庭清月。",
+        "en": "Looking up, I find a courtyard filled with moonlight.",
+        "reading": {
+          "zh": "天宇如此开阔，人的心却仍有阻隔。高处的光，并没有立刻回答眼前的迷惘。",
+          "en": "The sky is open and immense, yet the heart still feels confined. Its light offers no immediate answer to the uncertainty below."
+        }
+      },
+      {
+        "at": 0.51,
+        "key": "right",
+        "zh": "回首，灯火已远。",
+        "en": "Looking back, the lamplight seems far away.",
+        "reading": {
+          "zh": "万家灯色依然，自己的去向却未可知。眼前虽有繁华，心中还缺一个方向。",
+          "en": "The city’s lights remain, but one traveller’s destination is unknown. There is splendour to see, and still no certain way to follow."
+        }
+      },
+      {
+        "at": 0.76,
+        "key": "down",
+        "zh": "俯看，归路仍空。",
+        "en": "Looking down, the way home is still empty.",
+        "reading": {
+          "zh": "脚下的路默然延伸。景色换了，未解的心事仍在；这便是我们对“心茫然”的回望。",
+          "en": "The path extends silently below. The view has changed, but the question remains. This imagined passage dwells on the poem’s bewildered heart."
+        }
+      }
+    ],
+    "baseDuration": 25,
+    "palette": [
+      "#bed0b0",
+      "#dfc089"
+    ],
+    "spokenIntro": {
+      "zh": "夜色四合，天地虽阔，去路未明。|且随这未定的目光，在远近高低之间，听一听心中的回声。",
+      "en": "Night closes in. The world is vast, but the way ahead is unclear. | Follow the searching gaze, near and far, high and low, and hear the heart’s unanswered question."
+    }
+  },
+  {
+    "chapter": 1,
+    "bg": "ice-river",
+    "world": "ice",
+    "scene": "ice",
+    "source": "xing",
+    "title": [
+      "欲渡黄河",
+      "冰塞川。"
+    ],
+    "action": "走近冰封的河岸",
+    "motion": "ice-step",
+    "caption": "长河横亘，寒气迎面。",
+    "narration": "欲渡黄河冰塞川。欲渡与冰塞相对，一边是向前的愿望，一边是迎面的阻碍。冰河既是壮阔的想象，也是人生受阻的象征。",
+    "explanation": "欲渡黄河冰塞川。欲渡与冰塞相对，一边是向前的愿望，一边是迎面的阻碍。冰河既是壮阔的想象，也是人生受阻的象征。",
+    "voice": 6,
+    "sub": "",
+    "label": "《行路难·其一》",
+    "vista": "ice-detail",
+    "en": {
+      "title": [
+        "I would cross the Yellow River,",
+        "but ice blocks its waters."
+      ],
+      "action": "Approach the frozen bank",
+      "caption": "A great river bars the way.  The cold meets us head on.",
+      "narration": "I would cross the Yellow River, but ice blocks its waters. The wish to advance meets a barrier. Look down at the broken layers of ice: the river becomes an image of a life obstructed.",
+      "explanation": "I would cross the Yellow River, but ice blocks its waters. The wish to advance meets a barrier. Look down at the broken layers of ice: the river becomes an image of a life obstructed."
+    },
+    "intro": {
+      "zh": "长河横亘，寒气迎面。",
+      "en": "A great river bars the way. | The cold meets us head on."
+    },
+    "cues": [
+      {
+        "at": 0.06,
+        "key": "river",
+        "zh": "欲渡黄河。|冰塞川。",
+        "en": "I would cross the Yellow River. | Ice blocks its course.",
+        "reading": {
+          "zh": "“欲渡”，是心有所往；“冰塞”，却将这份愿望拦住。难渡的河，也是理想受阻的心境。",
+          "en": "The wish to cross expresses purpose; the blocking ice frustrates it. This imagined river makes an inward obstacle visible."
+        }
+      }
+    ],
+    "baseDuration": 10,
+    "palette": [
+      "#a7e6ed",
+      "#b6c9e7"
+    ],
+    "spokenIntro": {
+      "zh": "长河横亘，寒气迎面。|方才席间的心事，在想象中，化成了一条难渡的河。",
+      "en": "A great river bars the way, and cold meets us head on. | The trouble felt at the banquet now takes shape as a river that cannot be crossed."
+    }
+  },
+  {
+    "chapter": 1,
+    "bg": "snow-mountain",
+    "world": "snow",
+    "scene": "snow",
+    "source": "xing",
+    "title": [
+      "将登太行",
+      "雪满山。"
+    ],
+    "action": "迎着风雪，抬眼望山",
+    "motion": "snow-look",
+    "caption": "太行苍茫，风雪无边。",
+    "narration": "将登太行雪满山。河川被冰封，山路又被雪遮。将登与雪满再次相对，前路之难从水面延伸到山峰。",
+    "explanation": "将登太行雪满山。河川被冰封，山路又被雪遮。将登与雪满再次相对，前路之难从水面延伸到山峰。",
+    "voice": 7,
+    "sub": "",
+    "label": "《行路难·其一》",
+    "vista": "snow-up",
+    "en": {
+      "title": [
+        "I would climb the Taihang Mountains,",
+        "but snow fills their heights."
+      ],
+      "action": "Look up through the snow",
+      "caption": "The Taihang Mountains stretch into a boundless storm.",
+      "narration": "I would climb the Taihang Mountains, but snow fills their heights. The river is frozen; the mountain road is buried. The repeated contrast between intention and obstacle deepens the sense of frustration.",
+      "explanation": "I would climb the Taihang Mountains, but snow fills their heights. The river is frozen; the mountain road is buried. The repeated contrast between intention and obstacle deepens the sense of frustration."
+    },
+    "intro": {
+      "zh": "太行苍茫，风雪无边。",
+      "en": "The Taihang Mountains stretch into a boundless storm."
+    },
+    "cues": [
+      {
+        "at": 0.06,
+        "key": "snow",
+        "zh": "将登太行。|雪满山。",
+        "en": "I would climb the Taihang Mountains. | Snow fills their heights.",
+        "reading": {
+          "zh": "“将登”，又一次向前；“雪满”，又一重阻隔。冰与雪相接，写尽进退维谷，却未写尽求索之心。",
+          "en": "Again comes the wish to advance; again, a barrier. Ice and snow deepen the sense of frustration, while the desire to seek a way remains."
+        }
+      }
+    ],
+    "baseDuration": 10,
+    "palette": [
+      "#a7e6ed",
+      "#b6c9e7"
+    ],
+    "spokenIntro": {
+      "zh": "太行苍茫，风雪无边。|河川之外，又一重高山立在前路。",
+      "en": "The Taihang Mountains stretch into a boundless storm. | Beyond the river, another barrier rises on the road ahead."
+    }
+  },
+  {
+    "chapter": 1,
+    "bg": "stone-trail",
+    "world": "trail",
+    "scene": "trail",
+    "source": "xing",
+    "title": [
+      "行路难！行路难！",
+      "多歧路，今安在？"
+    ],
+    "action": "沿石路，向山中去",
+    "motion": "walk",
+    "caption": "山路到了分岔处。远近，皆是未卜之途。",
+    "narration": "行路难，行路难，多歧路，今安在？短句连用，像急促的发问。接下来，让我们转入蜀道难，看看另一首诗如何把难写进山川。",
+    "explanation": "行路难，行路难，多歧路，今安在？短句连用，像急促的发问。接下来，让我们转入蜀道难，看看另一首诗如何把难写进山川。",
+    "voice": 8,
+    "sub": "",
+    "label": "《行路难·其一》",
+    "steps": 1,
+    "vista": "trail-detail",
+    "pan": 1,
+    "en": {
+      "title": [
+        "Hard is the road! So hard!",
+        "So many turnings—where is the way?"
+      ],
+      "action": "Follow the stone path",
+      "caption": "The mountain path divides.  Near or far, every road is uncertain.",
+      "narration": "Hard is the road! So many turnings, where is the way? The short phrases sound like urgent questions. We now turn to The Hard Road to Shu, where difficulty takes the form of an immense mountain landscape.",
+      "explanation": "Hard is the road! So many turnings, where is the way? The short phrases sound like urgent questions. We now turn to The Hard Road to Shu, where difficulty takes the form of an immense mountain landscape."
+    },
+    "intro": {
+      "zh": "山路到了分岔处。|远近，皆是未卜之途。",
+      "en": "The mountain path divides. | Near or far, every road is uncertain."
+    },
+    "cues": [
+      {
+        "at": 0.07,
+        "key": "roads",
+        "zh": "行路难！|行路难！|多歧路，今安在？",
+        "en": "Hard is the road! | Hard is the road! | So many paths. Where is my way now?",
+        "reading": {
+          "zh": "短句接连而来，像欲行又止的脚步。“今安在”，问路在何方，也问人生该向何处。",
+          "en": "The brief cries break the rhythm like footsteps starting and stopping. The question asks where the road lies, and where a life may turn."
+        }
+      }
+    ],
+    "baseDuration": 14,
+    "palette": [
+      "#bed0b0",
+      "#dfc089"
+    ],
+    "spokenIntro": {
+      "zh": "山路到了分岔处，远近皆是未卜之途。|越想向前，越觉脚下难以抉择。",
+      "en": "The mountain path divides. Near or far, every road is uncertain. | The stronger the wish to go forward, the harder it is to choose a way."
+    }
+  },
+  {
+    "chapter": 2,
+    "bg": "v2-ascent-cleft",
+    "world": "trail",
+    "scene": "trail",
+    "source": "shu",
+    "title": [
+      "噫吁嚱，",
+      "危乎高哉！"
+    ],
+    "action": "仰望峰顶",
+    "motion": "up-vista",
+    "caption": "别却席间心事，迎面已是蜀山。",
+    "narration": "噫吁嚱，危乎高哉！蜀道之难，难于上青天。危在这里是高。连续的叹词与夸张，把人的渺小和山的高峻同时推到眼前。",
+    "explanation": "噫吁嚱，危乎高哉！蜀道之难，难于上青天。危在这里是高。连续的叹词与夸张，把人的渺小和山的高峻同时推到眼前。",
+    "voice": 9,
+    "sub": "",
+    "label": "《蜀道难》",
+    "vista": "summit-up",
+    "en": {
+      "title": [
+        "Ah! How perilous,",
+        "how high!"
+      ],
+      "action": "Look towards the summit",
+      "caption": "We leave the troubled banquet behind.  The mountains of Shu rise before us.",
+      "narration": "Ah, how perilous, how high! The road to Shu is harder than climbing to the blue sky. The exclamation and exaggeration place human smallness against towering mountains.",
+      "explanation": "Ah, how perilous, how high! The road to Shu is harder than climbing to the blue sky. The exclamation and exaggeration place human smallness against towering mountains."
+    },
+    "intro": {
+      "zh": "别却席间心事，迎面已是蜀山。",
+      "en": "We leave the troubled banquet behind. | The mountains of Shu rise before us."
+    },
+    "cues": [
+      {
+        "at": 0.05,
+        "key": "height",
+        "zh": "噫吁嚱！|危乎高哉！|蜀道之难，难于上青天。",
+        "en": "Ah! | So perilous, so high! | The road to Shu is harder than climbing the blue heavens.",
+        "reading": {
+          "zh": "还未细说山川，惊叹已经夺声而出。以登天来比蜀道，夸张的想象，让险峻扑面而来。",
+          "en": "Before any measured description, astonishment bursts out. Comparing this road with climbing heaven makes its peril immediate and overwhelming."
+        }
+      }
+    ],
+    "baseDuration": 16,
+    "palette": [
+      "#bed0b0",
+      "#dfc089"
+    ],
+    "spokenIntro": {
+      "zh": "别却席间心事，迎面已是蜀山。|此刻，且换听《蜀道难》的声音：一声惊叹，便将天地撑开。",
+      "en": "We leave the troubled banquet behind, and the mountains of Shu rise before us. | Now listen to The Hard Road to Shu: its opening cry expands the world before our eyes."
+    }
+  },
+  {
+    "chapter": 2,
+    "bg": "stone-stair",
+    "world": "trail",
+    "scene": "trail",
+    "source": "shu",
+    "title": [
+      "地崩山摧壮士死，",
+      "然后天梯石栈相钩连。"
+    ],
+    "action": "踏上相连的石阶",
+    "motion": "walk",
+    "caption": "古道藏在崖壁间，石色记着开山的往事。",
+    "narration": "地崩山摧壮士死，然后天梯石栈相钩连。诗人借开山传说，写道路开通的艰难。此处以依山延伸的石路表现相钩连，山体承托着每一步。",
+    "explanation": "地崩山摧壮士死，然后天梯石栈相钩连。诗人借开山传说，写道路开通的艰难。此处以依山延伸的石路表现相钩连，山体承托着每一步。",
+    "voice": 10,
+    "sub": "",
+    "label": "《蜀道难》",
+    "steps": 1,
+    "vista": "stone-landing",
+    "pan": 1,
+    "en": {
+      "title": [
+        "The earth split; the strong men fell.",
+        "Then skyward stairs and cliff paths joined."
+      ],
+      "action": "Climb to the stone landing",
+      "caption": "An ancient path clings to the cliff.  Its stones remember the opening of the mountains.",
+      "narration": "The earth split and mountains crumbled; the strong men died. Then skyward stairs and cliff paths were joined. An ancient legend evokes the immense cost of opening the road. Follow the connected stonework around the mountain.",
+      "explanation": "The earth split and mountains crumbled; the strong men died. Then skyward stairs and cliff paths were joined. An ancient legend evokes the immense cost of opening the road. Follow the connected stonework around the mountain."
+    },
+    "intro": {
+      "zh": "古道藏在崖壁间，石色记着开山的往事。",
+      "en": "An ancient path clings to the cliff. | Its stones remember the opening of the mountains."
+    },
+    "cues": [
+      {
+        "at": 0.06,
+        "key": "path",
+        "zh": "地崩山摧壮士死。|然后，天梯石栈相钩连。",
+        "en": "Earth split, mountains crumbled, and the brave men died. | Only then did skyward ladders and cliff paths link the way.",
+        "reading": {
+          "zh": "这是五丁开山的传说，不是实录。诗人借神话写开路之艰；抬眼再看，石栈才沿着崖壁相接。",
+          "en": "This is the legend of the five strongmen, not a historical report. Myth evokes the terrible cost of opening a passage; the cliff paths emerge from that imagined upheaval."
+        }
+      }
+    ],
+    "baseDuration": 17,
+    "palette": [
+      "#bed0b0",
+      "#dfc089"
+    ],
+    "spokenIntro": {
+      "zh": "古道藏在崖壁间，石色苍苍。|脚下的通途并非从来便有，诗人把它的开辟，写进了古老传说。",
+      "en": "An ancient path clings to the grey cliff. | This passage did not always exist. The poet imagines its opening through an ancient legend."
+    }
+  },
+  {
+    "chapter": 2,
+    "bg": "v2-sun-chariot",
+    "world": "trail",
+    "scene": "trail",
+    "source": "shu",
+    "title": [
+      "上有六龙回日之高标，",
+      "下有冲波逆折之回川。"
+    ],
+    "action": "俯身，望向深谷",
+    "motion": "sun-river",
+    "caption": "云端是日月，足下是江流。",
+    "narration": "上有六龙回日之高标，下有冲波逆折之回川。视线从峰顶落向谷底，上下对举，山高水急共同构成蜀道的险。",
+    "explanation": "上有六龙回日之高标，下有冲波逆折之回川。视线从峰顶落向谷底，上下对举，山高水急共同构成蜀道的险。",
+    "voice": 11,
+    "sub": "",
+    "label": "《蜀道难》",
+    "vista": "gorge-down",
+    "en": {
+      "title": [
+        "Above, peaks turn back the sun’s dragon chariot;",
+        "below, wild currents twist and surge."
+      ],
+      "action": "Look down into the gorge",
+      "caption": "Above the clouds, the sun and moon.  Beneath our feet, the river.",
+      "narration": "Above stand peaks that turn back the sun’s dragon chariot; below, rushing currents twist and surge. The paired directions, above and below, make height and danger felt in a single sweep of vision.",
+      "explanation": "Above stand peaks that turn back the sun’s dragon chariot; below, rushing currents twist and surge. The paired directions, above and below, make height and danger felt in a single sweep of vision."
+    },
+    "intro": {
+      "zh": "云端是日月，足下是江流。",
+      "en": "Above the clouds, the sun and moon. | Beneath our feet, the river."
+    },
+    "cues": [
+      {
+        "at": 0.04,
+        "key": "high",
+        "zh": "上有六龙回日之高标。",
+        "en": "Above, a peak so high that the sun’s six dragons turn their chariot back.",
+        "reading": {
+          "zh": "神话中的日车由六龙驾驭，到了这里，也仿佛要回转。山峰之高，已超出寻常尺度。",
+          "en": "In myth, six dragons draw the sun’s chariot. Even they seem forced to turn here. The mountain’s height exceeds every ordinary measure."
+        }
+      },
+      {
+        "at": 0.52,
+        "key": "low",
+        "zh": "下有冲波逆折之回川。",
+        "en": "Below, a river turns back upon itself in surging waves.",
+        "reading": {
+          "zh": "目光从天际落入深谷，回旋的激流与高峰相对。一个“上”，一个“下”，把蜀道的险写满天地。",
+          "en": "Our gaze falls from the sky into the gorge. The turning torrent answers the towering peak: above and below, peril fills the landscape."
+        }
+      }
+    ],
+    "baseDuration": 20,
+    "palette": [
+      "#f8d797",
+      "#98d9d4"
+    ],
+    "spokenIntro": {
+      "zh": "云端是日月，足下是江流。|山的高，水的险，即将在一仰一俯之间相逢。",
+      "en": "Above the clouds, the sun; beneath our feet, the river. | Height and danger meet as our gaze turns from the sky towards the depths."
+    }
+  },
+  {
+    "chapter": 2,
+    "bg": "trail-bend",
+    "world": "trail",
+    "scene": "trail",
+    "source": "shu",
+    "title": [
+      "青泥何盘盘，",
+      "百步九折萦岩峦。"
+    ],
+    "action": "沿山路再走一步",
+    "motion": "walk",
+    "caption": "青泥岭上，来路渐隐。",
+    "narration": "青泥何盘盘，百步九折萦岩峦。盘盘写盘旋，九折极写曲折。脚步不必急，注意石路如何贴着岩壁延伸。",
+    "explanation": "青泥何盘盘，百步九折萦岩峦。盘盘写盘旋，九折极写曲折。脚步不必急，注意石路如何贴着岩壁延伸。",
+    "voice": 12,
+    "sub": "",
+    "label": "《蜀道难》",
+    "steps": 1,
+    "vista": "cloud-bend",
+    "pan": 1,
+    "en": {
+      "title": [
+        "How the Qingni road coils!",
+        "A hundred steps, nine turns around the cliffs."
+      ],
+      "action": "Round the next bend",
+      "caption": "On Qingni Ridge, the path behind us fades from sight.",
+      "narration": "How the Qingni road coils! A hundred steps, nine turns around the cliffs. The repeated turns exaggerate the road’s winding course. Each bend reveals a different relation between cliff, path and valley.",
+      "explanation": "How the Qingni road coils! A hundred steps, nine turns around the cliffs. The repeated turns exaggerate the road’s winding course. Each bend reveals a different relation between cliff, path and valley."
+    },
+    "intro": {
+      "zh": "青泥岭上，来路渐隐。",
+      "en": "On Qingni Ridge, the path behind us fades from sight."
+    },
+    "cues": [
+      {
+        "at": 0.06,
+        "key": "bends",
+        "zh": "青泥何盘盘。|百步九折萦岩峦。",
+        "en": "How Qingni twists and winds! | In a hundred paces, nine turns coil around the rocky peaks.",
+        "reading": {
+          "zh": "“九折”极写曲折，并非要我们数清弯道。山路缠绕岩峦，行人的步履，也被一次次牵回。",
+          "en": "The many turns emphasise the path’s winding course, rather than give an exact count. Each bend draws the traveller back around another fold of rock."
+        }
+      }
+    ],
+    "baseDuration": 14,
+    "palette": [
+      "#bed0b0",
+      "#dfc089"
+    ],
+    "spokenIntro": {
+      "zh": "青泥岭上，来路渐隐。|岩峦层层相叠，仿佛没有一段路，肯直直地通向远方。",
+      "en": "On Qingni Ridge, the path behind us fades. | Rocky folds rise one beyond another; no stretch of road seems willing to run straight towards the distance."
+    }
+  },
+  {
+    "chapter": 2,
+    "bg": "stars-bg",
+    "world": "stars",
+    "scene": "stars",
+    "source": "shu",
+    "title": [
+      "扪参历井仰胁息，",
+      "以手抚膺坐长叹。"
+    ],
+    "action": "缓缓抬手，再抚膺长叹",
+    "motion": "reach-breathe",
+    "caption": "夜空低垂，万籁俱寂。",
+    "narration": "扪参历井仰胁息，以手抚膺坐长叹。摸到星宿是极言山高的想象；屏息、抚胸、长叹，则让险途落回身体的感受。",
+    "explanation": "扪参历井仰胁息，以手抚膺坐长叹。参、井是星宿名；扪是摸，膺是胸，坐在这里是徒然。诗人夸张地写山高近星，又以屏息、抚胸、长叹写行人的惊惧。伸向星空的手回到胸前，让浩瀚山川与人的感受相接。",
+    "voice": 13,
+    "sub": "",
+    "label": "《蜀道难》",
+    "en": {
+      "title": [
+        "Touching the stars, I look up, breath held;",
+        "hand upon my chest, I can only sigh."
+      ],
+      "action": "Reach for the stars, then breathe",
+      "caption": "The night sky hangs low.  Every sound is stilled.",
+      "narration": "Touching the stars, I look up with breath held; hand upon my chest, I can only sigh. Reaching the constellations is an exaggeration of height. The held breath and long sigh bring that vastness back into the body.",
+      "explanation": "Reaching past the stars of Shen and Jing, I look up and hold my breath. With a hand upon my chest, I can only sigh. Shen and Jing are constellations. Seeming to touch them is an exaggeration of height; the held breath, hand on the chest and long sigh convey the traveller’s fear. Here zuo means in vain, not sitting down."
+    },
+    "intro": {
+      "zh": "夜空低垂，万籁俱寂。",
+      "en": "The night sky hangs low. | Every sound is stilled."
+    },
+    "cues": [
+      {
+        "at": 0.02,
+        "key": "stars",
+        "zh": "扪参历井，仰胁息。",
+        "en": "Reaching past the stars of Shen and Jing, I look up and hold my breath.",
+        "reading": {
+          "zh": "参、井，是星宿之名。仿佛伸手可触，写山之高；仰头不敢呼吸，又把惊险写进了人的身体。",
+          "en": "Shen and Jing are constellations. To seem close enough to touch them conveys immense height; the held breath makes that height a bodily fear."
+        }
+      },
+      {
+        "at": 0.64,
+        "key": "sigh",
+        "zh": "以手抚膺，坐长叹。",
+        "en": "With a hand upon my chest, I can only sigh.",
+        "reading": {
+          "zh": "“膺”是胸口，“坐”在这里是徒然。手抚胸前，只能长叹；方才的浩瀚，终于落成一声人的叹息。",
+          "en": "The hand returns to the chest. Here the Chinese word zuo means in vain, not sitting down. Beneath the vast sky, the traveller can only heave a long sigh."
+        }
+      }
+    ],
+    "baseDuration": 19,
+    "palette": [
+      "#c5b6ff",
+      "#edda99"
+    ],
+    "spokenIntro": {
+      "zh": "夜空低垂，万籁俱寂。|山势高到何处，且听诗人如何把人的身影，放到星辰之间。",
+      "en": "The night sky hangs low, and every sound is stilled. | How high are these mountains? Listen as the poet places a human figure among the stars."
+    }
+  },
+  {
+    "chapter": 3,
+    "bg": "moon",
+    "world": "forest",
+    "scene": "forest",
+    "source": "shu",
+    "title": [
+      "但见悲鸟号古木，",
+      "雄飞雌从绕林间。"
+    ],
+    "action": "提起灯，循声望去",
+    "motion": "lantern",
+    "caption": "林深处，枝影交错。",
+    "narration": "但见悲鸟号古木，雄飞雌从绕林间。提起灯，鸟影从枝间飞出。诗人写的不只是所见，也让悲鸣把旅途的孤寂传进耳中。",
+    "explanation": "但见悲鸟号古木，雄飞雌从绕林间。提起灯，鸟影从枝间飞出。诗人写的不只是所见，也让悲鸣把旅途的孤寂传进耳中。",
+    "voice": 14,
+    "sub": "",
+    "label": "《蜀道难》",
+    "vista": "forest-distance",
+    "initialLamp": 0,
+    "pan": 1,
+    "en": {
+      "title": [
+        "Sorrowful birds cry in ancient trees;",
+        "one flies, its mate follows through the woods."
+      ],
+      "action": "Lift the lantern and look afar",
+      "caption": "Deep in the forest, shadows of branches intertwine.",
+      "narration": "Sorrowful birds cry in ancient trees; one flies, its mate follows through the woods. Lift the lantern and follow the sound. Light reveals the near branches, while the distant valley remains quiet and dark.",
+      "explanation": "Sorrowful birds cry in ancient trees; one flies, its mate follows through the woods. Lift the lantern and follow the sound. Light reveals the near branches, while the distant valley remains quiet and dark."
+    },
+    "intro": {
+      "zh": "林深处，枝影交错。",
+      "en": "Deep in the forest, shadows of branches intertwine."
+    },
+    "cues": [
+      {
+        "at": 0.03,
+        "key": "light",
+        "zh": "但见悲鸟，号古木。",
+        "en": "Only sorrowing birds cry among ancient trees.",
+        "reading": {
+          "zh": "古木深深，鸟声凄切。一个“悲”字，让本来无情的山林，染上行人心中的愁。",
+          "en": "Ancient trees surround a mournful call. The word sorrowing colours the forest with the traveller’s own unease."
+        }
+      },
+      {
+        "at": 0.46,
+        "key": "distance",
+        "zh": "雄飞雌从，绕林间。",
+        "en": "The male flies; the female follows, circling through the woods.",
+        "reading": {
+          "zh": "鸟影成双，来回绕林；行人却置身陌生的山路。声音与身影，使这片幽深更添孤寂。",
+          "en": "The birds move together among the trees, while the traveller faces an unfamiliar road. Their calls and circling forms deepen the sense of solitude."
+        }
+      }
+    ],
+    "baseDuration": 18,
+    "palette": [
+      "#c7dcff",
+      "#83bcb2"
+    ],
+    "spokenIntro": {
+      "zh": "林深处，枝影交错。|天色暗了，山中的声音，反而一声声清晰起来。",
+      "en": "Deep in the forest, shadows of branches intertwine. | As the light fades, the sounds of the mountains grow strangely clear."
+    }
+  },
+  {
+    "chapter": 3,
+    "bg": "v3-cuckoo-forest",
+    "world": "forest",
+    "scene": "forest",
+    "source": "shu",
+    "title": [
+      "又闻子规啼夜月，",
+      "愁空山。"
+    ],
+    "action": "抬头，穿过树冠望月",
+    "motion": "moon-vista",
+    "caption": "一轮寒月，照着无人的山径。",
+    "narration": "又闻子规啼夜月，愁空山。视线升向树冠和月亮，鸟鸣仍在。一个愁字，把空山的清冷染上人的感情。",
+    "explanation": "又闻子规啼夜月，愁空山。视线升向树冠和月亮，鸟鸣仍在。一个愁字，把空山的清冷染上人的感情。",
+    "voice": 15,
+    "sub": "",
+    "label": "《蜀道难》",
+    "initialLamp": 0,
+    "vista": "moon-canopy",
+    "en": {
+      "title": [
+        "Again, a cuckoo calls beneath the moon—",
+        "sorrow fills the empty mountain."
+      ],
+      "action": "Look through the canopy",
+      "caption": "A cold moon shines upon a deserted mountain path.",
+      "narration": "Again, a cuckoo calls beneath the moon; sorrow fills the empty mountain. Looking up changes the entire scene. The bird’s call carries human feeling into the mountain’s emptiness.",
+      "explanation": "Again, a cuckoo calls beneath the moon; sorrow fills the empty mountain. Looking up changes the entire scene. The bird’s call carries human feeling into the mountain’s emptiness."
+    },
+    "intro": {
+      "zh": "一轮寒月，照着无人的山径。",
+      "en": "A cold moon shines upon a deserted mountain path."
+    },
+    "cues": [
+      {
+        "at": 0.18,
+        "key": "moon",
+        "zh": "又闻子规，啼夜月。|愁，空山。",
+        "en": "And the cuckoo calls beneath the moon. | Sorrow fills the empty mountains.",
+        "reading": {
+          "zh": "子规，便是杜鹃。啼声传过山谷，越有回音，越觉空寂；诗人的愁，也随着这一声，落满空山。",
+          "en": "Zigui is a cuckoo. Its call crosses the valley; the echo makes the emptiness more distinct. Through that sound, sorrow seems to fill the mountains."
+        }
+      }
+    ],
+    "baseDuration": 18,
+    "palette": [
+      "#c7dcff",
+      "#83bcb2"
+    ],
+    "spokenIntro": {
+      "zh": "一轮寒月，照着无人的山径。|且听，寂静里有什么声音，正从林间传来。",
+      "en": "A cold moon lights a deserted mountain path. | Listen. Something is calling through the stillness of the trees."
+    }
+  },
+  {
+    "chapter": 3,
+    "bg": "waterfall-bg",
+    "world": "waterfall",
+    "scene": "waterfall",
+    "source": "shu",
+    "title": [
+      "飞湍瀑流争喧豗，",
+      "砯崖转石万壑雷。"
+    ],
+    "action": "向飞瀑靠近",
+    "motion": "torrent",
+    "caption": "林声渐远，水气渐浓。",
+    "narration": "飞湍瀑流争喧豗，砯崖转石万壑雷。飞、争、转写出水势与力量，声音由幽微鸟鸣骤然转为万壑雷鸣。",
+    "explanation": "飞湍瀑流争喧豗，砯崖转石万壑雷。飞、争、转写出水势与力量，声音由幽微鸟鸣骤然转为万壑雷鸣。",
+    "voice": 16,
+    "sub": "",
+    "label": "《蜀道难》",
+    "vista": "waterfall-detail",
+    "en": {
+      "title": [
+        "Flying torrents and waterfalls roar;",
+        "rocks thunder through ten thousand ravines."
+      ],
+      "action": "Approach the falling water",
+      "caption": "The forest sounds recede.  The air grows heavy with spray.",
+      "narration": "Flying torrents and waterfalls roar; rocks thunder through ten thousand ravines. The verbs make water and stone feel forceful and alive. The quiet bird calls give way to the roar of the gorges.",
+      "explanation": "Flying torrents and waterfalls roar; rocks thunder through ten thousand ravines. The verbs make water and stone feel forceful and alive. The quiet bird calls give way to the roar of the gorges."
+    },
+    "intro": {
+      "zh": "林声渐远，水气渐浓。",
+      "en": "The forest sounds recede. | The air grows heavy with spray."
+    },
+    "cues": [
+      {
+        "at": 0.07,
+        "key": "torrent",
+        "zh": "飞湍瀑流争喧豗。|砯崖转石，万壑雷。",
+        "en": "Rapids and waterfalls roar together. | They strike the cliffs and tumble stones: thunder in ten thousand ravines.",
+        "reading": {
+          "zh": "“争”，写水势奔涌；“雷”，写声响震谷。方才是鸟鸣衬静，此刻是万壑齐响，险境骤然逼近。",
+          "en": "The torrents seem to compete in their rush, and their sound becomes thunder. Birdsong once made the stillness deeper; now the whole ravine resounds with danger."
+        }
+      }
+    ],
+    "baseDuration": 16,
+    "palette": [
+      "#bed0b0",
+      "#dfc089"
+    ],
+    "spokenIntro": {
+      "zh": "林声渐远，水气渐浓。|方才的幽静，被深谷里奔来的声浪，层层推开。",
+      "en": "The forest sounds recede, and the air grows heavy with spray. | The hush gives way to a rising roar from the ravine."
+    }
+  },
+  {
+    "chapter": 3,
+    "bg": "v2-fortress-far",
+    "world": "pass",
+    "scene": "pass",
+    "source": "shu",
+    "title": [
+      "一夫当关，",
+      "万夫莫开。"
+    ],
+    "action": "望关塞，叩城门",
+    "motion": "fortress",
+    "caption": "蜀门在此。万山收束成一线。",
+    "narration": "一夫当关，万夫莫开。剑阁的险要由山川转入人事。下一句，所守或匪亲，化为狼与豺，提醒我们警惕险地与人心相交的忧患。",
+    "explanation": "一夫当关，万夫莫开。剑阁的险要由山川转入人事。下一句，所守或匪亲，化为狼与豺，提醒我们警惕险地与人心相交的忧患。",
+    "voice": 17,
+    "sub": "",
+    "label": "《蜀道难》",
+    "en": {
+      "title": [
+        "One man guards the pass;",
+        "ten thousand cannot break through."
+      ],
+      "action": "Survey the pass; knock at the gate",
+      "caption": "Here stands the gateway to Shu.  A thousand mountains narrow to a single passage.",
+      "narration": "One man guards the pass; ten thousand cannot break through. The strategic mountain pass turns the poem from natural danger towards human affairs. The next lines ask what happens when its guardian cannot be trusted.",
+      "explanation": "One man guards the pass; ten thousand cannot break through. The strategic mountain pass turns the poem from natural danger towards human affairs. The next lines ask what happens when its guardian cannot be trusted."
+    },
+    "vista": null,
+    "views": [
+      "v2-fortress-flank",
+      "v2-gate-close"
+    ],
+    "intro": {
+      "zh": "蜀门在此。|万山收束成一线。",
+      "en": "Here stands the gateway to Shu. | A thousand mountains narrow to a single passage."
+    },
+    "cues": [
+      {
+        "at": 0.03,
+        "key": "far",
+        "zh": "剑阁峥嵘而崔嵬。",
+        "en": "Sword Gate rises, sheer and towering.",
+        "reading": {
+          "zh": "群峰夹峙，关隘高耸。剑阁之险，先落在这逼仄的地势之间。",
+          "en": "The peaks close in around a towering pass. Its danger begins with the narrowness of the terrain itself."
+        }
+      },
+      {
+        "at": 0.44,
+        "key": "near",
+        "zh": "一夫当关。",
+        "en": "One man guards the pass.",
+        "reading": {
+          "zh": "一人守住要隘，便仿佛扼住整条通路。此句着重写的，是关口易守难攻。",
+          "en": "A single defender seems able to command the whole passage. The line stresses how readily the narrow pass can be held."
+        }
+      },
+      {
+        "at": 0.72,
+        "key": "knock",
+        "zh": "万夫，莫开。",
+        "en": "Ten thousand cannot break through.",
+        "reading": {
+          "zh": "一与万，形成极强的对照。关门森然，也让诗意从山川之险，转向对人事的警惕。",
+          "en": "One stands against ten thousand. This striking contrast shifts the poem from the dangers of the landscape towards concern about those who command it."
+        }
+      }
+    ],
+    "baseDuration": 23,
+    "palette": [
+      "#d7af7b",
+      "#a6b6b5"
+    ],
+    "spokenIntro": {
+      "zh": "蜀门在此，万山收束成一线。|行至剑阁，山川的险峻，又添了一重关塞的森严。",
+      "en": "Here stands the gateway to Shu, where mountains narrow to a single passage. | At Sword Gate, the peril of the landscape takes on the severity of a guarded frontier."
+    }
+  },
+  {
+    "chapter": 4,
+    "bg": "v2-jincheng",
+    "world": "mountain",
+    "scene": "pass",
+    "source": "shu",
+    "title": [
+      "锦城虽云乐，",
+      "不如早还家。"
+    ],
+    "action": "转身，看向归路",
+    "motion": "back-vista",
+    "caption": "锦城深处，烟火繁华。",
+    "narration": "锦城虽云乐，不如早还家。转过身，眼前由雄关变为归路。蜀道难结尾的劝归和长叹，包含对远行者的关切，也留下人事忧思。",
+    "explanation": "锦城虽云乐，不如早还家。从锦城的繁华转向竹溪村舍，画面让“乐”与“还家”的取舍可见。《蜀道难》的劝归和长叹，包含对远行者的关切，也留下人事忧思。",
+    "voice": 18,
+    "sub": "",
+    "label": "《蜀道难》",
+    "vista": "v2-home-bamboo",
+    "en": {
+      "title": [
+        "Though the Brocade City offers pleasure,",
+        "better to return home soon."
+      ],
+      "action": "Turn towards the homeward road",
+      "caption": "Deep in the Brocade City, daily life flourishes.",
+      "narration": "Though the Brocade City offers pleasure, better to return home soon. Turn away from the fortress towards the valley. The poem’s advice to return carries concern for the traveller and anxiety about the world.",
+      "explanation": "Though the Brocade City is a place of pleasure, better to return home soon. The view turns from the busy city towards a quiet village beside a bamboo-lined stream. The contrast makes the choice between pleasure and home visible. The poem’s counsel and final sigh retain both care for the traveller and concern about human affairs."
+    },
+    "intro": {
+      "zh": "锦城深处，烟火繁华。",
+      "en": "Deep in the Brocade City, daily life flourishes."
+    },
+    "cues": [
+      {
+        "at": 0.07,
+        "key": "city",
+        "zh": "锦城虽云乐。|不如，早还家。",
+        "en": "Though the Brocade City is a place of pleasure, | better to return home soon.",
+        "reading": {
+          "zh": "锦城，指成都。不是不见它的繁华，而是牵挂胜过留恋；这一声劝归，含着对远行人的关切。",
+          "en": "The Brocade City is Chengdu. The poem acknowledges its pleasures, yet concern outweighs their appeal. The counsel to return is also an expression of care."
+        }
+      }
+    ],
+    "baseDuration": 13,
+    "palette": [
+      "#bed0b0",
+      "#dfc089"
+    ],
+    "spokenIntro": {
+      "zh": "锦城深处，烟火繁华。|然而一路的惊心尚未散去，眼前的热闹，也留不住那一份牵挂。",
+      "en": "Deep in the Brocade City, daily life flourishes. | Yet the perils of the journey still weigh on the heart; even this bustle cannot silence its concern."
+    }
+  },
+  {
+    "chapter": 4,
+    "bg": "home-valley",
+    "world": "mountain",
+    "scene": "mountain",
+    "source": "shu",
+    "title": [
+      "侧身西望",
+      "长咨嗟！"
+    ],
+    "action": "带着长叹，重寻希望",
+    "motion": "back-vista",
+    "caption": "千重山外，还有故园。",
+    "narration": "侧身西望长咨嗟。蜀道难并没有在这里宣告扬帆。下面，我们回到行路难，看诗人怎样从历史想象中重新发现希望。两首诗的结尾各有自己的情绪。",
+    "explanation": "侧身西望长咨嗟。蜀道难并没有在这里宣告扬帆。下面，我们回到行路难，看诗人怎样从历史想象中重新发现希望。两首诗的结尾各有自己的情绪。",
+    "voice": 19,
+    "sub": "",
+    "label": "《蜀道难》",
+    "en": {
+      "title": [
+        "Turning west,",
+        "I sigh at length."
+      ],
+      "action": "Look back, then seek hope",
+      "caption": "Beyond a thousand mountain folds, home remains.",
+      "narration": "Turning west, I sigh at length. The Hard Road to Shu does not end with a raised sail. We now return to Hard Is the Road, where remembered stories renew the hope of finding a way forward.",
+      "explanation": "Turning west, I sigh at length. The Hard Road to Shu does not end with a raised sail. We now return to Hard Is the Road, where remembered stories renew the hope of finding a way forward."
+    },
+    "vista": "v2-westward-road",
+    "intro": {
+      "zh": "千重山外，还有故园。",
+      "en": "Beyond a thousand mountain folds, home remains."
+    },
+    "cues": [
+      {
+        "at": 0.07,
+        "key": "home",
+        "zh": "侧身西望。|长咨嗟。",
+        "en": "I turn and gaze westward. | A long, deep sigh.",
+        "reading": {
+          "zh": "西望之间，惊叹已化作长叹。蜀道的雄奇与忧思，一同留在这未尽的声音里。",
+          "en": "The westward gaze turns astonishment into a lingering sigh. The grandeur of Shu and the poem’s concern remain together in that unresolved sound."
+        }
+      }
+    ],
+    "baseDuration": 11,
+    "palette": [
+      "#bed0b0",
+      "#dfc089"
+    ],
+    "spokenIntro": {
+      "zh": "千重山外，还有故园。|《蜀道难》的行吟将尽，诗人的目光，却仍向着远处。",
+      "en": "Beyond a thousand mountain folds, home remains. | The Hard Road to Shu is drawing to its close, but the poet’s gaze still reaches into the distance."
+    }
+  },
+  {
+    "chapter": 4,
+    "bg": "fishing-stream",
+    "world": "stream",
+    "scene": "stream",
+    "source": "xing",
+    "title": [
+      "闲来垂钓",
+      "碧溪上，"
+    ],
+    "action": "沿钓线，看水面涟漪",
+    "motion": "fish",
+    "caption": "山声渐息，溪色转青。",
+    "narration": "闲来垂钓碧溪上。这里借姜尚垂钓而后被重用的典故，写对机遇的期待。水面暂静，心中的希望却没有沉下去。",
+    "explanation": "闲来垂钓碧溪上。这里借姜尚垂钓而后被重用的典故，写对机遇的期待。水面暂静，心中的希望却没有沉下去。",
+    "voice": 20,
+    "sub": "",
+    "label": "《行路难·其一》",
+    "vista": "stream-detail",
+    "en": {
+      "title": [
+        "At leisure I fish",
+        "beside a jade-green stream."
+      ],
+      "action": "Look along the line into the water",
+      "caption": "The mountains fall quiet.  The stream turns clear and green.",
+      "narration": "At leisure I fish beside a jade-green stream. The image recalls Jiang Shang, who waited before receiving an opportunity to serve. The water grows quiet, but hope has not sunk beneath it.",
+      "explanation": "At leisure I fish beside a jade-green stream. The image recalls Jiang Shang, who waited before receiving an opportunity to serve. The water grows quiet, but hope has not sunk beneath it."
+    },
+    "intro": {
+      "zh": "山声渐息，溪色转青。",
+      "en": "The mountains fall quiet. | The stream turns clear and green."
+    },
+    "cues": [
+      {
+        "at": 0.06,
+        "key": "fish",
+        "zh": "闲来垂钓，碧溪上。",
+        "en": "At leisure, I fish beside a clear green stream.",
+        "reading": {
+          "zh": "此处用姜尚的典故：相传他在溪边垂钓，后来得到重用。诗人借前人的际遇，为未展的抱负，留住一线希望。",
+          "en": "This recalls the story of Jiang Shang, who fished before being called to serve. His eventual recognition offers the poet hope that unfulfilled ambition may yet find its hour."
+        }
+      }
+    ],
+    "baseDuration": 11,
+    "palette": [
+      "#bed0b0",
+      "#dfc089"
+    ],
+    "spokenIntro": {
+      "zh": "山声渐息，溪色转青。|让我们回到《行路难》，在迟疑之外，听见另一种可能。",
+      "en": "The mountains fall quiet; the stream turns green. | We return to Hard Is the Road, and listen for a possibility beyond hesitation."
+    }
+  },
+  {
+    "chapter": 5,
+    "bg": "v2-sun-dream",
+    "world": "sea",
+    "scene": "sea",
+    "source": "xing",
+    "title": [
+      "忽复乘舟",
+      "梦日边。"
+    ],
+    "action": "乘舟，近梦中之日",
+    "motion": "dawn",
+    "caption": "一枕江声，浮生入梦。",
+    "narration": "忽复乘舟梦日边。诗句用伊尹梦中乘舟经过日月之旁的典故，寄托被赏识的期待。这里的黎明，是对诗中希望的视觉化表现。",
+    "explanation": "忽复乘舟梦日边。诗句用伊尹梦中乘舟经过日月之旁的典故，寄托被赏识的期待。这里的黎明，是对诗中希望的视觉化表现。",
+    "voice": 21,
+    "sub": "",
+    "label": "《行路难·其一》",
+    "en": {
+      "title": [
+        "Then, in a dream,",
+        "I sail beside the sun."
+      ],
+      "action": "Drift towards the dream-sun",
+      "caption": "With river sounds beside the pillow, life drifts into a dream.",
+      "narration": "Then, in a dream, I sail beside the sun. The allusion to Yi Yin expresses the hope of being recognised. Here, dawn gives visible form to that hope.",
+      "explanation": "Then, in a dream, I sail beside the sun. The allusion to Yi Yin expresses the hope of being recognised. Here, dawn gives visible form to that hope."
+    },
+    "intro": {
+      "zh": "一枕江声，浮生入梦。",
+      "en": "With river sounds beside the pillow, life drifts into a dream."
+    },
+    "cues": [
+      {
+        "at": 0.06,
+        "key": "dream",
+        "zh": "忽复乘舟，梦日边。",
+        "en": "Then, in a dream, I sail in a boat beside the sun.",
+        "reading": {
+          "zh": "又用伊尹的典故：相传他受商汤任用前，曾梦见乘舟经过日旁。两个典故接续，低回的心境，渐渐转向期待。",
+          "en": "Another allusion follows: before being called to serve Tang, Yi Yin was said to have dreamed of sailing beside the sun. These remembered possibilities turn hesitation towards expectation."
+        }
+      }
+    ],
+    "baseDuration": 12,
+    "palette": [
+      "#f8d797",
+      "#98d9d4"
+    ],
+    "spokenIntro": {
+      "zh": "一枕江声，浮生入梦。|清溪的等候未远，诗人的思绪，又随着一叶舟轻轻荡开。",
+      "en": "With river sounds beside the pillow, life drifts into a dream. | The thought of waiting by a stream opens into another image: a boat upon the water."
+    }
+  },
+  {
+    "chapter": 5,
+    "bg": "dawn-sea",
+    "world": "sea",
+    "scene": "sea",
+    "source": "xing",
+    "title": [
+      "长风破浪会有时，",
+      "直挂云帆济沧海。"
+    ],
+    "action": "升起云帆，迎风启航",
+    "motion": "sail",
+    "caption": "长夜将尽，风起沧海。",
+    "narration": "长风破浪会有时，直挂云帆济沧海。经历停杯、拔剑、冰雪与歧路，诗人终于以会有时表达坚定信念。云帆不是已经抵达的成功，而是仍愿前行的力量。",
+    "explanation": "长风破浪会有时，直挂云帆济沧海。经历停杯、拔剑、冰雪与歧路，诗人终于以会有时表达坚定信念。云帆不是已经抵达的成功，而是仍愿前行的力量。",
+    "voice": 22,
+    "sub": "",
+    "label": "《行路难·其一》",
+    "en": {
+      "title": [
+        "One day I shall ride the wind and cleave the waves;",
+        "raise my cloud-high sail and cross the open sea."
+      ],
+      "action": "Raise the sail",
+      "caption": "The long night is ending.  Wind rises over the open sea.",
+      "narration": "One day I shall ride the wind and cleave the waves, raise my cloud-high sail and cross the open sea. After hesitation, ice, snow and crossroads, the words one day express firm belief. The sail represents the will to go on.",
+      "explanation": "One day I shall ride the wind and cleave the waves, raise my cloud-high sail and cross the open sea. After hesitation, ice, snow and crossroads, the words one day express firm belief. The sail represents the will to go on."
+    },
+    "intro": {
+      "zh": "长夜将尽，风起沧海。",
+      "en": "The long night is ending. | Wind rises over the open sea."
+    },
+    "cues": [
+      {
+        "at": 0.06,
+        "key": "sail",
+        "zh": "长风破浪，会有时。|直挂云帆，济沧海。",
+        "en": "One day I shall ride the long wind and break the waves. | I shall raise my cloud-high sail and cross the vast blue sea.",
+        "reading": {
+          "zh": "“会有时”，并非眼前已无风浪，而是相信终有施展抱负的一天。于是云帆高挂，漫长的求索，有了继续向前的勇气。",
+          "en": "One day does not mean the waves have already vanished. It declares faith that ambition will find its moment. The rising sail carries the courage to continue."
+        }
+      }
+    ],
+    "baseDuration": 17,
+    "palette": [
+      "#f8d797",
+      "#98d9d4"
+    ],
+    "spokenIntro": {
+      "zh": "长夜将尽，风起沧海。|前路仍然辽阔，心中的声音，却已渐渐有了力量。",
+      "en": "The long night is ending; wind rises over the sea. | The way ahead remains vast, but the voice within begins to gather strength."
+    }
+  },
+  {
+    "chapter": 5,
+    "bg": "v2-sail-distance",
+    "world": "sea",
+    "scene": "sea",
+    "source": "bridge",
+    "title": [
+      "听懂一声长叹，",
+      "也看见一片云帆。"
+    ],
+    "action": "循原诗，入研习",
+    "motion": "end",
+    "caption": "山海仍在，行歌未止。愿君怀此心，行向自己的远方。",
+    "narration": "山海仍在，行歌未止。蜀道难的长叹与行路难的云帆，可以相互照见，却不必归为同一种答案。现在，带着刚才的经历，重读两首原诗。",
+    "explanation": "山海仍在，行歌未止。蜀道难的长叹与行路难的云帆，可以相互照见，却不必归为同一种答案。现在，带着刚才的经历，重读两首原诗。",
+    "voice": 23,
+    "sub": "",
+    "label": "双诗之间 · 情境衔接",
+    "type": "ending",
+    "initialSail": 0,
+    "en": {
+      "title": [
+        "Hear the long sigh.",
+        "See the rising sail."
+      ],
+      "action": "Return to the poems and study",
+      "caption": "Mountains and seas remain; the song continues.  Carry this spirit towards your own horizon.",
+      "narration": "The mountains remain; the song continues. The sigh in The Hard Road to Shu and the sail in Hard Is the Road illuminate one another. Return to the original poems and listen to their different endings.",
+      "explanation": "The mountains remain; the song continues. The sigh in The Hard Road to Shu and the sail in Hard Is the Road illuminate one another. Return to the original poems and listen to their different endings."
+    },
+    "intro": {
+      "zh": "山海仍在，行歌未止。|愿君怀此心，行向自己的远方。",
+      "en": "Mountains and seas remain; the song continues. | Carry this spirit towards your own horizon."
+    },
+    "cues": [],
+    "baseDuration": 1,
+    "palette": [
+      "#f8d797",
+      "#98d9d4"
+    ],
+    "spokenIntro": {
+      "zh": "山海仍在，行歌未止。|《蜀道难》以长叹寄关切，《行路难》以云帆见信念。|两首诗，各有回声；愿君怀此心，行向自己的远方。",
+      "en": "Mountains and seas remain; the song continues. | The Hard Road to Shu closes in a sigh of concern; Hard Is the Road finds faith in a rising sail. | Each poem keeps its own voice. Carry their echoes towards your own horizon."
+    }
+  }
+]

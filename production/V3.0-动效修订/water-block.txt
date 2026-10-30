@@ -1,0 +1,29 @@
+ const wet=document.createElement('canvas');wet.id='wetGlass';wet.setAttribute('aria-hidden','true');document.querySelector('#course').appendChild(wet);const c=wet.getContext('2d');let w,h,scale,drops=[],spray=[],streaks=[],wetAlpha=0,lastBurst=-1,splashCount=0,wiped=0;
+ const background=new Image(),detail=new Image();background.src='assets/waterfall-bg.png';detail.src='assets/waterfall-detail.png';
+ function fit(){w=innerWidth;h=innerHeight;scale=Math.min(devicePixelRatio,1.25);wet.width=w*scale;wet.height=h*scale;wet.style.width=w+'px';wet.style.height=h+'px';c.setTransform(scale,0,0,scale,0,0);}fit();addEventListener('resize',fit);
+ function burst(power=1){splashCount++;for(let i=0;i<(reduced?8:31)*power;i++){const x=w*(.30+Math.random()*.66),y=h*(.12+Math.random()*.62),r=2+Math.random()*6;drops.push({x,y,r,v:0,age:0,wait:.25+Math.random()*1.9,life:7+Math.random()*5,phase:Math.random()*20,trail:null});}if(!reduced)for(let i=0;i<44;i++)spray.push({x:w*.77,y:h*.66,vx:(Math.random()-.65)*w*.6,vy:-h*(.15+Math.random()*.6),age:0,life:.35+Math.random()*.55,r:.7+Math.random()*2});}
+ function wipe(x=w*.5,y=h*.5,r=Math.max(w,h)){drops=drops.filter(d=>Math.hypot(d.x-x,d.y-y)>r);streaks=streaks.filter(d=>!d.points.some(p=>Math.hypot(p.x-x,p.y-y)<r));wiped++;}
+ document.addEventListener('pointermove',e=>{if(e.buttons===1&&CinemaEngine.getState().sceneIndex===16&&!Courseware.getState().modal&&!e.target.closest('button,input,textarea,select'))wipe(e.clientX,e.clientY,65);});
+ document.addEventListener('click',e=>{if(e.target.closest('[data-wipe-water]'))wipe();});
+ function sampleSurface(img,dx=0,dy=0){if(!img.complete||!img.naturalWidth)return;const k=Math.max(w/img.naturalWidth,h/img.naturalHeight);c.drawImage(img,(w-img.naturalWidth*k)/2+dx,(h-img.naturalHeight*k)/2+dy,img.naturalWidth*k,img.naturalHeight*k);}
+ function pathFor(d){const points=d.points;for(let side=0;side<2;side++){for(let j=0;j<points.length;j++){const i=side?points.length-1-j:j,p=points[i],t=i/Math.max(1,points.length-1),radius=d.r*(.16+.84*Math.min(1,t*4))*(.82+.18*Math.sin(i*.67+d.phase)),x=p.x+(side?1:-1)*radius;if(!side&&!j)c.moveTo(x,p.y);else c.lineTo(x,p.y);}}c.closePath();}
+ function drawFilm(img){if(!streaks.length)return;
+  // A refracting strip stays on the glass after the leading bead has passed.
+  c.save();c.beginPath();streaks.forEach(pathFor);c.clip();c.globalAlpha=wetAlpha*.30;sampleSurface(img,-3,1.5);c.fillStyle='#bdd5d80d';c.fillRect(0,0,w,h);c.restore();
+  for(const d of streaks){const fade=Math.exp(-d.age/5.5)*wetAlpha,p=d.points;if(p.length<2)continue;c.lineJoin='round';c.lineCap='round';
+   for(const side of [-1,1]){c.beginPath();p.forEach((pt,i)=>{const t=i/(p.length-1),radius=d.r*(.16+.84*Math.min(1,t*4))*(.82+.18*Math.sin(i*.67+d.phase)),x=pt.x+side*radius;i?c.lineTo(x,pt.y):c.moveTo(x,pt.y);});c.strokeStyle=side<0?`rgba(222,241,240,${.24*fade})`:`rgba(8,34,43,${.34*fade})`;c.lineWidth=side<0?.7:1.1;c.stroke();}
+   c.beginPath();p.forEach((pt,i)=>i?c.lineTo(pt.x,pt.y):c.moveTo(pt.x,pt.y));c.lineWidth=Math.max(.6,d.r*.8);c.strokeStyle=`rgba(173,208,212,${.09*fade})`;c.stroke();
+  }
+ }
+ function lens(d,alpha,img){const r=d.r,running=d.v>6,rx=running?r*.38:r*.76,ry=running?r*1.28:r*.83;c.save();c.globalAlpha=alpha;c.beginPath();
+  // A narrow neck feeds an elongated, asymmetrical front. It is never a falling circle.
+  c.moveTo(d.x-rx*.16,d.y-ry*1.6);c.bezierCurveTo(d.x-rx*.48,d.y-ry*.55,d.x-rx*1.2,d.y+ry*.15,d.x-rx*.65,d.y+ry*.75);c.bezierCurveTo(d.x-rx*.2,d.y+ry*1.07,d.x+rx*.9,d.y+ry*.72,d.x+rx,d.y+ry*.2);c.bezierCurveTo(d.x+rx,d.y-ry*.32,d.x+rx*.2,d.y-ry*.9,d.x+rx*.12,d.y-ry*1.6);c.closePath();c.clip();c.globalAlpha=alpha*(running?.43:.52);sampleSurface(img,-1.9,1);const g=c.createLinearGradient(d.x-rx,d.y,d.x+rx,d.y);g.addColorStop(0,'#d6eceb60');g.addColorStop(.3,'#b1ced212');g.addColorStop(.8,'#10313b14');g.addColorStop(1,'#0a263666');c.fillStyle=g;c.fillRect(d.x-rx*1.3,d.y-ry*1.6,rx*2.6,ry*2.8);c.restore();
+ }
+ function water(dt,s){const active=s.sceneIndex===16,target=active?1:0;wetAlpha+=(target-wetAlpha)*(1-Math.exp(-dt/(active?.2:.38)));if(active&&s.action==='torrent'&&s.progress>.28){if(lastBurst<0){burst(1.6);lastBurst=s.time;}else if(s.progress<.78&&s.time-lastBurst>1.4){burst(.30);lastBurst=s.time;}}
+  c.clearRect(0,0,w,h);if(wetAlpha<.003){drops=[];spray=[];streaks=[];return;}const img=s.vista>.45?detail:background;
+  for(const d of streaks)d.age+=dt;
+  for(const d of drops){d.age+=dt;if(d.age>d.wait&&!reduced){if(!d.trail){d.trail={r:Math.max(.65,d.r*.31),age:0,phase:d.phase,points:[{x:d.x,y:d.y}]};streaks.push(d.trail);}d.v=Math.min(115+d.r*3,d.v+dt*(16+d.r*4));d.x+=Math.sin(d.y*.027+d.phase)*Math.min(2,d.r*.25)*dt;d.y+=d.v*dt;const points=d.trail.points,prev=points.at(-1);if(d.y-prev.y>3.5)points.push({x:d.x,y:d.y});d.trail.age=0;}}
+  drawFilm(img);
+  for(const d of drops){const fade=Math.min(1,d.age*7,Math.max(0,(d.life-d.age)*1.2));lens(d,wetAlpha*fade,img);}drops=drops.filter(d=>d.y<h+20&&d.age<d.life).slice(-90);streaks=streaks.filter(d=>d.age<8.5).slice(-110);
+  for(const p of spray){p.age+=dt;p.x+=p.vx*dt;p.y+=p.vy*dt;p.vy+=h*.8*dt;c.fillStyle=`rgba(223,246,246,${wetAlpha*.3*(1-p.age/p.life)})`;c.beginPath();c.ellipse(p.x,p.y,p.r,p.r*1.6,0,0,Math.PI*2);c.fill();}spray=spray.filter(p=>p.age<p.life);
+ }

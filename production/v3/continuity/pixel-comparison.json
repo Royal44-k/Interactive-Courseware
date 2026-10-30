@@ -1,0 +1,58 @@
+{
+  "视频复刻版": {
+    "frames": 856,
+    "excludeFirstSeconds": 6,
+    "maxMeanPixelChange": 67.38192536630036,
+    "p95MeanPixelChange": 4.75740470467033,
+    "largestWindows": [
+      {
+        "frame": 645,
+        "t": 25.8,
+        "meanChange": 67.38192536630036
+      },
+      {
+        "frame": 314,
+        "t": 12.56,
+        "meanChange": 30.914634844322343
+      },
+      {
+        "frame": 829,
+        "t": 33.16,
+        "meanChange": 30.732529189560438
+      },
+      {
+        "frame": 540,
+        "t": 21.6,
+        "meanChange": 26.743790064102566
+      }
+    ]
+  },
+  "逐镜修订版": {
+    "frames": 856,
+    "excludeFirstSeconds": 6,
+    "maxMeanPixelChange": 10.36501736111111,
+    "p95MeanPixelChange": 5.32293693719475,
+    "largestWindows": [
+      {
+        "frame": 660,
+        "t": 26.4,
+        "meanChange": 10.36501736111111
+      },
+      {
+        "frame": 828,
+        "t": 33.12,
+        "meanChange": 8.81405486874237
+      },
+      {
+        "frame": 221,
+        "t": 8.84,
+        "meanChange": 8.494949061355312
+      },
+      {
+        "frame": 540,
+        "t": 21.6,
+        "meanChange": 6.05058092948718
+      }
+    ]
+  }
+}

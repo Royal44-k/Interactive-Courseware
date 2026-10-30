@@ -1,0 +1,133 @@
+{
+  "errors": [],
+  "birds": [
+    {
+      "scene": 15,
+      "time": 13.413300000000781,
+      "call": 0.9100633556491473,
+      "beakAngle": 1.438986309613643,
+      "drops": 0,
+      "streaks": 0,
+      "splashCount": 0,
+      "wiped": 0,
+      "wetAlpha": 0
+    },
+    {
+      "scene": 15,
+      "time": 14.37900000000079,
+      "call": 0.862496802123104,
+      "beakAngle": 2.2000511660303363,
+      "drops": 0,
+      "streaks": 0,
+      "splashCount": 0,
+      "wiped": 0,
+      "wetAlpha": 0
+    },
+    {
+      "scene": 15,
+      "time": 15.339500000000799,
+      "call": 0.863806233614769,
+      "beakAngle": 2.1791002621636952,
+      "drops": 0,
+      "streaks": 0,
+      "splashCount": 0,
+      "wiped": 0,
+      "wetAlpha": 0
+    },
+    {
+      "scene": 15,
+      "time": 17.012200000000764,
+      "call": 0.8518043157868116,
+      "beakAngle": 2.3711309474110145,
+      "drops": 0,
+      "streaks": 0,
+      "splashCount": 0,
+      "wiped": 0,
+      "wetAlpha": 0
+    },
+    {
+      "scene": 15,
+      "time": 17.97720000000071,
+      "call": 0.8527409211457169,
+      "beakAngle": 2.35614526166853,
+      "drops": 0,
+      "streaks": 0,
+      "splashCount": 0,
+      "wiped": 0,
+      "wetAlpha": 0
+    },
+    {
+      "scene": 15,
+      "time": 18.941800000000683,
+      "call": 0.8709006822930543,
+      "beakAngle": 2.0655890833111314,
+      "drops": 0,
+      "streaks": 0,
+      "splashCount": 0,
+      "wiped": 0,
+      "wetAlpha": 0
+    }
+  ],
+  "water": {
+    "scene": 16,
+    "time": 30.920200000000673,
+    "call": 0.8709006822930543,
+    "beakAngle": 2.0655890833111314,
+    "drops": 84,
+    "streaks": 900,
+    "splashCount": 4,
+    "wiped": 0,
+    "wetAlpha": 0.9999999999999996
+  },
+  "learning": {
+    "version": "3.0-20261030",
+    "required": true,
+    "review": {
+      "poem": true,
+      "study": true,
+      "practice": true,
+      "help": true
+    },
+    "started": true,
+    "step": 4,
+    "choices": {},
+    "fills": {},
+    "match": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "order": [
+      5,
+      1,
+      0,
+      2,
+      3,
+      4
+    ],
+    "puzzleTouched": false,
+    "poem": null,
+    "line": null,
+    "essays": {},
+    "rubric": {
+      "e1": [
+        null,
+        null,
+        null
+      ],
+      "e2": [
+        null,
+        null,
+        null
+      ],
+      "e3": [
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "submitted": null
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "errors": [],
+  "audio": {
+    "music": true,
+    "narration": true,
+    "muted": false,
+    "musicVolume": 0.23,
+    "voiceVolume": 0.92,
+    "started": true,
+    "paused": false,
+    "playing": true,
+    "musicPlaying": true,
+    "ambientTrack": "sea",
+    "ambientPlaying": true,
+    "track": "stage-22",
+    "kind": "stage",
+    "currentTime": 5.368606,
+    "duration": 17.592,
+    "status": "声音已就绪"
+  },
+  "media": [
+    {
+      "src": "assets/audio/stage-0.mp3",
+      "duration": 13.008
+    },
+    {
+      "src": "assets/audio/stage-1.mp3",
+      "duration": 9.024
+    },
+    {
+      "src": "assets/audio/stage-2.mp3",
+      "duration": 13.656
+    },
+    {
+      "src": "assets/audio/stage-3.mp3",
+      "duration": 13.992
+    },
+    {
+      "src": "assets/audio/stage-4.mp3",
+      "duration": 13.152
+    },
+    {
+      "src": "assets/audio/stage-5.mp3",
+      "duration": 13.992
+    },
+    {
+      "src": "assets/audio/stage-6.mp3",
+      "duration": 13.536
+    },
+    {
+      "src": "assets/audio/stage-7.mp3",
+      "duration": 13.008
+    },
+    {
+      "src": "assets/audio/stage-8.mp3",
+      "duration": 15.36
+    },
+    {
+      "src": "assets/audio/stage-9.mp3",
+      "duration": 16.656
+    },
+    {
+      "src": "assets/audio/stage-10.mp3",
+      "duration": 16.128
+    },
+    {
+      "src": "assets/audio/stage-11.mp3",
+      "duration": 13.248
+    },
+    {
+      "src": "assets/audio/stage-12.mp3",
+      "duration": 13.44
+    },
+    {
+      "src": "assets/audio/stage-13.mp3",
+      "duration": 13.728
+    },
+    {
+      "src": "assets/audio/stage-14.mp3",
+      "duration": 13.992
+    },
+    {
+      "src": "assets/audio/stage-15.mp3",
+      "duration": 13.32
+    },
+    {
+      "src": "assets/audio/stage-16.mp3",
+      "duration": 13.416
+    },
+    {
+      "src": "assets/audio/stage-17.mp3",
+      "duration": 15.504
+    },
+    {
+      "src": "assets/audio/stage-18.mp3",
+      "duration": 15.36
+    },
+    {
+      "src": "assets/audio/stage-19.mp3",
+      "duration": 17.424
+    },
+    {
+      "src": "assets/audio/stage-20.mp3",
+      "duration": 12.456
+    },
+    {
+      "src": "assets/audio/stage-21.mp3",
+      "duration": 13.656
+    },
+    {
+      "src": "assets/audio/stage-22.mp3",
+      "duration": 17.592
+    },
+    {
+      "src": "assets/audio/stage-23.mp3",
+      "duration": 16.008
+    },
+    {
+      "src": "assets/audio/poem-xing.mp3",
+      "duration": 28.944
+    },
+    {
+      "src": "assets/audio/poem-shu.mp3",
+      "duration": 103.32
+    },
+    {
+      "src": "assets/audio/music.mp3",
+      "duration": 60
+    },
+    {
+      "src": "assets/audio/bird.mp3",
+      "duration": 4.2
+    },
+    {
+      "src": "assets/audio/amb-wind.mp3",
+      "duration": 30
+    },
+    {
+      "src": "assets/audio/amb-river.mp3",
+      "duration": 30
+    },
+    {
+      "src": "assets/audio/amb-sea.mp3",
+      "duration": 30
+    }
+  ],
+  "offline": true,
+  "sail": true,
+  "snowUp": true
+}

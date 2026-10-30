@@ -1,0 +1,1711 @@
+{
+  "errors": [],
+  "perf": {
+    "frames": 481,
+    "p50": 16.699999999999818,
+    "p95": 16.900000000000546,
+    "max": 18.30000000000109,
+    "over34": 0,
+    "cloud": {
+      "seed": 332.0687133565149,
+      "time": 10.866999999994023,
+      "algorithm": "advected 3D fBM",
+      "ready": true
+    }
+  },
+  "shots": [
+    {
+      "motion": {
+        "ready": true,
+        "sceneIndex": 3,
+        "worldName": "banquet",
+        "time": 14.096799999991033,
+        "paused": true,
+        "busy": true,
+        "transition": null,
+        "view": {
+          "x": 0,
+          "y": 2.45,
+          "z": 9,
+          "tx": 0,
+          "ty": 2.7,
+          "tz": -25,
+          "fov": 54
+        },
+        "lookProgress": 0,
+        "knock": 0,
+        "knockTap": 0,
+        "push": 0,
+        "food": 0,
+        "foodNear": 0,
+        "foodEaten": 0,
+        "swallow": 0,
+        "cupNear": 0.16,
+        "armSweep": 0,
+        "swordHigh": 0,
+        "fade": 0,
+        "pan": 0,
+        "hand": 0,
+        "lamp": 0,
+        "handTurn": 0,
+        "walks": 0,
+        "flight": 0,
+        "water": 0.45,
+        "celestial": 0,
+        "bob": 0,
+        "cup": 1,
+        "sword": 0,
+        "chop": 0,
+        "sail": 0,
+        "daylight": 0,
+        "vista": 0,
+        "vistaName": "",
+        "shotZoom": 1,
+        "gate": {
+          "left": 0,
+          "right": 0
+        },
+        "frames": 842,
+        "action": "drop",
+        "progress": 0.15025454545454558,
+        "completed": 0,
+        "transitions": 1,
+        "frameGaps": 2,
+        "maxFrameMs": 50.30000000000018
+      },
+      "audio": {
+        "voiceLang": "zh",
+        "music": true,
+        "narration": true,
+        "muted": false,
+        "musicVolume": 0.23,
+        "voiceVolume": 0.92,
+        "started": true,
+        "paused": true,
+        "playing": false,
+        "pending": true,
+        "effectActive": false,
+        "musicPlaying": false,
+        "ambientTrack": "",
+        "ambientPlaying": false,
+        "track": "v2-cue-3-hesitate",
+        "kind": "cue",
+        "currentTime": 1.257564,
+        "duration": 2.368,
+        "status": "已暂停，保留播放位置"
+      }
+    },
+    {
+      "motion": {
+        "ready": true,
+        "sceneIndex": 3,
+        "worldName": "banquet",
+        "time": 15.637299999985078,
+        "paused": true,
+        "busy": true,
+        "transition": null,
+        "view": {
+          "x": 0,
+          "y": 2.45,
+          "z": 9,
+          "tx": 0,
+          "ty": 2.7,
+          "tz": -25,
+          "fov": 54
+        },
+        "lookProgress": 0,
+        "knock": 0,
+        "knockTap": 0,
+        "push": 0,
+        "food": 0,
+        "foodNear": 0,
+        "foodEaten": 0,
+        "swallow": 0,
+        "cupNear": 0.0007459161641848411,
+        "armSweep": 0,
+        "swordHigh": 0,
+        "fade": 0,
+        "pan": 0,
+        "hand": 0,
+        "lamp": 0,
+        "handTurn": 0,
+        "walks": 0,
+        "flight": 0,
+        "water": 0.45,
+        "celestial": 0,
+        "bob": 0,
+        "cup": 0.004661976026155257,
+        "sword": 0,
+        "chop": 0,
+        "sail": 0,
+        "daylight": 0,
+        "vista": 0,
+        "vistaName": "",
+        "shotZoom": 1,
+        "gate": {
+          "left": 0,
+          "right": 0
+        },
+        "frames": 983,
+        "action": "drop",
+        "progress": 0.29029999999945866,
+        "completed": 0,
+        "transitions": 1,
+        "frameGaps": 2,
+        "maxFrameMs": 50.30000000000018
+      },
+      "audio": {
+        "voiceLang": "zh",
+        "music": true,
+        "narration": true,
+        "muted": false,
+        "musicVolume": 0.23,
+        "voiceVolume": 0.92,
+        "started": true,
+        "paused": true,
+        "playing": false,
+        "pending": false,
+        "effectActive": false,
+        "musicPlaying": false,
+        "ambientTrack": "",
+        "ambientPlaying": false,
+        "track": null,
+        "kind": null,
+        "currentTime": 0,
+        "duration": 0,
+        "status": "已暂停，保留播放位置"
+      }
+    },
+    {
+      "motion": {
+        "ready": true,
+        "sceneIndex": 3,
+        "worldName": "banquet",
+        "time": 17.954899999980583,
+        "paused": true,
+        "busy": true,
+        "transition": null,
+        "view": {
+          "x": 0,
+          "y": 2.45,
+          "z": 9,
+          "tx": 0,
+          "ty": 2.7,
+          "tz": -25,
+          "fov": 54
+        },
+        "lookProgress": 0,
+        "knock": 0,
+        "knockTap": 0,
+        "push": 0,
+        "food": 1,
+        "foodNear": 0.11964097870034188,
+        "foodEaten": 0,
+        "swallow": 0,
+        "cupNear": 0,
+        "armSweep": 0,
+        "swordHigh": 0,
+        "fade": 0,
+        "pan": 0,
+        "hand": 0,
+        "lamp": 0,
+        "handTurn": 0,
+        "walks": 0,
+        "flight": 0,
+        "water": 0.45,
+        "celestial": 0,
+        "bob": 0,
+        "cup": 0,
+        "sword": 0,
+        "chop": 0,
+        "sail": 0,
+        "daylight": 0,
+        "vista": 0,
+        "vistaName": "",
+        "shotZoom": 1,
+        "gate": {
+          "left": 0,
+          "right": 0
+        },
+        "frames": 1168,
+        "action": "drop",
+        "progress": 0.5009909090899626,
+        "completed": 0,
+        "transitions": 1,
+        "frameGaps": 2,
+        "maxFrameMs": 50.30000000000018
+      },
+      "audio": {
+        "voiceLang": "zh",
+        "music": true,
+        "narration": true,
+        "muted": false,
+        "musicVolume": 0.23,
+        "voiceVolume": 0.92,
+        "started": true,
+        "paused": true,
+        "playing": false,
+        "pending": false,
+        "effectActive": false,
+        "musicPlaying": false,
+        "ambientTrack": "",
+        "ambientPlaying": false,
+        "track": null,
+        "kind": null,
+        "currentTime": 0,
+        "duration": 0,
+        "status": "已暂停，保留播放位置"
+      }
+    },
+    {
+      "motion": {
+        "ready": true,
+        "sceneIndex": 3,
+        "worldName": "banquet",
+        "time": 21.248599999979053,
+        "paused": true,
+        "busy": true,
+        "transition": null,
+        "view": {
+          "x": 0,
+          "y": 2.45,
+          "z": 9,
+          "tx": 0,
+          "ty": 2.7,
+          "tz": -25,
+          "fov": 54
+        },
+        "lookProgress": 0,
+        "knock": 0,
+        "knockTap": 0,
+        "push": 0,
+        "food": 0.4304925177601835,
+        "foodNear": 0,
+        "foodEaten": 0,
+        "swallow": 0,
+        "cupNear": 0,
+        "armSweep": 0,
+        "swordHigh": 0,
+        "fade": 0,
+        "pan": 0,
+        "hand": 0,
+        "lamp": 0,
+        "handTurn": 0,
+        "walks": 0,
+        "flight": 0,
+        "water": 0.45,
+        "celestial": 0,
+        "bob": 0,
+        "cup": 0,
+        "sword": 0,
+        "chop": 0.07850875145807044,
+        "sail": 0,
+        "daylight": 0,
+        "vista": 0,
+        "vistaName": "",
+        "shotZoom": 1,
+        "gate": {
+          "left": 0,
+          "right": 0
+        },
+        "frames": 1410,
+        "action": "drop",
+        "progress": 0.8004181818170999,
+        "completed": 0,
+        "transitions": 1,
+        "frameGaps": 3,
+        "maxFrameMs": 133.60000000000218
+      },
+      "audio": {
+        "voiceLang": "zh",
+        "music": true,
+        "narration": true,
+        "muted": false,
+        "musicVolume": 0.23,
+        "voiceVolume": 0.92,
+        "started": true,
+        "paused": true,
+        "playing": false,
+        "pending": true,
+        "effectActive": false,
+        "musicPlaying": false,
+        "ambientTrack": "",
+        "ambientPlaying": false,
+        "track": "v2-cue-3-stop",
+        "kind": "cue",
+        "currentTime": 2.815728,
+        "duration": 3.52,
+        "status": "已暂停，保留播放位置"
+      }
+    },
+    {
+      "motion": {
+        "ready": true,
+        "sceneIndex": 4,
+        "worldName": "banquet",
+        "time": 32.94819999997591,
+        "paused": true,
+        "busy": true,
+        "transition": null,
+        "view": {
+          "x": 0,
+          "y": 2.45,
+          "z": 9,
+          "tx": -0.9149219330501192,
+          "ty": 2.7,
+          "tz": -25,
+          "fov": 54
+        },
+        "lookProgress": 0,
+        "knock": 0,
+        "knockTap": 0,
+        "push": 0,
+        "food": 0,
+        "foodNear": 0,
+        "foodEaten": 0,
+        "swallow": 0,
+        "cupNear": 0,
+        "armSweep": 0,
+        "swordHigh": 0,
+        "fade": 0,
+        "pan": 0,
+        "hand": 0,
+        "lamp": 0,
+        "handTurn": 0,
+        "walks": 0,
+        "flight": 0,
+        "water": 0.45,
+        "celestial": 0,
+        "bob": 0,
+        "cup": 0,
+        "sword": 0.9853273227817004,
+        "chop": 0,
+        "sail": 0,
+        "daylight": 0,
+        "vista": 0,
+        "vistaName": "",
+        "shotZoom": 1,
+        "gate": {
+          "left": 0,
+          "right": 0
+        },
+        "frames": 2157,
+        "action": "sword",
+        "progress": 0.25034285714285676,
+        "completed": 1,
+        "transitions": 2,
+        "frameGaps": 4,
+        "maxFrameMs": 133.60000000000218
+      },
+      "audio": {
+        "voiceLang": "zh",
+        "music": true,
+        "narration": true,
+        "muted": false,
+        "musicVolume": 0.23,
+        "voiceVolume": 0.92,
+        "started": true,
+        "paused": true,
+        "playing": false,
+        "pending": false,
+        "effectActive": false,
+        "musicPlaying": false,
+        "ambientTrack": "",
+        "ambientPlaying": false,
+        "track": null,
+        "kind": null,
+        "currentTime": 0,
+        "duration": 0,
+        "status": "已暂停，保留播放位置"
+      }
+    },
+    {
+      "motion": {
+        "ready": true,
+        "sceneIndex": 4,
+        "worldName": "banquet",
+        "time": 38.83709999997022,
+        "paused": true,
+        "busy": true,
+        "transition": null,
+        "view": {
+          "x": 0,
+          "y": 2.45,
+          "z": 9,
+          "tx": 4.8,
+          "ty": 2.7,
+          "tz": -25,
+          "fov": 54
+        },
+        "lookProgress": 0,
+        "knock": 0,
+        "knockTap": 0,
+        "push": 0,
+        "food": 0,
+        "foodNear": 0,
+        "foodEaten": 0,
+        "swallow": 0,
+        "cupNear": 0,
+        "armSweep": 0,
+        "swordHigh": 0.9106119944223298,
+        "fade": 0,
+        "pan": 0,
+        "hand": 0,
+        "lamp": 0,
+        "handTurn": 0,
+        "walks": 0,
+        "flight": 0,
+        "water": 0.45,
+        "celestial": 0,
+        "bob": 0,
+        "cup": 0,
+        "sword": 1,
+        "chop": 0,
+        "sail": 0,
+        "daylight": 0,
+        "vista": 0,
+        "vistaName": "",
+        "shotZoom": 1,
+        "gate": {
+          "left": 0,
+          "right": 0
+        },
+        "frames": 2559,
+        "action": "sword",
+        "progress": 0.6709785714281457,
+        "completed": 1,
+        "transitions": 2,
+        "frameGaps": 4,
+        "maxFrameMs": 133.60000000000218
+      },
+      "audio": {
+        "voiceLang": "zh",
+        "music": true,
+        "narration": true,
+        "muted": false,
+        "musicVolume": 0.23,
+        "voiceVolume": 0.92,
+        "started": true,
+        "paused": true,
+        "playing": false,
+        "pending": true,
+        "effectActive": false,
+        "musicPlaying": false,
+        "ambientTrack": "",
+        "ambientPlaying": false,
+        "track": "v2-cue-4-gaze",
+        "kind": "cue",
+        "currentTime": 3.418293,
+        "duration": 5.584,
+        "status": "已暂停，保留播放位置"
+      }
+    },
+    {
+      "motion": {
+        "ready": true,
+        "sceneIndex": 5,
+        "worldName": "banquet",
+        "time": 63.41259999996546,
+        "paused": true,
+        "busy": true,
+        "transition": null,
+        "view": {
+          "x": 0,
+          "y": 2.45,
+          "z": 9,
+          "tx": -7,
+          "ty": 2.8,
+          "tz": -25,
+          "fov": 54
+        },
+        "lookProgress": 0.25,
+        "knock": 0,
+        "knockTap": 0,
+        "push": 0,
+        "food": 0,
+        "foodNear": 0,
+        "foodEaten": 0,
+        "swallow": 0,
+        "cupNear": 0,
+        "armSweep": 0,
+        "swordHigh": 0,
+        "fade": 0,
+        "pan": 0,
+        "hand": 0,
+        "lamp": 0,
+        "handTurn": 0,
+        "walks": 0,
+        "flight": 0,
+        "water": 0.45,
+        "celestial": 0,
+        "bob": 0,
+        "cup": 0,
+        "sword": 0,
+        "chop": 0,
+        "sail": 0,
+        "daylight": 0,
+        "vista": 0,
+        "vistaName": "",
+        "shotZoom": 1.0072350580437963,
+        "gate": {
+          "left": 0,
+          "right": 0
+        },
+        "frames": 4080,
+        "action": "four-views",
+        "progress": 0.16021200000000005,
+        "completed": 2,
+        "transitions": 4,
+        "frameGaps": 5,
+        "maxFrameMs": 133.60000000000218
+      },
+      "audio": {
+        "voiceLang": "zh",
+        "music": true,
+        "narration": true,
+        "muted": false,
+        "musicVolume": 0.23,
+        "voiceVolume": 0.92,
+        "started": true,
+        "paused": true,
+        "playing": false,
+        "pending": false,
+        "effectActive": false,
+        "musicPlaying": false,
+        "ambientTrack": "",
+        "ambientPlaying": false,
+        "track": null,
+        "kind": null,
+        "currentTime": 0,
+        "duration": 0,
+        "status": "已暂停，保留播放位置"
+      }
+    },
+    {
+      "motion": {
+        "ready": true,
+        "sceneIndex": 5,
+        "worldName": "banquet",
+        "time": 69.41249999996283,
+        "paused": true,
+        "busy": true,
+        "transition": null,
+        "view": {
+          "x": 0,
+          "y": 2.45,
+          "z": 9,
+          "tx": -1,
+          "ty": 12,
+          "tz": -25,
+          "fov": 54
+        },
+        "lookProgress": 0.5,
+        "knock": 0,
+        "knockTap": 0,
+        "push": 0,
+        "food": 0,
+        "foodNear": 0,
+        "foodEaten": 0,
+        "swallow": 0,
+        "cupNear": 0,
+        "armSweep": 0,
+        "swordHigh": 0,
+        "fade": 0,
+        "pan": 0,
+        "hand": 0,
+        "lamp": 0,
+        "handTurn": 0,
+        "walks": 0,
+        "flight": 0,
+        "water": 0.45,
+        "celestial": 0,
+        "bob": 0,
+        "cup": 0,
+        "sword": 0,
+        "chop": 0,
+        "sail": 0,
+        "daylight": 0,
+        "vista": 0,
+        "vistaName": "",
+        "shotZoom": 1.0142688736116823,
+        "gate": {
+          "left": 0,
+          "right": 0
+        },
+        "frames": 4489,
+        "action": "four-views",
+        "progress": 0.4002079999998809,
+        "completed": 2,
+        "transitions": 4,
+        "frameGaps": 5,
+        "maxFrameMs": 133.60000000000218
+      },
+      "audio": {
+        "voiceLang": "zh",
+        "music": true,
+        "narration": true,
+        "muted": false,
+        "musicVolume": 0.23,
+        "voiceVolume": 0.92,
+        "started": true,
+        "paused": true,
+        "playing": false,
+        "pending": true,
+        "effectActive": false,
+        "musicPlaying": false,
+        "ambientTrack": "",
+        "ambientPlaying": false,
+        "track": "v2-cue-5-up",
+        "kind": "cue",
+        "currentTime": 3.405247,
+        "duration": 4.096,
+        "status": "已暂停，保留播放位置"
+      }
+    },
+    {
+      "motion": {
+        "ready": true,
+        "sceneIndex": 5,
+        "worldName": "banquet",
+        "time": 75.66469999995878,
+        "paused": true,
+        "busy": true,
+        "transition": null,
+        "view": {
+          "x": 0,
+          "y": 2.45,
+          "z": 9,
+          "tx": 7,
+          "ty": 4,
+          "tz": -25,
+          "fov": 54
+        },
+        "lookProgress": 0.75,
+        "knock": 0,
+        "knockTap": 0,
+        "push": 0,
+        "food": 0,
+        "foodNear": 0,
+        "foodEaten": 0,
+        "swallow": 0,
+        "cupNear": 0,
+        "armSweep": 0,
+        "swordHigh": 0,
+        "fade": 0,
+        "pan": 0,
+        "hand": 0,
+        "lamp": 0,
+        "handTurn": 0,
+        "walks": 0,
+        "flight": 0,
+        "water": 0.45,
+        "celestial": 0,
+        "bob": 0,
+        "cup": 0,
+        "sword": 0,
+        "chop": 0,
+        "sail": 0,
+        "daylight": 0,
+        "vista": 0,
+        "vistaName": "",
+        "shotZoom": 1.013358759520818,
+        "gate": {
+          "left": 0,
+          "right": 0
+        },
+        "frames": 4911,
+        "action": "four-views",
+        "progress": 0.6502959999997011,
+        "completed": 2,
+        "transitions": 4,
+        "frameGaps": 5,
+        "maxFrameMs": 133.60000000000218
+      },
+      "audio": {
+        "voiceLang": "zh",
+        "music": true,
+        "narration": true,
+        "muted": false,
+        "musicVolume": 0.23,
+        "voiceVolume": 0.92,
+        "started": true,
+        "paused": true,
+        "playing": false,
+        "pending": true,
+        "effectActive": false,
+        "musicPlaying": false,
+        "ambientTrack": "",
+        "ambientPlaying": false,
+        "track": "v2-cue-5-right",
+        "kind": "cue",
+        "currentTime": 3.409289,
+        "duration": 3.88,
+        "status": "已暂停，保留播放位置"
+      }
+    },
+    {
+      "motion": {
+        "ready": true,
+        "sceneIndex": 5,
+        "worldName": "banquet",
+        "time": 81.90929999995615,
+        "paused": true,
+        "busy": true,
+        "transition": null,
+        "view": {
+          "x": 0,
+          "y": 2.45,
+          "z": 9,
+          "tx": 0,
+          "ty": -5,
+          "tz": -25,
+          "fov": 54
+        },
+        "lookProgress": 1,
+        "knock": 0,
+        "knockTap": 0,
+        "push": 0,
+        "food": 0,
+        "foodNear": 0,
+        "foodEaten": 0,
+        "swallow": 0,
+        "cupNear": 0,
+        "armSweep": 0,
+        "swordHigh": 0,
+        "fade": 0,
+        "pan": 0,
+        "hand": 0,
+        "lamp": 0,
+        "handTurn": 0,
+        "walks": 0,
+        "flight": 0,
+        "water": 0.45,
+        "celestial": 0,
+        "bob": 0,
+        "cup": 0,
+        "sword": 0,
+        "chop": 0,
+        "sail": 0,
+        "daylight": 0,
+        "vista": 0,
+        "vistaName": "",
+        "shotZoom": 1.004631669370689,
+        "gate": {
+          "left": 0,
+          "right": 0
+        },
+        "frames": 5330,
+        "action": "four-views",
+        "progress": 0.9000799999995839,
+        "completed": 2,
+        "transitions": 4,
+        "frameGaps": 5,
+        "maxFrameMs": 133.60000000000218
+      },
+      "audio": {
+        "voiceLang": "zh",
+        "music": true,
+        "narration": true,
+        "muted": false,
+        "musicVolume": 0.23,
+        "voiceVolume": 0.92,
+        "started": true,
+        "paused": true,
+        "playing": false,
+        "pending": true,
+        "effectActive": false,
+        "musicPlaying": false,
+        "ambientTrack": "",
+        "ambientPlaying": false,
+        "track": "v2-cue-5-down",
+        "kind": "cue",
+        "currentTime": 3.402572,
+        "duration": 3.928,
+        "status": "已暂停，保留播放位置"
+      }
+    },
+    {
+      "motion": {
+        "ready": true,
+        "sceneIndex": 17,
+        "worldName": "pass",
+        "time": 101.13219999995204,
+        "paused": true,
+        "busy": true,
+        "transition": null,
+        "view": {
+          "x": 0.1,
+          "y": 2.7,
+          "z": 7.4,
+          "tx": 1.8,
+          "ty": 3,
+          "tz": -25,
+          "fov": 54
+        },
+        "lookProgress": 0.5,
+        "knock": 0,
+        "knockTap": 0,
+        "push": 0,
+        "food": 0,
+        "foodNear": 0,
+        "foodEaten": 0,
+        "swallow": 0,
+        "cupNear": 0,
+        "armSweep": 0,
+        "swordHigh": 0,
+        "fade": 0,
+        "pan": 0,
+        "hand": 0,
+        "lamp": 0,
+        "handTurn": 0,
+        "walks": 0,
+        "flight": 0,
+        "water": 0.45,
+        "celestial": 0,
+        "bob": 0,
+        "cup": 0,
+        "sword": 0,
+        "chop": 0,
+        "sail": 0,
+        "daylight": 0,
+        "vista": 0,
+        "vistaName": "",
+        "shotZoom": 1,
+        "gate": {
+          "left": 0,
+          "right": 0
+        },
+        "frames": 6521,
+        "action": "fortress",
+        "progress": 0.35048260869565234,
+        "completed": 3,
+        "transitions": 5,
+        "frameGaps": 5,
+        "maxFrameMs": 133.60000000000218
+      },
+      "audio": {
+        "voiceLang": "zh",
+        "music": true,
+        "narration": true,
+        "muted": false,
+        "musicVolume": 0.23,
+        "voiceVolume": 0.92,
+        "started": true,
+        "paused": true,
+        "playing": false,
+        "pending": false,
+        "effectActive": false,
+        "musicPlaying": false,
+        "ambientTrack": "wind",
+        "ambientPlaying": false,
+        "track": null,
+        "kind": null,
+        "currentTime": 0,
+        "duration": 0,
+        "status": "已暂停，保留播放位置"
+      }
+    },
+    {
+      "motion": {
+        "ready": true,
+        "sceneIndex": 17,
+        "worldName": "pass",
+        "time": 108.02459999994679,
+        "paused": true,
+        "busy": true,
+        "transition": null,
+        "view": {
+          "x": 0.1,
+          "y": 2.7,
+          "z": 7.4,
+          "tx": 0,
+          "ty": 3,
+          "tz": -25,
+          "fov": 54
+        },
+        "lookProgress": 1,
+        "knock": 0.2783485377628786,
+        "knockTap": 0,
+        "push": 0,
+        "food": 0,
+        "foodNear": 0,
+        "foodEaten": 0,
+        "swallow": 0,
+        "cupNear": 0,
+        "armSweep": 0,
+        "swordHigh": 0,
+        "fade": 0,
+        "pan": 0,
+        "hand": 0,
+        "lamp": 0,
+        "handTurn": 0,
+        "walks": 0,
+        "flight": 0,
+        "water": 0.45,
+        "celestial": 0,
+        "bob": 0,
+        "cup": 0,
+        "sword": 0,
+        "chop": 0,
+        "sail": 0,
+        "daylight": 0,
+        "vista": 0,
+        "vistaName": "",
+        "shotZoom": 1.000190033900816,
+        "gate": {
+          "left": 0,
+          "right": 0
+        },
+        "frames": 6978,
+        "action": "fortress",
+        "progress": 0.6501521739127822,
+        "completed": 3,
+        "transitions": 5,
+        "frameGaps": 5,
+        "maxFrameMs": 133.60000000000218
+      },
+      "audio": {
+        "voiceLang": "zh",
+        "music": true,
+        "narration": true,
+        "muted": false,
+        "musicVolume": 0.23,
+        "voiceVolume": 0.92,
+        "started": true,
+        "paused": true,
+        "playing": false,
+        "pending": false,
+        "effectActive": false,
+        "musicPlaying": false,
+        "ambientTrack": "wind",
+        "ambientPlaying": false,
+        "track": null,
+        "kind": null,
+        "currentTime": 0,
+        "duration": 0,
+        "status": "已暂停，保留播放位置"
+      }
+    },
+    {
+      "motion": {
+        "ready": true,
+        "sceneIndex": 17,
+        "worldName": "pass",
+        "time": 110.10209999994409,
+        "paused": true,
+        "busy": true,
+        "transition": null,
+        "view": {
+          "x": 0.1,
+          "y": 2.7,
+          "z": 7.4,
+          "tx": 0,
+          "ty": 3,
+          "tz": -25,
+          "fov": 54
+        },
+        "lookProgress": 1,
+        "knock": 1,
+        "knockTap": 1,
+        "push": 0,
+        "food": 0,
+        "foodNear": 0,
+        "foodEaten": 0,
+        "swallow": 0,
+        "cupNear": 0,
+        "armSweep": 0,
+        "swordHigh": 0,
+        "fade": 0,
+        "pan": 0,
+        "hand": 0,
+        "lamp": 0,
+        "handTurn": 0,
+        "walks": 0,
+        "flight": 0,
+        "water": 0.45,
+        "celestial": 0,
+        "bob": 0,
+        "cup": 0,
+        "sword": 0,
+        "chop": 0,
+        "sail": 0,
+        "daylight": 0,
+        "vista": 0,
+        "vistaName": "",
+        "shotZoom": 1.0066772570011453,
+        "gate": {
+          "left": 0,
+          "right": 0
+        },
+        "frames": 7147,
+        "action": "fortress",
+        "progress": 0.7404782608691736,
+        "completed": 3,
+        "transitions": 5,
+        "frameGaps": 5,
+        "maxFrameMs": 133.60000000000218
+      },
+      "audio": {
+        "voiceLang": "zh",
+        "music": true,
+        "narration": true,
+        "muted": false,
+        "musicVolume": 0.23,
+        "voiceVolume": 0.92,
+        "started": true,
+        "paused": true,
+        "playing": false,
+        "pending": true,
+        "effectActive": false,
+        "musicPlaying": false,
+        "ambientTrack": "wind",
+        "ambientPlaying": false,
+        "track": "v2-cue-17-knock",
+        "kind": "cue",
+        "currentTime": 0.369408,
+        "duration": 3.352,
+        "status": "已暂停，保留播放位置"
+      }
+    },
+    {
+      "motion": {
+        "ready": true,
+        "sceneIndex": 17,
+        "worldName": "pass",
+        "time": 111.71699999993827,
+        "paused": true,
+        "busy": true,
+        "transition": null,
+        "view": {
+          "x": 0.1,
+          "y": 2.7,
+          "z": 7.4,
+          "tx": 0,
+          "ty": 3,
+          "tz": -25,
+          "fov": 54
+        },
+        "lookProgress": 1,
+        "knock": 1,
+        "knockTap": 0.2796166570557358,
+        "push": 0,
+        "food": 0,
+        "foodNear": 0,
+        "foodEaten": 0,
+        "swallow": 0,
+        "cupNear": 0,
+        "armSweep": 0,
+        "swordHigh": 0,
+        "fade": 0,
+        "pan": 0,
+        "hand": 0,
+        "lamp": 0,
+        "handTurn": 0,
+        "walks": 0,
+        "flight": 0,
+        "water": 0.45,
+        "celestial": 0,
+        "bob": 0,
+        "cup": 0,
+        "sword": 0,
+        "chop": 0,
+        "sail": 0,
+        "daylight": 0,
+        "vista": 0,
+        "vistaName": "",
+        "shotZoom": 1.0145970826404658,
+        "gate": {
+          "left": 0,
+          "right": 0
+        },
+        "frames": 7289,
+        "action": "fortress",
+        "progress": 0.8106913043471752,
+        "completed": 3,
+        "transitions": 5,
+        "frameGaps": 5,
+        "maxFrameMs": 133.60000000000218
+      },
+      "audio": {
+        "voiceLang": "zh",
+        "music": true,
+        "narration": true,
+        "muted": false,
+        "musicVolume": 0.23,
+        "voiceVolume": 0.92,
+        "started": true,
+        "paused": true,
+        "playing": false,
+        "pending": true,
+        "effectActive": false,
+        "musicPlaying": false,
+        "ambientTrack": "wind",
+        "ambientPlaying": false,
+        "track": "v2-cue-17-knock",
+        "kind": "cue",
+        "currentTime": 2.02289,
+        "duration": 3.352,
+        "status": "已暂停，保留播放位置"
+      }
+    },
+    {
+      "motion": {
+        "ready": true,
+        "sceneIndex": 17,
+        "worldName": "pass",
+        "time": 115.84929999993403,
+        "paused": true,
+        "busy": true,
+        "transition": null,
+        "view": {
+          "x": 0.1,
+          "y": 2.7,
+          "z": 7.4,
+          "tx": 0,
+          "ty": 3,
+          "tz": -25,
+          "fov": 54
+        },
+        "lookProgress": 1,
+        "knock": 0,
+        "knockTap": 0,
+        "push": 0,
+        "food": 0,
+        "foodNear": 0,
+        "foodEaten": 0,
+        "swallow": 0,
+        "cupNear": 0,
+        "armSweep": 0,
+        "swordHigh": 0,
+        "fade": 0,
+        "pan": 0,
+        "hand": 0,
+        "lamp": 0,
+        "handTurn": 0,
+        "walks": 0,
+        "flight": 0,
+        "water": 0.45,
+        "celestial": 0,
+        "bob": 0,
+        "cup": 0,
+        "sword": 0,
+        "chop": 0,
+        "sail": 0,
+        "daylight": 0,
+        "vista": 0,
+        "vistaName": "",
+        "shotZoom": 1.018,
+        "gate": {
+          "left": 0,
+          "right": 0
+        },
+        "frames": 7579,
+        "action": "fortress",
+        "progress": 0.9903565217382855,
+        "completed": 3,
+        "transitions": 5,
+        "frameGaps": 5,
+        "maxFrameMs": 133.60000000000218
+      },
+      "audio": {
+        "voiceLang": "zh",
+        "music": true,
+        "narration": true,
+        "muted": false,
+        "musicVolume": 0.23,
+        "voiceVolume": 0.92,
+        "started": true,
+        "paused": true,
+        "playing": false,
+        "pending": false,
+        "effectActive": false,
+        "musicPlaying": false,
+        "ambientTrack": "wind",
+        "ambientPlaying": false,
+        "track": null,
+        "kind": null,
+        "currentTime": 0,
+        "duration": 0,
+        "status": "已暂停，保留播放位置"
+      }
+    }
+  ],
+  "durations": [
+    {
+      "src": "assets/audio/v2-intro-1.mp3",
+      "duration": 7.624
+    },
+    {
+      "src": "assets/audio/v2-intro-0-en.mp3",
+      "duration": 9.712
+    },
+    {
+      "src": "assets/audio/v2-intro-0.mp3",
+      "duration": 8.824
+    },
+    {
+      "src": "assets/audio/v2-cue-1-touch.mp3",
+      "duration": 3.064
+    },
+    {
+      "src": "assets/audio/v2-cue-1-open.mp3",
+      "duration": 4.36
+    },
+    {
+      "src": "assets/audio/v2-cue-1-touch-en.mp3",
+      "duration": 3.448
+    },
+    {
+      "src": "assets/audio/v2-cue-1-open-en.mp3",
+      "duration": 4.408
+    },
+    {
+      "src": "assets/audio/v2-intro-1-en.mp3",
+      "duration": 8.2
+    },
+    {
+      "src": "assets/audio/v2-cue-2-cup.mp3",
+      "duration": 4.12
+    },
+    {
+      "src": "assets/audio/v2-intro-2.mp3",
+      "duration": 8.944
+    },
+    {
+      "src": "assets/audio/v2-cue-2-taste.mp3",
+      "duration": 4.24
+    },
+    {
+      "src": "assets/audio/v2-cue-2-swallow.mp3",
+      "duration": 4.624
+    },
+    {
+      "src": "assets/audio/v2-cue-2-cup-en.mp3",
+      "duration": 5.752
+    },
+    {
+      "src": "assets/audio/v2-cue-2-taste-en.mp3",
+      "duration": 5.68
+    },
+    {
+      "src": "assets/audio/v2-intro-2-en.mp3",
+      "duration": 10.312
+    },
+    {
+      "src": "assets/audio/v2-intro-3.mp3",
+      "duration": 4.096
+    },
+    {
+      "src": "assets/audio/v2-cue-2-swallow-en.mp3",
+      "duration": 7.72
+    },
+    {
+      "src": "assets/audio/v2-cue-3-hesitate.mp3",
+      "duration": 2.368
+    },
+    {
+      "src": "assets/audio/v2-cue-3-stop.mp3",
+      "duration": 3.52
+    },
+    {
+      "src": "assets/audio/v2-cue-3-hesitate-en.mp3",
+      "duration": 3.136
+    },
+    {
+      "src": "assets/audio/v2-intro-3-en.mp3",
+      "duration": 6.424
+    },
+    {
+      "src": "assets/audio/v2-intro-4.mp3",
+      "duration": 4.504
+    },
+    {
+      "src": "assets/audio/v2-cue-3-stop-en.mp3",
+      "duration": 6.688
+    },
+    {
+      "src": "assets/audio/v2-cue-4-draw.mp3",
+      "duration": 2.44
+    },
+    {
+      "src": "assets/audio/v2-cue-4-gaze.mp3",
+      "duration": 5.584
+    },
+    {
+      "src": "assets/audio/v2-cue-4-draw-en.mp3",
+      "duration": 3.016
+    },
+    {
+      "src": "assets/audio/v2-intro-4-en.mp3",
+      "duration": 4.48
+    },
+    {
+      "src": "assets/audio/v2-cue-5-left.mp3",
+      "duration": 2.992
+    },
+    {
+      "src": "assets/audio/v2-cue-4-gaze-en.mp3",
+      "duration": 5.944
+    },
+    {
+      "src": "assets/audio/v2-intro-5.mp3",
+      "duration": 7.168
+    },
+    {
+      "src": "assets/audio/v2-cue-5-up.mp3",
+      "duration": 4.096
+    },
+    {
+      "src": "assets/audio/v2-cue-5-right.mp3",
+      "duration": 3.88
+    },
+    {
+      "src": "assets/audio/v2-cue-5-down.mp3",
+      "duration": 3.928
+    },
+    {
+      "src": "assets/audio/v2-cue-5-left-en.mp3",
+      "duration": 3.136
+    },
+    {
+      "src": "assets/audio/v2-cue-5-up-en.mp3",
+      "duration": 5.152
+    },
+    {
+      "src": "assets/audio/v2-intro-5-en.mp3",
+      "duration": 8.008
+    },
+    {
+      "src": "assets/audio/v2-cue-5-right-en.mp3",
+      "duration": 4.792
+    },
+    {
+      "src": "assets/audio/v2-cue-5-down-en.mp3",
+      "duration": 4.384
+    },
+    {
+      "src": "assets/audio/v2-intro-6.mp3",
+      "duration": 4.24
+    },
+    {
+      "src": "assets/audio/v2-cue-6-river.mp3",
+      "duration": 5.872
+    },
+    {
+      "src": "assets/audio/v2-intro-6-en.mp3",
+      "duration": 6.856
+    },
+    {
+      "src": "assets/audio/v2-cue-6-river-en.mp3",
+      "duration": 6.832
+    },
+    {
+      "src": "assets/audio/v2-intro-7.mp3",
+      "duration": 4.168
+    },
+    {
+      "src": "assets/audio/v2-intro-7-en.mp3",
+      "duration": 4.912
+    },
+    {
+      "src": "assets/audio/v2-cue-7-snow.mp3",
+      "duration": 6.16
+    },
+    {
+      "src": "assets/audio/v2-intro-8.mp3",
+      "duration": 7.984
+    },
+    {
+      "src": "assets/audio/v2-cue-7-snow-en.mp3",
+      "duration": 7.6
+    },
+    {
+      "src": "assets/audio/v2-intro-8-en.mp3",
+      "duration": 8.464
+    },
+    {
+      "src": "assets/audio/v2-cue-8-roads.mp3",
+      "duration": 9.736
+    },
+    {
+      "src": "assets/audio/v2-cue-8-roads-en.mp3",
+      "duration": 11.968
+    },
+    {
+      "src": "assets/audio/v2-intro-9.mp3",
+      "duration": 4.912
+    },
+    {
+      "src": "assets/audio/v2-intro-9-en.mp3",
+      "duration": 8.224
+    },
+    {
+      "src": "assets/audio/v2-cue-9-height.mp3",
+      "duration": 12.976
+    },
+    {
+      "src": "assets/audio/v2-intro-10.mp3",
+      "duration": 5.368
+    },
+    {
+      "src": "assets/audio/v2-cue-9-height-en.mp3",
+      "duration": 11.272
+    },
+    {
+      "src": "assets/audio/v2-cue-10-path.mp3",
+      "duration": 8.632
+    },
+    {
+      "src": "assets/audio/v2-intro-10-en.mp3",
+      "duration": 8.344
+    },
+    {
+      "src": "assets/audio/v2-cue-10-path-en.mp3",
+      "duration": 11.392
+    },
+    {
+      "src": "assets/audio/v2-cue-11-high.mp3",
+      "duration": 4.144
+    },
+    {
+      "src": "assets/audio/v2-cue-11-low.mp3",
+      "duration": 4.432
+    },
+    {
+      "src": "assets/audio/v2-intro-11.mp3",
+      "duration": 4.6
+    },
+    {
+      "src": "assets/audio/v2-cue-11-high-en.mp3",
+      "duration": 6.448
+    },
+    {
+      "src": "assets/audio/v2-cue-11-low-en.mp3",
+      "duration": 5.776
+    },
+    {
+      "src": "assets/audio/v2-intro-12.mp3",
+      "duration": 3.736
+    },
+    {
+      "src": "assets/audio/v2-intro-11-en.mp3",
+      "duration": 8.224
+    },
+    {
+      "src": "assets/audio/v2-intro-12-en.mp3",
+      "duration": 5.296
+    },
+    {
+      "src": "assets/audio/v2-cue-12-bends.mp3",
+      "duration": 7.336
+    },
+    {
+      "src": "assets/audio/v2-intro-13.mp3",
+      "duration": 4.216
+    },
+    {
+      "src": "assets/audio/v2-cue-13-stars.mp3",
+      "duration": 4.288
+    },
+    {
+      "src": "assets/audio/v2-cue-12-bends-en.mp3",
+      "duration": 9.928
+    },
+    {
+      "src": "assets/audio/v2-cue-13-sigh.mp3",
+      "duration": 4.216
+    },
+    {
+      "src": "assets/audio/v2-cue-13-sigh-en.mp3",
+      "duration": 4.84
+    },
+    {
+      "src": "assets/audio/v2-cue-13-stars-en.mp3",
+      "duration": 6.016
+    },
+    {
+      "src": "assets/audio/v2-intro-14.mp3",
+      "duration": 3.76
+    },
+    {
+      "src": "assets/audio/v2-intro-13-en.mp3",
+      "duration": 6.76
+    },
+    {
+      "src": "assets/audio/v2-cue-14-light.mp3",
+      "duration": 4.312
+    },
+    {
+      "src": "assets/audio/v2-cue-14-distance.mp3",
+      "duration": 4.408
+    },
+    {
+      "src": "assets/audio/v2-intro-14-en.mp3",
+      "duration": 4.96
+    },
+    {
+      "src": "assets/audio/v2-cue-14-light-en.mp3",
+      "duration": 4.816
+    },
+    {
+      "src": "assets/audio/v2-cue-14-distance-en.mp3",
+      "duration": 5.992
+    },
+    {
+      "src": "assets/audio/v2-intro-15.mp3",
+      "duration": 4.24
+    },
+    {
+      "src": "assets/audio/v2-intro-15-en.mp3",
+      "duration": 4.936
+    },
+    {
+      "src": "assets/audio/v2-cue-15-moon.mp3",
+      "duration": 7.6
+    },
+    {
+      "src": "assets/audio/v2-cue-15-moon-en.mp3",
+      "duration": 8.08
+    },
+    {
+      "src": "assets/audio/v2-intro-16.mp3",
+      "duration": 4.288
+    },
+    {
+      "src": "assets/audio/v2-cue-16-torrent.mp3",
+      "duration": 8.296
+    },
+    {
+      "src": "assets/audio/v2-cue-16-torrent-en.mp3",
+      "duration": 10.984
+    },
+    {
+      "src": "assets/audio/v2-intro-16-en.mp3",
+      "duration": 7.12
+    },
+    {
+      "src": "assets/audio/v2-cue-17-far.mp3",
+      "duration": 3.616
+    },
+    {
+      "src": "assets/audio/v2-intro-17.mp3",
+      "duration": 6.424
+    },
+    {
+      "src": "assets/audio/v2-cue-17-knock.mp3",
+      "duration": 3.352
+    },
+    {
+      "src": "assets/audio/v2-cue-17-near.mp3",
+      "duration": 2.824
+    },
+    {
+      "src": "assets/audio/v2-cue-17-far-en.mp3",
+      "duration": 4.768
+    },
+    {
+      "src": "assets/audio/v2-intro-17-en.mp3",
+      "duration": 8.776
+    },
+    {
+      "src": "assets/audio/v2-cue-17-near-en.mp3",
+      "duration": 3.376
+    },
+    {
+      "src": "assets/audio/v2-cue-17-knock-en.mp3",
+      "duration": 3.736
+    },
+    {
+      "src": "assets/audio/v2-intro-18.mp3",
+      "duration": 4.336
+    },
+    {
+      "src": "assets/audio/v2-cue-18-city.mp3",
+      "duration": 6.952
+    },
+    {
+      "src": "assets/audio/v2-intro-18-en.mp3",
+      "duration": 4.864
+    },
+    {
+      "src": "assets/audio/v2-cue-18-city-en.mp3",
+      "duration": 8.056
+    },
+    {
+      "src": "assets/audio/v2-intro-19.mp3",
+      "duration": 3.952
+    },
+    {
+      "src": "assets/audio/v2-intro-19-en.mp3",
+      "duration": 4.84
+    },
+    {
+      "src": "assets/audio/v2-cue-19-home.mp3",
+      "duration": 5.92
+    },
+    {
+      "src": "assets/audio/v2-intro-20.mp3",
+      "duration": 4.144
+    },
+    {
+      "src": "assets/audio/v2-cue-19-home-en.mp3",
+      "duration": 7.024
+    },
+    {
+      "src": "assets/audio/v2-cue-20-fish.mp3",
+      "duration": 3.976
+    },
+    {
+      "src": "assets/audio/v2-cue-20-fish-en.mp3",
+      "duration": 4.984
+    },
+    {
+      "src": "assets/audio/v2-intro-21.mp3",
+      "duration": 4.12
+    },
+    {
+      "src": "assets/audio/v2-intro-20-en.mp3",
+      "duration": 7.264
+    },
+    {
+      "src": "assets/audio/v2-cue-21-dream.mp3",
+      "duration": 4.144
+    },
+    {
+      "src": "assets/audio/v2-intro-21-en.mp3",
+      "duration": 5.584
+    },
+    {
+      "src": "assets/audio/v2-cue-21-dream-en.mp3",
+      "duration": 5.344
+    },
+    {
+      "src": "assets/audio/v2-intro-22.mp3",
+      "duration": 4.336
+    },
+    {
+      "src": "assets/audio/v2-cue-22-sail.mp3",
+      "duration": 8.992
+    },
+    {
+      "src": "assets/audio/v2-intro-22-en.mp3",
+      "duration": 7.048
+    },
+    {
+      "src": "assets/audio/v2-cue-22-sail-en.mp3",
+      "duration": 11.056
+    },
+    {
+      "src": "assets/audio/v2-intro-23.mp3",
+      "duration": 9.208
+    },
+    {
+      "src": "assets/audio/v2-intro-23-en.mp3",
+      "duration": 9.592
+    },
+    {
+      "src": "assets/audio/cuckoo.ogg",
+      "duration": 15.61725
+    }
+  ]
+}

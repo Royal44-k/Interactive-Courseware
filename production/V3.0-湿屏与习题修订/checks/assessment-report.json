@@ -1,0 +1,75 @@
+{
+  "full": {
+    "choice": 24,
+    "fill": 16,
+    "matching": 12,
+    "puzzle": 8,
+    "appreciation": 24,
+    "reflection": 16,
+    "objective": 60,
+    "self": 40,
+    "total": 100
+  },
+  "zero": {
+    "choice": 0,
+    "fill": 0,
+    "matching": 0,
+    "puzzle": 0,
+    "appreciation": 0,
+    "reflection": 0,
+    "objective": 0,
+    "self": 0,
+    "total": 0
+  },
+  "layouts": [
+    {
+      "lang": "zh",
+      "w": 375,
+      "h": 667
+    },
+    {
+      "lang": "zh",
+      "w": 844,
+      "h": 390
+    },
+    {
+      "lang": "zh",
+      "w": 1280,
+      "h": 900
+    },
+    {
+      "lang": "bi",
+      "w": 375,
+      "h": 667
+    },
+    {
+      "lang": "bi",
+      "w": 844,
+      "h": 390
+    },
+    {
+      "lang": "bi",
+      "w": 1280,
+      "h": 900
+    },
+    {
+      "lang": "en",
+      "w": 375,
+      "h": 667
+    },
+    {
+      "lang": "en",
+      "w": 844,
+      "h": 390
+    },
+    {
+      "lang": "en",
+      "w": 1280,
+      "h": 900
+    }
+  ],
+  "errors": [],
+  "hoverPixelIdentical": true,
+  "dragClickKeyboard": true,
+  "legacyPreserved": true
+}

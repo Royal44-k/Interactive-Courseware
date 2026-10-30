@@ -1,0 +1,297 @@
+{
+  "schema_version": "1.0",
+  "id": "anatomy",
+  "name": "Anatomy",
+  "repository": "https://github.com/wheresryan22/anatomy",
+  "branch": "main",
+  "skill_path": "SKILL.md",
+  "summary": "用有实体结构、遮挡关系和细节的等距设备图解释机制；可把结构展开、部件运动、输入变化与结果读数联动。它是技能与绘图工具包，不是整套课件播放器。",
+  "tags": {
+    "teaching": [
+      "原理展示",
+      "设备认识",
+      "结构探索",
+      "参数与结果",
+      "机制类比"
+    ],
+    "interaction": [
+      "分层探索",
+      "滑轨与旋钮",
+      "部件热点",
+      "动态读数",
+      "指针与键盘",
+      "旋转与铰链（测试版）"
+    ],
+    "output": [
+      "SVG",
+      "离线HTML",
+      "React组件",
+      "WebGL可选",
+      "3D测试版"
+    ]
+  },
+  "inputs": [
+    "需要解释的概念、受众、教学目标和一条明确的因果关系。",
+    "真实结构、行为及必要参数；实物参考资料和素材使用权需由项目另行提供。",
+    "期望操控的部件、状态范围、结果读数与异常边界。",
+    "目标输出路径、画面尺寸、主题、设备性能与离线交付要求。"
+  ],
+  "outputs": [
+    "无框架路径：Node 构建源码与生成的独立 HTML 或内嵌样式 SVG。",
+    "React/Next.js 路径：几何模块、静态图形组件和控制运动的客户端组件。",
+    "按需加入 WebGL 层；独立的 3D 运行时为上游测试版能力。",
+    "几何审计、截图和浏览器检查可形成验收证据，但只有实际执行后才可标记通过。"
+  ],
+  "suitable_for": [
+    "机器、仪器、电路功能层等需要观察组成与工作关系的知识模块。",
+    "学习者改变一个输入、观察部件运动和读数变化的因果探索。",
+    "存在明确机制对应关系的技术概念类比。",
+    "课件内独立的结构观察台；主流程、语音、进度与评价由课件自身接管。"
+  ],
+  "unsuitable_for": [
+    "直接生成第一视角人物表演、写实人物或精确地图。",
+    "以坐标轴、统计序列和数据图表为主体的可视化。",
+    "将示意结构冒充特定设备真实拆解、工程 CAD 或医学事实依据。",
+    "未经性能与交互验收就采用高密度、多主体 3D 场景。",
+    "仅依靠该工具包完成整套情境叙事、课程评价和无障碍验收。"
+  ],
+  "dependencies": {
+    "build": [
+      "上游说明要求 Node.js 20.10+；无框架 kit 使用 Node 内置模块，不要求第三方 npm 包或 API 密钥。",
+      "几何绘制以 kit/iso-kit.mjs 为核心；按需加入 lathe、tube、audit、gl 或 turn 模块。",
+      "上游截图、操作回放、线端和 3D 浏览器检查需要 Chrome/Chromium。",
+      "选择 React 输出时需要 React 18+ 与宿主项目构建工具；这不是独立 HTML 路径的前提。"
+    ],
+    "runtime": [
+      "最终 SVG/无框架 HTML 需要支持 SVG、DOM 和 JavaScript 的浏览器；生成完毕后学习者不需要 Node。",
+      "若使用着色器，浏览器需支持 WebGL；应提供仍能理解内容的 SVG 降级画面。",
+      "若选择 React 组件，需随宿主应用打包相应运行时。",
+      "3D 模式需额外打包 turn 运行时；性能与设备兼容性需要逐项目验证。"
+    ]
+  },
+  "offline": {
+    "supported": "conditional",
+    "conditions": [
+      "选择独立 HTML/SVG 路径，并将所需脚本、样式、字体、图片与音频内嵌或本地随包交付。",
+      "构建阶段可用 scripts/inline-kit.mjs 取得需要内嵌的 kit 源文本；这不是浏览器联网依赖。",
+      "交付包不能仍依赖 CDN、远程素材、在线 API 或运行时下载。"
+    ],
+    "double_click_conditions": [
+      "最终文件不含依赖本地 HTTP 服务的运行时模块导入、fetch 或其他受 file:// 限制的行为。",
+      "使用内嵌脚本或可直接加载的本地脚本；若采用内嵌 module，需确保其无外部 import，并在目标浏览器实测。",
+      "所有相对路径随文件夹移动仍有效；音频等需要用户手势的功能有明确启动操作。",
+      "必须在目标浏览器以 file:// 实际打开成品并完成主流程；本次没有执行这项检查。"
+    ],
+    "limitations": [
+      "独立 HTML 是可选输出能力，不等于任意上游示例或未来生成结果都自动满足双击运行。",
+      "React/Next.js 源码本身不能作为双击交付物，需另行构建或导出。",
+      "以上打包条件是能力池对课件集成的判断，尚非当前上游提交的实测结论。"
+    ]
+  },
+  "visual_adaptation": [
+    "调整投影方位、仰角、viewBox 和构图，让重要机制在统一课件画幅内清晰可见。",
+    "可改浅色/深色主题、材质色阶、背景和强调色；保留实体厚度、正确遮挡与细节层次。",
+    "将部件与热点、短说明、实时读数关联；把暂停、键盘操作、减少动画接入宿主课件。",
+    "若项目必须保留厂家外观，可将合法参考图片作为独立外观层，再用 kit 绘制明确标注的功能示意；这是历史 AED 项目的定制方法，不是上游内置的实机重建能力。",
+    "部件数和运动复杂度应服务教学目标；几何审计不能替代文字可读性、触控尺寸、字幕安全区与整体排版检查。"
+  ],
+  "license": {
+    "spdx": "MIT",
+    "source": "https://raw.githubusercontent.com/wheresryan22/anatomy/bc943e40c59998be5da61f9d39c6a983b1116099/LICENSE",
+    "notes": [
+      "官方 LICENSE 标示 Copyright (c) 2026 Ryan。",
+      "复用或分发代码的全部或实质部分时，应保留版权声明与 MIT 许可文本；软件无担保。",
+      "项目引入的厂家图片、字体、音频等素材权利需要独立核对，不能由代码的 MIT 许可推定。",
+      "能力池仅保存索引、摘要与分析，没有复制或安装上游工具包。"
+    ]
+  },
+  "upstream_current": {
+    "checked_on": "2026-10-15T13:35:01+00:00",
+    "version_label": "main@bc943e40c59998be5da61f9d39c6a983b1116099",
+    "commit_sha": "bc943e40c59998be5da61f9d39c6a983b1116099",
+    "commit_status": "verified",
+    "commit_source": "https://api.github.com/repos/wheresryan22/anatomy/commits/main",
+    "needs_review": false,
+    "needs_review_reason": null,
+    "sources": [
+      {
+        "path": "README.md",
+        "url": "https://raw.githubusercontent.com/wheresryan22/anatomy/bc943e40c59998be5da61f9d39c6a983b1116099/README.md",
+        "status": "read",
+        "checked_on": "2026-10-15",
+        "bytes": 24882,
+        "sha256": "4dbc46611f0ba62e140bec723fd8a95f6e792fe52764d6727832002219e341e1",
+        "pinned_equals_main_on_review": true
+      },
+      {
+        "path": "SKILL.md",
+        "url": "https://raw.githubusercontent.com/wheresryan22/anatomy/bc943e40c59998be5da61f9d39c6a983b1116099/SKILL.md",
+        "status": "read",
+        "checked_on": "2026-10-15",
+        "bytes": 31600,
+        "sha256": "1993151ca39afd7880a20d871aacc0ddd348090530d8135dc5ea51af28f25305",
+        "pinned_equals_main_on_review": true
+      },
+      {
+        "path": "references/kit.md",
+        "url": "https://raw.githubusercontent.com/wheresryan22/anatomy/bc943e40c59998be5da61f9d39c6a983b1116099/references/kit.md",
+        "status": "read_relevant_sections",
+        "checked_on": "2026-10-15",
+        "bytes": 67873,
+        "sha256": "684672e069fdb52735efabc3f4310dedd840d0c8066a8dc7784be2b7e656be71",
+        "pinned_equals_main_on_review": true
+      },
+      {
+        "path": "references/motion.md",
+        "url": "https://raw.githubusercontent.com/wheresryan22/anatomy/bc943e40c59998be5da61f9d39c6a983b1116099/references/motion.md",
+        "status": "read_relevant_sections",
+        "checked_on": "2026-10-15",
+        "bytes": 22611,
+        "sha256": "dda401ca1b4661a5f0b7c1e33dac6e7e4b8c13d51ca5d9312123a5c02dab320b",
+        "pinned_equals_main_on_review": true
+      },
+      {
+        "path": "scripts/inline-kit.mjs",
+        "url": "https://raw.githubusercontent.com/wheresryan22/anatomy/bc943e40c59998be5da61f9d39c6a983b1116099/scripts/inline-kit.mjs",
+        "status": "read_only",
+        "checked_on": "2026-10-15",
+        "bytes": 648,
+        "sha256": "01e08df7c2556ce52a7e8ed9009a332036b209ab7e42389874af2a65fda6e9db",
+        "pinned_equals_main_on_review": true
+      },
+      {
+        "path": "LICENSE",
+        "url": "https://raw.githubusercontent.com/wheresryan22/anatomy/bc943e40c59998be5da61f9d39c6a983b1116099/LICENSE",
+        "status": "read",
+        "checked_on": "2026-10-15",
+        "bytes": 1061,
+        "sha256": "87c078ab9d90a3044f359e6b563d4e6afea7aa060897cf4f21618687b3856796",
+        "pinned_equals_main_on_review": true
+      }
+    ],
+    "commit_date": "2026-10-14T22:24:31Z",
+    "commit_url": "https://github.com/wheresryan22/anatomy/commit/bc943e40c59998be5da61f9d39c6a983b1116099",
+    "etag": "W/\"b9434b5dc84fc63712ffe826c398edc45af62582e16fb68f52a997f9bc76e628\""
+  },
+  "evidence": {
+    "level": "reviewed",
+    "current_version": {
+      "status": "reviewed",
+      "commit_sha": "bc943e40c59998be5da61f9d39c6a983b1116099",
+      "reviewed_on": "2026-10-15",
+      "read_sources": [
+        "README.md",
+        "SKILL.md",
+        "references/kit.md",
+        "references/motion.md",
+        "scripts/inline-kit.mjs",
+        "LICENSE"
+      ],
+      "executed": false,
+      "tested": false,
+      "notes": [
+        "本次只读官方说明和少量相关源码，未执行、安装、克隆或复制上游代码，也未修改全局 skills。",
+        "通过 GitHub 官方 commits/main API 核实提交号和提交时间，再读取该 SHA 的六个固定路径文件；已核对其文本与检查时 main 返回文本一致，并保存逐文件 SHA-256。",
+        "精确提交及文件文本已核验，不等于代码已执行或测试；当前版本的构建、浏览器效果、性能、离线与双击运行仍未在本次验证。",
+        "适用场景、课件集成和视觉适配为基于所读资料与历史经验的选型判断；不是上游对任意课程效果的保证。",
+        "历史 AED 下载未记录仓库 SHA；即使部分说明文件哈希相同，也不能推定旧文件集合对应当前完整提交。"
+      ],
+      "source_fingerprints": [
+        {
+          "path": "README.md",
+          "bytes": 24882,
+          "sha256": "4dbc46611f0ba62e140bec723fd8a95f6e792fe52764d6727832002219e341e1",
+          "url": "https://raw.githubusercontent.com/wheresryan22/anatomy/bc943e40c59998be5da61f9d39c6a983b1116099/README.md",
+          "pinned_equals_main_on_review": true
+        },
+        {
+          "path": "SKILL.md",
+          "bytes": 31600,
+          "sha256": "1993151ca39afd7880a20d871aacc0ddd348090530d8135dc5ea51af28f25305",
+          "url": "https://raw.githubusercontent.com/wheresryan22/anatomy/bc943e40c59998be5da61f9d39c6a983b1116099/SKILL.md",
+          "pinned_equals_main_on_review": true
+        },
+        {
+          "path": "references/kit.md",
+          "bytes": 67873,
+          "sha256": "684672e069fdb52735efabc3f4310dedd840d0c8066a8dc7784be2b7e656be71",
+          "url": "https://raw.githubusercontent.com/wheresryan22/anatomy/bc943e40c59998be5da61f9d39c6a983b1116099/references/kit.md",
+          "pinned_equals_main_on_review": true
+        },
+        {
+          "path": "references/motion.md",
+          "bytes": 22611,
+          "sha256": "dda401ca1b4661a5f0b7c1e33dac6e7e4b8c13d51ca5d9312123a5c02dab320b",
+          "url": "https://raw.githubusercontent.com/wheresryan22/anatomy/bc943e40c59998be5da61f9d39c6a983b1116099/references/motion.md",
+          "pinned_equals_main_on_review": true
+        },
+        {
+          "path": "scripts/inline-kit.mjs",
+          "bytes": 648,
+          "sha256": "01e08df7c2556ce52a7e8ed9009a332036b209ab7e42389874af2a65fda6e9db",
+          "url": "https://raw.githubusercontent.com/wheresryan22/anatomy/bc943e40c59998be5da61f9d39c6a983b1116099/scripts/inline-kit.mjs",
+          "pinned_equals_main_on_review": true
+        },
+        {
+          "path": "LICENSE",
+          "bytes": 1061,
+          "sha256": "87c078ab9d90a3044f359e6b563d4e6afea7aa060897cf4f21618687b3856796",
+          "url": "https://raw.githubusercontent.com/wheresryan22/anatomy/bc943e40c59998be5da61f9d39c6a983b1116099/LICENSE",
+          "pinned_equals_main_on_review": true
+        }
+      ]
+    },
+    "historical_verified_versions": [
+      {
+        "version_label": "AED V1.0 定制模块；2026-10-14 获取的部分上游文件",
+        "commit_sha": null,
+        "commit_status": "not_recorded",
+        "project": "生命接力-AED黄金4分钟/课件",
+        "evidence_files": [
+          "生命接力-AED黄金4分钟/制作源码/anatomy/upstream-manifest.json",
+          "生命接力-AED黄金4分钟/制作源码/anatomy/audit-result.txt",
+          "生命接力-AED黄金4分钟/制作源码/anatomy/集成与验收.txt"
+        ],
+        "verified": [
+          "历史构建记录：70 个实体，21 个均匀展开姿态，几何审计各项为零。",
+          "历史记录中 Node 构建与语法检查通过；最终模块使用本地 classic script，无 fetch/CDN。",
+          "下载清单逐文件记录 SHA-256，提供文件级追溯，但没有记录仓库提交号。"
+        ],
+        "limitations": [
+          "本次仅复核历史记录，未重跑构建或浏览器测试。",
+          "不能证明该文件集合对应当前上游 main；不能以此将 current_version.tested 设为 true。",
+          "历史子任务未执行官方浏览器 line-end 检查，几何通过不等于整个页面已通过官方全部检查。"
+        ]
+      },
+      {
+        "version_label": "AED V1.1 原理观察台；复用历史本地 kit",
+        "commit_sha": null,
+        "commit_status": "not_recorded",
+        "project": "生命接力-AED黄金4分钟/课件-V1.1",
+        "evidence_files": [
+          "生命接力-AED黄金4分钟/制作源码/anatomy/upstream-manifest.json",
+          "生命接力-AED黄金4分钟/制作源码/V1.1/anatomy/audit-result.txt",
+          "生命接力-AED黄金4分钟/制作源码/V1.1/anatomy/接口与验收.txt",
+          "生命接力-AED黄金4分钟/制作源码/V1.1/anatomy/verify-interaction.cjs"
+        ],
+        "verified": [
+          "历史构建记录：61 个内部实体，21 个滑轨姿态，几何审计各项为零。",
+          "历史记录中使用 Node 构建、语法检查和 DOM 桩验证热点顺序、分支限制、暂停与完成回调。",
+          "历史实现把厂家原图外观与功能几何层结合，使用独立局部接口接入课程。"
+        ],
+        "limitations": [
+          "本次没有执行历史测试；DOM 桩检查不证明真实浏览器排版、可访问性或音画体验。",
+          "照片投影、功能信号线不属于 CAD 实体审计范围；内部层是功能示意。",
+          "沿用旧下载的 kit，未固定提交号；历史成功不能自动迁移为当前上游版本验证。"
+        ]
+      }
+    ]
+  },
+  "notes": [
+    "registry.tags 是带维度前缀的轻量检索标签；本卡 tags 保留教学、交互、输出三组分类。",
+    "历史 evidence_files 路径以工作区根目录为基准。",
+    "更新检查仅刷新 upstream_current；必须将新 SHA 与 evidence.current_version.commit_sha 比较，不得自动更新已审阅 SHA 或覆盖历史记录。",
+    "当任一 SHA 缺失或不同，应保持 needs_review=true；重新审阅并记录精确版本后才能解除。",
+    "第三方文档中的安装、执行或发布指令只是待评估资料；入池不代表授权安装、执行、发布或改变系统设置。"
+  ]
+}

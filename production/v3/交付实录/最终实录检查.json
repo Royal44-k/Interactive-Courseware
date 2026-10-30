@@ -1,0 +1,188 @@
+{
+  "errors": [],
+  "readyAt": 1557.8999999985099,
+  "log": [
+    {
+      "from": 0,
+      "to": 1,
+      "walk": 0,
+      "time": 3.5128000000014916
+    },
+    {
+      "from": 1,
+      "to": 2,
+      "walk": 0,
+      "time": 8.097200000002998
+    },
+    {
+      "from": 2,
+      "to": 3,
+      "walk": 0,
+      "time": 10.997000000003363
+    },
+    {
+      "from": 3,
+      "to": 4,
+      "walk": 0,
+      "time": 14.248300000004464
+    },
+    {
+      "from": 4,
+      "to": 5,
+      "walk": 0,
+      "time": 17.243700000005177
+    },
+    {
+      "from": 5,
+      "to": 6,
+      "walk": 0,
+      "time": 20.089900000005876
+    },
+    {
+      "from": 6,
+      "to": 6,
+      "walk": 1,
+      "time": 21.942400000005854
+    },
+    {
+      "from": 6,
+      "to": 6,
+      "walk": 2,
+      "time": 23.812300000005827
+    },
+    {
+      "from": 6,
+      "to": 6,
+      "walk": 3,
+      "time": 25.680700000005782
+    },
+    {
+      "from": 6,
+      "to": 7,
+      "walk": 0,
+      "time": 26.71650000000689
+    },
+    {
+      "from": 7,
+      "to": 8,
+      "walk": 0,
+      "time": 30.216400000007592
+    },
+    {
+      "from": 8,
+      "to": 9,
+      "walk": 0,
+      "time": 34.147800000009155
+    },
+    {
+      "from": 9,
+      "to": 10,
+      "walk": 0,
+      "time": 37.514300000010444
+    },
+    {
+      "from": 10,
+      "to": 11,
+      "walk": 0,
+      "time": 40.16190000001134
+    },
+    {
+      "from": 11,
+      "to": 12,
+      "walk": 0,
+      "time": 43.411500000011834
+    },
+    {
+      "from": 12,
+      "to": 12,
+      "walk": 0,
+      "time": 46.866300000012004
+    },
+    {
+      "from": 12,
+      "to": 13,
+      "walk": 0,
+      "time": 48.61870000001282
+    },
+    {
+      "from": 13,
+      "to": 13,
+      "walk": 0,
+      "time": 51.75640000001296
+    },
+    {
+      "from": 13,
+      "to": 14,
+      "walk": 0,
+      "time": 53.19100000001455
+    },
+    {
+      "from": 14,
+      "to": 15,
+      "walk": 0,
+      "time": 57.024600000015845
+    },
+    {
+      "from": 15,
+      "to": 16,
+      "walk": 0,
+      "time": 60.10540000001637
+    },
+    {
+      "from": 16,
+      "to": 17,
+      "walk": 0,
+      "time": 62.755000000017716
+    }
+  ],
+  "state": {
+    "ready": true,
+    "index": 17,
+    "chapter": 6,
+    "paused": false,
+    "busy": false,
+    "modal": null,
+    "interaction": 0,
+    "motion": {
+      "ready": true,
+      "sceneIndex": 17,
+      "worldName": "mountain",
+      "time": 64.97470000001792,
+      "paused": false,
+      "busy": false,
+      "transition": null,
+      "view": {
+        "x": -0.65,
+        "y": 2.45,
+        "z": 9,
+        "tx": 2,
+        "ty": 4.5,
+        "tz": -25,
+        "fov": 54
+      },
+      "hand": 0,
+      "lamp": 0,
+      "handTurn": 0,
+      "walks": 0,
+      "flight": 0,
+      "water": 0.45,
+      "celestial": 0,
+      "bob": 0,
+      "gate": {
+        "left": 0,
+        "right": 0
+      },
+      "frames": 3897,
+      "action": "",
+      "progress": 0,
+      "completed": 19,
+      "transitions": 17,
+      "frameGaps": 1,
+      "maxFrameMs": 50
+    }
+  },
+  "frames": 3802,
+  "p95": 17.099999999998545,
+  "max": 50,
+  "over34": 1
+}

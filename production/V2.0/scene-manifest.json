@@ -1,0 +1,738 @@
+[
+  {
+    "scene": 0,
+    "source": "bridge",
+    "title": [
+      "山海行歌"
+    ],
+    "bg": "mountains",
+    "motion": "enter",
+    "intro": {
+      "zh": "李太白邀君同游。|诗吟蜀道之险峻，歌咏云海之壮丽。",
+      "en": "Li Bai invites you to wander. | Hear the perilous road to Shu, and the splendour of a sea of clouds."
+    },
+    "cues": [],
+    "duration": 4,
+    "palette": [
+      "#e8be73",
+      "#b76e51"
+    ]
+  },
+  {
+    "scene": 1,
+    "source": "bridge",
+    "title": [
+      "灯火正盛，",
+      "心事未平。"
+    ],
+    "bg": "v2-entry-courtyard",
+    "motion": "open-gate",
+    "intro": {
+      "zh": "门外是长安夜色。|门内，一席灯火正盛。",
+      "en": "Beyond the door lies Chang’an at night. | Within, the lamplight glows."
+    },
+    "cues": [
+      {
+        "at": 0.02,
+        "key": "touch",
+        "zh": "门扉微凉。",
+        "en": "The door is cool to the touch."
+      },
+      {
+        "at": 0.43,
+        "key": "open",
+        "zh": "灯火深处，且入诗中。",
+        "en": "Beyond the lamplight, let us enter the poem."
+      }
+    ],
+    "duration": 12,
+    "palette": [
+      "#e8be73",
+      "#b76e51"
+    ]
+  },
+  {
+    "scene": 2,
+    "source": "xing",
+    "title": [
+      "金樽清酒斗十千，",
+      "玉盘珍羞直万钱。"
+    ],
+    "bg": "banquet-clean",
+    "motion": "cup",
+    "intro": {
+      "zh": "清酒映灯，珍馐满席。|眼前的丰盛，照不亮心底的阴影。",
+      "en": "Clear wine catches the lamplight; fine dishes fill the table. | Yet abundance cannot dispel the shadow in the heart."
+    },
+    "cues": [
+      {
+        "at": 0.02,
+        "key": "cup",
+        "zh": "金樽清酒，斗十千。",
+        "en": "Clear wine in golden cups, ten thousand coins a measure."
+      },
+      {
+        "at": 0.37,
+        "key": "taste",
+        "zh": "玉盘珍羞，直万钱。",
+        "en": "Fine delicacies on jade plates, worth ten thousand more."
+      },
+      {
+        "at": 0.7,
+        "key": "swallow",
+        "zh": "珍馐入口，心事难消。",
+        "en": "A taste of fine food. | Yet the troubled heart finds no ease."
+      }
+    ],
+    "duration": 24,
+    "palette": [
+      "#e8be73",
+      "#b76e51"
+    ]
+  },
+  {
+    "scene": 3,
+    "source": "xing",
+    "title": [
+      "停杯投箸",
+      "不能食。"
+    ],
+    "bg": "v2-banquet-table",
+    "motion": "drop",
+    "intro": {
+      "zh": "灯影未动，心绪已乱。",
+      "en": "The lamplight is still. | The heart is restless."
+    },
+    "cues": [
+      {
+        "at": 0.03,
+        "key": "hesitate",
+        "zh": "停杯。",
+        "en": "I set down my cup."
+      },
+      {
+        "at": 0.54,
+        "key": "stop",
+        "zh": "投箸，不能食。",
+        "en": "I cast aside my chopsticks. | I cannot eat."
+      }
+    ],
+    "duration": 11,
+    "palette": [
+      "#e8be73",
+      "#b76e51"
+    ]
+  },
+  {
+    "scene": 4,
+    "source": "xing",
+    "title": [
+      "拔剑四顾",
+      "心茫然。"
+    ],
+    "bg": "v2-sword-hall",
+    "motion": "sword",
+    "intro": {
+      "zh": "满堂繁华，忽然退成寂静。",
+      "en": "The splendour of the hall recedes into silence."
+    },
+    "cues": [
+      {
+        "at": 0.04,
+        "key": "draw",
+        "zh": "拔剑。",
+        "en": "I draw my sword."
+      },
+      {
+        "at": 0.42,
+        "key": "gaze",
+        "zh": "四顾。|心茫然。",
+        "en": "I look about me. | My heart is lost."
+      }
+    ],
+    "duration": 14,
+    "palette": [
+      "#e8be73",
+      "#b76e51"
+    ]
+  },
+  {
+    "scene": 5,
+    "source": "bridge",
+    "title": [
+      "四顾茫茫，",
+      "去路何方。"
+    ],
+    "bg": "palace-balcony",
+    "vista": null,
+    "views": [
+      "v2-empty-corridor",
+      "v2-night-eaves",
+      "v2-city-east",
+      "v2-stone-courtyard"
+    ],
+    "motion": "four-views",
+    "intro": {
+      "zh": "夜色四合。|天地虽阔，去路未明。",
+      "en": "Night closes in. | The world is vast, but the way ahead is unclear."
+    },
+    "cues": [
+      {
+        "at": 0.03,
+        "key": "left",
+        "zh": "廊下无人。",
+        "en": "No one in the corridor."
+      },
+      {
+        "at": 0.26,
+        "key": "up",
+        "zh": "抬眼，是一庭清月。",
+        "en": "Looking up, I find a courtyard filled with moonlight."
+      },
+      {
+        "at": 0.51,
+        "key": "right",
+        "zh": "回首，灯火已远。",
+        "en": "Looking back, the lamplight seems far away."
+      },
+      {
+        "at": 0.76,
+        "key": "down",
+        "zh": "俯看，归路仍空。",
+        "en": "Looking down, the way home is still empty."
+      }
+    ],
+    "duration": 25,
+    "palette": [
+      "#bed0b0",
+      "#dfc089"
+    ]
+  },
+  {
+    "scene": 6,
+    "source": "xing",
+    "title": [
+      "欲渡黄河",
+      "冰塞川。"
+    ],
+    "bg": "ice-river",
+    "vista": "ice-detail",
+    "motion": "ice-step",
+    "intro": {
+      "zh": "长河横亘，寒气迎面。",
+      "en": "A great river bars the way. | The cold meets us head on."
+    },
+    "cues": [
+      {
+        "at": 0.06,
+        "key": "river",
+        "zh": "欲渡黄河。|冰塞川。",
+        "en": "I would cross the Yellow River. | Ice blocks its course."
+      }
+    ],
+    "duration": 10,
+    "palette": [
+      "#a7e6ed",
+      "#b6c9e7"
+    ]
+  },
+  {
+    "scene": 7,
+    "source": "xing",
+    "title": [
+      "将登太行",
+      "雪满山。"
+    ],
+    "bg": "snow-mountain",
+    "vista": "snow-up",
+    "motion": "snow-look",
+    "intro": {
+      "zh": "太行苍茫，风雪无边。",
+      "en": "The Taihang Mountains stretch into a boundless storm."
+    },
+    "cues": [
+      {
+        "at": 0.06,
+        "key": "snow",
+        "zh": "将登太行。|雪满山。",
+        "en": "I would climb the Taihang Mountains. | Snow fills their heights."
+      }
+    ],
+    "duration": 10,
+    "palette": [
+      "#a7e6ed",
+      "#b6c9e7"
+    ]
+  },
+  {
+    "scene": 8,
+    "source": "xing",
+    "title": [
+      "行路难！行路难！",
+      "多歧路，今安在？"
+    ],
+    "bg": "stone-trail",
+    "vista": "trail-detail",
+    "motion": "walk",
+    "intro": {
+      "zh": "山路到了分岔处。|远近，皆是未卜之途。",
+      "en": "The mountain path divides. | Near or far, every road is uncertain."
+    },
+    "cues": [
+      {
+        "at": 0.07,
+        "key": "roads",
+        "zh": "行路难！|行路难！|多歧路，今安在？",
+        "en": "Hard is the road! | Hard is the road! | So many paths. Where is my way now?"
+      }
+    ],
+    "duration": 14,
+    "palette": [
+      "#bed0b0",
+      "#dfc089"
+    ]
+  },
+  {
+    "scene": 9,
+    "source": "shu",
+    "title": [
+      "噫吁嚱，",
+      "危乎高哉！"
+    ],
+    "bg": "v2-ascent-cleft",
+    "vista": "summit-up",
+    "motion": "up-vista",
+    "intro": {
+      "zh": "别却席间心事，迎面已是蜀山。",
+      "en": "We leave the troubled banquet behind. | The mountains of Shu rise before us."
+    },
+    "cues": [
+      {
+        "at": 0.05,
+        "key": "height",
+        "zh": "噫吁嚱！|危乎高哉！|蜀道之难，难于上青天。",
+        "en": "Ah! | So perilous, so high! | The road to Shu is harder than climbing the blue heavens."
+      }
+    ],
+    "duration": 16,
+    "palette": [
+      "#bed0b0",
+      "#dfc089"
+    ]
+  },
+  {
+    "scene": 10,
+    "source": "shu",
+    "title": [
+      "地崩山摧壮士死，",
+      "然后天梯石栈相钩连。"
+    ],
+    "bg": "stone-stair",
+    "vista": "stone-landing",
+    "motion": "walk",
+    "intro": {
+      "zh": "古道藏在崖壁间，石色记着开山的往事。",
+      "en": "An ancient path clings to the cliff. | Its stones remember the opening of the mountains."
+    },
+    "cues": [
+      {
+        "at": 0.06,
+        "key": "path",
+        "zh": "地崩山摧壮士死。|然后，天梯石栈相钩连。",
+        "en": "Earth split, mountains crumbled, and the brave men died. | Only then did skyward ladders and cliff paths link the way."
+      }
+    ],
+    "duration": 17,
+    "palette": [
+      "#bed0b0",
+      "#dfc089"
+    ]
+  },
+  {
+    "scene": 11,
+    "source": "shu",
+    "title": [
+      "上有六龙回日之高标，",
+      "下有冲波逆折之回川。"
+    ],
+    "bg": "v2-sun-chariot",
+    "vista": "gorge-down",
+    "motion": "sun-river",
+    "intro": {
+      "zh": "云端是日月，足下是江流。",
+      "en": "Above the clouds, the sun and moon. | Beneath our feet, the river."
+    },
+    "cues": [
+      {
+        "at": 0.04,
+        "key": "high",
+        "zh": "上有六龙回日之高标。",
+        "en": "Above, a peak so high that the sun’s six dragons turn their chariot back."
+      },
+      {
+        "at": 0.52,
+        "key": "low",
+        "zh": "下有冲波逆折之回川。",
+        "en": "Below, a river turns back upon itself in surging waves."
+      }
+    ],
+    "duration": 20,
+    "palette": [
+      "#f8d797",
+      "#98d9d4"
+    ]
+  },
+  {
+    "scene": 12,
+    "source": "shu",
+    "title": [
+      "青泥何盘盘，",
+      "百步九折萦岩峦。"
+    ],
+    "bg": "trail-bend",
+    "vista": "cloud-bend",
+    "motion": "walk",
+    "intro": {
+      "zh": "青泥岭上，来路渐隐。",
+      "en": "On Qingni Ridge, the path behind us fades from sight."
+    },
+    "cues": [
+      {
+        "at": 0.06,
+        "key": "bends",
+        "zh": "青泥何盘盘。|百步九折萦岩峦。",
+        "en": "How Qingni twists and winds! | In a hundred paces, nine turns coil around the rocky peaks."
+      }
+    ],
+    "duration": 14,
+    "palette": [
+      "#bed0b0",
+      "#dfc089"
+    ]
+  },
+  {
+    "scene": 13,
+    "source": "shu",
+    "title": [
+      "扪参历井仰胁息，",
+      "以手抚膺坐长叹。"
+    ],
+    "bg": "stars-bg",
+    "motion": "reach-breathe",
+    "intro": {
+      "zh": "夜空低垂，万籁俱寂。",
+      "en": "The night sky hangs low. | Every sound is stilled."
+    },
+    "cues": [
+      {
+        "at": 0.02,
+        "key": "stars",
+        "zh": "扪参历井，仰胁息。",
+        "en": "Reaching past the stars of Shen and Jing, I look up and hold my breath."
+      },
+      {
+        "at": 0.64,
+        "key": "sigh",
+        "zh": "以手抚膺，坐长叹。",
+        "en": "With a hand upon my chest, I sit and sigh."
+      }
+    ],
+    "duration": 19,
+    "palette": [
+      "#c5b6ff",
+      "#edda99"
+    ]
+  },
+  {
+    "scene": 14,
+    "source": "shu",
+    "title": [
+      "但见悲鸟号古木，",
+      "雄飞雌从绕林间。"
+    ],
+    "bg": "moon",
+    "vista": "forest-distance",
+    "motion": "lantern",
+    "intro": {
+      "zh": "林深处，枝影交错。",
+      "en": "Deep in the forest, shadows of branches intertwine."
+    },
+    "cues": [
+      {
+        "at": 0.03,
+        "key": "light",
+        "zh": "但见悲鸟，号古木。",
+        "en": "Only sorrowing birds cry among ancient trees."
+      },
+      {
+        "at": 0.46,
+        "key": "distance",
+        "zh": "雄飞雌从，绕林间。",
+        "en": "The male flies; the female follows, circling through the woods."
+      }
+    ],
+    "duration": 18,
+    "palette": [
+      "#c7dcff",
+      "#83bcb2"
+    ]
+  },
+  {
+    "scene": 15,
+    "source": "shu",
+    "title": [
+      "又闻子规啼夜月，",
+      "愁空山。"
+    ],
+    "bg": "v2-cuckoo",
+    "vista": "moon-canopy",
+    "motion": "moon-vista",
+    "intro": {
+      "zh": "一轮寒月，照着无人的山径。",
+      "en": "A cold moon shines upon a deserted mountain path."
+    },
+    "cues": [
+      {
+        "at": 0.18,
+        "key": "moon",
+        "zh": "又闻子规，啼夜月。|愁，空山。",
+        "en": "And the cuckoo calls beneath the moon. | Sorrow fills the empty mountains."
+      }
+    ],
+    "duration": 18,
+    "palette": [
+      "#c7dcff",
+      "#83bcb2"
+    ]
+  },
+  {
+    "scene": 16,
+    "source": "shu",
+    "title": [
+      "飞湍瀑流争喧豗，",
+      "砯崖转石万壑雷。"
+    ],
+    "bg": "waterfall-bg",
+    "vista": "waterfall-detail",
+    "motion": "torrent",
+    "intro": {
+      "zh": "林声渐远，水气渐浓。",
+      "en": "The forest sounds recede. | The air grows heavy with spray."
+    },
+    "cues": [
+      {
+        "at": 0.07,
+        "key": "torrent",
+        "zh": "飞湍瀑流争喧豗。|砯崖转石，万壑雷。",
+        "en": "Rapids and waterfalls roar together. | They strike the cliffs and tumble stones: thunder in ten thousand ravines."
+      }
+    ],
+    "duration": 16,
+    "palette": [
+      "#bed0b0",
+      "#dfc089"
+    ]
+  },
+  {
+    "scene": 17,
+    "source": "shu",
+    "title": [
+      "一夫当关，",
+      "万夫莫开。"
+    ],
+    "bg": "v2-fortress-far",
+    "vista": null,
+    "views": [
+      "v2-fortress-flank",
+      "v2-gate-close"
+    ],
+    "motion": "fortress",
+    "intro": {
+      "zh": "蜀门在此。|万山收束成一线。",
+      "en": "Here stands the gateway to Shu. | A thousand mountains narrow to a single passage."
+    },
+    "cues": [
+      {
+        "at": 0.03,
+        "key": "far",
+        "zh": "剑阁峥嵘而崔嵬。",
+        "en": "Sword Gate rises, sheer and towering."
+      },
+      {
+        "at": 0.44,
+        "key": "near",
+        "zh": "一夫当关。",
+        "en": "One man guards the pass."
+      },
+      {
+        "at": 0.72,
+        "key": "knock",
+        "zh": "万夫，莫开。",
+        "en": "Ten thousand cannot break through."
+      }
+    ],
+    "duration": 23,
+    "palette": [
+      "#d7af7b",
+      "#a6b6b5"
+    ]
+  },
+  {
+    "scene": 18,
+    "source": "shu",
+    "title": [
+      "锦城虽云乐，",
+      "不如早还家。"
+    ],
+    "bg": "v2-jincheng",
+    "vista": "v2-home-bamboo",
+    "motion": "back-vista",
+    "intro": {
+      "zh": "锦城深处，烟火繁华。",
+      "en": "Deep in the Brocade City, daily life flourishes."
+    },
+    "cues": [
+      {
+        "at": 0.07,
+        "key": "city",
+        "zh": "锦城虽云乐。|不如，早还家。",
+        "en": "Though the Brocade City is a place of pleasure, | better to return home soon."
+      }
+    ],
+    "duration": 13,
+    "palette": [
+      "#bed0b0",
+      "#dfc089"
+    ]
+  },
+  {
+    "scene": 19,
+    "source": "shu",
+    "title": [
+      "侧身西望",
+      "长咨嗟！"
+    ],
+    "bg": "home-valley",
+    "vista": "v2-westward-road",
+    "motion": "back-vista",
+    "intro": {
+      "zh": "千重山外，还有故园。",
+      "en": "Beyond a thousand mountain folds, home remains."
+    },
+    "cues": [
+      {
+        "at": 0.07,
+        "key": "home",
+        "zh": "侧身西望。|长咨嗟。",
+        "en": "I turn and gaze westward. | A long, deep sigh."
+      }
+    ],
+    "duration": 11,
+    "palette": [
+      "#bed0b0",
+      "#dfc089"
+    ]
+  },
+  {
+    "scene": 20,
+    "source": "xing",
+    "title": [
+      "闲来垂钓",
+      "碧溪上，"
+    ],
+    "bg": "fishing-stream",
+    "vista": "stream-detail",
+    "motion": "fish",
+    "intro": {
+      "zh": "山声渐息，溪色转青。",
+      "en": "The mountains fall quiet. | The stream turns clear and green."
+    },
+    "cues": [
+      {
+        "at": 0.06,
+        "key": "fish",
+        "zh": "闲来垂钓，碧溪上。",
+        "en": "At leisure, I fish beside a clear green stream."
+      }
+    ],
+    "duration": 11,
+    "palette": [
+      "#bed0b0",
+      "#dfc089"
+    ]
+  },
+  {
+    "scene": 21,
+    "source": "xing",
+    "title": [
+      "忽复乘舟",
+      "梦日边。"
+    ],
+    "bg": "v2-sun-dream",
+    "motion": "dawn",
+    "intro": {
+      "zh": "一枕江声，浮生入梦。",
+      "en": "With river sounds beside the pillow, life drifts into a dream."
+    },
+    "cues": [
+      {
+        "at": 0.06,
+        "key": "dream",
+        "zh": "忽复乘舟，梦日边。",
+        "en": "Then, in a dream, I sail in a boat beside the sun."
+      }
+    ],
+    "duration": 12,
+    "palette": [
+      "#f8d797",
+      "#98d9d4"
+    ]
+  },
+  {
+    "scene": 22,
+    "source": "xing",
+    "title": [
+      "长风破浪会有时，",
+      "直挂云帆济沧海。"
+    ],
+    "bg": "dawn-sea",
+    "motion": "sail",
+    "intro": {
+      "zh": "长夜将尽，风起沧海。",
+      "en": "The long night is ending. | Wind rises over the open sea."
+    },
+    "cues": [
+      {
+        "at": 0.06,
+        "key": "sail",
+        "zh": "长风破浪，会有时。|直挂云帆，济沧海。",
+        "en": "One day I shall ride the long wind and break the waves. | I shall raise my cloud-high sail and cross the vast blue sea."
+      }
+    ],
+    "duration": 17,
+    "palette": [
+      "#f8d797",
+      "#98d9d4"
+    ]
+  },
+  {
+    "scene": 23,
+    "source": "bridge",
+    "title": [
+      "听懂一声长叹，",
+      "也看见一片云帆。"
+    ],
+    "bg": "v2-sail-distance",
+    "motion": "end",
+    "intro": {
+      "zh": "山海仍在，行歌未止。|愿君怀此心，行向自己的远方。",
+      "en": "Mountains and seas remain; the song continues. | Carry this spirit towards your own horizon."
+    },
+    "cues": [],
+    "duration": 1,
+    "palette": [
+      "#f8d797",
+      "#98d9d4"
+    ]
+  }
+]

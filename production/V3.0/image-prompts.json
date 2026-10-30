@@ -1,0 +1,28 @@
+{
+  "version": "V3.0",
+  "tool": "OpenAI image_gen",
+  "note": "生成提示要点整理与产物路径；不是逐字工具调用日志。三项均已在课件内使用并检查。",
+  "images": [
+    {
+      "asset": "C:/Users/lenovo/Desktop/教师端/蜀道难课件/山海行歌-V3.0/assets/v3-cloud-mask.png",
+      "source": "C:/Users/lenovo/.codex/generated_images/01a1812e-5f79-7402-9b01-2501f6a78929/exec-a7a5254d-1be9-477a-be36-03931e3f1b69.png",
+      "reference": "assets/mountains.png",
+      "promptBrief": "Create an exact-composition grayscale cloud segmentation matte for the supplied landscape. White only for valley clouds and low mist. Every mountain, rock, tree, path and the sky must be black. Preserve the original framing and all silhouettes; antialias and softly feather only the natural mist boundaries. No additional objects or text.",
+      "usage": "Cloud-only displacement mask; protects stationary terrain."
+    },
+    {
+      "asset": "C:/Users/lenovo/Desktop/教师端/蜀道难课件/山海行歌-V3.0/assets/v3-cuckoo-forest.png",
+      "source": "C:/Users/lenovo/.codex/generated_images/01a1812e-5f79-7402-9b01-2501f6a78929/exec-8c9dad03-0d07-445a-8c60-86325d1e060e.png",
+      "reference": "assets/v2-cuckoo.png",
+      "promptBrief": "Edit the supplied moonlit cuckoo landscape. Remove only the bird, including head, beak, body, feet and tail. Reconstruct the distant forest and mountains and the moss-covered branch where the bird was. Keep the moon, forest, branch framing, night lighting, colours and all other composition exactly unchanged. No replacement bird or added object.",
+      "usage": "Clean backing plate beneath the animated, segmented cuckoo."
+    },
+    {
+      "asset": "C:/Users/lenovo/Desktop/教师端/蜀道难课件/山海行歌-V3.0/assets/v3-exam-gorge.png",
+      "source": "C:/Users/lenovo/.codex/generated_images/01a1812e-5f79-7402-9b01-2501f6a78929/exec-472a28d9-6d8d-4f37-a194-8551426f45c4.png",
+      "reference": null,
+      "promptBrief": "Create a new realistic cinematic ancient Chinese gorge, 3:2. Ochre moss-covered stone stairs grounded into the cliff at left turn behind a rock buttress. A wind-bent old pine occupies the upper right. A cascading waterfall at mid-right descends into a jade torrent and whirlpool at lower right. Use a coherent diagonal composition and distinctive visual clues across six sections suitable for an image puzzle. Clearly differ from the existing wide panoramic scenes. No people, modern buildings, text, frame or puzzle grid.",
+      "usage": "Exclusive six-piece assessment puzzle; not used in the journey scenes."
+    }
+  ]
+}

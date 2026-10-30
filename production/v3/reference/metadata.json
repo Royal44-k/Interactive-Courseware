@@ -1,0 +1,226 @@
+{
+  "framesDecoded": 3110,
+  "fps": 30,
+  "source": "C:\\Users\\lenovo\\Videos\\屏幕录制\\屏幕录制 2026-10-28 095249.mp4",
+  "sheets": {
+    "01-gates": 34,
+    "02-dissolve-cup": 28,
+    "03-drop-sword-turn": 23,
+    "04-ice-snow": 45,
+    "05-fog-boat-sail": 7,
+    "06-space-open-close": 34,
+    "07-tools": 35
+  },
+  "largestSceneChanges": [
+    {
+      "frame": 1609,
+      "seconds": 53.63333,
+      "meanDelta": 37.0231,
+      "sceneDelta": 57.644,
+      "foregroundDelta": 31.7643
+    },
+    {
+      "frame": 1867,
+      "seconds": 62.23333,
+      "meanDelta": 36.286,
+      "sceneDelta": 55.7839,
+      "foregroundDelta": 30.204
+    },
+    {
+      "frame": 2385,
+      "seconds": 79.5,
+      "meanDelta": 34.1592,
+      "sceneDelta": 53.969,
+      "foregroundDelta": 29.1453
+    },
+    {
+      "frame": 2348,
+      "seconds": 78.26667,
+      "meanDelta": 33.5021,
+      "sceneDelta": 52.6902,
+      "foregroundDelta": 27.6441
+    },
+    {
+      "frame": 2142,
+      "seconds": 71.4,
+      "meanDelta": 33.406,
+      "sceneDelta": 52.4748,
+      "foregroundDelta": 27.4015
+    },
+    {
+      "frame": 1393,
+      "seconds": 46.43333,
+      "meanDelta": 40.6154,
+      "sceneDelta": 51.3011,
+      "foregroundDelta": 40.1536
+    },
+    {
+      "frame": 2714,
+      "seconds": 90.46667,
+      "meanDelta": 31.4295,
+      "sceneDelta": 48.5568,
+      "foregroundDelta": 27.5384
+    },
+    {
+      "frame": 2559,
+      "seconds": 85.3,
+      "meanDelta": 31.0191,
+      "sceneDelta": 47.9356,
+      "foregroundDelta": 26.5555
+    },
+    {
+      "frame": 199,
+      "seconds": 6.63333,
+      "meanDelta": 21.5665,
+      "sceneDelta": 30.6831,
+      "foregroundDelta": 19.6129
+    },
+    {
+      "frame": 348,
+      "seconds": 11.6,
+      "meanDelta": 18.2686,
+      "sceneDelta": 26.9015,
+      "foregroundDelta": 16.5072
+    },
+    {
+      "frame": 1478,
+      "seconds": 49.26667,
+      "meanDelta": 15.5659,
+      "sceneDelta": 23.4572,
+      "foregroundDelta": 20.1998
+    },
+    {
+      "frame": 1818,
+      "seconds": 60.6,
+      "meanDelta": 14.682,
+      "sceneDelta": 22.1298,
+      "foregroundDelta": 12.4734
+    },
+    {
+      "frame": 1423,
+      "seconds": 47.43333,
+      "meanDelta": 13.5219,
+      "sceneDelta": 19.8958,
+      "foregroundDelta": 19.1739
+    },
+    {
+      "frame": 997,
+      "seconds": 33.23333,
+      "meanDelta": 12.6947,
+      "sceneDelta": 17.564,
+      "foregroundDelta": 12.2457
+    },
+    {
+      "frame": 646,
+      "seconds": 21.53333,
+      "meanDelta": 12.8802,
+      "sceneDelta": 17.3114,
+      "foregroundDelta": 10.1934
+    },
+    {
+      "frame": 631,
+      "seconds": 21.03333,
+      "meanDelta": 12.903,
+      "sceneDelta": 16.1451,
+      "foregroundDelta": 10.5568
+    },
+    {
+      "frame": 636,
+      "seconds": 21.2,
+      "meanDelta": 12.0091,
+      "sceneDelta": 15.2954,
+      "foregroundDelta": 9.894
+    },
+    {
+      "frame": 830,
+      "seconds": 27.66667,
+      "meanDelta": 11.4423,
+      "sceneDelta": 15.0913,
+      "foregroundDelta": 9.2628
+    },
+    {
+      "frame": 280,
+      "seconds": 9.33333,
+      "meanDelta": 11.8691,
+      "sceneDelta": 14.8132,
+      "foregroundDelta": 8.2474
+    },
+    {
+      "frame": 2105,
+      "seconds": 70.16667,
+      "meanDelta": 9.5388,
+      "sceneDelta": 14.7698,
+      "foregroundDelta": 7.8942
+    },
+    {
+      "frame": 1814,
+      "seconds": 60.46667,
+      "meanDelta": 9.751,
+      "sceneDelta": 14.7525,
+      "foregroundDelta": 8.4341
+    },
+    {
+      "frame": 2101,
+      "seconds": 70.03333,
+      "meanDelta": 9.1872,
+      "sceneDelta": 14.3895,
+      "foregroundDelta": 7.6007
+    },
+    {
+      "frame": 2481,
+      "seconds": 82.7,
+      "meanDelta": 9.2059,
+      "sceneDelta": 14.2537,
+      "foregroundDelta": 7.9582
+    },
+    {
+      "frame": 1816,
+      "seconds": 60.53333,
+      "meanDelta": 9.4459,
+      "sceneDelta": 14.2213,
+      "foregroundDelta": 8.2065
+    },
+    {
+      "frame": 2098,
+      "seconds": 69.93333,
+      "meanDelta": 8.921,
+      "sceneDelta": 14.0271,
+      "foregroundDelta": 7.4058
+    },
+    {
+      "frame": 2103,
+      "seconds": 70.1,
+      "meanDelta": 8.9753,
+      "sceneDelta": 13.9512,
+      "foregroundDelta": 7.4776
+    },
+    {
+      "frame": 2433,
+      "seconds": 81.1,
+      "meanDelta": 8.7149,
+      "sceneDelta": 13.4603,
+      "foregroundDelta": 7.302
+    },
+    {
+      "frame": 593,
+      "seconds": 19.76667,
+      "meanDelta": 12.3181,
+      "sceneDelta": 13.4583,
+      "foregroundDelta": 10.1197
+    },
+    {
+      "frame": 2431,
+      "seconds": 81.03333,
+      "meanDelta": 8.4348,
+      "sceneDelta": 13.3925,
+      "foregroundDelta": 7.0381
+    },
+    {
+      "frame": 1077,
+      "seconds": 35.9,
+      "meanDelta": 8.8657,
+      "sceneDelta": 13.2635,
+      "foregroundDelta": 7.7113
+    }
+  ]
+}

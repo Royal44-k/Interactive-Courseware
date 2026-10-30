@@ -1,0 +1,103 @@
+{
+  "errors": [],
+  "interrupt": {
+    "state": {
+      "ready": true,
+      "index": 1,
+      "chapter": 0,
+      "paused": false,
+      "busy": false,
+      "modal": null,
+      "interaction": 0,
+      "motion": {
+        "ready": true,
+        "sceneIndex": 1,
+        "worldName": "gate",
+        "time": 6.288300000008209,
+        "paused": false,
+        "busy": false,
+        "transition": null,
+        "view": {
+          "x": 0,
+          "y": 2.45,
+          "z": 6.2,
+          "tx": 0.1,
+          "ty": 2.8,
+          "tz": -25,
+          "fov": 54
+        },
+        "hand": 0,
+        "lamp": 0,
+        "handTurn": 0,
+        "walks": 0,
+        "flight": 0,
+        "water": 0.45,
+        "celestial": 0,
+        "bob": 0,
+        "gate": {
+          "left": 0,
+          "right": 0
+        },
+        "frames": 512,
+        "action": "",
+        "progress": 0,
+        "completed": 0,
+        "transitions": 5,
+        "frameGaps": 0,
+        "maxFrameMs": 18
+      }
+    },
+    "frozenChildren": 0,
+    "ghostOpacity": "0"
+  },
+  "pause": {
+    "hand": 0.3608720514812444,
+    "time": 7.607600000008217
+  },
+  "last": {
+    "ready": true,
+    "index": 8,
+    "chapter": 2,
+    "paused": false,
+    "busy": false,
+    "modal": null,
+    "interaction": 0,
+    "motion": {
+      "ready": true,
+      "sceneIndex": 8,
+      "worldName": "bridge",
+      "time": 10.239000000008943,
+      "paused": false,
+      "busy": false,
+      "transition": null,
+      "view": {
+        "x": -0.15,
+        "y": 2.05,
+        "z": 2.2,
+        "tx": 1.6,
+        "ty": 15,
+        "tz": -25,
+        "fov": 58
+      },
+      "hand": 0.96,
+      "lamp": 0,
+      "handTurn": -0.08,
+      "walks": 0,
+      "flight": 0,
+      "water": 0.45,
+      "celestial": 1,
+      "bob": 0,
+      "gate": {
+        "left": 0,
+        "right": 0
+      },
+      "frames": 806,
+      "action": "",
+      "progress": 0,
+      "completed": 1,
+      "transitions": 7,
+      "frameGaps": 0,
+      "maxFrameMs": 18
+    }
+  }
+}

@@ -1,0 +1,219 @@
+[
+  {
+    "file": "stage-0.mp3",
+    "seconds": 9.85,
+    "bytes": 119162,
+    "channels": 1,
+    "source_wave_sample_rate": 22050,
+    "decode": "PASS",
+    "non_silent": true
+  },
+  {
+    "file": "stage-1.mp3",
+    "seconds": 9.232,
+    "bytes": 111639,
+    "channels": 1,
+    "source_wave_sample_rate": 22050,
+    "decode": "PASS",
+    "non_silent": true
+  },
+  {
+    "file": "stage-2.mp3",
+    "seconds": 7.367,
+    "bytes": 89382,
+    "channels": 1,
+    "source_wave_sample_rate": 22050,
+    "decode": "PASS",
+    "non_silent": true
+  },
+  {
+    "file": "stage-3.mp3",
+    "seconds": 10.38,
+    "bytes": 125431,
+    "channels": 1,
+    "source_wave_sample_rate": 22050,
+    "decode": "PASS",
+    "non_silent": true
+  },
+  {
+    "file": "stage-4.mp3",
+    "seconds": 6.729,
+    "bytes": 81546,
+    "channels": 1,
+    "source_wave_sample_rate": 22050,
+    "decode": "PASS",
+    "non_silent": true
+  },
+  {
+    "file": "stage-5.mp3",
+    "seconds": 9.376,
+    "bytes": 113206,
+    "channels": 1,
+    "source_wave_sample_rate": 22050,
+    "decode": "PASS",
+    "non_silent": true
+  },
+  {
+    "file": "stage-6.mp3",
+    "seconds": 4.849,
+    "bytes": 58976,
+    "channels": 1,
+    "source_wave_sample_rate": 22050,
+    "decode": "PASS",
+    "non_silent": true
+  },
+  {
+    "file": "stage-7.mp3",
+    "seconds": 5.802,
+    "bytes": 70574,
+    "channels": 1,
+    "source_wave_sample_rate": 22050,
+    "decode": "PASS",
+    "non_silent": true
+  },
+  {
+    "file": "stage-8.mp3",
+    "seconds": 6.029,
+    "bytes": 73082,
+    "channels": 1,
+    "source_wave_sample_rate": 22050,
+    "decode": "PASS",
+    "non_silent": true
+  },
+  {
+    "file": "stage-9.mp3",
+    "seconds": 5.815,
+    "bytes": 70574,
+    "channels": 1,
+    "source_wave_sample_rate": 22050,
+    "decode": "PASS",
+    "non_silent": true
+  },
+  {
+    "file": "stage-10.mp3",
+    "seconds": 6.792,
+    "bytes": 82486,
+    "channels": 1,
+    "source_wave_sample_rate": 22050,
+    "decode": "PASS",
+    "non_silent": true
+  },
+  {
+    "file": "stage-11.mp3",
+    "seconds": 5.259,
+    "bytes": 63991,
+    "channels": 1,
+    "source_wave_sample_rate": 22050,
+    "decode": "PASS",
+    "non_silent": true
+  },
+  {
+    "file": "stage-12.mp3",
+    "seconds": 6.002,
+    "bytes": 72768,
+    "channels": 1,
+    "source_wave_sample_rate": 22050,
+    "decode": "PASS",
+    "non_silent": true
+  },
+  {
+    "file": "stage-13.mp3",
+    "seconds": 6.569,
+    "bytes": 79665,
+    "channels": 1,
+    "source_wave_sample_rate": 22050,
+    "decode": "PASS",
+    "non_silent": true
+  },
+  {
+    "file": "stage-14.mp3",
+    "seconds": 6.091,
+    "bytes": 74022,
+    "channels": 1,
+    "source_wave_sample_rate": 22050,
+    "decode": "PASS",
+    "non_silent": true
+  },
+  {
+    "file": "stage-15.mp3",
+    "seconds": 7.248,
+    "bytes": 87815,
+    "channels": 1,
+    "source_wave_sample_rate": 22050,
+    "decode": "PASS",
+    "non_silent": true
+  },
+  {
+    "file": "stage-16.mp3",
+    "seconds": 8.959,
+    "bytes": 108190,
+    "channels": 1,
+    "source_wave_sample_rate": 22050,
+    "decode": "PASS",
+    "non_silent": true
+  },
+  {
+    "file": "stage-17.mp3",
+    "seconds": 5.959,
+    "bytes": 72455,
+    "channels": 1,
+    "source_wave_sample_rate": 22050,
+    "decode": "PASS",
+    "non_silent": true
+  },
+  {
+    "file": "poem-0.mp3",
+    "seconds": 55.289,
+    "bytes": 664285,
+    "channels": 1,
+    "source_wave_sample_rate": 22050,
+    "decode": "PASS",
+    "non_silent": true
+  },
+  {
+    "file": "poem-1.mp3",
+    "seconds": 41.078,
+    "bytes": 493758,
+    "channels": 1,
+    "source_wave_sample_rate": 22050,
+    "decode": "PASS",
+    "non_silent": true
+  },
+  {
+    "file": "poem-2.mp3",
+    "seconds": 30.14,
+    "bytes": 362414,
+    "channels": 1,
+    "source_wave_sample_rate": 22050,
+    "decode": "PASS",
+    "non_silent": true
+  },
+  {
+    "file": "full-poem.mp3",
+    "seconds": 130.38,
+    "bytes": 1565510,
+    "channels": 1,
+    "source_wave_sample_rate": 22050,
+    "decode": "PASS",
+    "non_silent": true
+  },
+  {
+    "file": "music.mp3",
+    "seconds": 60.0,
+    "bytes": 235147,
+    "channels": 2,
+    "source_wave_sample_rate": 22050,
+    "decode": "PASS",
+    "non_silent": true,
+    "loop_seam_max_sample_step": 149
+  },
+  {
+    "file": "bird.mp3",
+    "seconds": 4.2,
+    "bytes": 12862,
+    "channels": 1,
+    "source_wave_sample_rate": 22050,
+    "decode": "PASS",
+    "non_silent": true
+  }
+]

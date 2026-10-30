@@ -1,0 +1,14 @@
+{
+  "name": "shanhai-xingge-courseware",
+  "version": "3.0.0",
+  "private": true,
+  "description": "Local bilingual interactive courseware on two poems by Li Bai",
+  "scripts": {
+    "start": "node scripts/serve.cjs",
+    "test": "node tests/assessment.cjs"
+  },
+  "devDependencies": {
+    "playwright": "1.56.1",
+    "pngjs": "5.0.0"
+  }
+}

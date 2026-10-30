@@ -1,0 +1,780 @@
+{
+  "started": "2026-10-28T08:29:26.677Z",
+  "offline": true,
+  "results": [
+    {
+      "viewport": "1440x900",
+      "name": "real blank-scene pointer click advances",
+      "pass": true,
+      "detail": {
+        "hit": {
+          "id": "cinemaCanvas",
+          "tag": "CANVAS"
+        },
+        "after": {
+          "index": 1,
+          "chapter": 0,
+          "paused": false,
+          "busy": false,
+          "modal": null,
+          "interaction": 0,
+          "motion": {
+            "sceneIndex": 1,
+            "worldName": "gate",
+            "time": 1.6656999999999997,
+            "paused": false,
+            "busy": false,
+            "view": {
+              "x": 0,
+              "y": 2.45,
+              "z": 6.2,
+              "tx": 0.1,
+              "ty": 2.8,
+              "tz": -25,
+              "fov": 54
+            },
+            "hand": 0,
+            "lamp": 0,
+            "walks": 0,
+            "flight": 0,
+            "water": 0.45,
+            "gate": {
+              "left": 0,
+              "right": 0
+            },
+            "frames": 97,
+            "action": "",
+            "progress": 0,
+            "completed": 1
+          }
+        }
+      }
+    },
+    {
+      "viewport": "1440x900",
+      "name": "real door-board pointer click opens gate",
+      "pass": true,
+      "detail": {
+        "hit": {
+          "id": "cinemaCanvas",
+          "tag": "CANVAS"
+        },
+        "moving": {
+          "index": 1,
+          "chapter": 0,
+          "paused": false,
+          "busy": true,
+          "modal": null,
+          "interaction": 0,
+          "motion": {
+            "sceneIndex": 1,
+            "worldName": "gate",
+            "time": 3.815500000000003,
+            "paused": false,
+            "busy": true,
+            "view": {
+              "x": 0,
+              "y": 2.45,
+              "z": 6.2,
+              "tx": 0.1,
+              "ty": 2.8,
+              "tz": -25,
+              "fov": 54
+            },
+            "hand": 0.37579283031370897,
+            "lamp": 0,
+            "walks": 0,
+            "flight": 0,
+            "water": 0.45,
+            "gate": {
+              "left": -0.04425492412391759,
+              "right": 0.04425492412391759
+            },
+            "frames": 223,
+            "action": "open-gate",
+            "progress": 0.12122857142857149,
+            "completed": 1
+          }
+        },
+        "after": {
+          "index": 2,
+          "chapter": 0,
+          "paused": false,
+          "busy": false,
+          "modal": null,
+          "interaction": 0,
+          "motion": {
+            "sceneIndex": 2,
+            "worldName": "mountain",
+            "time": 6.919400000000015,
+            "paused": false,
+            "busy": false,
+            "view": {
+              "x": 0,
+              "y": 2.45,
+              "z": 9,
+              "tx": 0,
+              "ty": 2.7,
+              "tz": -25,
+              "fov": 54
+            },
+            "hand": 0,
+            "lamp": 0,
+            "walks": 0,
+            "flight": 0,
+            "water": 0.45,
+            "gate": {
+              "left": -1.48,
+              "right": 1.48
+            },
+            "frames": 409,
+            "action": "",
+            "progress": 0,
+            "completed": 2
+          }
+        }
+      }
+    },
+    {
+      "viewport": "1440x900",
+      "name": "Space starts action and P freezes/resumes",
+      "pass": true,
+      "detail": {
+        "paused": {
+          "index": 1,
+          "chapter": 0,
+          "paused": true,
+          "busy": true,
+          "modal": null,
+          "interaction": 0,
+          "motion": {
+            "sceneIndex": 1,
+            "worldName": "gate",
+            "time": 7.303300000000016,
+            "paused": true,
+            "busy": true,
+            "view": {
+              "x": 0,
+              "y": 2.45,
+              "z": 6.2,
+              "tx": 0.1,
+              "ty": 2.8,
+              "tz": -25,
+              "fov": 54
+            },
+            "hand": 0.3143103458767369,
+            "lamp": 0,
+            "walks": 0,
+            "flight": 0,
+            "water": 0.45,
+            "gate": {
+              "left": -0.024967682927575313,
+              "right": 0.024967682927575313
+            },
+            "frames": 439,
+            "action": "open-gate",
+            "progress": 0.10017142857142869,
+            "completed": 2
+          }
+        },
+        "stillPaused": {
+          "index": 1,
+          "chapter": 0,
+          "paused": true,
+          "busy": true,
+          "modal": null,
+          "interaction": 0,
+          "motion": {
+            "sceneIndex": 1,
+            "worldName": "gate",
+            "time": 7.303300000000016,
+            "paused": true,
+            "busy": true,
+            "view": {
+              "x": 0,
+              "y": 2.45,
+              "z": 6.2,
+              "tx": 0.1,
+              "ty": 2.8,
+              "tz": -25,
+              "fov": 54
+            },
+            "hand": 0.3143103458767369,
+            "lamp": 0,
+            "walks": 0,
+            "flight": 0,
+            "water": 0.45,
+            "gate": {
+              "left": -0.024967682927575313,
+              "right": 0.024967682927575313
+            },
+            "frames": 476,
+            "action": "open-gate",
+            "progress": 0.10017142857142869,
+            "completed": 2
+          }
+        },
+        "after": {
+          "index": 2,
+          "chapter": 0,
+          "paused": false,
+          "busy": false,
+          "modal": null,
+          "interaction": 0,
+          "motion": {
+            "sceneIndex": 2,
+            "worldName": "mountain",
+            "time": 10.457500000000012,
+            "paused": false,
+            "busy": false,
+            "view": {
+              "x": 0,
+              "y": 2.45,
+              "z": 9,
+              "tx": 0,
+              "ty": 2.7,
+              "tz": -25,
+              "fov": 54
+            },
+            "hand": 0,
+            "lamp": 0,
+            "walks": 0,
+            "flight": 0,
+            "water": 0.45,
+            "gate": {
+              "left": -1.48,
+              "right": 1.48
+            },
+            "frames": 665,
+            "action": "",
+            "progress": 0,
+            "completed": 3
+          }
+        }
+      }
+    },
+    {
+      "viewport": "1440x900",
+      "name": "latest modal freeze and chapter cancellation",
+      "pass": true,
+      "detail": {
+        "index": 9,
+        "chapter": 3,
+        "paused": false,
+        "busy": false,
+        "modal": null,
+        "interaction": 0,
+        "motion": {
+          "sceneIndex": 9,
+          "worldName": "forest",
+          "time": 12.23290000000001,
+          "paused": false,
+          "busy": false,
+          "view": {
+            "x": 0,
+            "y": 2.5,
+            "z": 9,
+            "tx": 1.1,
+            "ty": 3.2,
+            "tz": -25,
+            "fov": 54
+          },
+          "hand": 0,
+          "lamp": 0.45,
+          "walks": 0,
+          "flight": 0,
+          "water": 0.45,
+          "gate": {
+            "left": -0.04719650187070936,
+            "right": 0.04719650187070936
+          },
+          "frames": 805,
+          "action": "",
+          "progress": 0,
+          "completed": 3
+        }
+      }
+    },
+    {
+      "viewport": "1440x900",
+      "name": "visible controls not clipped or covered",
+      "pass": true,
+      "detail": [
+        {
+          "index": 0,
+          "checked": 19
+        },
+        {
+          "index": 1,
+          "checked": 20
+        },
+        {
+          "index": 4,
+          "checked": 20
+        },
+        {
+          "index": 9,
+          "checked": 20
+        },
+        {
+          "index": 12,
+          "checked": 20
+        },
+        {
+          "index": 13,
+          "checked": 20
+        },
+        {
+          "index": 17,
+          "checked": 20
+        }
+      ]
+    },
+    {
+      "viewport": "1440x900",
+      "name": "waterfall stays visible for 2s with valid shader/SVG animation",
+      "pass": true,
+      "detail": {
+        "offsetBefore": "34.36203999999998",
+        "offsetAfter": "85.86831999999987",
+        "visual": {
+          "opacity": "1",
+          "filter": "url(\"#waterMotion\")",
+          "width": 1827.064453125,
+          "height": 1141.920166015625
+        },
+        "state": {
+          "index": 12,
+          "chapter": 4,
+          "paused": false,
+          "busy": false,
+          "modal": null,
+          "interaction": 0,
+          "motion": {
+            "sceneIndex": 12,
+            "worldName": "waterfall",
+            "time": 17.453399999999984,
+            "paused": false,
+            "busy": false,
+            "view": {
+              "x": -0.4,
+              "y": 2.8,
+              "z": 9,
+              "tx": 2.8,
+              "ty": 3.8,
+              "tz": -25,
+              "fov": 54
+            },
+            "hand": 0,
+            "lamp": 0,
+            "walks": 0,
+            "flight": 0,
+            "water": 0.45,
+            "gate": {
+              "left": 0,
+              "right": 0
+            },
+            "frames": 1112,
+            "action": "",
+            "progress": 0,
+            "completed": 3
+          }
+        }
+      }
+    },
+    {
+      "viewport": "1280x720",
+      "name": "real blank-scene pointer click advances",
+      "pass": true,
+      "detail": {
+        "hit": {
+          "id": "cinemaCanvas",
+          "tag": "CANVAS"
+        },
+        "after": {
+          "index": 1,
+          "chapter": 0,
+          "paused": false,
+          "busy": false,
+          "modal": null,
+          "interaction": 0,
+          "motion": {
+            "sceneIndex": 1,
+            "worldName": "gate",
+            "time": 1.638999999999999,
+            "paused": false,
+            "busy": false,
+            "view": {
+              "x": 0,
+              "y": 2.45,
+              "z": 6.2,
+              "tx": 0.1,
+              "ty": 2.8,
+              "tz": -25,
+              "fov": 54
+            },
+            "hand": 0,
+            "lamp": 0,
+            "walks": 0,
+            "flight": 0,
+            "water": 0.45,
+            "gate": {
+              "left": 0,
+              "right": 0
+            },
+            "frames": 94,
+            "action": "",
+            "progress": 0,
+            "completed": 1
+          }
+        }
+      }
+    },
+    {
+      "viewport": "1280x720",
+      "name": "real door-board pointer click opens gate",
+      "pass": true,
+      "detail": {
+        "hit": {
+          "id": "cinemaCanvas",
+          "tag": "CANVAS"
+        },
+        "moving": {
+          "index": 1,
+          "chapter": 0,
+          "paused": false,
+          "busy": true,
+          "modal": null,
+          "interaction": 0,
+          "motion": {
+            "sceneIndex": 1,
+            "worldName": "gate",
+            "time": 3.638400000000001,
+            "paused": false,
+            "busy": true,
+            "view": {
+              "x": 0,
+              "y": 2.45,
+              "z": 6.2,
+              "tx": 0.1,
+              "ty": 2.8,
+              "tz": -25,
+              "fov": 54
+            },
+            "hand": 0.37554748852451536,
+            "lamp": 0,
+            "walks": 0,
+            "flight": 0,
+            "water": 0.45,
+            "gate": {
+              "left": -0.04416111955858076,
+              "right": 0.04416111955858076
+            },
+            "frames": 211,
+            "action": "open-gate",
+            "progress": 0.12114285714285715,
+            "completed": 1
+          }
+        },
+        "after": {
+          "index": 2,
+          "chapter": 0,
+          "paused": false,
+          "busy": false,
+          "modal": null,
+          "interaction": 0,
+          "motion": {
+            "sceneIndex": 2,
+            "worldName": "mountain",
+            "time": 6.725900000000023,
+            "paused": false,
+            "busy": false,
+            "view": {
+              "x": 0,
+              "y": 2.45,
+              "z": 9,
+              "tx": 0,
+              "ty": 2.7,
+              "tz": -25,
+              "fov": 54
+            },
+            "hand": 0,
+            "lamp": 0,
+            "walks": 0,
+            "flight": 0,
+            "water": 0.45,
+            "gate": {
+              "left": -1.48,
+              "right": 1.48
+            },
+            "frames": 396,
+            "action": "",
+            "progress": 0,
+            "completed": 2
+          }
+        }
+      }
+    },
+    {
+      "viewport": "1280x720",
+      "name": "Space starts action and P freezes/resumes",
+      "pass": true,
+      "detail": {
+        "paused": {
+          "index": 1,
+          "chapter": 0,
+          "paused": true,
+          "busy": true,
+          "modal": null,
+          "interaction": 0,
+          "motion": {
+            "sceneIndex": 1,
+            "worldName": "gate",
+            "time": 7.093200000000025,
+            "paused": true,
+            "busy": true,
+            "view": {
+              "x": 0,
+              "y": 2.45,
+              "z": 6.2,
+              "tx": 0.1,
+              "ty": 2.8,
+              "tz": -25,
+              "fov": 54
+            },
+            "hand": 0.3143103458767361,
+            "lamp": 0,
+            "walks": 0,
+            "flight": 0,
+            "water": 0.45,
+            "gate": {
+              "left": -0.02496768292757512,
+              "right": 0.02496768292757512
+            },
+            "frames": 425,
+            "action": "open-gate",
+            "progress": 0.10017142857142843,
+            "completed": 2
+          }
+        },
+        "stillPaused": {
+          "index": 1,
+          "chapter": 0,
+          "paused": true,
+          "busy": true,
+          "modal": null,
+          "interaction": 0,
+          "motion": {
+            "sceneIndex": 1,
+            "worldName": "gate",
+            "time": 7.093200000000025,
+            "paused": true,
+            "busy": true,
+            "view": {
+              "x": 0,
+              "y": 2.45,
+              "z": 6.2,
+              "tx": 0.1,
+              "ty": 2.8,
+              "tz": -25,
+              "fov": 54
+            },
+            "hand": 0.3143103458767361,
+            "lamp": 0,
+            "walks": 0,
+            "flight": 0,
+            "water": 0.45,
+            "gate": {
+              "left": -0.02496768292757512,
+              "right": 0.02496768292757512
+            },
+            "frames": 461,
+            "action": "open-gate",
+            "progress": 0.10017142857142843,
+            "completed": 2
+          }
+        },
+        "after": {
+          "index": 2,
+          "chapter": 0,
+          "paused": false,
+          "busy": false,
+          "modal": null,
+          "interaction": 0,
+          "motion": {
+            "sceneIndex": 2,
+            "worldName": "mountain",
+            "time": 10.247400000000026,
+            "paused": false,
+            "busy": false,
+            "view": {
+              "x": 0,
+              "y": 2.45,
+              "z": 9,
+              "tx": 0,
+              "ty": 2.7,
+              "tz": -25,
+              "fov": 54
+            },
+            "hand": 0,
+            "lamp": 0,
+            "walks": 0,
+            "flight": 0,
+            "water": 0.45,
+            "gate": {
+              "left": -1.48,
+              "right": 1.48
+            },
+            "frames": 650,
+            "action": "",
+            "progress": 0,
+            "completed": 3
+          }
+        }
+      }
+    },
+    {
+      "viewport": "1280x720",
+      "name": "latest modal freeze and chapter cancellation",
+      "pass": true,
+      "detail": {
+        "index": 9,
+        "chapter": 3,
+        "paused": false,
+        "busy": false,
+        "modal": null,
+        "interaction": 0,
+        "motion": {
+          "sceneIndex": 9,
+          "worldName": "forest",
+          "time": 12.033300000000018,
+          "paused": false,
+          "busy": false,
+          "view": {
+            "x": 0,
+            "y": 2.5,
+            "z": 9,
+            "tx": 1.1,
+            "ty": 3.2,
+            "tz": -25,
+            "fov": 54
+          },
+          "hand": 0,
+          "lamp": 0.45,
+          "walks": 0,
+          "flight": 0,
+          "water": 0.45,
+          "gate": {
+            "left": -0.0473600000000006,
+            "right": 0.0473600000000006
+          },
+          "frames": 790,
+          "action": "",
+          "progress": 0,
+          "completed": 3
+        }
+      }
+    },
+    {
+      "viewport": "1280x720",
+      "name": "visible controls not clipped or covered",
+      "pass": true,
+      "detail": [
+        {
+          "index": 0,
+          "checked": 19
+        },
+        {
+          "index": 1,
+          "checked": 20
+        },
+        {
+          "index": 4,
+          "checked": 20
+        },
+        {
+          "index": 9,
+          "checked": 20
+        },
+        {
+          "index": 12,
+          "checked": 20
+        },
+        {
+          "index": 13,
+          "checked": 20
+        },
+        {
+          "index": 17,
+          "checked": 20
+        }
+      ]
+    },
+    {
+      "viewport": "1280x720",
+      "name": "waterfall stays visible for 2s with valid shader/SVG animation",
+      "pass": true,
+      "detail": {
+        "offsetBefore": "31.212760000000344",
+        "offsetAfter": "82.3156599999997",
+        "visual": {
+          "opacity": "1",
+          "filter": "url(\"#waterMotion\")",
+          "width": 1624.048828125,
+          "height": 913.5130615234375
+        },
+        "state": {
+          "index": 12,
+          "chapter": 4,
+          "paused": false,
+          "busy": false,
+          "modal": null,
+          "interaction": 0,
+          "motion": {
+            "sceneIndex": 12,
+            "worldName": "waterfall",
+            "time": 17.09009999999997,
+            "paused": false,
+            "busy": false,
+            "view": {
+              "x": -0.4,
+              "y": 2.8,
+              "z": 9,
+              "tx": 2.8,
+              "ty": 3.8,
+              "tz": -25,
+              "fov": 54
+            },
+            "hand": 0,
+            "lamp": 0,
+            "walks": 0,
+            "flight": 0,
+            "water": 0.45,
+            "gate": {
+              "left": 0,
+              "right": 0
+            },
+            "frames": 1091,
+            "action": "",
+            "progress": 0,
+            "completed": 3
+          }
+        }
+      }
+    }
+  ],
+  "errors": [],
+  "sources": {
+    "app.js": "a4a865ee56c705a74a23025f56272c1dbc3c2948b6c1f5ad3e8ea50cdfea9822",
+    "cinema.js": "3f95c349f2bf4fc744878e8ef5ef1773ad8818c24e8470de2877a8690f966ce2",
+    "props.js": "a62685cc0ce83fa2477b608b0893684f93f7fc5bd51523ccb8af7a41f7e5651d",
+    "index.html": "98b2c69e05a67e4ab14456ada1759123b2b6c09dc07c3eed2ada38c5a36d403c",
+    "cinema.css": "b043ddfd04006d2f4c3027799a1aa47335d30be5d4d19d211ed3d6e6925166b3"
+  },
+  "finished": "2026-10-28T08:30:07.473Z",
+  "summary": {
+    "passed": 12,
+    "failed": 0
+  },
+  "sourcesUnchanged": true
+}

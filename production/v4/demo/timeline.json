@@ -1,0 +1,63 @@
+{
+  "trim": 2.827300000000745,
+  "end": 114.77189999999851,
+  "scenes": [
+    {
+      "index": 2,
+      "start": 3.532699999999255,
+      "duration": 0,
+      "ambient": "",
+      "music": true,
+      "end": 18.096199999999254
+    },
+    {
+      "index": 4,
+      "start": 18.856699999999254,
+      "duration": 13.152,
+      "ambient": "",
+      "music": true,
+      "end": 32.90739999999851
+    },
+    {
+      "index": 7,
+      "start": 33.607699999999255,
+      "duration": 0,
+      "ambient": "wind",
+      "music": true,
+      "end": 47.5065
+    },
+    {
+      "index": 10,
+      "start": 48.21339999999851,
+      "duration": 16.128,
+      "ambient": "wind",
+      "music": true,
+      "end": 65.247
+    },
+    {
+      "index": 11,
+      "start": 65.953,
+      "duration": 0,
+      "ambient": "wind",
+      "music": true,
+      "end": 80.09910000000149
+    },
+    {
+      "index": 15,
+      "start": 80.81069999999926,
+      "duration": 13.32,
+      "ambient": "wind",
+      "music": true,
+      "end": 95.03789999999852
+    },
+    {
+      "index": 22,
+      "start": 95.74180000000075,
+      "duration": 17.592,
+      "ambient": "sea",
+      "music": true,
+      "end": 114.25880000000075
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,24 @@
+
+/* Shot rhythm: the RAF clock owns transition opacity and all foreground poses. */
+:root{--copy-opacity:1}
+.scenery{transform:none!important;inset:-2%;will-change:auto}
+.backdrop{transition:none!important;will-change:transform,opacity;transform-origin:center;background-size:cover}
+.sky-layer,.water-layer{position:absolute;inset:0;pointer-events:none;background-size:cover;background-position:center;opacity:0}
+.sky-layer{background-image:url(assets/stars-bg.png)}
+.water-layer{background:none;filter:none;mask-image:none}.water-motion-canvas{display:block;width:100%;height:100%}
+.night-shade,#fogCurtain{transition:none}
+.foreground{opacity:1;will-change:opacity}#outgoingForeground{opacity:0;z-index:1}
+.foreground img{backface-visibility:hidden;transform-style:preserve-3d;transition:none!important}
+.story-copy,.subtitle{opacity:var(--copy-opacity)!important;transition:none!important}
+.story-copy.reveal{animation:none!important}.story-copy.reveal>*{animation:none!important}
+.story-copy h1,.scene-sub,.eyebrow,.read-line{transition:none}
+.acting .story-copy{opacity:var(--copy-opacity)!important}.acting .primary{opacity:.82}
+.scene-guide{background:none;text-shadow:0 1px 5px #000,0 0 10px #000}
+
+#matteFreeze,.frozen-matte-group{position:absolute;inset:0;pointer-events:none}
+.modal-layer:not([hidden]){animation:modalVeilIn .22s ease both}
+.modal-layer:not([hidden]) .dialog{animation:dialogArrival .3s cubic-bezier(.2,.7,.3,1) both}
+@keyframes modalVeilIn{from{opacity:0}to{opacity:1}}
+@keyframes dialogArrival{from{transform:translateY(7px) scale(.995)}to{transform:translateY(0) scale(1)}}
+body:not(.scene-ready) .primary{pointer-events:none;opacity:.4}
+@media(prefers-reduced-motion:reduce){.film-grain{display:none}}

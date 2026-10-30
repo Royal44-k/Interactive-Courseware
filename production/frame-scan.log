@@ -1,0 +1,63 @@
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\Users\lenovo\Videos\屏幕录制\屏幕录制 2026-10-28 095249.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp41isom
+    creation_time   : 2026-10-28T01:51:06.000000Z
+  Duration: 00:01:43.67, start: 0.000000, bitrate: 4043 kb/s
+  Stream #0:0[0x1](und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, unknown/reserved/reserved, progressive), 1248x734 [SAR 1:1 DAR 624:367], 3848 kb/s, 30 fps, 30 tbr, 30k tbn (default)
+      Metadata:
+        creation_time   : 2026-10-28T01:51:06.000000Z
+        handler_name    : VideoHandler
+        vendor_id       : [0][0][0][0]
+        encoder         : AVC Coding
+  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 192 kb/s (default)
+      Metadata:
+        creation_time   : 2026-10-28T01:51:06.000000Z
+        handler_name    : SoundHandler
+        vendor_id       : [0][0][0][0]
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> mjpeg (native))
+Press [q] to stop, [?] for help
+[Parsed_showinfo_1 @ 000001b08800bfc0] config in time_base: 1/30000, frame_rate: 30/1
+[Parsed_showinfo_1 @ 000001b08800bfc0] config out time_base: 0/0, frame_rate: 0/0
+[Parsed_showinfo_1 @ 000001b08800bfc0] n:   0 pts: 199000 pts_time:6.633333 duration:   1000 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:1248x734 i:P iskey:0 type:P checksum:A4FA05B1 plane_checksum:[42C65993 EA2990D8 DAE61B37] mean:[41 128 128] stdev:[23.2 5.0 5.4]
+[Parsed_showinfo_1 @ 000001b08800bfc0] color_range:tv color_space:unknown color_primaries:reserved color_trc:reserved
+Output #0, image2, to '.\蜀道难课件\制作记录\frames\change_%03d.jpg':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp41isom
+    encoder         : Lavf61.7.100
+  Stream #0:0(und): Video: mjpeg, yuv420p(pc, unknown/reserved/reserved, progressive), 1248x734 [SAR 1:1 DAR 624:367], q=2-31, 200 kb/s, 30 fps, 30 tbn (default)
+      Metadata:
+        creation_time   : 2026-10-28T01:51:06.000000Z
+        handler_name    : VideoHandler
+        vendor_id       : [0][0][0][0]
+        encoder         : Lavc61.19.100 mjpeg
+      Side data:
+        cpb: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: N/A
+[Parsed_showinfo_1 @ 000001b08800bfc0] n:   1 pts: 348000 pts_time:11.6    duration:   1000 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:1248x734 i:P iskey:0 type:P checksum:FAB59222 plane_checksum:[7D2A450C 36D068B1 0EFFE456] mean:[46 128 128] stdev:[31.3 7.6 7.2]
+[Parsed_showinfo_1 @ 000001b08800bfc0] color_range:tv color_space:unknown color_primaries:reserved color_trc:reserved
+frame=    1 fps=0.0 q=2.0 size=N/A time=00:00:06.66 bitrate=N/A speed=  13x    
+frame=    1 fps=1.0 q=2.0 size=N/A time=00:00:06.66 bitrate=N/A speed= 6.5x    
+[Parsed_showinfo_1 @ 000001b08800bfc0] n:   2 pts:1393000 pts_time:46.433333 duration:   1000 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:1248x734 i:P iskey:0 type:P checksum:2791BC43 plane_checksum:[3B65C347 0A78D076 4A602877] mean:[54 131 121] stdev:[29.8 6.0 5.2]
+[Parsed_showinfo_1 @ 000001b08800bfc0] color_range:tv color_space:unknown color_primaries:reserved color_trc:reserved
+[Parsed_showinfo_1 @ 000001b08800bfc0] n:   3 pts:1609000 pts_time:53.633333 duration:   1000 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:1248x734 i:P iskey:0 type:P checksum:1EE7C952 plane_checksum:[7F22AB42 2432B015 428C6DEC] mean:[38 132 123] stdev:[21.9 3.3 3.5]
+[Parsed_showinfo_1 @ 000001b08800bfc0] color_range:tv color_space:unknown color_primaries:reserved color_trc:reserved
+frame=    3 fps=1.9 q=2.0 size=N/A time=00:00:46.46 bitrate=N/A speed=30.1x    
+[Parsed_showinfo_1 @ 000001b08800bfc0] n:   4 pts:1867000 pts_time:62.233333 duration:   1000 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:1248x734 i:P iskey:0 type:P checksum:B19EFD3D plane_checksum:[89912C86 EA2BE403 94B1ECA5] mean:[38 132 123] stdev:[21.9 3.4 3.3]
+[Parsed_showinfo_1 @ 000001b08800bfc0] color_range:tv color_space:unknown color_primaries:reserved color_trc:reserved
+[Parsed_showinfo_1 @ 000001b08800bfc0] n:   5 pts:2142000 pts_time:71.4    duration:   1000 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:1248x734 i:P iskey:0 type:P checksum:ED1F88CC plane_checksum:[175F5930 1CD90287 38B02D15] mean:[38 130 124] stdev:[23.8 4.7 3.9]
+[Parsed_showinfo_1 @ 000001b08800bfc0] color_range:tv color_space:unknown color_primaries:reserved color_trc:reserved
+[Parsed_showinfo_1 @ 000001b08800bfc0] n:   6 pts:2348000 pts_time:78.266667 duration:   1000 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:1248x734 i:P iskey:0 type:P checksum:7DAF6C21 plane_checksum:[AFBB55EC 9033E54A B80B30DC] mean:[55 126 128] stdev:[44.4 13.4 10.3]
+[Parsed_showinfo_1 @ 000001b08800bfc0] color_range:tv color_space:unknown color_primaries:reserved color_trc:reserved
+[Parsed_showinfo_1 @ 000001b08800bfc0] n:   7 pts:2385000 pts_time:79.5    duration:   1000 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:1248x734 i:P iskey:0 type:P checksum:E4D99A9C plane_checksum:[CC1EBF3C A2B02D5B 576FADF6] mean:[39 131 124] stdev:[25.0 4.6 3.9]
+[Parsed_showinfo_1 @ 000001b08800bfc0] color_range:tv color_space:unknown color_primaries:reserved color_trc:reserved
+[Parsed_showinfo_1 @ 000001b08800bfc0] n:   8 pts:2559000 pts_time:85.3    duration:   1000 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:1248x734 i:P iskey:0 type:P checksum:2545A7A0 plane_checksum:[F3A707D0 53E1C1E3 A1B7DDDE] mean:[37 132 123] stdev:[24.3 2.5 2.5]
+[Parsed_showinfo_1 @ 000001b08800bfc0] color_range:tv color_space:unknown color_primaries:reserved color_trc:reserved
+frame=    8 fps=3.9 q=2.0 size=N/A time=00:01:19.53 bitrate=N/A speed=38.7x    
+[Parsed_showinfo_1 @ 000001b08800bfc0] n:   9 pts:2714000 pts_time:90.466667 duration:   1000 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:1248x734 i:P iskey:0 type:P checksum:145E3231 plane_checksum:[04E757B3 A047C3CC 021616A3] mean:[51 134 122] stdev:[37.1 4.4 3.6]
+[Parsed_showinfo_1 @ 000001b08800bfc0] color_range:tv color_space:unknown color_primaries:reserved color_trc:reserved
+[out#0/image2 @ 000001b083e55340] video:832KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame=   10 fps=4.1 q=2.0 Lsize=N/A time=00:01:30.50 bitrate=N/A speed=37.1x    

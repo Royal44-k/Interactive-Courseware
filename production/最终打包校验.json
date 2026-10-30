@@ -1,0 +1,204 @@
+{
+  "archive": "C:\\Users\\lenovo\\Desktop\\教师端\\蜀道难课件\\蜀道难互动课件.zip",
+  "archive_bytes": 13275262,
+  "entry": "C:\\Users\\lenovo\\Desktop\\教师端\\蜀道难课件\\制作记录\\解压验收-20261028-150643\\index.html",
+  "file_count": 39,
+  "all_extracted_hashes_match": true,
+  "files": [
+    {
+      "file": "app.js",
+      "bytes": 28719,
+      "sha256": "bbe191823b531308760bebcfbd16f844092499dcfd4392c4fbaa581958dbd532"
+    },
+    {
+      "file": "assets/audio/bird.mp3",
+      "bytes": 12862,
+      "sha256": "6e74d63c78cd58e70edad1d9b2f9ac75d3ae4b30f449cb86d1d32b10ffd53e5e"
+    },
+    {
+      "file": "assets/audio/full-poem.mp3",
+      "bytes": 1565510,
+      "sha256": "00129978a1d509ff91373365003f583370419e8c4030a156e8b2cc732165078b"
+    },
+    {
+      "file": "assets/audio/music.mp3",
+      "bytes": 235147,
+      "sha256": "25199fcd491fa818653869c0848f753317fd2344bb99ae9a68725b4cd5a80df9"
+    },
+    {
+      "file": "assets/audio/poem-0.mp3",
+      "bytes": 664285,
+      "sha256": "47f2b44ae45e21e5787d3877a6a88bc72d47f83edac782185b52a00af1b4f499"
+    },
+    {
+      "file": "assets/audio/poem-1.mp3",
+      "bytes": 493758,
+      "sha256": "fcf3bd06f0326eb83188f61143277cc3df1bef12914d9274f610b11345f32d85"
+    },
+    {
+      "file": "assets/audio/poem-2.mp3",
+      "bytes": 362414,
+      "sha256": "3394f89f2ffce366454797633595a3c48508472eba95eedc6a0b88167563211c"
+    },
+    {
+      "file": "assets/audio/stage-0.mp3",
+      "bytes": 119162,
+      "sha256": "5b91a5c13005d22002ef16d9c0718b60a25ba99a3f621c00af3022de161f8405"
+    },
+    {
+      "file": "assets/audio/stage-1.mp3",
+      "bytes": 111639,
+      "sha256": "21a8d65ed494af0d5a5624306bb0468071568d5b2d20187c81d34ba594819d07"
+    },
+    {
+      "file": "assets/audio/stage-10.mp3",
+      "bytes": 82486,
+      "sha256": "ba4e8da6d97f5f6753681aade7fbc24aeb32ec7c2a34997eeb4f935607788a3a"
+    },
+    {
+      "file": "assets/audio/stage-11.mp3",
+      "bytes": 63991,
+      "sha256": "6d759cbe09737945612c78cb8e2b758bc1b7c07355ef6959196d8cedc03c911b"
+    },
+    {
+      "file": "assets/audio/stage-12.mp3",
+      "bytes": 72768,
+      "sha256": "a0324a26a77120a6865ecd66d57effeba282ab411d04a8637fc8fb2131ee665b"
+    },
+    {
+      "file": "assets/audio/stage-13.mp3",
+      "bytes": 79665,
+      "sha256": "71b69cfa8f7f3b8e40c6f711168da04f54216633c5002b2ed5905115ae12a86f"
+    },
+    {
+      "file": "assets/audio/stage-14.mp3",
+      "bytes": 74022,
+      "sha256": "21eed728022b511e264f4560142e8d90361d4df549d5ac30d0c2c9cf656a91df"
+    },
+    {
+      "file": "assets/audio/stage-15.mp3",
+      "bytes": 87815,
+      "sha256": "723212d8d2cc720e0c982da82d0df0cf1da3d0c9599d8803ad151ca1ed8aee9e"
+    },
+    {
+      "file": "assets/audio/stage-16.mp3",
+      "bytes": 108190,
+      "sha256": "6b134a4f8b01b118cdde623049e7714f7456b57909ac140fdbdb47b4803d5a0e"
+    },
+    {
+      "file": "assets/audio/stage-17.mp3",
+      "bytes": 72455,
+      "sha256": "7e422501a35e968c924a594b1f6b7ce907cd232c83610ea3cb6d4f85d0096e0a"
+    },
+    {
+      "file": "assets/audio/stage-2.mp3",
+      "bytes": 89382,
+      "sha256": "1aa0c38626c130bfab7d8701722bfe5fa8dc85c50142b968b0cfc5baee7faa29"
+    },
+    {
+      "file": "assets/audio/stage-3.mp3",
+      "bytes": 125431,
+      "sha256": "8224849ebd6422af46444edf14758f109879845fa435c7bb1872149b1f78c92d"
+    },
+    {
+      "file": "assets/audio/stage-4.mp3",
+      "bytes": 81546,
+      "sha256": "fad974a242188a0a8c32c8e132c62a1c90afa12abf3242a1c1c44a94efae8b4c"
+    },
+    {
+      "file": "assets/audio/stage-5.mp3",
+      "bytes": 113206,
+      "sha256": "a42709bd21974f3516165de41713adcf54010b892be76edbecdd8be0725d0427"
+    },
+    {
+      "file": "assets/audio/stage-6.mp3",
+      "bytes": 58976,
+      "sha256": "ceb3b502d40803e07a18755f2295d2e706d2e6cb39a39121d47c32f5daeb7afa"
+    },
+    {
+      "file": "assets/audio/stage-7.mp3",
+      "bytes": 70574,
+      "sha256": "6a9ded987d6c70d8d1df7c0415e722553cb76b1f91dc9e1c63615e992c0d5802"
+    },
+    {
+      "file": "assets/audio/stage-8.mp3",
+      "bytes": 73082,
+      "sha256": "9d4a7e72371a49c4b4a82061c8f3cc579835141b50f8f2b2a237b682f432014f"
+    },
+    {
+      "file": "assets/audio/stage-9.mp3",
+      "bytes": 70574,
+      "sha256": "05041c6f4231b6507c821f9938b8bd9110a36c91bafa81ac2ce4b2fc0f402e0f"
+    },
+    {
+      "file": "assets/audio/音频来源.txt",
+      "bytes": 1096,
+      "sha256": "e47cb89325e9844735ea508365b735d4364aeae5ddc90f72d372ca51a7fbc9df"
+    },
+    {
+      "file": "assets/cliff.png",
+      "bytes": 2413632,
+      "sha256": "5381d4c9e30d7a7a3471dc04bde46b17ed5afc38ccd9bfd33c40713604ea5633"
+    },
+    {
+      "file": "assets/moon.png",
+      "bytes": 2312684,
+      "sha256": "ddb4e37b219de289520c9a2e273f0898b97529c378e3cf68a82733e013e96b9b"
+    },
+    {
+      "file": "assets/mountains.png",
+      "bytes": 2348689,
+      "sha256": "4a03650d94fe34bdbd181ae38015de9c9f819c51400e39dd7aacc809e6f1e664"
+    },
+    {
+      "file": "assets/pass.png",
+      "bytes": 2578833,
+      "sha256": "39088c1275db3f5bb2251f34d59cb12287a7fc8bf54ed78514182832a5033537"
+    },
+    {
+      "file": "assets/图片来源.txt",
+      "bytes": 514,
+      "sha256": "d12be150430975fca00dfb0ff8150c1c32c73758551689bb4f2b6042c53e64b1"
+    },
+    {
+      "file": "audio.js",
+      "bytes": 9073,
+      "sha256": "40f5e5da9101e5a6c3528ab161813cd9444ace80ed9cd86b02782b898fd697ec"
+    },
+    {
+      "file": "content.js",
+      "bytes": 13536,
+      "sha256": "e51fdded463132454c6926a05253eb535c16f3eb60452c7d3d905f021d6d676d"
+    },
+    {
+      "file": "index.html",
+      "bytes": 3752,
+      "sha256": "83bb9c3a434d5bd45e128d78dfa51eb6912eaf9a1402ae80b066f52755264c82"
+    },
+    {
+      "file": "space.js",
+      "bytes": 30637,
+      "sha256": "d1b4e663578fd3197449f5c3744fe985aa86c8ce7a9492209891eb8474229aeb"
+    },
+    {
+      "file": "story.js",
+      "bytes": 5442,
+      "sha256": "b503818e46e931691498c16e9ac363719648431814ca804a4bc9bf40cdae60c8"
+    },
+    {
+      "file": "styles.css",
+      "bytes": 24972,
+      "sha256": "d27a14cb78139471f28cf53d46ccb4bf6a1c44a43f948ca9272bbcfb94fe29d5"
+    },
+    {
+      "file": "使用说明.txt",
+      "bytes": 2115,
+      "sha256": "ad77a17809100a7ea7275357f8165c7d6b4a026fcb4002a3bb1370dd122ccd95"
+    },
+    {
+      "file": "来源与制作说明.txt",
+      "bytes": 1308,
+      "sha256": "aa3c03b4c0962174c344ed91aec575c764b84f6a5ff27274445a1dc92a57a354"
+    }
+  ]
+}

@@ -1,0 +1,1558 @@
+{
+  "errors": [],
+  "layouts": [
+    {
+      "lang": "zh",
+      "w": 375,
+      "h": 667,
+      "scroll": 375,
+      "brand": {
+        "x": 18.75,
+        "y": 18.5,
+        "width": 167.671875,
+        "height": 27,
+        "top": 18.5,
+        "right": 186.421875,
+        "bottom": 45.5,
+        "left": 18.75
+      },
+      "full": {
+        "x": 312.25,
+        "y": 10,
+        "width": 44,
+        "height": 44,
+        "top": 10,
+        "right": 356.25,
+        "bottom": 54,
+        "left": 312.25
+      },
+      "auto": {
+        "x": 22.5,
+        "y": 496.953125,
+        "width": 158.390625,
+        "height": 70,
+        "top": 496.953125,
+        "right": 180.890625,
+        "bottom": 566.953125,
+        "left": 22.5
+      },
+      "copy": {
+        "x": 26.25,
+        "y": 312.03125,
+        "width": 285.609375,
+        "height": 51.09375,
+        "top": 312.03125,
+        "right": 311.859375,
+        "bottom": 363.125,
+        "left": 26.25
+      },
+      "next": {
+        "x": 190.890625,
+        "y": 496.953125,
+        "width": 161.609375,
+        "height": 70,
+        "top": 496.953125,
+        "right": 352.5,
+        "bottom": 566.953125,
+        "left": 190.890625
+      }
+    },
+    {
+      "lang": "zh",
+      "w": 390,
+      "h": 844,
+      "scroll": 390,
+      "brand": {
+        "x": 19.5,
+        "y": 18.5,
+        "width": 181.171875,
+        "height": 27,
+        "top": 18.5,
+        "right": 200.671875,
+        "bottom": 45.5,
+        "left": 19.5
+      },
+      "full": {
+        "x": 326.5,
+        "y": 10,
+        "width": 44,
+        "height": 44,
+        "top": 10,
+        "right": 370.5,
+        "bottom": 54,
+        "left": 326.5
+      },
+      "auto": {
+        "x": 23.390625,
+        "y": 647.40625,
+        "width": 164.734375,
+        "height": 70,
+        "top": 647.40625,
+        "right": 188.125,
+        "bottom": 717.40625,
+        "left": 23.390625
+      },
+      "copy": {
+        "x": 27.296875,
+        "y": 397.34375,
+        "width": 297.03125,
+        "height": 61,
+        "top": 397.34375,
+        "right": 324.328125,
+        "bottom": 458.34375,
+        "left": 27.296875
+      },
+      "next": {
+        "x": 198.4375,
+        "y": 647.40625,
+        "width": 168.171875,
+        "height": 70,
+        "top": 647.40625,
+        "right": 366.609375,
+        "bottom": 717.40625,
+        "left": 198.4375
+      }
+    },
+    {
+      "lang": "zh",
+      "w": 844,
+      "h": 390,
+      "scroll": 844,
+      "brand": {
+        "x": 31.21875,
+        "y": 9,
+        "width": 168.0625,
+        "height": 31,
+        "top": 9,
+        "right": 199.28125,
+        "bottom": 40,
+        "left": 31.21875
+      },
+      "full": {
+        "x": 768.78125,
+        "y": 2.5,
+        "width": 44,
+        "height": 44,
+        "top": 2.5,
+        "right": 812.78125,
+        "bottom": 46.5,
+        "left": 768.78125
+      },
+      "auto": {
+        "x": 42.1875,
+        "y": 275.203125,
+        "width": 118.609375,
+        "height": 43,
+        "top": 275.203125,
+        "right": 160.796875,
+        "bottom": 318.203125,
+        "left": 42.1875
+      },
+      "copy": {
+        "x": 67.515625,
+        "y": 176.484375,
+        "width": 224,
+        "height": 38.796875,
+        "top": 176.484375,
+        "right": 291.515625,
+        "bottom": 215.28125,
+        "left": 67.515625
+      },
+      "next": {
+        "x": 549.8125,
+        "y": 269.703125,
+        "width": 252,
+        "height": 54,
+        "top": 269.703125,
+        "right": 801.8125,
+        "bottom": 323.703125,
+        "left": 549.8125
+      }
+    },
+    {
+      "lang": "zh",
+      "w": 1280,
+      "h": 720,
+      "scroll": 1280,
+      "brand": {
+        "x": 47.359375,
+        "y": 14,
+        "width": 194.484375,
+        "height": 31,
+        "top": 14,
+        "right": 241.84375,
+        "bottom": 45,
+        "left": 47.359375
+      },
+      "full": {
+        "x": 1188.640625,
+        "y": 7.5,
+        "width": 44,
+        "height": 44,
+        "top": 7.5,
+        "right": 1232.640625,
+        "bottom": 51.5,
+        "left": 1188.640625
+      },
+      "auto": {
+        "x": 64,
+        "y": 547.640625,
+        "width": 161.5,
+        "height": 73,
+        "top": 547.640625,
+        "right": 225.5,
+        "bottom": 620.640625,
+        "left": 64
+      },
+      "copy": {
+        "x": 102.390625,
+        "y": 348.765625,
+        "width": 340.484375,
+        "height": 62,
+        "top": 348.765625,
+        "right": 442.875,
+        "bottom": 410.765625,
+        "left": 102.390625
+      },
+      "next": {
+        "x": 964,
+        "y": 557.140625,
+        "width": 252,
+        "height": 54,
+        "top": 557.140625,
+        "right": 1216,
+        "bottom": 611.140625,
+        "left": 964
+      }
+    },
+    {
+      "lang": "zh",
+      "w": 1920,
+      "h": 1080,
+      "scroll": 1920,
+      "brand": {
+        "x": 71.03125,
+        "y": 20,
+        "width": 194.484375,
+        "height": 31,
+        "top": 20,
+        "right": 265.515625,
+        "bottom": 51,
+        "left": 71.03125
+      },
+      "full": {
+        "x": 1804.96875,
+        "y": 13.5,
+        "width": 44,
+        "height": 44,
+        "top": 13.5,
+        "right": 1848.96875,
+        "bottom": 57.5,
+        "left": 1804.96875
+      },
+      "auto": {
+        "x": 96,
+        "y": 861.203125,
+        "width": 161.5,
+        "height": 73,
+        "top": 861.203125,
+        "right": 257.5,
+        "bottom": 934.203125,
+        "left": 96
+      },
+      "copy": {
+        "x": 153.59375,
+        "y": 525.171875,
+        "width": 573.453125,
+        "height": 74,
+        "top": 525.171875,
+        "right": 727.046875,
+        "bottom": 599.171875,
+        "left": 153.59375
+      },
+      "next": {
+        "x": 1572,
+        "y": 870.703125,
+        "width": 252,
+        "height": 54,
+        "top": 870.703125,
+        "right": 1824,
+        "bottom": 924.703125,
+        "left": 1572
+      }
+    },
+    {
+      "lang": "bi",
+      "w": 375,
+      "h": 667,
+      "scroll": 375,
+      "brand": {
+        "x": 18.75,
+        "y": 18.5,
+        "width": 167.671875,
+        "height": 27,
+        "top": 18.5,
+        "right": 186.421875,
+        "bottom": 45.5,
+        "left": 18.75
+      },
+      "full": {
+        "x": 312.25,
+        "y": 10,
+        "width": 44,
+        "height": 44,
+        "top": 10,
+        "right": 356.25,
+        "bottom": 54,
+        "left": 312.25
+      },
+      "auto": {
+        "x": 22.5,
+        "y": 496.953125,
+        "width": 158.390625,
+        "height": 70,
+        "top": 496.953125,
+        "right": 180.890625,
+        "bottom": 566.953125,
+        "left": 22.5
+      },
+      "copy": {
+        "x": 26.25,
+        "y": 351.53125,
+        "width": 322.5,
+        "height": 122.890625,
+        "top": 351.53125,
+        "right": 348.75,
+        "bottom": 474.421875,
+        "left": 26.25
+      },
+      "next": {
+        "x": 190.890625,
+        "y": 496.953125,
+        "width": 161.609375,
+        "height": 70,
+        "top": 496.953125,
+        "right": 352.5,
+        "bottom": 566.953125,
+        "left": 190.890625
+      }
+    },
+    {
+      "lang": "bi",
+      "w": 390,
+      "h": 844,
+      "scroll": 390,
+      "brand": {
+        "x": 19.5,
+        "y": 18.5,
+        "width": 181.171875,
+        "height": 27,
+        "top": 18.5,
+        "right": 200.671875,
+        "bottom": 45.5,
+        "left": 19.5
+      },
+      "full": {
+        "x": 326.5,
+        "y": 10,
+        "width": 44,
+        "height": 44,
+        "top": 10,
+        "right": 370.5,
+        "bottom": 54,
+        "left": 326.5
+      },
+      "auto": {
+        "x": 23.390625,
+        "y": 647.40625,
+        "width": 164.734375,
+        "height": 70,
+        "top": 647.40625,
+        "right": 188.125,
+        "bottom": 717.40625,
+        "left": 23.390625
+      },
+      "copy": {
+        "x": 27.296875,
+        "y": 436.84375,
+        "width": 335.390625,
+        "height": 139.984375,
+        "top": 436.84375,
+        "right": 362.6875,
+        "bottom": 576.828125,
+        "left": 27.296875
+      },
+      "next": {
+        "x": 198.4375,
+        "y": 647.40625,
+        "width": 168.171875,
+        "height": 70,
+        "top": 647.40625,
+        "right": 366.609375,
+        "bottom": 717.40625,
+        "left": 198.4375
+      }
+    },
+    {
+      "lang": "bi",
+      "w": 844,
+      "h": 390,
+      "scroll": 844,
+      "brand": {
+        "x": 31.21875,
+        "y": 9,
+        "width": 168.0625,
+        "height": 31,
+        "top": 9,
+        "right": 199.28125,
+        "bottom": 40,
+        "left": 31.21875
+      },
+      "full": {
+        "x": 768.78125,
+        "y": 2.5,
+        "width": 44,
+        "height": 44,
+        "top": 2.5,
+        "right": 812.78125,
+        "bottom": 46.5,
+        "left": 768.78125
+      },
+      "auto": {
+        "x": 42.1875,
+        "y": 275.203125,
+        "width": 118.609375,
+        "height": 43,
+        "top": 275.203125,
+        "right": 160.796875,
+        "bottom": 318.203125,
+        "left": 42.1875
+      },
+      "copy": {
+        "x": 67.515625,
+        "y": 205.171875,
+        "width": 245.75,
+        "height": 38.796875,
+        "top": 205.171875,
+        "right": 313.265625,
+        "bottom": 243.96875,
+        "left": 67.515625
+      },
+      "next": {
+        "x": 549.8125,
+        "y": 269.703125,
+        "width": 252,
+        "height": 54,
+        "top": 269.703125,
+        "right": 801.8125,
+        "bottom": 323.703125,
+        "left": 549.8125
+      }
+    },
+    {
+      "lang": "bi",
+      "w": 1280,
+      "h": 720,
+      "scroll": 1280,
+      "brand": {
+        "x": 47.359375,
+        "y": 14,
+        "width": 194.484375,
+        "height": 31,
+        "top": 14,
+        "right": 241.84375,
+        "bottom": 45,
+        "left": 47.359375
+      },
+      "full": {
+        "x": 1188.640625,
+        "y": 7.5,
+        "width": 44,
+        "height": 44,
+        "top": 7.5,
+        "right": 1232.640625,
+        "bottom": 51.5,
+        "left": 1188.640625
+      },
+      "auto": {
+        "x": 64,
+        "y": 547.640625,
+        "width": 161.5,
+        "height": 73,
+        "top": 547.640625,
+        "right": 225.5,
+        "bottom": 620.640625,
+        "left": 64
+      },
+      "copy": {
+        "x": 102.390625,
+        "y": 390.65625,
+        "width": 370.015625,
+        "height": 121.796875,
+        "top": 390.65625,
+        "right": 472.40625,
+        "bottom": 512.453125,
+        "left": 102.390625
+      },
+      "next": {
+        "x": 964,
+        "y": 557.140625,
+        "width": 252,
+        "height": 54,
+        "top": 557.140625,
+        "right": 1216,
+        "bottom": 611.140625,
+        "left": 964
+      }
+    },
+    {
+      "lang": "bi",
+      "w": 1920,
+      "h": 1080,
+      "scroll": 1920,
+      "brand": {
+        "x": 71.03125,
+        "y": 20,
+        "width": 194.484375,
+        "height": 31,
+        "top": 20,
+        "right": 265.515625,
+        "bottom": 51,
+        "left": 71.03125
+      },
+      "full": {
+        "x": 1804.96875,
+        "y": 13.5,
+        "width": 44,
+        "height": 44,
+        "top": 13.5,
+        "right": 1848.96875,
+        "bottom": 57.5,
+        "left": 1804.96875
+      },
+      "auto": {
+        "x": 96,
+        "y": 861.203125,
+        "width": 161.5,
+        "height": 73,
+        "top": 861.203125,
+        "right": 257.5,
+        "bottom": 934.203125,
+        "left": 96
+      },
+      "copy": {
+        "x": 153.59375,
+        "y": 574.8125,
+        "width": 573.453125,
+        "height": 133.796875,
+        "top": 574.8125,
+        "right": 727.046875,
+        "bottom": 708.609375,
+        "left": 153.59375
+      },
+      "next": {
+        "x": 1572,
+        "y": 870.703125,
+        "width": 252,
+        "height": 54,
+        "top": 870.703125,
+        "right": 1824,
+        "bottom": 924.703125,
+        "left": 1572
+      }
+    },
+    {
+      "lang": "en",
+      "w": 375,
+      "h": 667,
+      "scroll": 375,
+      "brand": {
+        "x": 18.75,
+        "y": 18.5,
+        "width": 167.671875,
+        "height": 27,
+        "top": 18.5,
+        "right": 186.421875,
+        "bottom": 45.5,
+        "left": 18.75
+      },
+      "full": {
+        "x": 312.25,
+        "y": 10,
+        "width": 44,
+        "height": 44,
+        "top": 10,
+        "right": 356.25,
+        "bottom": 54,
+        "left": 312.25
+      },
+      "auto": {
+        "x": 22.5,
+        "y": 485.171875,
+        "width": 158.390625,
+        "height": 81.78125,
+        "top": 485.171875,
+        "right": 180.890625,
+        "bottom": 566.953125,
+        "left": 22.5
+      },
+      "copy": {
+        "x": 26.25,
+        "y": 315.140625,
+        "width": 322.5,
+        "height": 81.5,
+        "top": 315.140625,
+        "right": 348.75,
+        "bottom": 396.640625,
+        "left": 26.25
+      },
+      "next": {
+        "x": 190.890625,
+        "y": 485.171875,
+        "width": 161.609375,
+        "height": 81.78125,
+        "top": 485.171875,
+        "right": 352.5,
+        "bottom": 566.953125,
+        "left": 190.890625
+      }
+    },
+    {
+      "lang": "en",
+      "w": 390,
+      "h": 844,
+      "scroll": 390,
+      "brand": {
+        "x": 19.5,
+        "y": 18.5,
+        "width": 181.171875,
+        "height": 27,
+        "top": 18.5,
+        "right": 200.671875,
+        "bottom": 45.5,
+        "left": 19.5
+      },
+      "full": {
+        "x": 326.5,
+        "y": 10,
+        "width": 44,
+        "height": 44,
+        "top": 10,
+        "right": 370.5,
+        "bottom": 54,
+        "left": 326.5
+      },
+      "auto": {
+        "x": 23.390625,
+        "y": 635.625,
+        "width": 164.734375,
+        "height": 81.78125,
+        "top": 635.625,
+        "right": 188.125,
+        "bottom": 717.40625,
+        "left": 23.390625
+      },
+      "copy": {
+        "x": 27.296875,
+        "y": 400.65625,
+        "width": 335.390625,
+        "height": 83.5,
+        "top": 400.65625,
+        "right": 362.6875,
+        "bottom": 484.15625,
+        "left": 27.296875
+      },
+      "next": {
+        "x": 198.4375,
+        "y": 635.625,
+        "width": 168.171875,
+        "height": 81.78125,
+        "top": 635.625,
+        "right": 366.609375,
+        "bottom": 717.40625,
+        "left": 198.4375
+      }
+    },
+    {
+      "lang": "en",
+      "w": 844,
+      "h": 390,
+      "scroll": 844,
+      "brand": {
+        "x": 31.21875,
+        "y": 9,
+        "width": 242.484375,
+        "height": 31,
+        "top": 9,
+        "right": 273.703125,
+        "bottom": 40,
+        "left": 31.21875
+      },
+      "full": {
+        "x": 768.78125,
+        "y": 2.5,
+        "width": 44,
+        "height": 44,
+        "top": 2.5,
+        "right": 812.78125,
+        "bottom": 46.5,
+        "left": 768.78125
+      },
+      "auto": {
+        "x": 42.1875,
+        "y": 272.703125,
+        "width": 179.171875,
+        "height": 43,
+        "top": 272.703125,
+        "right": 221.359375,
+        "bottom": 315.703125,
+        "left": 42.1875
+      },
+      "copy": {
+        "x": 67.515625,
+        "y": 151.40625,
+        "width": 578.390625,
+        "height": 38.796875,
+        "top": 151.40625,
+        "right": 645.90625,
+        "bottom": 190.203125,
+        "left": 67.515625
+      },
+      "next": {
+        "x": 549.8125,
+        "y": 264.703125,
+        "width": 252,
+        "height": 59,
+        "top": 264.703125,
+        "right": 801.8125,
+        "bottom": 323.703125,
+        "left": 549.8125
+      }
+    },
+    {
+      "lang": "en",
+      "w": 1280,
+      "h": 720,
+      "scroll": 1280,
+      "brand": {
+        "x": 47.359375,
+        "y": 14,
+        "width": 274.734375,
+        "height": 31,
+        "top": 14,
+        "right": 322.09375,
+        "bottom": 45,
+        "left": 47.359375
+      },
+      "full": {
+        "x": 1188.640625,
+        "y": 7.5,
+        "width": 44,
+        "height": 44,
+        "top": 7.5,
+        "right": 1232.640625,
+        "bottom": 51.5,
+        "left": 1188.640625
+      },
+      "auto": {
+        "x": 64,
+        "y": 547.640625,
+        "width": 294.4375,
+        "height": 73,
+        "top": 547.640625,
+        "right": 358.4375,
+        "bottom": 620.640625,
+        "left": 64
+      },
+      "copy": {
+        "x": 102.390625,
+        "y": 457.515625,
+        "width": 830,
+        "height": 62,
+        "top": 457.515625,
+        "right": 932.390625,
+        "bottom": 519.515625,
+        "left": 102.390625
+      },
+      "next": {
+        "x": 964,
+        "y": 554.640625,
+        "width": 252,
+        "height": 59,
+        "top": 554.640625,
+        "right": 1216,
+        "bottom": 613.640625,
+        "left": 964
+      }
+    },
+    {
+      "lang": "en",
+      "w": 1920,
+      "h": 1080,
+      "scroll": 1920,
+      "brand": {
+        "x": 71.03125,
+        "y": 20,
+        "width": 274.734375,
+        "height": 31,
+        "top": 20,
+        "right": 345.765625,
+        "bottom": 51,
+        "left": 71.03125
+      },
+      "full": {
+        "x": 1804.96875,
+        "y": 13.5,
+        "width": 44,
+        "height": 44,
+        "top": 13.5,
+        "right": 1848.96875,
+        "bottom": 57.5,
+        "left": 1804.96875
+      },
+      "auto": {
+        "x": 96,
+        "y": 861.203125,
+        "width": 294.4375,
+        "height": 73,
+        "top": 861.203125,
+        "right": 390.4375,
+        "bottom": 934.203125,
+        "left": 96
+      },
+      "copy": {
+        "x": 153.59375,
+        "y": 621.484375,
+        "width": 830,
+        "height": 74,
+        "top": 621.484375,
+        "right": 983.59375,
+        "bottom": 695.484375,
+        "left": 153.59375
+      },
+      "next": {
+        "x": 1572,
+        "y": 868.203125,
+        "width": 252,
+        "height": 59,
+        "top": 868.203125,
+        "right": 1824,
+        "bottom": 927.203125,
+        "left": 1572
+      }
+    }
+  ],
+  "audio": [
+    {
+      "src": "assets/audio/amb-river.mp3",
+      "duration": 30
+    },
+    {
+      "src": "assets/audio/amb-sea.mp3",
+      "duration": 30
+    },
+    {
+      "src": "assets/audio/amb-wind.mp3",
+      "duration": 30
+    },
+    {
+      "src": "assets/audio/bird.mp3",
+      "duration": 4.2
+    },
+    {
+      "src": "assets/audio/cuckoo.ogg",
+      "duration": 15.61725
+    },
+    {
+      "src": "assets/audio/music.mp3",
+      "duration": 60
+    },
+    {
+      "src": "assets/audio/poem-shu.mp3",
+      "duration": 103.32
+    },
+    {
+      "src": "assets/audio/poem-xing-en.mp3",
+      "duration": 50.088
+    },
+    {
+      "src": "assets/audio/poem-xing.mp3",
+      "duration": 28.944
+    },
+    {
+      "src": "assets/audio/stage-0-en.mp3",
+      "duration": 12.72
+    },
+    {
+      "src": "assets/audio/stage-0.mp3",
+      "duration": 13.392
+    },
+    {
+      "src": "assets/audio/stage-1-en.mp3",
+      "duration": 7.896
+    },
+    {
+      "src": "assets/audio/stage-1.mp3",
+      "duration": 9.024
+    },
+    {
+      "src": "assets/audio/stage-10-en.mp3",
+      "duration": 16.248
+    },
+    {
+      "src": "assets/audio/stage-10.mp3",
+      "duration": 16.128
+    },
+    {
+      "src": "assets/audio/stage-11-en.mp3",
+      "duration": 13.608
+    },
+    {
+      "src": "assets/audio/stage-11.mp3",
+      "duration": 13.248
+    },
+    {
+      "src": "assets/audio/stage-12-en.mp3",
+      "duration": 16.344
+    },
+    {
+      "src": "assets/audio/stage-12.mp3",
+      "duration": 13.44
+    },
+    {
+      "src": "assets/audio/stage-14-en.mp3",
+      "duration": 15.336
+    },
+    {
+      "src": "assets/audio/stage-14.mp3",
+      "duration": 13.992
+    },
+    {
+      "src": "assets/audio/stage-15-en.mp3",
+      "duration": 13.344
+    },
+    {
+      "src": "assets/audio/stage-15.mp3",
+      "duration": 13.32
+    },
+    {
+      "src": "assets/audio/stage-16-en.mp3",
+      "duration": 14.76
+    },
+    {
+      "src": "assets/audio/stage-16.mp3",
+      "duration": 13.416
+    },
+    {
+      "src": "assets/audio/stage-17-en.mp3",
+      "duration": 15.24
+    },
+    {
+      "src": "assets/audio/stage-17.mp3",
+      "duration": 15.504
+    },
+    {
+      "src": "assets/audio/stage-19-en.mp3",
+      "duration": 13.824
+    },
+    {
+      "src": "assets/audio/stage-19.mp3",
+      "duration": 17.424
+    },
+    {
+      "src": "assets/audio/stage-2-en.mp3",
+      "duration": 16.944
+    },
+    {
+      "src": "assets/audio/stage-2.mp3",
+      "duration": 14.424
+    },
+    {
+      "src": "assets/audio/stage-20-en.mp3",
+      "duration": 14.16
+    },
+    {
+      "src": "assets/audio/stage-20.mp3",
+      "duration": 12.456
+    },
+    {
+      "src": "assets/audio/stage-21-en.mp3",
+      "duration": 11.976
+    },
+    {
+      "src": "assets/audio/stage-21.mp3",
+      "duration": 13.656
+    },
+    {
+      "src": "assets/audio/stage-22-en.mp3",
+      "duration": 17.136
+    },
+    {
+      "src": "assets/audio/stage-22.mp3",
+      "duration": 17.592
+    },
+    {
+      "src": "assets/audio/stage-23-en.mp3",
+      "duration": 13.944
+    },
+    {
+      "src": "assets/audio/stage-23.mp3",
+      "duration": 16.008
+    },
+    {
+      "src": "assets/audio/stage-3-en.mp3",
+      "duration": 15.624
+    },
+    {
+      "src": "assets/audio/stage-3.mp3",
+      "duration": 11.424
+    },
+    {
+      "src": "assets/audio/stage-4-en.mp3",
+      "duration": 7.896
+    },
+    {
+      "src": "assets/audio/stage-4.mp3",
+      "duration": 6
+    },
+    {
+      "src": "assets/audio/stage-5-en.mp3",
+      "duration": 10.512
+    },
+    {
+      "src": "assets/audio/stage-5.mp3",
+      "duration": 13.992
+    },
+    {
+      "src": "assets/audio/stage-6-en.mp3",
+      "duration": 12.864
+    },
+    {
+      "src": "assets/audio/stage-6.mp3",
+      "duration": 13.536
+    },
+    {
+      "src": "assets/audio/stage-7-en.mp3",
+      "duration": 14.784
+    },
+    {
+      "src": "assets/audio/stage-7.mp3",
+      "duration": 13.008
+    },
+    {
+      "src": "assets/audio/stage-8-en.mp3",
+      "duration": 15.72
+    },
+    {
+      "src": "assets/audio/stage-8.mp3",
+      "duration": 15.36
+    },
+    {
+      "src": "assets/audio/stage-9-en.mp3",
+      "duration": 13.344
+    },
+    {
+      "src": "assets/audio/stage-9.mp3",
+      "duration": 16.656
+    },
+    {
+      "src": "assets/audio/v2-study-18-en.mp3",
+      "duration": 24.352
+    },
+    {
+      "src": "assets/audio/v2-study-18.mp3",
+      "duration": 17.968
+    },
+    {
+      "src": "assets/audio/v2r-cue-1-open-en.mp3",
+      "duration": 10.217667
+    },
+    {
+      "src": "assets/audio/v2r-cue-1-open.mp3",
+      "duration": 9.475542
+    },
+    {
+      "src": "assets/audio/v2r-cue-1-touch-en.mp3",
+      "duration": 6.695292
+    },
+    {
+      "src": "assets/audio/v2r-cue-1-touch.mp3",
+      "duration": 6.169958
+    },
+    {
+      "src": "assets/audio/v2r-cue-10-path-en.mp3",
+      "duration": 19.20475
+    },
+    {
+      "src": "assets/audio/v2r-cue-10-path.mp3",
+      "duration": 15.580458
+    },
+    {
+      "src": "assets/audio/v2r-cue-11-high-en.mp3",
+      "duration": 15.080208
+    },
+    {
+      "src": "assets/audio/v2r-cue-11-high.mp3",
+      "duration": 11.554542
+    },
+    {
+      "src": "assets/audio/v2r-cue-11-low-en.mp3",
+      "duration": 13.831458
+    },
+    {
+      "src": "assets/audio/v2r-cue-11-low.mp3",
+      "duration": 12.802875
+    },
+    {
+      "src": "assets/audio/v2r-cue-12-bends-en.mp3",
+      "duration": 16.007
+    },
+    {
+      "src": "assets/audio/v2r-cue-12-bends.mp3",
+      "duration": 13.021375
+    },
+    {
+      "src": "assets/audio/v2r-cue-13-sigh-en.mp3",
+      "duration": 14.669
+    },
+    {
+      "src": "assets/audio/v2r-cue-13-sigh.mp3",
+      "duration": 12.217958
+    },
+    {
+      "src": "assets/audio/v2r-cue-13-stars-en.mp3",
+      "duration": 13.489958
+    },
+    {
+      "src": "assets/audio/v2r-cue-13-stars.mp3",
+      "duration": 13.438875
+    },
+    {
+      "src": "assets/audio/v2r-cue-14-distance-en.mp3",
+      "duration": 14.142167
+    },
+    {
+      "src": "assets/audio/v2r-cue-14-distance.mp3",
+      "duration": 12.453083
+    },
+    {
+      "src": "assets/audio/v2r-cue-14-light-en.mp3",
+      "duration": 10.447042
+    },
+    {
+      "src": "assets/audio/v2r-cue-14-light.mp3",
+      "duration": 11.142083
+    },
+    {
+      "src": "assets/audio/v2r-cue-15-moon-en.mp3",
+      "duration": 15.585
+    },
+    {
+      "src": "assets/audio/v2r-cue-15-moon.mp3",
+      "duration": 15.2555
+    },
+    {
+      "src": "assets/audio/v2r-cue-16-torrent-en.mp3",
+      "duration": 17.716542
+    },
+    {
+      "src": "assets/audio/v2r-cue-16-torrent.mp3",
+      "duration": 15.970542
+    },
+    {
+      "src": "assets/audio/v2r-cue-17-far-en.mp3",
+      "duration": 10.391375
+    },
+    {
+      "src": "assets/audio/v2r-cue-17-far.mp3",
+      "duration": 8.922208
+    },
+    {
+      "src": "assets/audio/v2r-cue-17-knock-en.mp3",
+      "duration": 11.774375
+    },
+    {
+      "src": "assets/audio/v2r-cue-17-knock.mp3",
+      "duration": 10.885875
+    },
+    {
+      "src": "assets/audio/v2r-cue-17-near-en.mp3",
+      "duration": 9.850042
+    },
+    {
+      "src": "assets/audio/v2r-cue-17-near.mp3",
+      "duration": 8.878292
+    },
+    {
+      "src": "assets/audio/v2r-cue-18-city-en.mp3",
+      "duration": 15.897792
+    },
+    {
+      "src": "assets/audio/v2r-cue-18-city.mp3",
+      "duration": 14.120708
+    },
+    {
+      "src": "assets/audio/v2r-cue-19-home-en.mp3",
+      "duration": 13.138917
+    },
+    {
+      "src": "assets/audio/v2r-cue-19-home.mp3",
+      "duration": 10.314625
+    },
+    {
+      "src": "assets/audio/v2r-cue-2-cup-en.mp3",
+      "duration": 13.339125
+    },
+    {
+      "src": "assets/audio/v2r-cue-2-cup.mp3",
+      "duration": 9.445083
+    },
+    {
+      "src": "assets/audio/v2r-cue-2-swallow-en.mp3",
+      "duration": 12.214375
+    },
+    {
+      "src": "assets/audio/v2r-cue-2-swallow.mp3",
+      "duration": 10.395792
+    },
+    {
+      "src": "assets/audio/v2r-cue-2-taste-en.mp3",
+      "duration": 12.286833
+    },
+    {
+      "src": "assets/audio/v2r-cue-2-taste.mp3",
+      "duration": 10.04875
+    },
+    {
+      "src": "assets/audio/v2r-cue-20-fish-en.mp3",
+      "duration": 14.559833
+    },
+    {
+      "src": "assets/audio/v2r-cue-20-fish.mp3",
+      "duration": 13.354083
+    },
+    {
+      "src": "assets/audio/v2r-cue-21-dream-en.mp3",
+      "duration": 15.736917
+    },
+    {
+      "src": "assets/audio/v2r-cue-21-dream.mp3",
+      "duration": 14.213792
+    },
+    {
+      "src": "assets/audio/v2r-cue-22-sail-en.mp3",
+      "duration": 18.478667
+    },
+    {
+      "src": "assets/audio/v2r-cue-22-sail.mp3",
+      "duration": 17.654542
+    },
+    {
+      "src": "assets/audio/v2r-cue-3-hesitate-en.mp3",
+      "duration": 10.099875
+    },
+    {
+      "src": "assets/audio/v2r-cue-3-hesitate.mp3",
+      "duration": 9.080042
+    },
+    {
+      "src": "assets/audio/v2r-cue-3-stop-en.mp3",
+      "duration": 13.26025
+    },
+    {
+      "src": "assets/audio/v2r-cue-3-stop.mp3",
+      "duration": 10.779333
+    },
+    {
+      "src": "assets/audio/v2r-cue-4-draw-en.mp3",
+      "duration": 9.470125
+    },
+    {
+      "src": "assets/audio/v2r-cue-4-draw.mp3",
+      "duration": 8.173333
+    },
+    {
+      "src": "assets/audio/v2r-cue-4-gaze-en.mp3",
+      "duration": 11.456958
+    },
+    {
+      "src": "assets/audio/v2r-cue-4-gaze.mp3",
+      "duration": 11.081083
+    },
+    {
+      "src": "assets/audio/v2r-cue-5-down-en.mp3",
+      "duration": 13.373083
+    },
+    {
+      "src": "assets/audio/v2r-cue-5-down.mp3",
+      "duration": 10.777958
+    },
+    {
+      "src": "assets/audio/v2r-cue-5-left-en.mp3",
+      "duration": 9.30175
+    },
+    {
+      "src": "assets/audio/v2r-cue-5-left.mp3",
+      "duration": 8.767292
+    },
+    {
+      "src": "assets/audio/v2r-cue-5-right-en.mp3",
+      "duration": 12.150708
+    },
+    {
+      "src": "assets/audio/v2r-cue-5-right.mp3",
+      "duration": 10.053833
+    },
+    {
+      "src": "assets/audio/v2r-cue-5-up-en.mp3",
+      "duration": 12.314208
+    },
+    {
+      "src": "assets/audio/v2r-cue-5-up.mp3",
+      "duration": 10.369958
+    },
+    {
+      "src": "assets/audio/v2r-cue-6-river-en.mp3",
+      "duration": 11.980375
+    },
+    {
+      "src": "assets/audio/v2r-cue-6-river.mp3",
+      "duration": 11.513417
+    },
+    {
+      "src": "assets/audio/v2r-cue-7-snow-en.mp3",
+      "duration": 13.99475
+    },
+    {
+      "src": "assets/audio/v2r-cue-7-snow.mp3",
+      "duration": 13.135083
+    },
+    {
+      "src": "assets/audio/v2r-cue-8-roads-en.mp3",
+      "duration": 15.783083
+    },
+    {
+      "src": "assets/audio/v2r-cue-8-roads.mp3",
+      "duration": 14.0375
+    },
+    {
+      "src": "assets/audio/v2r-cue-9-height-en.mp3",
+      "duration": 15.449167
+    },
+    {
+      "src": "assets/audio/v2r-cue-9-height.mp3",
+      "duration": 16.813833
+    },
+    {
+      "src": "assets/audio/v2r-intro-0-en.mp3",
+      "duration": 10.76725
+    },
+    {
+      "src": "assets/audio/v2r-intro-0.mp3",
+      "duration": 10.511167
+    },
+    {
+      "src": "assets/audio/v2r-intro-1-en.mp3",
+      "duration": 8.709
+    },
+    {
+      "src": "assets/audio/v2r-intro-1.mp3",
+      "duration": 8.241083
+    },
+    {
+      "src": "assets/audio/v2r-intro-10-en.mp3",
+      "duration": 8.885167
+    },
+    {
+      "src": "assets/audio/v2r-intro-10.mp3",
+      "duration": 9.530333
+    },
+    {
+      "src": "assets/audio/v2r-intro-11-en.mp3",
+      "duration": 8.610583
+    },
+    {
+      "src": "assets/audio/v2r-intro-11.mp3",
+      "duration": 7.338
+    },
+    {
+      "src": "assets/audio/v2r-intro-12-en.mp3",
+      "duration": 9.937958
+    },
+    {
+      "src": "assets/audio/v2r-intro-12.mp3",
+      "duration": 7.852125
+    },
+    {
+      "src": "assets/audio/v2r-intro-13-en.mp3",
+      "duration": 9.953875
+    },
+    {
+      "src": "assets/audio/v2r-intro-13.mp3",
+      "duration": 8.266
+    },
+    {
+      "src": "assets/audio/v2r-intro-14-en.mp3",
+      "duration": 7.762625
+    },
+    {
+      "src": "assets/audio/v2r-intro-14.mp3",
+      "duration": 6.710958
+    },
+    {
+      "src": "assets/audio/v2r-intro-15-en.mp3",
+      "duration": 7.670458
+    },
+    {
+      "src": "assets/audio/v2r-intro-15.mp3",
+      "duration": 6.937958
+    },
+    {
+      "src": "assets/audio/v2r-intro-16-en.mp3",
+      "duration": 6.932
+    },
+    {
+      "src": "assets/audio/v2r-intro-16.mp3",
+      "duration": 7.761167
+    },
+    {
+      "src": "assets/audio/v2r-intro-17-en.mp3",
+      "duration": 10.036208
+    },
+    {
+      "src": "assets/audio/v2r-intro-17.mp3",
+      "duration": 8.029708
+    },
+    {
+      "src": "assets/audio/v2r-intro-18-en.mp3",
+      "duration": 9.094417
+    },
+    {
+      "src": "assets/audio/v2r-intro-18.mp3",
+      "duration": 8.740167
+    },
+    {
+      "src": "assets/audio/v2r-intro-19-en.mp3",
+      "duration": 9.08325
+    },
+    {
+      "src": "assets/audio/v2r-intro-19.mp3",
+      "duration": 7.429292
+    },
+    {
+      "src": "assets/audio/v2r-intro-2-en.mp3",
+      "duration": 8.3665
+    },
+    {
+      "src": "assets/audio/v2r-intro-2.mp3",
+      "duration": 9.145958
+    },
+    {
+      "src": "assets/audio/v2r-intro-20-en.mp3",
+      "duration": 8.406958
+    },
+    {
+      "src": "assets/audio/v2r-intro-20.mp3",
+      "duration": 7.633958
+    },
+    {
+      "src": "assets/audio/v2r-intro-21-en.mp3",
+      "duration": 8.747083
+    },
+    {
+      "src": "assets/audio/v2r-intro-21.mp3",
+      "duration": 7.977833
+    },
+    {
+      "src": "assets/audio/v2r-intro-22-en.mp3",
+      "duration": 7.753958
+    },
+    {
+      "src": "assets/audio/v2r-intro-22.mp3",
+      "duration": 7.707167
+    },
+    {
+      "src": "assets/audio/v2r-intro-23-en.mp3",
+      "duration": 15.248833
+    },
+    {
+      "src": "assets/audio/v2r-intro-23.mp3",
+      "duration": 14.223958
+    },
+    {
+      "src": "assets/audio/v2r-intro-3-en.mp3",
+      "duration": 7.278458
+    },
+    {
+      "src": "assets/audio/v2r-intro-3.mp3",
+      "duration": 7.286708
+    },
+    {
+      "src": "assets/audio/v2r-intro-4-en.mp3",
+      "duration": 6.418958
+    },
+    {
+      "src": "assets/audio/v2r-intro-4.mp3",
+      "duration": 6.071125
+    },
+    {
+      "src": "assets/audio/v2r-intro-5-en.mp3",
+      "duration": 11.649958
+    },
+    {
+      "src": "assets/audio/v2r-intro-5.mp3",
+      "duration": 9.090083
+    },
+    {
+      "src": "assets/audio/v2r-intro-6-en.mp3",
+      "duration": 7.921958
+    },
+    {
+      "src": "assets/audio/v2r-intro-6.mp3",
+      "duration": 7.679917
+    },
+    {
+      "src": "assets/audio/v2r-intro-7-en.mp3",
+      "duration": 6.791042
+    },
+    {
+      "src": "assets/audio/v2r-intro-7.mp3",
+      "duration": 6.056417
+    },
+    {
+      "src": "assets/audio/v2r-intro-8-en.mp3",
+      "duration": 9.914667
+    },
+    {
+      "src": "assets/audio/v2r-intro-8.mp3",
+      "duration": 7.615417
+    },
+    {
+      "src": "assets/audio/v2r-intro-9-en.mp3",
+      "duration": 10.332083
+    },
+    {
+      "src": "assets/audio/v2r-intro-9.mp3",
+      "duration": 10.106458
+    },
+    {
+      "src": "assets/audio/v2r-poem-shu-en.mp3",
+      "duration": 133.970042
+    },
+    {
+      "src": "assets/audio/v2r-study-13-en.mp3",
+      "duration": 22.740083
+    },
+    {
+      "src": "assets/audio/v2r-study-13.mp3",
+      "duration": 23.954833
+    }
+  ],
+  "cloudPerformance": {
+    "frames": 479,
+    "p95": 16.80000000000109,
+    "max": 33.39999999999782,
+    "over34": 0
+  },
+  "packageSha256": "0896e11b9d3fa9d8d4ee508f9170ed93e2160682b37d9e958fe0624dbf54388b"
+}

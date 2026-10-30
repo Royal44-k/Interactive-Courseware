@@ -1,0 +1,308 @@
+{
+  "errors": [],
+  "scenes": [
+    {
+      "scene": 2,
+      "events": [
+        {
+          "event": "playing",
+          "src": "v2r-cue-2-cup.mp3",
+          "t": 31.302699999999376,
+          "p": 0.022713741607702852
+        },
+        {
+          "event": "ended",
+          "src": "v2r-cue-2-cup.mp3",
+          "t": 40.79899999999983,
+          "p": 0.3613432684578878
+        },
+        {
+          "event": "playing",
+          "src": "v2r-cue-2-taste.mp3",
+          "t": 41.11599999999986,
+          "p": 0.37197682024731304
+        },
+        {
+          "event": "ended",
+          "src": "v2r-cue-2-taste.mp3",
+          "t": 51.229600000000424,
+          "p": 0.6923918771331911
+        },
+        {
+          "event": "playing",
+          "src": "v2r-cue-2-swallow.mp3",
+          "t": 51.53010000000045,
+          "p": 0.7013105836878415
+        },
+        {
+          "event": "ended",
+          "src": "v2r-cue-2-swallow.mp3",
+          "t": 61.97760000000108,
+          "p": 0.9996005998418737
+        }
+      ],
+      "state": {
+        "voiceLang": "zh",
+        "music": true,
+        "narration": true,
+        "muted": false,
+        "musicVolume": 0.23,
+        "voiceVolume": 0.92,
+        "started": true,
+        "paused": false,
+        "playing": false,
+        "pending": false,
+        "effectActive": false,
+        "musicPlaying": true,
+        "ambientTrack": "",
+        "ambientPlaying": false,
+        "track": null,
+        "kind": null,
+        "currentTime": 0,
+        "duration": 0,
+        "status": "动作吟声播放完毕"
+      },
+      "button": "water-ring"
+    },
+    {
+      "scene": 5,
+      "events": [
+        {
+          "event": "playing",
+          "src": "v2r-cue-5-left.mp3",
+          "t": 73.40070000000128,
+          "p": 0.031051632867675164
+        },
+        {
+          "event": "ended",
+          "src": "v2r-cue-5-left.mp3",
+          "t": 82.22940000000179,
+          "p": 0.25316473689167696
+        },
+        {
+          "event": "playing",
+          "src": "v2r-cue-5-up.mp3",
+          "t": 82.5633000000018,
+          "p": 0.26120042902242196
+        },
+        {
+          "event": "ended",
+          "src": "v2r-cue-5-up.mp3",
+          "t": 92.99400000000225,
+          "p": 0.5036473222442899
+        },
+        {
+          "event": "playing",
+          "src": "v2r-cue-5-right.mp3",
+          "t": 93.31110000000223,
+          "p": 0.5111215613793013
+        },
+        {
+          "event": "ended",
+          "src": "v2r-cue-5-right.mp3",
+          "t": 103.44150000000329,
+          "p": 0.7541763360044734
+        },
+        {
+          "event": "playing",
+          "src": "v2r-cue-5-down.mp3",
+          "t": 103.74190000000328,
+          "p": 0.7610075811831615
+        },
+        {
+          "event": "ended",
+          "src": "v2r-cue-5-down.mp3",
+          "t": 114.5566000000045,
+          "p": 0.9996689827098094
+        }
+      ],
+      "state": {
+        "voiceLang": "zh",
+        "music": true,
+        "narration": true,
+        "muted": false,
+        "musicVolume": 0.23,
+        "voiceVolume": 0.92,
+        "started": true,
+        "paused": false,
+        "playing": false,
+        "pending": false,
+        "effectActive": false,
+        "musicPlaying": true,
+        "ambientTrack": "",
+        "ambientPlaying": false,
+        "track": null,
+        "kind": null,
+        "currentTime": 0,
+        "duration": 0,
+        "status": "动作吟声播放完毕"
+      },
+      "button": "water-ring"
+    },
+    {
+      "scene": 13,
+      "events": [
+        {
+          "event": "playing",
+          "src": "v2r-cue-13-stars.mp3",
+          "t": 124.81120000000546,
+          "p": 0.02181676080922407
+        },
+        {
+          "event": "ended",
+          "src": "v2r-cue-13-stars.mp3",
+          "t": 138.32980000000725,
+          "p": 0.6307399710117304
+        },
+        {
+          "event": "playing",
+          "src": "v2r-cue-13-sigh.mp3",
+          "t": 138.62980000000732,
+          "p": 0.641297049681284
+        },
+        {
+          "event": "ended",
+          "src": "v2r-cue-13-sigh.mp3",
+          "t": 150.9299000000094,
+          "p": 0.9997281426102436
+        }
+      ],
+      "state": {
+        "voiceLang": "zh",
+        "music": true,
+        "narration": true,
+        "muted": false,
+        "musicVolume": 0.23,
+        "voiceVolume": 0.92,
+        "started": true,
+        "paused": false,
+        "playing": false,
+        "pending": false,
+        "effectActive": false,
+        "musicPlaying": true,
+        "ambientTrack": "wind",
+        "ambientPlaying": true,
+        "track": null,
+        "kind": null,
+        "currentTime": 0,
+        "duration": 0,
+        "status": "动作吟声播放完毕"
+      },
+      "button": "water-ring"
+    },
+    {
+      "scene": 17,
+      "events": [
+        {
+          "event": "playing",
+          "src": "v2r-cue-17-far.mp3",
+          "t": 161.26370000001077,
+          "p": 0.03267818600992273
+        },
+        {
+          "event": "ended",
+          "src": "v2r-cue-17-far.mp3",
+          "t": 170.25910000001227,
+          "p": 0.43108635335687284
+        },
+        {
+          "event": "playing",
+          "src": "v2r-cue-17-near.mp3",
+          "t": 170.52610000001232,
+          "p": 0.4407708574695348
+        },
+        {
+          "event": "ended",
+          "src": "v2r-cue-17-near.mp3",
+          "t": 179.45490000001402,
+          "p": 0.7116005027046423
+        },
+        {
+          "event": "playing",
+          "src": "v2r-cue-17-knock.mp3",
+          "t": 179.80530000001409,
+          "p": 0.7211682965222393
+        },
+        {
+          "event": "ended",
+          "src": "v2r-cue-17-knock.mp3",
+          "t": 190.75360000001604,
+          "p": 0.9996863288900332
+        }
+      ],
+      "state": {
+        "voiceLang": "zh",
+        "music": true,
+        "narration": true,
+        "muted": false,
+        "musicVolume": 0.23,
+        "voiceVolume": 0.92,
+        "started": true,
+        "paused": false,
+        "playing": false,
+        "pending": false,
+        "effectActive": false,
+        "musicPlaying": true,
+        "ambientTrack": "wind",
+        "ambientPlaying": true,
+        "track": null,
+        "kind": null,
+        "currentTime": 0,
+        "duration": 0,
+        "status": "动作吟声播放完毕"
+      },
+      "button": "water-ring"
+    },
+    {
+      "scene": 22,
+      "events": [
+        {
+          "event": "playing",
+          "src": "v2r-cue-22-sail.mp3",
+          "t": 201.060100000018,
+          "p": 0.061743513012763644
+        },
+        {
+          "event": "ended",
+          "src": "v2r-cue-22-sail.mp3",
+          "t": 218.76740000002127,
+          "p": 0.9995121284255046
+        }
+      ],
+      "state": {
+        "voiceLang": "zh",
+        "music": true,
+        "narration": true,
+        "muted": false,
+        "musicVolume": 0.23,
+        "voiceVolume": 0.92,
+        "started": true,
+        "paused": false,
+        "playing": false,
+        "pending": false,
+        "effectActive": false,
+        "musicPlaying": true,
+        "ambientTrack": "sea",
+        "ambientPlaying": true,
+        "track": null,
+        "kind": null,
+        "currentTime": 0,
+        "duration": 0,
+        "status": "动作吟声播放完毕"
+      },
+      "button": "water-ring"
+    }
+  ],
+  "checks": [
+    "manual entrance voice",
+    "normal-clock gesture/voice cue spacing",
+    "progress bar absent; ripple retained",
+    "modal resumes current cue",
+    "voice language restarts current scene",
+    "paused language change remains paused",
+    "rapid navigation cancels stale transitions",
+    "narration off completes action",
+    "corrected star study voice",
+    "reduced motion"
+  ]
+}

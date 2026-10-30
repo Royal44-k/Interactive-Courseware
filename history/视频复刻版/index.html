@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+ <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+ <meta name="theme-color" content="#06151c"><title>蜀道难 · 第一人称诗境</title>
+ <link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="cinema.css">
+</head>
+<body>
+ <main id="course" class="course" aria-label="蜀道难互动课件">
+  <div class="scenery" id="scenery" aria-hidden="true"><div class="backdrop active" id="backdropA"></div><div class="backdrop" id="backdropB"></div><div id="starSky"></div><div id="waterSurface"></div></div>
+  <div id="world"></div><div id="lampGlow" aria-hidden="true"></div><div class="cinema-shade" aria-hidden="true"></div><div class="night-shade" aria-hidden="true"></div>
+  <div class="foreground" aria-hidden="true"><img id="reachHand" src="assets/hand-reach.png" alt=""><img id="lanternHand" src="assets/lantern-hand.png" alt=""></div><div id="fogCurtain" aria-hidden="true"></div><div class="film-grain" aria-hidden="true"></div>
+  <header class="topbar">
+   <button class="brand" data-action="home" aria-label="返回封面"><span class="seal">诗</span><span>诗境</span><span class="slash">/</span><span>蜀道难</span></button>
+   <nav class="tools" aria-label="学习工具">
+    <button data-modal="space" class="gold-tool"><span>✧</span> 意象空间</button><button data-modal="study">读诗研习</button><button data-modal="practice">课后练习</button><button data-modal="poem">全诗</button><button data-modal="classroom">课堂解读</button><button data-modal="audio">声音设置</button><button id="muteButton" data-action="mute">静音 <span>关</span></button><button data-action="fullscreen" aria-label="切换全屏">全屏 <span class="fullscreen-icon">⛶</span></button>
+   </nav>
+  </header>
+  <div class="stage-meta"><span id="location"></span><span class="art-note">第一人称诗境</span></div>
+  <section class="story-copy" id="storyCopy" aria-live="polite"><p class="eyebrow" id="eyebrow"></p><h1 id="sceneTitle"></h1><p id="sceneSub" class="scene-sub"></p><button id="readLine" class="read-line" data-action="read">读这一幕 <span>♪</span></button><div id="sceneExtra"></div></section>
+  <aside class="scene-guide"><span id="sceneGuide">跟随动作 · 走入诗境</span><button data-action="pause" id="pauseButton">暂停体验 <span>Ⅱ</span></button><span>移动视线 · 点击行动 · 空格推进</span></aside>
+  <div id="interaction" class="interaction" aria-label="场景互动"></div>
+  <div class="subtitle" id="subtitle" aria-live="polite"></div>
+  <div class="action-row"><div class="scene-actions" id="sceneActions"></div><div class="advance"><span class="keyboard-hint"><kbd>空格</kbd> 继续这一程</span><button id="nextButton" class="primary" data-action="next"><span id="actionLabel">走入蜀道</span><span class="arrow">↗</span></button></div></div>
+  <div class="sound-status"><button id="narrationToggle" data-action="narration">旁白 开</button><button id="musicToggle" data-action="music"><span class="equalizer"><i></i><i></i><i></i></span> 配乐 开</button><span id="audioStatus">进入后开启声音 · 随时可关闭</span></div>
+  <footer class="journey"><button class="back" data-action="back" aria-label="上一步">⟵</button><nav id="chapterNav" aria-label="章节导航"></nav><span id="stepCount">序 / 入境</span><div class="journey-progress" id="journeyProgress"></div></footer>
+  <div id="paused" class="paused" hidden><span>山川暂歇</span><button data-action="pause">继续这一程 <span>▷</span></button></div>
+ </main>
+ <div id="modalLayer" class="modal-layer" hidden><section class="dialog" id="dialog" role="dialog" aria-modal="true" aria-labelledby="modalTitle" tabindex="-1"><button class="close" data-action="close" aria-label="关闭窗口">×</button><div id="modalContent"></div></section></div>
+ <div id="toast" class="toast" role="status"></div>
+ <svg width="0" height="0" aria-hidden="true" style="position:absolute"><defs><filter id="waterMotion" x="-25%" y="-25%" width="150%" height="150%"><feTurbulence type="fractalNoise" baseFrequency=".014 .06" numOctaves="2" seed="8" result="noise"/><feOffset id="waterFlow" in="noise" dx="0" dy="0" result="movingNoise"/><feDisplacementMap id="waterDisplacement" in="SourceGraphic" in2="movingNoise" scale="10" xChannelSelector="R" yChannelSelector="G"/></filter></defs></svg>
+ <script src="vendor/three.js"></script><script src="props.js"></script><script src="cinema.js"></script><script src="content.js"></script><script src="story.js"></script><script src="audio.js"></script><script src="space.js"></script><script src="app.js"></script>
+</body></html>

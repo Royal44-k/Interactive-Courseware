@@ -1,0 +1,24 @@
+{
+  "archive": "C:\\Users\\lenovo\\Desktop\\教师端\\蜀道难课件\\蜀道难互动课件-逐镜修订版.zip",
+  "bytes": 27542018,
+  "files": 50,
+  "missingReferences": [],
+  "sha256": "775d120c8883d5fe561c27a1276d0a48ccfbb4512da264e67dc9907268a5509f",
+  "sourceHashes": {
+    "app.js": "003ebfd56a1b616fd1b07ee0045ac1e99543a417187859f57976ffc7eb0a63ae",
+    "audio.js": "40f5e5da9101e5a6c3528ab161813cd9444ace80ed9cd86b02782b898fd697ec",
+    "cinema.js": "e5212bcdcd1ed6b8b04afa845d66cf063c1a68cd2a5f94d737edaba5a65c1aa7",
+    "content.js": "e51fdded463132454c6926a05253eb535c16f3eb60452c7d3d905f021d6d676d",
+    "props.js": "a62685cc0ce83fa2477b608b0893684f93f7fc5bd51523ccb8af7a41f7e5651d",
+    "space.js": "d1b4e663578fd3197449f5c3744fe985aa86c8ce7a9492209891eb8474229aeb",
+    "story.js": "6d6c1c63f3a5eac065dd47e6e359e7c53ae74f4f238b4c1788bd02dc1478cc37"
+  },
+  "finalFlow": {
+    "endScene": 17,
+    "errors": [],
+    "sampledFrames": 3802,
+    "p95Ms": 17.099999999998545,
+    "maxMs": 50,
+    "over34Ms": 1
+  }
+}

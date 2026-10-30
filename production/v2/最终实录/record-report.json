@@ -1,0 +1,40 @@
+{
+  "errors": [],
+  "state": {
+    "index": 10,
+    "chapter": 3,
+    "paused": false,
+    "busy": false,
+    "modal": null,
+    "interaction": 0,
+    "motion": {
+      "sceneIndex": 10,
+      "worldName": "forest",
+      "time": 97.80600000000496,
+      "paused": false,
+      "busy": false,
+      "view": {
+        "x": 0,
+        "y": 2.5,
+        "z": 9,
+        "tx": 3.3,
+        "ty": 4.1,
+        "tz": -25,
+        "fov": 54
+      },
+      "hand": 0,
+      "lamp": 1,
+      "walks": 0,
+      "flight": 4.620133333333333,
+      "water": 0.45,
+      "gate": {
+        "left": -1.310931339122076e-18,
+        "right": 1.310931339122076e-18
+      },
+      "frames": 5846,
+      "action": "",
+      "progress": 0,
+      "completed": 21
+    }
+  }
+}

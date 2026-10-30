@@ -1,0 +1,18 @@
+{
+  "title": "山海行歌 V3.0 原版答卷",
+  "version": "3.0-20261030",
+  "started": true,
+  "required": true,
+  "review": {
+    "poem": true,
+    "study": true,
+    "practice": true,
+    "help": true
+  },
+  "choices": {
+    "c1": 2
+  },
+  "essays": {
+    "e1": "原来保留的答卷"
+  }
+}

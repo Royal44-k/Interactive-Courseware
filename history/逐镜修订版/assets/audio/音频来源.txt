@@ -1,0 +1,13 @@
+《蜀道难》互动课件音频来源
+
+stage-0.mp3 至 stage-17.mp3：依课件 story.js 的 voice 或 caption 字段生成。
+poem-0.mp3 至 poem-2.mp3、full-poem.mp3：依 content.js 三段完整原文生成。
+朗读由本机 Microsoft 慧慧（OneCore 中文语音，通过 Windows SAPI）合成，语速 -2。不是李白本人或真人教师录音。
+为改善生僻字与多音字的发音，仅对语音合成输入作同音替换，课件显示原文没有改动。替换表与实际输入在制作记录/audio-texts.json。
+
+music.mp3：60 秒可循环原创程序合成配乐，以 D、E、升 F、A、B 五声音阶与衰减拨弦泛音构成古琴感音色，非真实古琴录音。
+bird.mp3：4.2 秒原创程序合成鸟鸣意境音效，非真实鸟类录音，不用于物种辨识。
+配乐与音效由 Python 标准库数学波形合成，无外部取样、无引用既有旋律。
+
+全部音频于 2026-10-28 在本地生成，经 FFmpeg 编码为 MP3。无联网音频依赖。
+制作脚本：制作记录/build-audio-texts.cjs、build-voice.ps1、build-soundscape.py。

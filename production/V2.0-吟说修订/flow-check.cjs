@@ -1,0 +1,30 @@
+const{chromium}=require('playwright'),fs=require('fs'),path=require('path'),assert=require('assert'),{pathToFileURL}=require('url');
+const root=path.resolve(__dirname,'../../山海行歌-V2.0'),out=path.join(__dirname,'checks');fs.mkdirSync(out,{recursive:true});
+(async()=>{
+ const browser=await chromium.launch({channel:'msedge',headless:true,args:['--enable-unsafe-swiftshader','--autoplay-policy=no-user-gesture-required']});
+ const p=await browser.newPage({viewport:{width:1280,height:800},offline:true}),errors=[],scenes=[];
+ p.on('pageerror',e=>errors.push(e.message));p.on('console',m=>{if(m.type()==='error')errors.push(m.text())});
+ await p.addInitScript(()=>{window.__media=[];window.__log=[];const A=Audio;window.Audio=function(...args){const a=new A(...args);__media.push(a);for(const event of ['playing','ended'])a.addEventListener(event,()=>{if(/v2r-(intro|cue)/.test(a.src))__log.push({event,src:a.src.split('/').at(-1),t:CinemaEngine.getState().time,p:CinemaEngine.getState().progress});});return a;};});
+ await p.goto(pathToFileURL(path.join(root,'index.html')).href);await p.waitForFunction(()=>window.Courseware?.getState().ready,null,{timeout:60000});
+ // A manual entrance must receive the same introduction as an automatic one.
+ await p.locator('#nextButton').click();await p.waitForFunction(()=>CourseAudio.getState().track==='v2r-intro-0'&&CourseAudio.getState().playing);await p.waitForFunction(()=>Courseware.getState().index===1&&!Courseware.getState().busy,null,{timeout:30000});
+ for(const [i,marks] of [[2,[.2,.64,.84]],[5,[.17,.42,.67,.93]],[13,[.42,.84]],[17,[.34,.64,.82]],[22,[.75]]]){
+  await p.evaluate(i=>Courseware.go(i),i);const began=await p.evaluate(()=>__log.length);await p.locator('#nextButton').click();
+  const acting=await p.locator('#nextButton').evaluate(el=>({content:getComputedStyle(el,'::before').content,progress:el.style.getPropertyValue('--action-progress')}));assert.equal(acting.content,'none');assert.equal(acting.progress,'');
+  for(const mark of marks){await p.waitForFunction(m=>CinemaEngine.getState().progress>=m,mark,{timeout:60000});await p.screenshot({path:path.join(out,`scene-${i}-${Math.round(mark*100)}.png`)});}
+  await p.waitForFunction(()=>!Courseware.getState().busy,null,{timeout:60000});
+  const r=await p.evaluate(began=>({scene:Courseware.getState().index,events:__log.slice(began),state:CourseAudio.getState(),button:getComputedStyle(document.querySelector('#nextButton'),'::before').animationName}),began);assert.equal(r.button,'water-ring');assert.equal(r.state.pending,false);
+  let end;for(const e of r.events){if(e.event==='ended')end=e;if(e.event==='playing'&&end){const gap=e.t-end.t;assert(gap<1.5,`Unexpected action silence ${i}: ${gap}`);end=null;}}
+  scenes.push(r);console.log('NORMAL TIME',i,'PASS');
+ }
+ // Interruptions: help, language selection, rapid scene changes, narration off.
+ await p.evaluate(()=>Courseware.go(2));await p.locator('#nextButton').click();await p.waitForFunction(()=>CourseAudio.getState().kind==='cue'&&CourseAudio.getState().playing);await p.evaluate(()=>Courseware.openModal('help'));
+ const held=await p.evaluate(()=>CinemaEngine.getState().time);await p.waitForTimeout(450);assert.equal(await p.evaluate(()=>CinemaEngine.getState().time),held);await p.evaluate(()=>Courseware.closeModal());await p.waitForFunction(()=>CourseAudio.getState().playing);assert.equal(await p.evaluate(()=>CourseAudio.getState().kind),'cue');
+ await p.evaluate(()=>Courseware.openModal('audio'));await p.locator('#voiceLanguage').selectOption('en');await p.evaluate(()=>Courseware.closeModal());await p.waitForFunction(()=>CourseAudio.getState().track==='v2r-intro-2-en'&&CourseAudio.getState().playing);assert.equal(await p.evaluate(()=>Courseware.getState().auto),false);
+ await p.evaluate(()=>Courseware.togglePause());await p.evaluate(()=>Courseware.openModal('audio'));await p.locator('#voiceLanguage').selectOption('zh');await p.evaluate(()=>Courseware.closeModal());assert.equal(await p.evaluate(()=>Courseware.getState().paused),true);await p.evaluate(()=>Courseware.togglePause());await p.waitForFunction(()=>CourseAudio.getState().track==='v2r-intro-2'&&CourseAudio.getState().playing);
+ await p.evaluate(()=>{Courseware.go(4);Courseware.go(17);Courseware.go(7);});await p.waitForFunction(()=>Courseware.getState().index===7&&!Courseware.getState().busy,null,{timeout:20000});assert.equal(await p.evaluate(()=>CourseAudio.getState().pending),false);
+ await p.locator('#nextButton').click();await p.waitForFunction(()=>CourseAudio.getState().kind==='cue');await p.evaluate(()=>CourseAudio.setNarration(false));await p.waitForFunction(()=>!Courseware.getState().busy,null,{timeout:25000});assert.equal(await p.evaluate(()=>CourseAudio.getState().pending),false);
+ await p.evaluate(()=>Courseware.openModal('study'));await p.locator('[data-study="13"]').click();await p.locator('[data-stage-voice="13"]').click();await p.waitForFunction(()=>CourseAudio.getState().track==='v2r-study-13'&&CourseAudio.getState().playing);await p.evaluate(()=>Courseware.closeModal());
+ const reduced=await browser.newPage({viewport:{width:390,height:844},reducedMotion:'reduce'});await reduced.goto(pathToFileURL(path.join(root,'index.html')).href);await reduced.waitForFunction(()=>window.Courseware?.getState().ready);assert.equal(await reduced.locator('#nextButton').evaluate(el=>getComputedStyle(el).animationName),'none');await reduced.close();
+ assert.deepEqual(errors,[]);fs.writeFileSync(path.join(out,'flow-report.json'),JSON.stringify({errors,scenes,checks:['manual entrance voice','normal-clock gesture/voice cue spacing','progress bar absent; ripple retained','modal resumes current cue','voice language restarts current scene','paused language change remains paused','rapid navigation cancels stale transitions','narration off completes action','corrected star study voice','reduced motion']},null,2));console.log('FLOW CHECK PASSED');await browser.close();
+})().catch(e=>{console.error(e);process.exit(1)});

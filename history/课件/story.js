@@ -1,0 +1,20 @@
+window.COURSE_STORY = [
+ {chapter:-1,bg:'mountains',type:'cover',label:'一首诗，一场可以走进的山川',title:['蜀道难'],sub:'李白 · 第一人称诗境',caption:'借一双行人的眼睛，走入李白笔下的蜀道。',action:'走入蜀道',voice:'蜀道难。李白。借一双行人的眼睛，走入李白笔下的蜀道。'},
+ {chapter:0,bg:'mountains',label:'初闻 · 一声惊叹',title:['噫吁嚱，','危乎高哉！'],sub:'还未迈步，先仰望这重重山川。',caption:'蜀道之难，难于上青天！',action:'仰望蜀山',effect:'rise',voice:'噫吁嚱，危乎高哉！蜀道之难，难于上青天！'},
+ {chapter:0,bg:'mountains',label:'第一叹 · 高不可攀',title:['蜀道之难，','难于上青天。'],sub:'这一声“难”，先从山的高度响起。',caption:'想一想：诗人为什么一开篇，就连用三个感叹？',action:'追溯蜀道的来处',effect:'rise'},
+ {chapter:1,bg:'mountains',label:'开辟 · 远古传说',title:['蚕丛及鱼凫，','开国何茫然！'],sub:'远山之外，是久远而渺茫的古蜀。',caption:'尔来四万八千岁，不与秦塞通人烟。',action:'寻找山间的路',voice:'蚕丛及鱼凫，开国何茫然！尔来四万八千岁，不与秦塞通人烟。'},
+ {chapter:1,bg:'cliff',label:'开辟 · 天梯石栈',title:['地崩山摧壮士死，','然后天梯石栈相钩连。'],sub:'沿亮点接续栈道，让一条路从绝壁中显现。',caption:'神话传说，把开山辟路的艰险写得惊心动魄。',action:'接续栈道',interaction:'path',effect:'mist'},
+ {chapter:2,bg:'cliff',label:'山势 · 仰观与俯察',title:['上有六龙回日之高标，','下有冲波逆折之回川。'],sub:'换一个视角，感受“上有”与“下有”的张力。',caption:'仰望是高山，俯看是急流。人在天地之间，何其渺小。',action:'踏上青泥岭',interaction:'look',effect:'mist'},
+ {chapter:2,bg:'cliff',label:'青泥 · 百步九折',title:['青泥何盘盘，','百步九折萦岩峦。'],sub:'迈出三步，看看眼前的路怎样盘旋。',caption:'一步一折，山路沿着岩壁回旋。',action:'向前迈一步',interaction:'walk',effect:'mist'},
+ {chapter:2,bg:'cliff',label:'青泥 · 扪参历井',title:['扪参历井仰胁息，','以手抚膺坐长叹。'],sub:'轻触星光，体会仿佛伸手可及的山高。',caption:'仿佛可以触到星辰，却连呼吸也不敢放开。',action:'触摸星光',interaction:'stars',effect:'stars',voice:'扪参历井仰胁息，以手抚膺坐长叹。'},
+ {chapter:2,bg:'cliff',label:'青泥 · 以身感受',title:['屏住呼吸，','才知山之高。'],sub:'“扪、历、仰、抚”——把险峻写进身体。',caption:'黄鹤之飞尚不得过，猿猱欲度愁攀援。',action:'走进古木深处',effect:'mist'},
+ {chapter:3,bg:'moon',label:'夜行 · 悲鸟古木',title:['但见悲鸟号古木，','雄飞雌从绕林间。'],sub:'轻触林间的飞鸟，听见寂静中的一声回响。',caption:'山林越是寂静，一声鸟鸣越让人心惊。',action:'听一声鸟鸣',interaction:'bird',effect:'moon'},
+ {chapter:3,bg:'moon',label:'夜行 · 子规啼月',title:['又闻子规啼夜月，','愁空山。'],sub:'从“见”到“闻”，景物被染上了人的愁绪。',caption:'蜀道之难，难于上青天，使人听此凋朱颜！',action:'再听这一声“难”',effect:'moon'},
+ {chapter:3,bg:'moon',label:'第二叹 · 山水可畏',title:['蜀道之难，','难于上青天。'],sub:'同样的诗句，此刻多了悲凉与惊惧。',caption:'第一叹惊其高，第二叹畏其险。',action:'循水声向前',effect:'moon'},
+ {chapter:4,bg:'pass',label:'险境 · 飞湍瀑流',title:['飞湍瀑流争喧豗，','砯崖转石万壑雷。'],sub:'推动水势，观察“静景”怎样变成“动势”。',caption:'连峰去天不盈尺，枯松倒挂倚绝壁。',action:'走近剑阁',interaction:'water',effect:'rain',voice:'飞湍瀑流争喧豗，砯崖转石万壑雷。'},
+ {chapter:4,bg:'pass',label:'剑阁 · 一夫当关',title:['一夫当关，','万夫莫开。'],sub:'观察关隘：狭窄通道，如何改变地势的意味？',caption:'剑阁峥嵘而崔嵬，一夫当关，万夫莫开。',action:'望向关隘深处',interaction:'gate',effect:'rain'},
+ {chapter:4,bg:'pass',label:'剑阁 · 从山险到人事',title:['所守或匪亲，','化为狼与豺。'],sub:'如果守关者不可信，险要也会成为祸患。',caption:'由山川之险，转向对人事与安危的忧虑。',action:'回望来时的路',effect:'mist'},
+ {chapter:5,bg:'mountains',label:'回望 · 劝归',title:['锦城虽云乐，','不如早还家。'],sub:'历尽奇险，这一声劝告，有关切，也有忧思。',caption:'朝避猛虎，夕避长蛇；磨牙吮血，杀人如麻。',action:'侧身西望',effect:'sunset'},
+ {chapter:5,bg:'mountains',label:'第三叹 · 忧思未尽',title:['蜀道之难，','难于上青天。'],sub:'侧身西望长咨嗟！',caption:'从惊叹到惊惧，再到忧思。同一句诗，已有不同的分量。',action:'带着经历，重读这首诗',effect:'sunset'},
+ {chapter:6,bg:'mountains',type:'ending',label:'归来 · 让诗句回应经历',title:['走过山川，','读懂这一声“难”。'],sub:'高 · 险 · 忧',caption:'这一次，你在“蜀道之难”里，听见了什么？',action:'重读全诗',effect:'sunset'}
+];

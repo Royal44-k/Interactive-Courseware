@@ -1,0 +1,3278 @@
+{
+  "createdAt": "2026-10-28T07:02:52.175Z",
+  "entry": "C:\\Users\\lenovo\\Desktop\\教师端\\蜀道难课件\\课件\\index.html",
+  "environment": {
+    "browser": "Microsoft Edge / Playwright",
+    "offline": true,
+    "version": "156.0.4314.50"
+  },
+  "checks": [
+    {
+      "name": "offline entry and 18 scenes",
+      "pass": true,
+      "durationMs": 6
+    },
+    {
+      "name": "all 18 scenes and required interactions via real controls",
+      "pass": true,
+      "durationMs": 1174,
+      "detail": {
+        "visited": 18
+      }
+    },
+    {
+      "name": "pause blocks advancement, resume, chapter navigation and reset",
+      "pass": true,
+      "durationMs": 425
+    },
+    {
+      "name": "study four tabs, six chapters, all original lines, 26 glosses and complete meanings",
+      "pass": true,
+      "durationMs": 1535,
+      "detail": {
+        "linePages": 12,
+        "glosses": 26,
+        "meaningPages": 6
+      }
+    },
+    {
+      "name": "full poem has five pages and complete original text",
+      "pass": true,
+      "durationMs": 354,
+      "detail": {
+        "pages": 5,
+        "characters": 343
+      }
+    },
+    {
+      "name": "six draft answers persist and reference answers toggle",
+      "pass": true,
+      "durationMs": 1265,
+      "detail": {
+        "drafts": 6,
+        "reloaded": true
+      }
+    },
+    {
+      "name": "3D modes, rotation, sliders, reset and exit",
+      "pass": true,
+      "durationMs": 802
+    },
+    {
+      "name": "audio start and track time grows",
+      "pass": true,
+      "durationMs": 1859
+    },
+    {
+      "name": "narration disabled still permits manual scene reading",
+      "pass": true,
+      "durationMs": 737
+    },
+    {
+      "name": "audio mute, levels, music toggle, full poem, pause/resume",
+      "pass": true,
+      "durationMs": 2870
+    },
+    {
+      "name": "single-screen geometry 1440x900",
+      "pass": false,
+      "durationMs": 6458,
+      "error": "3 screens have clipping or footer overlap",
+      "details": [
+        {
+          "label": "1440x900 study chapter 2 words",
+          "overflow": [],
+          "textOverflow": [],
+          "footerOverlaps": [
+            {
+              "text": "石栈shí zhàn在崖壁凿孔、架木形成的通道，即栈道。",
+              "selector": ".word-row",
+              "bottom": 737.09375,
+              "footerTop": 713
+            },
+            {
+              "text": "石栈shí zhàn",
+              "selector": ".",
+              "bottom": 723.09375,
+              "footerTop": 713
+            },
+            {
+              "text": "shí zhàn",
+              "selector": ".",
+              "bottom": 723.09375,
+              "footerTop": 713
+            },
+            {
+              "text": "在崖壁凿孔、架木形成的通道，即栈道。",
+              "selector": ".",
+              "bottom": 715.4375,
+              "footerTop": 713
+            }
+          ]
+        },
+        {
+          "label": "1440x900 study chapter 3 words",
+          "overflow": [],
+          "textOverflow": [],
+          "footerOverlaps": [
+            {
+              "text": "坐zuò空、徒然；也有“坐下来”的解释。",
+              "selector": ".word-row",
+              "bottom": 737.09375,
+              "footerTop": 713
+            },
+            {
+              "text": "坐zuò",
+              "selector": ".",
+              "bottom": 723.09375,
+              "footerTop": 713
+            },
+            {
+              "text": "zuò",
+              "selector": ".",
+              "bottom": 723.09375,
+              "footerTop": 713
+            },
+            {
+              "text": "空、徒然；也有“坐下来”的解释。",
+              "selector": ".",
+              "bottom": 715.4375,
+              "footerTop": 713
+            }
+          ]
+        },
+        {
+          "label": "1440x900 study chapter 5 words",
+          "overflow": [],
+          "textOverflow": [],
+          "footerOverlaps": [
+            {
+              "text": "或匪亲huò fěi qīn倘若不是可信任的亲信。或表示倘若；匪同“非”。",
+              "selector": ".word-row",
+              "bottom": 737.09375,
+              "footerTop": 713
+            },
+            {
+              "text": "或匪亲huò fěi qīn",
+              "selector": ".",
+              "bottom": 723.09375,
+              "footerTop": 713
+            },
+            {
+              "text": "huò fěi qīn",
+              "selector": ".",
+              "bottom": 723.09375,
+              "footerTop": 713
+            },
+            {
+              "text": "倘若不是可信任的亲信。或表示倘若；匪同“非”。",
+              "selector": ".",
+              "bottom": 715.4375,
+              "footerTop": 713
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "single-screen geometry 1280x720",
+      "pass": false,
+      "durationMs": 5941,
+      "error": "5 screens have clipping or footer overlap",
+      "details": [
+        {
+          "label": "1280x720 study chapter 2 words",
+          "overflow": [],
+          "textOverflow": [],
+          "footerOverlaps": [
+            {
+              "text": "石栈shí zhàn在崖壁凿孔、架木形成的通道，即栈道。",
+              "selector": ".word-row",
+              "bottom": 607.09375,
+              "footerTop": 599.796875
+            }
+          ]
+        },
+        {
+          "label": "1280x720 study chapter 3 words",
+          "overflow": [],
+          "textOverflow": [],
+          "footerOverlaps": [
+            {
+              "text": "坐zuò空、徒然；也有“坐下来”的解释。",
+              "selector": ".word-row",
+              "bottom": 607.09375,
+              "footerTop": 599.796875
+            }
+          ]
+        },
+        {
+          "label": "1280x720 study chapter 5 words",
+          "overflow": [],
+          "textOverflow": [],
+          "footerOverlaps": [
+            {
+              "text": "或匪亲huò fěi qīn倘若不是可信任的亲信。或表示倘若；匪同“非”。",
+              "selector": ".word-row",
+              "bottom": 607.09375,
+              "footerTop": 599.796875
+            }
+          ]
+        },
+        {
+          "label": "1280x720 3D walkway",
+          "overflow": [
+            {
+              "tag": "P",
+              "selector": ".ps-note",
+              "text": "诗意空间 · 结构示意依据诗句营造意境，非实景地形。",
+              "rect": {
+                "left": 114.90625,
+                "top": 678.984375,
+                "right": 377,
+                "bottom": 705.984375,
+                "width": 262.09375,
+                "height": 27
+              }
+            }
+          ],
+          "textOverflow": [],
+          "footerOverlaps": []
+        },
+        {
+          "label": "1280x720 3D pass",
+          "overflow": [
+            {
+              "tag": "P",
+              "selector": ".ps-note",
+              "text": "诗意空间 · 结构示意依据诗句营造意境，非实景地形。",
+              "rect": {
+                "left": 114.90625,
+                "top": 678.984375,
+                "right": 377,
+                "bottom": 705.984375,
+                "width": 262.09375,
+                "height": 27
+              }
+            }
+          ],
+          "textOverflow": [],
+          "footerOverlaps": []
+        }
+      ]
+    },
+    {
+      "name": "single-screen geometry 390x844",
+      "pass": true,
+      "durationMs": 5743,
+      "detail": {
+        "screens": 43
+      }
+    },
+    {
+      "name": "no browser page errors",
+      "pass": true,
+      "durationMs": 0
+    },
+    {
+      "name": "no browser console errors",
+      "pass": true,
+      "durationMs": 0
+    }
+  ],
+  "geometry": [
+    {
+      "label": "1440x900 study chapter 1 lines 1",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "dialog": {
+        "left": 200,
+        "top": 90,
+        "right": 1240,
+        "bottom": 810,
+        "width": 1040,
+        "height": 720
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 23
+    },
+    {
+      "label": "1440x900 study chapter 1 words",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "dialog": {
+        "left": 200,
+        "top": 90,
+        "right": 1240,
+        "bottom": 810,
+        "width": 1040,
+        "height": 720
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 29
+    },
+    {
+      "label": "1440x900 study chapter 1 meaning",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "dialog": {
+        "left": 200,
+        "top": 90,
+        "right": 1240,
+        "bottom": 810,
+        "width": 1040,
+        "height": 720
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 23
+    },
+    {
+      "label": "1440x900 study chapter 2 lines 1",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "dialog": {
+        "left": 200,
+        "top": 90,
+        "right": 1240,
+        "bottom": 810,
+        "width": 1040,
+        "height": 720
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 23
+    },
+    {
+      "label": "1440x900 study chapter 2 lines 2",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "dialog": {
+        "left": 200,
+        "top": 90,
+        "right": 1240,
+        "bottom": 810,
+        "width": 1040,
+        "height": 720
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 23
+    },
+    {
+      "label": "1440x900 study chapter 2 words",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "dialog": {
+        "left": 200,
+        "top": 90,
+        "right": 1240,
+        "bottom": 810,
+        "width": 1040,
+        "height": 720
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [
+        {
+          "text": "石栈shí zhàn在崖壁凿孔、架木形成的通道，即栈道。",
+          "selector": ".word-row",
+          "bottom": 737.09375,
+          "footerTop": 713
+        },
+        {
+          "text": "石栈shí zhàn",
+          "selector": ".",
+          "bottom": 723.09375,
+          "footerTop": 713
+        },
+        {
+          "text": "shí zhàn",
+          "selector": ".",
+          "bottom": 723.09375,
+          "footerTop": 713
+        },
+        {
+          "text": "在崖壁凿孔、架木形成的通道，即栈道。",
+          "selector": ".",
+          "bottom": 715.4375,
+          "footerTop": 713
+        }
+      ],
+      "elementCount": 37
+    },
+    {
+      "label": "1440x900 study chapter 2 meaning",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "dialog": {
+        "left": 200,
+        "top": 90,
+        "right": 1240,
+        "bottom": 810,
+        "width": 1040,
+        "height": 720
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 23
+    },
+    {
+      "label": "1440x900 study chapter 3 lines 1",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "dialog": {
+        "left": 200,
+        "top": 90,
+        "right": 1240,
+        "bottom": 810,
+        "width": 1040,
+        "height": 720
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 23
+    },
+    {
+      "label": "1440x900 study chapter 3 lines 2",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "dialog": {
+        "left": 200,
+        "top": 90,
+        "right": 1240,
+        "bottom": 810,
+        "width": 1040,
+        "height": 720
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 23
+    },
+    {
+      "label": "1440x900 study chapter 3 words",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "dialog": {
+        "left": 200,
+        "top": 90,
+        "right": 1240,
+        "bottom": 810,
+        "width": 1040,
+        "height": 720
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [
+        {
+          "text": "坐zuò空、徒然；也有“坐下来”的解释。",
+          "selector": ".word-row",
+          "bottom": 737.09375,
+          "footerTop": 713
+        },
+        {
+          "text": "坐zuò",
+          "selector": ".",
+          "bottom": 723.09375,
+          "footerTop": 713
+        },
+        {
+          "text": "zuò",
+          "selector": ".",
+          "bottom": 723.09375,
+          "footerTop": 713
+        },
+        {
+          "text": "空、徒然；也有“坐下来”的解释。",
+          "selector": ".",
+          "bottom": 715.4375,
+          "footerTop": 713
+        }
+      ],
+      "elementCount": 37
+    },
+    {
+      "label": "1440x900 study chapter 3 meaning",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "dialog": {
+        "left": 200,
+        "top": 90,
+        "right": 1240,
+        "bottom": 810,
+        "width": 1040,
+        "height": 720
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 23
+    },
+    {
+      "label": "1440x900 study chapter 4 lines 1",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "dialog": {
+        "left": 200,
+        "top": 90,
+        "right": 1240,
+        "bottom": 810,
+        "width": 1040,
+        "height": 720
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 23
+    },
+    {
+      "label": "1440x900 study chapter 4 lines 2",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "dialog": {
+        "left": 200,
+        "top": 90,
+        "right": 1240,
+        "bottom": 810,
+        "width": 1040,
+        "height": 720
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 23
+    },
+    {
+      "label": "1440x900 study chapter 4 words",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "dialog": {
+        "left": 200,
+        "top": 90,
+        "right": 1240,
+        "bottom": 810,
+        "width": 1040,
+        "height": 720
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 33
+    },
+    {
+      "label": "1440x900 study chapter 4 meaning",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "dialog": {
+        "left": 200,
+        "top": 90,
+        "right": 1240,
+        "bottom": 810,
+        "width": 1040,
+        "height": 720
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 23
+    },
+    {
+      "label": "1440x900 study chapter 5 lines 1",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "dialog": {
+        "left": 200,
+        "top": 90,
+        "right": 1240,
+        "bottom": 810,
+        "width": 1040,
+        "height": 720
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 23
+    },
+    {
+      "label": "1440x900 study chapter 5 lines 2",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "dialog": {
+        "left": 200,
+        "top": 90,
+        "right": 1240,
+        "bottom": 810,
+        "width": 1040,
+        "height": 720
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 23
+    },
+    {
+      "label": "1440x900 study chapter 5 lines 3",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "dialog": {
+        "left": 200,
+        "top": 90,
+        "right": 1240,
+        "bottom": 810,
+        "width": 1040,
+        "height": 720
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 22
+    },
+    {
+      "label": "1440x900 study chapter 5 words",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "dialog": {
+        "left": 200,
+        "top": 90,
+        "right": 1240,
+        "bottom": 810,
+        "width": 1040,
+        "height": 720
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [
+        {
+          "text": "或匪亲huò fěi qīn倘若不是可信任的亲信。或表示倘若；匪同“非”。",
+          "selector": ".word-row",
+          "bottom": 737.09375,
+          "footerTop": 713
+        },
+        {
+          "text": "或匪亲huò fěi qīn",
+          "selector": ".",
+          "bottom": 723.09375,
+          "footerTop": 713
+        },
+        {
+          "text": "huò fěi qīn",
+          "selector": ".",
+          "bottom": 723.09375,
+          "footerTop": 713
+        },
+        {
+          "text": "倘若不是可信任的亲信。或表示倘若；匪同“非”。",
+          "selector": ".",
+          "bottom": 715.4375,
+          "footerTop": 713
+        }
+      ],
+      "elementCount": 37
+    },
+    {
+      "label": "1440x900 study chapter 5 meaning",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "dialog": {
+        "left": 200,
+        "top": 90,
+        "right": 1240,
+        "bottom": 810,
+        "width": 1040,
+        "height": 720
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 23
+    },
+    {
+      "label": "1440x900 study chapter 6 lines 1",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "dialog": {
+        "left": 200,
+        "top": 90,
+        "right": 1240,
+        "bottom": 810,
+        "width": 1040,
+        "height": 720
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 23
+    },
+    {
+      "label": "1440x900 study chapter 6 lines 2",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "dialog": {
+        "left": 200,
+        "top": 90,
+        "right": 1240,
+        "bottom": 810,
+        "width": 1040,
+        "height": 720
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 22
+    },
+    {
+      "label": "1440x900 study chapter 6 words",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "dialog": {
+        "left": 200,
+        "top": 90,
+        "right": 1240,
+        "bottom": 810,
+        "width": 1040,
+        "height": 720
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 33
+    },
+    {
+      "label": "1440x900 study chapter 6 meaning",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "dialog": {
+        "left": 200,
+        "top": 90,
+        "right": 1240,
+        "bottom": 810,
+        "width": 1040,
+        "height": 720
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 23
+    },
+    {
+      "label": "1440x900 study about",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "dialog": {
+        "left": 200,
+        "top": 90,
+        "right": 1240,
+        "bottom": 810,
+        "width": 1040,
+        "height": 720
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 11
+    },
+    {
+      "label": "1440x900 study emotion",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "dialog": {
+        "left": 200,
+        "top": 90,
+        "right": 1240,
+        "bottom": 810,
+        "width": 1040,
+        "height": 720
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 22
+    },
+    {
+      "label": "1440x900 study sources",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "dialog": {
+        "left": 200,
+        "top": 90,
+        "right": 1240,
+        "bottom": 810,
+        "width": 1040,
+        "height": 720
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 14
+    },
+    {
+      "label": "1440x900 practice answer 1",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "dialog": {
+        "left": 200,
+        "top": 90,
+        "right": 1240,
+        "bottom": 810,
+        "width": 1040,
+        "height": 720
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 18
+    },
+    {
+      "label": "1440x900 practice answer 2",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "dialog": {
+        "left": 200,
+        "top": 90,
+        "right": 1240,
+        "bottom": 810,
+        "width": 1040,
+        "height": 720
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 18
+    },
+    {
+      "label": "1440x900 practice answer 3",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "dialog": {
+        "left": 200,
+        "top": 90,
+        "right": 1240,
+        "bottom": 810,
+        "width": 1040,
+        "height": 720
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 18
+    },
+    {
+      "label": "1440x900 practice answer 4",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "dialog": {
+        "left": 200,
+        "top": 90,
+        "right": 1240,
+        "bottom": 810,
+        "width": 1040,
+        "height": 720
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 18
+    },
+    {
+      "label": "1440x900 practice answer 5",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "dialog": {
+        "left": 200,
+        "top": 90,
+        "right": 1240,
+        "bottom": 810,
+        "width": 1040,
+        "height": 720
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 18
+    },
+    {
+      "label": "1440x900 practice answer 6",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "dialog": {
+        "left": 200,
+        "top": 90,
+        "right": 1240,
+        "bottom": 810,
+        "width": 1040,
+        "height": 720
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 18
+    },
+    {
+      "label": "1440x900 classroom chapter 5",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "dialog": {
+        "left": 1000,
+        "top": 0,
+        "right": 1440,
+        "bottom": 900,
+        "width": 440,
+        "height": 900
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 9
+    },
+    {
+      "label": "1440x900 poem 1",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "dialog": {
+        "left": 200,
+        "top": 90,
+        "right": 1240,
+        "bottom": 810,
+        "width": 1040,
+        "height": 720
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 16
+    },
+    {
+      "label": "1440x900 poem 2",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "dialog": {
+        "left": 200,
+        "top": 90,
+        "right": 1240,
+        "bottom": 810,
+        "width": 1040,
+        "height": 720
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 14
+    },
+    {
+      "label": "1440x900 poem 3",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "dialog": {
+        "left": 200,
+        "top": 90,
+        "right": 1240,
+        "bottom": 810,
+        "width": 1040,
+        "height": 720
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 16
+    },
+    {
+      "label": "1440x900 poem 4",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "dialog": {
+        "left": 200,
+        "top": 90,
+        "right": 1240,
+        "bottom": 810,
+        "width": 1040,
+        "height": 720
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 12
+    },
+    {
+      "label": "1440x900 poem 5",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "dialog": {
+        "left": 200,
+        "top": 90,
+        "right": 1240,
+        "bottom": 810,
+        "width": 1040,
+        "height": 720
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 15
+    },
+    {
+      "label": "1440x900 audio",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "dialog": {
+        "left": 450,
+        "top": 159.859375,
+        "right": 990,
+        "bottom": 740.140625,
+        "width": 540,
+        "height": 580.28125
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 7
+    },
+    {
+      "label": "1440x900 3D mountain",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "dialog": {
+        "left": 86.390625,
+        "top": 45,
+        "right": 1353.609375,
+        "bottom": 855,
+        "width": 1267.21875,
+        "height": 810
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 13
+    },
+    {
+      "label": "1440x900 3D walkway",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "dialog": {
+        "left": 86.390625,
+        "top": 45,
+        "right": 1353.609375,
+        "bottom": 855,
+        "width": 1267.21875,
+        "height": 810
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 13
+    },
+    {
+      "label": "1440x900 3D pass",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "dialog": {
+        "left": 86.390625,
+        "top": 45,
+        "right": 1353.609375,
+        "bottom": 855,
+        "width": 1267.21875,
+        "height": 810
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 13
+    },
+    {
+      "label": "1280x720 study chapter 1 lines 1",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "dialog": {
+        "left": 120,
+        "top": 43.203125,
+        "right": 1160,
+        "bottom": 676.796875,
+        "width": 1040,
+        "height": 633.59375
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 23
+    },
+    {
+      "label": "1280x720 study chapter 1 words",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "dialog": {
+        "left": 120,
+        "top": 43.203125,
+        "right": 1160,
+        "bottom": 676.796875,
+        "width": 1040,
+        "height": 633.59375
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 29
+    },
+    {
+      "label": "1280x720 study chapter 1 meaning",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "dialog": {
+        "left": 120,
+        "top": 43.203125,
+        "right": 1160,
+        "bottom": 676.796875,
+        "width": 1040,
+        "height": 633.59375
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 23
+    },
+    {
+      "label": "1280x720 study chapter 2 lines 1",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "dialog": {
+        "left": 120,
+        "top": 43.203125,
+        "right": 1160,
+        "bottom": 676.796875,
+        "width": 1040,
+        "height": 633.59375
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 23
+    },
+    {
+      "label": "1280x720 study chapter 2 lines 2",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "dialog": {
+        "left": 120,
+        "top": 43.203125,
+        "right": 1160,
+        "bottom": 676.796875,
+        "width": 1040,
+        "height": 633.59375
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 23
+    },
+    {
+      "label": "1280x720 study chapter 2 words",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "dialog": {
+        "left": 120,
+        "top": 43.203125,
+        "right": 1160,
+        "bottom": 676.796875,
+        "width": 1040,
+        "height": 633.59375
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [
+        {
+          "text": "石栈shí zhàn在崖壁凿孔、架木形成的通道，即栈道。",
+          "selector": ".word-row",
+          "bottom": 607.09375,
+          "footerTop": 599.796875
+        }
+      ],
+      "elementCount": 37
+    },
+    {
+      "label": "1280x720 study chapter 2 meaning",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "dialog": {
+        "left": 120,
+        "top": 43.203125,
+        "right": 1160,
+        "bottom": 676.796875,
+        "width": 1040,
+        "height": 633.59375
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 23
+    },
+    {
+      "label": "1280x720 study chapter 3 lines 1",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "dialog": {
+        "left": 120,
+        "top": 43.203125,
+        "right": 1160,
+        "bottom": 676.796875,
+        "width": 1040,
+        "height": 633.59375
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 23
+    },
+    {
+      "label": "1280x720 study chapter 3 lines 2",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "dialog": {
+        "left": 120,
+        "top": 43.203125,
+        "right": 1160,
+        "bottom": 676.796875,
+        "width": 1040,
+        "height": 633.59375
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 23
+    },
+    {
+      "label": "1280x720 study chapter 3 words",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "dialog": {
+        "left": 120,
+        "top": 43.203125,
+        "right": 1160,
+        "bottom": 676.796875,
+        "width": 1040,
+        "height": 633.59375
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [
+        {
+          "text": "坐zuò空、徒然；也有“坐下来”的解释。",
+          "selector": ".word-row",
+          "bottom": 607.09375,
+          "footerTop": 599.796875
+        }
+      ],
+      "elementCount": 37
+    },
+    {
+      "label": "1280x720 study chapter 3 meaning",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "dialog": {
+        "left": 120,
+        "top": 43.203125,
+        "right": 1160,
+        "bottom": 676.796875,
+        "width": 1040,
+        "height": 633.59375
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 23
+    },
+    {
+      "label": "1280x720 study chapter 4 lines 1",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "dialog": {
+        "left": 120,
+        "top": 43.203125,
+        "right": 1160,
+        "bottom": 676.796875,
+        "width": 1040,
+        "height": 633.59375
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 23
+    },
+    {
+      "label": "1280x720 study chapter 4 lines 2",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "dialog": {
+        "left": 120,
+        "top": 43.203125,
+        "right": 1160,
+        "bottom": 676.796875,
+        "width": 1040,
+        "height": 633.59375
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 23
+    },
+    {
+      "label": "1280x720 study chapter 4 words",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "dialog": {
+        "left": 120,
+        "top": 43.203125,
+        "right": 1160,
+        "bottom": 676.796875,
+        "width": 1040,
+        "height": 633.59375
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 33
+    },
+    {
+      "label": "1280x720 study chapter 4 meaning",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "dialog": {
+        "left": 120,
+        "top": 43.203125,
+        "right": 1160,
+        "bottom": 676.796875,
+        "width": 1040,
+        "height": 633.59375
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 23
+    },
+    {
+      "label": "1280x720 study chapter 5 lines 1",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "dialog": {
+        "left": 120,
+        "top": 43.203125,
+        "right": 1160,
+        "bottom": 676.796875,
+        "width": 1040,
+        "height": 633.59375
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 23
+    },
+    {
+      "label": "1280x720 study chapter 5 lines 2",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "dialog": {
+        "left": 120,
+        "top": 43.203125,
+        "right": 1160,
+        "bottom": 676.796875,
+        "width": 1040,
+        "height": 633.59375
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 23
+    },
+    {
+      "label": "1280x720 study chapter 5 lines 3",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "dialog": {
+        "left": 120,
+        "top": 43.203125,
+        "right": 1160,
+        "bottom": 676.796875,
+        "width": 1040,
+        "height": 633.59375
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 22
+    },
+    {
+      "label": "1280x720 study chapter 5 words",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "dialog": {
+        "left": 120,
+        "top": 43.203125,
+        "right": 1160,
+        "bottom": 676.796875,
+        "width": 1040,
+        "height": 633.59375
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [
+        {
+          "text": "或匪亲huò fěi qīn倘若不是可信任的亲信。或表示倘若；匪同“非”。",
+          "selector": ".word-row",
+          "bottom": 607.09375,
+          "footerTop": 599.796875
+        }
+      ],
+      "elementCount": 37
+    },
+    {
+      "label": "1280x720 study chapter 5 meaning",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "dialog": {
+        "left": 120,
+        "top": 43.203125,
+        "right": 1160,
+        "bottom": 676.796875,
+        "width": 1040,
+        "height": 633.59375
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 23
+    },
+    {
+      "label": "1280x720 study chapter 6 lines 1",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "dialog": {
+        "left": 120,
+        "top": 43.203125,
+        "right": 1160,
+        "bottom": 676.796875,
+        "width": 1040,
+        "height": 633.59375
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 23
+    },
+    {
+      "label": "1280x720 study chapter 6 lines 2",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "dialog": {
+        "left": 120,
+        "top": 43.203125,
+        "right": 1160,
+        "bottom": 676.796875,
+        "width": 1040,
+        "height": 633.59375
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 22
+    },
+    {
+      "label": "1280x720 study chapter 6 words",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "dialog": {
+        "left": 120,
+        "top": 43.203125,
+        "right": 1160,
+        "bottom": 676.796875,
+        "width": 1040,
+        "height": 633.59375
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 33
+    },
+    {
+      "label": "1280x720 study chapter 6 meaning",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "dialog": {
+        "left": 120,
+        "top": 43.203125,
+        "right": 1160,
+        "bottom": 676.796875,
+        "width": 1040,
+        "height": 633.59375
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 23
+    },
+    {
+      "label": "1280x720 study about",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "dialog": {
+        "left": 120,
+        "top": 43.203125,
+        "right": 1160,
+        "bottom": 676.796875,
+        "width": 1040,
+        "height": 633.59375
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 11
+    },
+    {
+      "label": "1280x720 study emotion",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "dialog": {
+        "left": 120,
+        "top": 43.203125,
+        "right": 1160,
+        "bottom": 676.796875,
+        "width": 1040,
+        "height": 633.59375
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 22
+    },
+    {
+      "label": "1280x720 study sources",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "dialog": {
+        "left": 120,
+        "top": 43.203125,
+        "right": 1160,
+        "bottom": 676.796875,
+        "width": 1040,
+        "height": 633.59375
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 14
+    },
+    {
+      "label": "1280x720 practice answer 1",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "dialog": {
+        "left": 120,
+        "top": 43.203125,
+        "right": 1160,
+        "bottom": 676.796875,
+        "width": 1040,
+        "height": 633.59375
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 18
+    },
+    {
+      "label": "1280x720 practice answer 2",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "dialog": {
+        "left": 120,
+        "top": 43.203125,
+        "right": 1160,
+        "bottom": 676.796875,
+        "width": 1040,
+        "height": 633.59375
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 18
+    },
+    {
+      "label": "1280x720 practice answer 3",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "dialog": {
+        "left": 120,
+        "top": 43.203125,
+        "right": 1160,
+        "bottom": 676.796875,
+        "width": 1040,
+        "height": 633.59375
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 18
+    },
+    {
+      "label": "1280x720 practice answer 4",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "dialog": {
+        "left": 120,
+        "top": 43.203125,
+        "right": 1160,
+        "bottom": 676.796875,
+        "width": 1040,
+        "height": 633.59375
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 18
+    },
+    {
+      "label": "1280x720 practice answer 5",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "dialog": {
+        "left": 120,
+        "top": 43.203125,
+        "right": 1160,
+        "bottom": 676.796875,
+        "width": 1040,
+        "height": 633.59375
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 18
+    },
+    {
+      "label": "1280x720 practice answer 6",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "dialog": {
+        "left": 120,
+        "top": 43.203125,
+        "right": 1160,
+        "bottom": 676.796875,
+        "width": 1040,
+        "height": 633.59375
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 18
+    },
+    {
+      "label": "1280x720 classroom chapter 5",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "dialog": {
+        "left": 840,
+        "top": 0,
+        "right": 1280,
+        "bottom": 720,
+        "width": 440,
+        "height": 720
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 9
+    },
+    {
+      "label": "1280x720 poem 1",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "dialog": {
+        "left": 120,
+        "top": 43.203125,
+        "right": 1160,
+        "bottom": 676.796875,
+        "width": 1040,
+        "height": 633.59375
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 16
+    },
+    {
+      "label": "1280x720 poem 2",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "dialog": {
+        "left": 120,
+        "top": 43.203125,
+        "right": 1160,
+        "bottom": 676.796875,
+        "width": 1040,
+        "height": 633.59375
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 14
+    },
+    {
+      "label": "1280x720 poem 3",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "dialog": {
+        "left": 120,
+        "top": 43.203125,
+        "right": 1160,
+        "bottom": 676.796875,
+        "width": 1040,
+        "height": 633.59375
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 16
+    },
+    {
+      "label": "1280x720 poem 4",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "dialog": {
+        "left": 120,
+        "top": 43.203125,
+        "right": 1160,
+        "bottom": 676.796875,
+        "width": 1040,
+        "height": 633.59375
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 12
+    },
+    {
+      "label": "1280x720 poem 5",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "dialog": {
+        "left": 120,
+        "top": 43.203125,
+        "right": 1160,
+        "bottom": 676.796875,
+        "width": 1040,
+        "height": 633.59375
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 15
+    },
+    {
+      "label": "1280x720 audio",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "dialog": {
+        "left": 370,
+        "top": 93.453125,
+        "right": 910,
+        "bottom": 626.53125,
+        "width": 540,
+        "height": 533.078125
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 7
+    },
+    {
+      "label": "1280x720 3D mountain",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "dialog": {
+        "left": 76.796875,
+        "top": 36,
+        "right": 1203.203125,
+        "bottom": 684,
+        "width": 1126.40625,
+        "height": 648
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 13
+    },
+    {
+      "label": "1280x720 3D walkway",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "dialog": {
+        "left": 76.796875,
+        "top": 36,
+        "right": 1203.203125,
+        "bottom": 684,
+        "width": 1126.40625,
+        "height": 648
+      },
+      "overflow": [
+        {
+          "tag": "P",
+          "selector": ".ps-note",
+          "text": "诗意空间 · 结构示意依据诗句营造意境，非实景地形。",
+          "rect": {
+            "left": 114.90625,
+            "top": 678.984375,
+            "right": 377,
+            "bottom": 705.984375,
+            "width": 262.09375,
+            "height": 27
+          }
+        }
+      ],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 13
+    },
+    {
+      "label": "1280x720 3D pass",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "dialog": {
+        "left": 76.796875,
+        "top": 36,
+        "right": 1203.203125,
+        "bottom": 684,
+        "width": 1126.40625,
+        "height": 648
+      },
+      "overflow": [
+        {
+          "tag": "P",
+          "selector": ".ps-note",
+          "text": "诗意空间 · 结构示意依据诗句营造意境，非实景地形。",
+          "rect": {
+            "left": 114.90625,
+            "top": 678.984375,
+            "right": 377,
+            "bottom": 705.984375,
+            "width": 262.09375,
+            "height": 27
+          }
+        }
+      ],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 13
+    },
+    {
+      "label": "390x844 study chapter 1 lines 1",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dialog": {
+        "left": 7.796875,
+        "top": 33.765625,
+        "right": 382.1875,
+        "bottom": 810.234375,
+        "width": 374.390625,
+        "height": 776.46875
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 23
+    },
+    {
+      "label": "390x844 study chapter 1 words",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dialog": {
+        "left": 7.796875,
+        "top": 33.765625,
+        "right": 382.1875,
+        "bottom": 810.234375,
+        "width": 374.390625,
+        "height": 776.46875
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 29
+    },
+    {
+      "label": "390x844 study chapter 1 meaning",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dialog": {
+        "left": 7.796875,
+        "top": 33.765625,
+        "right": 382.1875,
+        "bottom": 810.234375,
+        "width": 374.390625,
+        "height": 776.46875
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 23
+    },
+    {
+      "label": "390x844 study chapter 2 lines 1",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dialog": {
+        "left": 7.796875,
+        "top": 33.765625,
+        "right": 382.1875,
+        "bottom": 810.234375,
+        "width": 374.390625,
+        "height": 776.46875
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 23
+    },
+    {
+      "label": "390x844 study chapter 2 lines 2",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dialog": {
+        "left": 7.796875,
+        "top": 33.765625,
+        "right": 382.1875,
+        "bottom": 810.234375,
+        "width": 374.390625,
+        "height": 776.46875
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 23
+    },
+    {
+      "label": "390x844 study chapter 2 words",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dialog": {
+        "left": 7.796875,
+        "top": 33.765625,
+        "right": 382.1875,
+        "bottom": 810.234375,
+        "width": 374.390625,
+        "height": 776.46875
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 37
+    },
+    {
+      "label": "390x844 study chapter 2 meaning",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dialog": {
+        "left": 7.796875,
+        "top": 33.765625,
+        "right": 382.1875,
+        "bottom": 810.234375,
+        "width": 374.390625,
+        "height": 776.46875
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 23
+    },
+    {
+      "label": "390x844 study chapter 3 lines 1",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dialog": {
+        "left": 7.796875,
+        "top": 33.765625,
+        "right": 382.1875,
+        "bottom": 810.234375,
+        "width": 374.390625,
+        "height": 776.46875
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 23
+    },
+    {
+      "label": "390x844 study chapter 3 lines 2",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dialog": {
+        "left": 7.796875,
+        "top": 33.765625,
+        "right": 382.1875,
+        "bottom": 810.234375,
+        "width": 374.390625,
+        "height": 776.46875
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 23
+    },
+    {
+      "label": "390x844 study chapter 3 words",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dialog": {
+        "left": 7.796875,
+        "top": 33.765625,
+        "right": 382.1875,
+        "bottom": 810.234375,
+        "width": 374.390625,
+        "height": 776.46875
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 37
+    },
+    {
+      "label": "390x844 study chapter 3 meaning",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dialog": {
+        "left": 7.796875,
+        "top": 33.765625,
+        "right": 382.1875,
+        "bottom": 810.234375,
+        "width": 374.390625,
+        "height": 776.46875
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 23
+    },
+    {
+      "label": "390x844 study chapter 4 lines 1",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dialog": {
+        "left": 7.796875,
+        "top": 33.765625,
+        "right": 382.1875,
+        "bottom": 810.234375,
+        "width": 374.390625,
+        "height": 776.46875
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 23
+    },
+    {
+      "label": "390x844 study chapter 4 lines 2",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dialog": {
+        "left": 7.796875,
+        "top": 33.765625,
+        "right": 382.1875,
+        "bottom": 810.234375,
+        "width": 374.390625,
+        "height": 776.46875
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 23
+    },
+    {
+      "label": "390x844 study chapter 4 words",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dialog": {
+        "left": 7.796875,
+        "top": 33.765625,
+        "right": 382.1875,
+        "bottom": 810.234375,
+        "width": 374.390625,
+        "height": 776.46875
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 33
+    },
+    {
+      "label": "390x844 study chapter 4 meaning",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dialog": {
+        "left": 7.796875,
+        "top": 33.765625,
+        "right": 382.1875,
+        "bottom": 810.234375,
+        "width": 374.390625,
+        "height": 776.46875
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 23
+    },
+    {
+      "label": "390x844 study chapter 5 lines 1",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dialog": {
+        "left": 7.796875,
+        "top": 33.765625,
+        "right": 382.1875,
+        "bottom": 810.234375,
+        "width": 374.390625,
+        "height": 776.46875
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 23
+    },
+    {
+      "label": "390x844 study chapter 5 lines 2",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dialog": {
+        "left": 7.796875,
+        "top": 33.765625,
+        "right": 382.1875,
+        "bottom": 810.234375,
+        "width": 374.390625,
+        "height": 776.46875
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 23
+    },
+    {
+      "label": "390x844 study chapter 5 lines 3",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dialog": {
+        "left": 7.796875,
+        "top": 33.765625,
+        "right": 382.1875,
+        "bottom": 810.234375,
+        "width": 374.390625,
+        "height": 776.46875
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 22
+    },
+    {
+      "label": "390x844 study chapter 5 words",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dialog": {
+        "left": 7.796875,
+        "top": 33.765625,
+        "right": 382.1875,
+        "bottom": 810.234375,
+        "width": 374.390625,
+        "height": 776.46875
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 37
+    },
+    {
+      "label": "390x844 study chapter 5 meaning",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dialog": {
+        "left": 7.796875,
+        "top": 33.765625,
+        "right": 382.1875,
+        "bottom": 810.234375,
+        "width": 374.390625,
+        "height": 776.46875
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 23
+    },
+    {
+      "label": "390x844 study chapter 6 lines 1",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dialog": {
+        "left": 7.796875,
+        "top": 33.765625,
+        "right": 382.1875,
+        "bottom": 810.234375,
+        "width": 374.390625,
+        "height": 776.46875
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 23
+    },
+    {
+      "label": "390x844 study chapter 6 lines 2",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dialog": {
+        "left": 7.796875,
+        "top": 33.765625,
+        "right": 382.1875,
+        "bottom": 810.234375,
+        "width": 374.390625,
+        "height": 776.46875
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 22
+    },
+    {
+      "label": "390x844 study chapter 6 words",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dialog": {
+        "left": 7.796875,
+        "top": 33.765625,
+        "right": 382.1875,
+        "bottom": 810.234375,
+        "width": 374.390625,
+        "height": 776.46875
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 33
+    },
+    {
+      "label": "390x844 study chapter 6 meaning",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dialog": {
+        "left": 7.796875,
+        "top": 33.765625,
+        "right": 382.1875,
+        "bottom": 810.234375,
+        "width": 374.390625,
+        "height": 776.46875
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 23
+    },
+    {
+      "label": "390x844 study about",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dialog": {
+        "left": 7.796875,
+        "top": 33.765625,
+        "right": 382.1875,
+        "bottom": 810.234375,
+        "width": 374.390625,
+        "height": 776.46875
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 11
+    },
+    {
+      "label": "390x844 study emotion",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dialog": {
+        "left": 7.796875,
+        "top": 33.765625,
+        "right": 382.1875,
+        "bottom": 810.234375,
+        "width": 374.390625,
+        "height": 776.46875
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 22
+    },
+    {
+      "label": "390x844 study sources",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dialog": {
+        "left": 7.796875,
+        "top": 33.765625,
+        "right": 382.1875,
+        "bottom": 810.234375,
+        "width": 374.390625,
+        "height": 776.46875
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 14
+    },
+    {
+      "label": "390x844 practice answer 1",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dialog": {
+        "left": 7.796875,
+        "top": 33.765625,
+        "right": 382.1875,
+        "bottom": 810.234375,
+        "width": 374.390625,
+        "height": 776.46875
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 18
+    },
+    {
+      "label": "390x844 practice answer 2",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dialog": {
+        "left": 7.796875,
+        "top": 33.765625,
+        "right": 382.1875,
+        "bottom": 810.234375,
+        "width": 374.390625,
+        "height": 776.46875
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 18
+    },
+    {
+      "label": "390x844 practice answer 3",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dialog": {
+        "left": 7.796875,
+        "top": 33.765625,
+        "right": 382.1875,
+        "bottom": 810.234375,
+        "width": 374.390625,
+        "height": 776.46875
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 18
+    },
+    {
+      "label": "390x844 practice answer 4",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dialog": {
+        "left": 7.796875,
+        "top": 33.765625,
+        "right": 382.1875,
+        "bottom": 810.234375,
+        "width": 374.390625,
+        "height": 776.46875
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 18
+    },
+    {
+      "label": "390x844 practice answer 5",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dialog": {
+        "left": 7.796875,
+        "top": 33.765625,
+        "right": 382.1875,
+        "bottom": 810.234375,
+        "width": 374.390625,
+        "height": 776.46875
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 18
+    },
+    {
+      "label": "390x844 practice answer 6",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dialog": {
+        "left": 7.796875,
+        "top": 33.765625,
+        "right": 382.1875,
+        "bottom": 810.234375,
+        "width": 374.390625,
+        "height": 776.46875
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 18
+    },
+    {
+      "label": "390x844 classroom chapter 5",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dialog": {
+        "left": 39,
+        "top": 0,
+        "right": 390,
+        "bottom": 844,
+        "width": 351,
+        "height": 844
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 9
+    },
+    {
+      "label": "390x844 poem 1",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dialog": {
+        "left": 7.796875,
+        "top": 33.765625,
+        "right": 382.1875,
+        "bottom": 810.234375,
+        "width": 374.390625,
+        "height": 776.46875
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 16
+    },
+    {
+      "label": "390x844 poem 2",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dialog": {
+        "left": 7.796875,
+        "top": 33.765625,
+        "right": 382.1875,
+        "bottom": 810.234375,
+        "width": 374.390625,
+        "height": 776.46875
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 14
+    },
+    {
+      "label": "390x844 poem 3",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dialog": {
+        "left": 7.796875,
+        "top": 33.765625,
+        "right": 382.1875,
+        "bottom": 810.234375,
+        "width": 374.390625,
+        "height": 776.46875
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 16
+    },
+    {
+      "label": "390x844 poem 4",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dialog": {
+        "left": 7.796875,
+        "top": 33.765625,
+        "right": 382.1875,
+        "bottom": 810.234375,
+        "width": 374.390625,
+        "height": 776.46875
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 12
+    },
+    {
+      "label": "390x844 poem 5",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dialog": {
+        "left": 7.796875,
+        "top": 33.765625,
+        "right": 382.1875,
+        "bottom": 810.234375,
+        "width": 374.390625,
+        "height": 776.46875
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 15
+    },
+    {
+      "label": "390x844 audio",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dialog": {
+        "left": 11.703125,
+        "top": 152.609375,
+        "right": 378.296875,
+        "bottom": 691.390625,
+        "width": 366.59375,
+        "height": 538.78125
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 7
+    },
+    {
+      "label": "390x844 3D mountain",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dialog": {
+        "left": 7.796875,
+        "top": 25.3125,
+        "right": 382.1875,
+        "bottom": 818.671875,
+        "width": 374.390625,
+        "height": 793.359375
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 13
+    },
+    {
+      "label": "390x844 3D walkway",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dialog": {
+        "left": 7.796875,
+        "top": 25.3125,
+        "right": 382.1875,
+        "bottom": 818.671875,
+        "width": 374.390625,
+        "height": 793.359375
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 13
+    },
+    {
+      "label": "390x844 3D pass",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dialog": {
+        "left": 7.796875,
+        "top": 25.3125,
+        "right": 382.1875,
+        "bottom": 818.671875,
+        "width": 374.390625,
+        "height": 793.359375
+      },
+      "overflow": [],
+      "outsideView": [],
+      "textOverflow": [],
+      "footerOverlaps": [],
+      "elementCount": 13
+    }
+  ],
+  "screenshots": [
+    "audit-1440x900-study-3.png",
+    "audit-1440x900-study-3-words.png",
+    "audit-1440x900-study-3-meaning.png",
+    "audit-1440x900-study-5.png",
+    "audit-1440x900-study-5-words.png",
+    "audit-1440x900-study-5-meaning.png",
+    "audit-1440x900-sighs.png",
+    "audit-1440x900-practice-answer.png",
+    "audit-1440x900-classroom.png",
+    "audit-1440x900-3d.png",
+    "audit-1440x900-scene.png",
+    "audit-failure-11.png",
+    "audit-1280x720-study-3.png",
+    "audit-1280x720-study-3-words.png",
+    "audit-1280x720-study-3-meaning.png",
+    "audit-1280x720-study-5.png",
+    "audit-1280x720-study-5-words.png",
+    "audit-1280x720-study-5-meaning.png",
+    "audit-1280x720-sighs.png",
+    "audit-1280x720-practice-answer.png",
+    "audit-1280x720-classroom.png",
+    "audit-1280x720-3d.png",
+    "audit-1280x720-scene.png",
+    "audit-failure-12.png",
+    "audit-390x844-study-3.png",
+    "audit-390x844-study-3-words.png",
+    "audit-390x844-study-3-meaning.png",
+    "audit-390x844-study-5.png",
+    "audit-390x844-study-5-words.png",
+    "audit-390x844-study-5-meaning.png",
+    "audit-390x844-sighs.png",
+    "audit-390x844-practice-answer.png",
+    "audit-390x844-classroom.png",
+    "audit-390x844-3d-mountain.png",
+    "audit-390x844-3d-walkway.png",
+    "audit-390x844-3d-pass.png",
+    "audit-390x844-3d.png",
+    "audit-390x844-scene.png"
+  ],
+  "pageErrors": [],
+  "consoleErrors": [],
+  "requestFailures": [
+    {
+      "url": "file:///C:/Users/lenovo/Desktop/%E6%95%99%E5%B8%88%E7%AB%AF/%E8%9C%80%E9%81%93%E9%9A%BE%E8%AF%BE%E4%BB%B6/%E8%AF%BE%E4%BB%B6/assets/audio/music.mp3",
+      "failure": "net::ERR_ABORTED"
+    },
+    {
+      "url": "file:///C:/Users/lenovo/Desktop/%E6%95%99%E5%B8%88%E7%AB%AF/%E8%9C%80%E9%81%93%E9%9A%BE%E8%AF%BE%E4%BB%B6/%E8%AF%BE%E4%BB%B6/assets/audio/music.mp3",
+      "failure": "net::ERR_ABORTED"
+    }
+  ],
+  "journey": [
+    {
+      "index": 0,
+      "title": [
+        "蜀道难"
+      ],
+      "interaction": null
+    },
+    {
+      "index": 1,
+      "title": [
+        "噫吁嚱，",
+        "危乎高哉！"
+      ],
+      "interaction": null
+    },
+    {
+      "index": 2,
+      "title": [
+        "蜀道之难，",
+        "难于上青天。"
+      ],
+      "interaction": null
+    },
+    {
+      "index": 3,
+      "title": [
+        "蚕丛及鱼凫，",
+        "开国何茫然！"
+      ],
+      "interaction": null
+    },
+    {
+      "index": 4,
+      "title": [
+        "地崩山摧壮士死，",
+        "然后天梯石栈相钩连。"
+      ],
+      "interaction": "path"
+    },
+    {
+      "index": 5,
+      "title": [
+        "上有六龙回日之高标，",
+        "下有冲波逆折之回川。"
+      ],
+      "interaction": "look"
+    },
+    {
+      "index": 6,
+      "title": [
+        "青泥何盘盘，",
+        "百步九折萦岩峦。"
+      ],
+      "interaction": "walk"
+    },
+    {
+      "index": 7,
+      "title": [
+        "扪参历井仰胁息，",
+        "以手抚膺坐长叹。"
+      ],
+      "interaction": "stars"
+    },
+    {
+      "index": 8,
+      "title": [
+        "屏住呼吸，",
+        "才知山之高。"
+      ],
+      "interaction": null
+    },
+    {
+      "index": 9,
+      "title": [
+        "但见悲鸟号古木，",
+        "雄飞雌从绕林间。"
+      ],
+      "interaction": "bird"
+    },
+    {
+      "index": 10,
+      "title": [
+        "又闻子规啼夜月，",
+        "愁空山。"
+      ],
+      "interaction": null
+    },
+    {
+      "index": 11,
+      "title": [
+        "蜀道之难，",
+        "难于上青天。"
+      ],
+      "interaction": null
+    },
+    {
+      "index": 12,
+      "title": [
+        "飞湍瀑流争喧豗，",
+        "砯崖转石万壑雷。"
+      ],
+      "interaction": "water"
+    },
+    {
+      "index": 13,
+      "title": [
+        "一夫当关，",
+        "万夫莫开。"
+      ],
+      "interaction": "gate"
+    },
+    {
+      "index": 14,
+      "title": [
+        "所守或匪亲，",
+        "化为狼与豺。"
+      ],
+      "interaction": null
+    },
+    {
+      "index": 15,
+      "title": [
+        "锦城虽云乐，",
+        "不如早还家。"
+      ],
+      "interaction": null
+    },
+    {
+      "index": 16,
+      "title": [
+        "蜀道之难，",
+        "难于上青天。"
+      ],
+      "interaction": null
+    },
+    {
+      "index": 17,
+      "title": [
+        "走过山川，",
+        "读懂这一声“难”。"
+      ],
+      "interaction": null
+    }
+  ],
+  "audioEvidence": [
+    {
+      "label": "scene initial",
+      "music": true,
+      "narration": true,
+      "muted": false,
+      "musicVolume": 0.23,
+      "voiceVolume": 0.92,
+      "started": true,
+      "paused": false,
+      "playing": true,
+      "track": "stage-1",
+      "kind": "stage",
+      "currentTime": 0.697545,
+      "duration": 9.232063,
+      "status": "正在播放场景旁白"
+    },
+    {
+      "label": "scene after 700ms",
+      "music": true,
+      "narration": true,
+      "muted": false,
+      "musicVolume": 0.23,
+      "voiceVolume": 0.92,
+      "started": true,
+      "paused": false,
+      "playing": true,
+      "track": "stage-1",
+      "kind": "stage",
+      "currentTime": 1.405223,
+      "duration": 9.232063,
+      "status": "正在播放场景旁白"
+    },
+    {
+      "label": "manual reading while automatic narration disabled",
+      "music": true,
+      "narration": false,
+      "muted": false,
+      "musicVolume": 0.23,
+      "voiceVolume": 0.92,
+      "started": true,
+      "paused": false,
+      "playing": true,
+      "track": "stage-1",
+      "kind": "stage",
+      "currentTime": 0.58909,
+      "duration": 9.232063,
+      "status": "正在播放场景旁白"
+    },
+    {
+      "label": "full poem",
+      "music": true,
+      "narration": false,
+      "muted": false,
+      "musicVolume": 0.31,
+      "voiceVolume": 0.76,
+      "started": true,
+      "paused": false,
+      "playing": true,
+      "track": "full-poem",
+      "kind": "poem",
+      "currentTime": 0.489107,
+      "duration": 130.379773,
+      "status": "正在播放全诗朗读"
+    },
+    {
+      "label": "resumed",
+      "music": true,
+      "narration": true,
+      "muted": false,
+      "musicVolume": 0.31,
+      "voiceVolume": 0.76,
+      "started": true,
+      "paused": false,
+      "playing": true,
+      "track": "stage-1",
+      "kind": "stage",
+      "currentTime": 1.086611,
+      "duration": 9.232063,
+      "status": "正在播放场景旁白"
+    }
+  ],
+  "completedAt": "2026-10-28T07:03:22.922Z",
+  "summary": {
+    "passed": 13,
+    "failed": 2,
+    "geometryScreens": 129,
+    "screenshots": 38,
+    "pageErrors": 0,
+    "consoleErrors": 0,
+    "requestFailures": 2
+  }
+}

@@ -1,0 +1,2103 @@
+{
+  "state": {
+    "auto": false,
+    "phase": "complete",
+    "index": 23,
+    "ready": true,
+    "busy": false,
+    "paused": false,
+    "modal": null,
+    "actionDone": false,
+    "interaction": 0,
+    "studyIndex": 0,
+    "question": 0,
+    "answers": {},
+    "language": "zh",
+    "source": "双诗之间 · 情境衔接",
+    "motion": {
+      "ready": true,
+      "sceneIndex": 23,
+      "worldName": "sea",
+      "time": 717.5180000000399,
+      "paused": false,
+      "busy": false,
+      "transition": null,
+      "view": {
+        "x": 0,
+        "y": 2.45,
+        "z": 9,
+        "tx": 0,
+        "ty": 5,
+        "tz": -25,
+        "fov": 54
+      },
+      "lookProgress": 0,
+      "knock": 0,
+      "knockTap": 0,
+      "push": 0,
+      "food": 0,
+      "foodNear": 0,
+      "foodEaten": 0,
+      "swallow": 0,
+      "cupNear": 0,
+      "armSweep": 0,
+      "swordHigh": 0,
+      "fade": 0,
+      "pan": 0,
+      "hand": 0,
+      "lamp": 0,
+      "handTurn": 0,
+      "walks": 0,
+      "flight": 0,
+      "water": 0.45,
+      "celestial": 0,
+      "bob": 0,
+      "cup": 0,
+      "sword": 0,
+      "chop": 0,
+      "sail": 0,
+      "daylight": 1,
+      "vista": 0,
+      "vistaName": "",
+      "shotZoom": 1,
+      "gate": {
+        "left": 0,
+        "right": 0
+      },
+      "frames": 10764,
+      "action": "",
+      "progress": 0,
+      "completed": 23,
+      "transitions": 24,
+      "frameGaps": 10728,
+      "maxFrameMs": 467.59999999999127
+    }
+  },
+  "events": [
+    {
+      "event": "playing",
+      "track": "v2r-intro-0.mp3",
+      "t": 1.51639999999851,
+      "progress": 0,
+      "scene": 0
+    },
+    {
+      "event": "pause",
+      "track": "v2r-intro-0.mp3",
+      "t": 1.51639999999851,
+      "progress": 0,
+      "scene": 0
+    },
+    {
+      "event": "playing",
+      "track": "v2r-intro-0.mp3",
+      "t": 1.5555999999985108,
+      "progress": 0,
+      "scene": 0
+    },
+    {
+      "event": "pause",
+      "track": "v2r-intro-0.mp3",
+      "t": 12.303999999998512,
+      "progress": 0,
+      "scene": 0
+    },
+    {
+      "event": "ended",
+      "track": "v2r-intro-0.mp3",
+      "t": 12.303999999998512,
+      "progress": 0,
+      "scene": 0
+    },
+    {
+      "event": "playing",
+      "track": "v2r-intro-1.mp3",
+      "t": 14.8315999999974,
+      "progress": 0,
+      "scene": 1
+    },
+    {
+      "event": "pause",
+      "track": "v2r-intro-1.mp3",
+      "t": 23.309599999997445,
+      "progress": 0,
+      "scene": 1
+    },
+    {
+      "event": "ended",
+      "track": "v2r-intro-1.mp3",
+      "t": 23.309599999997445,
+      "progress": 0,
+      "scene": 1
+    },
+    {
+      "event": "playing",
+      "track": "v2r-cue-1-touch.mp3",
+      "t": 24.376799999997466,
+      "progress": 0.03135098771242349,
+      "scene": 1
+    },
+    {
+      "event": "pause",
+      "track": "v2r-cue-1-touch.mp3",
+      "t": 30.719199999997493,
+      "progress": 0.42711561423768196,
+      "scene": 1
+    },
+    {
+      "event": "ended",
+      "track": "v2r-cue-1-touch.mp3",
+      "t": 30.719199999997493,
+      "progress": 0.42711561423768196,
+      "scene": 1
+    },
+    {
+      "event": "playing",
+      "track": "v2r-cue-1-open.mp3",
+      "t": 30.919999999997497,
+      "progress": 0.43931044942178465,
+      "scene": 1
+    },
+    {
+      "event": "pause",
+      "track": "v2r-cue-1-open.mp3",
+      "t": 40.73239999999749,
+      "progress": 1,
+      "scene": 1
+    },
+    {
+      "event": "ended",
+      "track": "v2r-cue-1-open.mp3",
+      "t": 40.73239999999749,
+      "progress": 1,
+      "scene": 1
+    },
+    {
+      "event": "playing",
+      "track": "v2r-intro-2.mp3",
+      "t": 42.691599999997486,
+      "progress": 0,
+      "scene": 2
+    },
+    {
+      "event": "pause",
+      "track": "v2r-intro-2.mp3",
+      "t": 52.10519999999749,
+      "progress": 0,
+      "scene": 2
+    },
+    {
+      "event": "ended",
+      "track": "v2r-intro-2.mp3",
+      "t": 52.10519999999749,
+      "progress": 0,
+      "scene": 2
+    },
+    {
+      "event": "playing",
+      "track": "v2r-cue-2-cup.mp3",
+      "t": 53.506399999997484,
+      "progress": 0.029763792929135294,
+      "scene": 2
+    },
+    {
+      "event": "pause",
+      "track": "v2r-cue-2-cup.mp3",
+      "t": 63.18599999999747,
+      "progress": 0.36920225620643143,
+      "scene": 2
+    },
+    {
+      "event": "ended",
+      "track": "v2r-cue-2-cup.mp3",
+      "t": 63.18599999999747,
+      "progress": 0.36920225620643143,
+      "scene": 2
+    },
+    {
+      "event": "playing",
+      "track": "v2r-cue-2-taste.mp3",
+      "t": 63.45359999999747,
+      "progress": 0.37816116409956096,
+      "scene": 2
+    },
+    {
+      "event": "pause",
+      "track": "v2r-cue-2-taste.mp3",
+      "t": 73.86879999999734,
+      "progress": 0.6989215732831051,
+      "scene": 2
+    },
+    {
+      "event": "ended",
+      "track": "v2r-cue-2-taste.mp3",
+      "t": 73.86879999999734,
+      "progress": 0.6989215732831051,
+      "scene": 2
+    },
+    {
+      "event": "playing",
+      "track": "v2r-cue-2-swallow.mp3",
+      "t": 74.06759999999734,
+      "progress": 0.70486867334666,
+      "scene": 2
+    },
+    {
+      "event": "pause",
+      "track": "v2r-cue-2-swallow.mp3",
+      "t": 84.74999999999721,
+      "progress": 1,
+      "scene": 2
+    },
+    {
+      "event": "ended",
+      "track": "v2r-cue-2-swallow.mp3",
+      "t": 84.74999999999721,
+      "progress": 1,
+      "scene": 2
+    },
+    {
+      "event": "playing",
+      "track": "v2r-intro-3.mp3",
+      "t": 86.77479999999676,
+      "progress": 0,
+      "scene": 3
+    },
+    {
+      "event": "pause",
+      "track": "v2r-intro-3.mp3",
+      "t": 94.31799999999673,
+      "progress": 0,
+      "scene": 3
+    },
+    {
+      "event": "ended",
+      "track": "v2r-intro-3.mp3",
+      "t": 94.31799999999673,
+      "progress": 0,
+      "scene": 3
+    },
+    {
+      "event": "playing",
+      "track": "v2r-cue-3-hesitate.mp3",
+      "t": 95.45319999999671,
+      "progress": 0.0391385885215674,
+      "scene": 3
+    },
+    {
+      "event": "pause",
+      "track": "v2r-cue-3-hesitate.mp3",
+      "t": 104.80039999999653,
+      "progress": 0.5378694022230799,
+      "scene": 3
+    },
+    {
+      "event": "ended",
+      "track": "v2r-cue-3-hesitate.mp3",
+      "t": 104.80039999999653,
+      "progress": 0.5378694022230799,
+      "scene": 3
+    },
+    {
+      "event": "playing",
+      "track": "v2r-cue-3-stop.mp3",
+      "t": 105.0011999999965,
+      "progress": 0.5473152003953463,
+      "scene": 3
+    },
+    {
+      "event": "pause",
+      "track": "v2r-cue-3-stop.mp3",
+      "t": 115.5799999999964,
+      "progress": 0.9987765304836723,
+      "scene": 3
+    },
+    {
+      "event": "ended",
+      "track": "v2r-cue-3-stop.mp3",
+      "t": 115.5799999999964,
+      "progress": 0.9987765304836723,
+      "scene": 3
+    },
+    {
+      "event": "playing",
+      "track": "v2r-intro-4.mp3",
+      "t": 118.27199999999524,
+      "progress": 0,
+      "scene": 4
+    },
+    {
+      "event": "pause",
+      "track": "v2r-intro-4.mp3",
+      "t": 124.51439999999516,
+      "progress": 0,
+      "scene": 4
+    },
+    {
+      "event": "ended",
+      "track": "v2r-intro-4.mp3",
+      "t": 124.51439999999516,
+      "progress": 0,
+      "scene": 4
+    },
+    {
+      "event": "playing",
+      "track": "v2r-cue-4-draw.mp3",
+      "t": 125.98199999999511,
+      "progress": 0.05301283467387169,
+      "scene": 4
+    },
+    {
+      "event": "pause",
+      "track": "v2r-cue-4-draw.mp3",
+      "t": 134.39359999999533,
+      "progress": 0.41836508713493015,
+      "scene": 4
+    },
+    {
+      "event": "ended",
+      "track": "v2r-cue-4-draw.mp3",
+      "t": 134.39359999999533,
+      "progress": 0.41836508713493015,
+      "scene": 4
+    },
+    {
+      "event": "playing",
+      "track": "v2r-cue-4-gaze.mp3",
+      "t": 134.59439999999532,
+      "progress": 0.42800000121015225,
+      "scene": 4
+    },
+    {
+      "event": "pause",
+      "track": "v2r-cue-4-gaze.mp3",
+      "t": 145.90959999999595,
+      "progress": 1,
+      "scene": 4
+    },
+    {
+      "event": "ended",
+      "track": "v2r-cue-4-gaze.mp3",
+      "t": 145.90959999999595,
+      "progress": 1,
+      "scene": 4
+    },
+    {
+      "event": "playing",
+      "track": "v2r-intro-5.mp3",
+      "t": 146.80359999999555,
+      "progress": 0,
+      "scene": 5
+    },
+    {
+      "event": "pause",
+      "track": "v2r-intro-5.mp3",
+      "t": 156.08479999999608,
+      "progress": 0,
+      "scene": 5
+    },
+    {
+      "event": "ended",
+      "track": "v2r-intro-5.mp3",
+      "t": 156.08479999999608,
+      "progress": 0,
+      "scene": 5
+    },
+    {
+      "event": "playing",
+      "track": "v2r-cue-5-left.mp3",
+      "t": 157.68519999999614,
+      "progress": 0.035618850744479895,
+      "scene": 5
+    },
+    {
+      "event": "pause",
+      "track": "v2r-cue-5-left.mp3",
+      "t": 166.83119999999678,
+      "progress": 0.2595893398589381,
+      "scene": 5
+    },
+    {
+      "event": "ended",
+      "track": "v2r-cue-5-left.mp3",
+      "t": 166.83119999999678,
+      "progress": 0.2595893398589381,
+      "scene": 5
+    },
+    {
+      "event": "playing",
+      "track": "v2r-cue-5-up.mp3",
+      "t": 167.0311999999968,
+      "progress": 0.26441524588273324,
+      "scene": 5
+    },
+    {
+      "event": "pause",
+      "track": "v2r-cue-5-up.mp3",
+      "t": 177.64559999999747,
+      "progress": 0.5095421632392348,
+      "scene": 5
+    },
+    {
+      "event": "ended",
+      "track": "v2r-cue-5-up.mp3",
+      "t": 177.64559999999747,
+      "progress": 0.5095421632392348,
+      "scene": 5
+    },
+    {
+      "event": "playing",
+      "track": "v2r-cue-5-right.mp3",
+      "t": 177.84599999999747,
+      "progress": 0.5142783018608879,
+      "scene": 5
+    },
+    {
+      "event": "pause",
+      "track": "v2r-cue-5-right.mp3",
+      "t": 188.19399999999789,
+      "progress": 0.7591245720104626,
+      "scene": 5
+    },
+    {
+      "event": "ended",
+      "track": "v2r-cue-5-right.mp3",
+      "t": 188.19399999999789,
+      "progress": 0.7591245720104626,
+      "scene": 5
+    },
+    {
+      "event": "playing",
+      "track": "v2r-cue-5-down.mp3",
+      "t": 188.3271999999979,
+      "progress": 0.7621597051633958,
+      "scene": 5
+    },
+    {
+      "event": "pause",
+      "track": "v2r-cue-5-down.mp3",
+      "t": 199.4087999999986,
+      "progress": 1,
+      "scene": 5
+    },
+    {
+      "event": "ended",
+      "track": "v2r-cue-5-down.mp3",
+      "t": 199.4087999999986,
+      "progress": 1,
+      "scene": 5
+    },
+    {
+      "event": "playing",
+      "track": "v2r-intro-6.mp3",
+      "t": 201.60359999999838,
+      "progress": 0,
+      "scene": 6
+    },
+    {
+      "event": "pause",
+      "track": "v2r-intro-6.mp3",
+      "t": 209.5483999999988,
+      "progress": 0,
+      "scene": 6
+    },
+    {
+      "event": "ended",
+      "track": "v2r-intro-6.mp3",
+      "t": 209.5483999999988,
+      "progress": 0,
+      "scene": 6
+    },
+    {
+      "event": "playing",
+      "track": "v2r-cue-6-river.mp3",
+      "t": 211.01599999999883,
+      "progress": 0.07785802174291818,
+      "scene": 6
+    },
+    {
+      "event": "pause",
+      "track": "v2r-cue-6-river.mp3",
+      "t": 222.83279999999968,
+      "progress": 1,
+      "scene": 6
+    },
+    {
+      "event": "ended",
+      "track": "v2r-cue-6-river.mp3",
+      "t": 222.83279999999968,
+      "progress": 1,
+      "scene": 6
+    },
+    {
+      "event": "playing",
+      "track": "v2r-intro-7.mp3",
+      "t": 224.86039999999863,
+      "progress": 0,
+      "scene": 7
+    },
+    {
+      "event": "pause",
+      "track": "v2r-intro-7.mp3",
+      "t": 231.068799999999,
+      "progress": 0,
+      "scene": 7
+    },
+    {
+      "event": "ended",
+      "track": "v2r-intro-7.mp3",
+      "t": 231.068799999999,
+      "progress": 0,
+      "scene": 7
+    },
+    {
+      "event": "playing",
+      "track": "v2r-cue-7-snow.mp3",
+      "t": 232.47119999999907,
+      "progress": 0.07101897612837467,
+      "scene": 7
+    },
+    {
+      "event": "pause",
+      "track": "v2r-cue-7-snow.mp3",
+      "t": 245.8887999999995,
+      "progress": 1,
+      "scene": 7
+    },
+    {
+      "event": "ended",
+      "track": "v2r-cue-7-snow.mp3",
+      "t": 245.8887999999995,
+      "progress": 1,
+      "scene": 7
+    },
+    {
+      "event": "playing",
+      "track": "v2r-intro-8.mp3",
+      "t": 248.17799999999917,
+      "progress": 0,
+      "scene": 8
+    },
+    {
+      "event": "pause",
+      "track": "v2r-intro-8.mp3",
+      "t": 256.0551999999996,
+      "progress": 0,
+      "scene": 8
+    },
+    {
+      "event": "ended",
+      "track": "v2r-intro-8.mp3",
+      "t": 256.0551999999996,
+      "progress": 0,
+      "scene": 8
+    },
+    {
+      "event": "playing",
+      "track": "v2r-cue-8-roads.mp3",
+      "t": 257.8575999999996,
+      "progress": 0.0805341495981134,
+      "scene": 8
+    },
+    {
+      "event": "pause",
+      "track": "v2r-cue-8-roads.mp3",
+      "t": 272.10999999999984,
+      "progress": 0.9999990204653989,
+      "scene": 8
+    },
+    {
+      "event": "ended",
+      "track": "v2r-cue-8-roads.mp3",
+      "t": 272.10999999999984,
+      "progress": 0.9999990204653989,
+      "scene": 8
+    },
+    {
+      "event": "playing",
+      "track": "v2r-intro-9.mp3",
+      "t": 274.3611999999985,
+      "progress": 0,
+      "scene": 9
+    },
+    {
+      "event": "pause",
+      "track": "v2r-intro-9.mp3",
+      "t": 284.7767999999983,
+      "progress": 0,
+      "scene": 9
+    },
+    {
+      "event": "ended",
+      "track": "v2r-intro-9.mp3",
+      "t": 284.7767999999983,
+      "progress": 0,
+      "scene": 9
+    },
+    {
+      "event": "playing",
+      "track": "v2r-cue-9-height.mp3",
+      "t": 286.4439999999984,
+      "progress": 0.06179407219974474,
+      "scene": 9
+    },
+    {
+      "event": "pause",
+      "track": "v2r-cue-9-height.mp3",
+      "t": 303.60079999999954,
+      "progress": 1,
+      "scene": 9
+    },
+    {
+      "event": "ended",
+      "track": "v2r-cue-9-height.mp3",
+      "t": 303.60079999999954,
+      "progress": 1,
+      "scene": 9
+    },
+    {
+      "event": "playing",
+      "track": "v2r-intro-10.mp3",
+      "t": 305.68199999999854,
+      "progress": 0,
+      "scene": 10
+    },
+    {
+      "event": "pause",
+      "track": "v2r-intro-10.mp3",
+      "t": 315.4303999999992,
+      "progress": 0,
+      "scene": 10
+    },
+    {
+      "event": "ended",
+      "track": "v2r-intro-10.mp3",
+      "t": 315.4303999999992,
+      "progress": 0,
+      "scene": 10
+    },
+    {
+      "event": "playing",
+      "track": "v2r-cue-10-path.mp3",
+      "t": 317.2979999999993,
+      "progress": 0.07073729940139367,
+      "scene": 10
+    },
+    {
+      "event": "pause",
+      "track": "v2r-cue-10-path.mp3",
+      "t": 333.12039999999996,
+      "progress": 1,
+      "scene": 10
+    },
+    {
+      "event": "ended",
+      "track": "v2r-cue-10-path.mp3",
+      "t": 333.12039999999996,
+      "progress": 1,
+      "scene": 10
+    },
+    {
+      "event": "playing",
+      "track": "v2r-intro-11.mp3",
+      "t": 335.36479999999864,
+      "progress": 0,
+      "scene": 11
+    },
+    {
+      "event": "pause",
+      "track": "v2r-intro-11.mp3",
+      "t": 342.9083999999988,
+      "progress": 0,
+      "scene": 11
+    },
+    {
+      "event": "ended",
+      "track": "v2r-intro-11.mp3",
+      "t": 342.9083999999988,
+      "progress": 0,
+      "scene": 11
+    },
+    {
+      "event": "playing",
+      "track": "v2r-cue-11-high.mp3",
+      "t": 344.51079999999894,
+      "progress": 0.045910141333948114,
+      "scene": 11
+    },
+    {
+      "event": "pause",
+      "track": "v2r-cue-11-high.mp3",
+      "t": 356.3267999999995,
+      "progress": 0.5180050175026873,
+      "scene": 11
+    },
+    {
+      "event": "ended",
+      "track": "v2r-cue-11-high.mp3",
+      "t": 356.3267999999995,
+      "progress": 0.5180050175026873,
+      "scene": 11
+    },
+    {
+      "event": "playing",
+      "track": "v2r-cue-11-low.mp3",
+      "t": 356.59399999999954,
+      "progress": 0.5283302195593901,
+      "scene": 11
+    },
+    {
+      "event": "pause",
+      "track": "v2r-cue-11-low.mp3",
+      "t": 369.6779999999998,
+      "progress": 1,
+      "scene": 11
+    },
+    {
+      "event": "ended",
+      "track": "v2r-cue-11-low.mp3",
+      "t": 369.6779999999998,
+      "progress": 1,
+      "scene": 11
+    },
+    {
+      "event": "playing",
+      "track": "v2r-intro-12.mp3",
+      "t": 371.7303999999988,
+      "progress": 0,
+      "scene": 12
+    },
+    {
+      "event": "pause",
+      "track": "v2r-intro-12.mp3",
+      "t": 379.7751999999997,
+      "progress": 0,
+      "scene": 12
+    },
+    {
+      "event": "ended",
+      "track": "v2r-intro-12.mp3",
+      "t": 379.7751999999997,
+      "progress": 0,
+      "scene": 12
+    },
+    {
+      "event": "playing",
+      "track": "v2r-cue-12-bends.mp3",
+      "t": 381.51039999999995,
+      "progress": 0.07637129349632985,
+      "scene": 12
+    },
+    {
+      "event": "pause",
+      "track": "v2r-cue-12-bends.mp3",
+      "t": 394.72840000000116,
+      "progress": 1,
+      "scene": 12
+    },
+    {
+      "event": "ended",
+      "track": "v2r-cue-12-bends.mp3",
+      "t": 394.72840000000116,
+      "progress": 1,
+      "scene": 12
+    },
+    {
+      "event": "playing",
+      "track": "v2r-intro-13.mp3",
+      "t": 396.91320000000155,
+      "progress": 0,
+      "scene": 13
+    },
+    {
+      "event": "pause",
+      "track": "v2r-intro-13.mp3",
+      "t": 405.4584000000025,
+      "progress": 0,
+      "scene": 13
+    },
+    {
+      "event": "ended",
+      "track": "v2r-intro-13.mp3",
+      "t": 405.4584000000025,
+      "progress": 0,
+      "scene": 13
+    },
+    {
+      "event": "playing",
+      "track": "v2r-cue-13-stars.mp3",
+      "t": 406.6604000000027,
+      "progress": 0.02748375683806672,
+      "scene": 13
+    },
+    {
+      "event": "pause",
+      "track": "v2r-cue-13-stars.mp3",
+      "t": 420.27840000000396,
+      "progress": 0.6383704319554631,
+      "scene": 13
+    },
+    {
+      "event": "ended",
+      "track": "v2r-cue-13-stars.mp3",
+      "t": 420.27840000000396,
+      "progress": 0.6383704319554631,
+      "scene": 13
+    },
+    {
+      "event": "playing",
+      "track": "v2r-cue-13-sigh.mp3",
+      "t": 420.545200000004,
+      "progress": 0.6477478225663171,
+      "scene": 13
+    },
+    {
+      "event": "pause",
+      "track": "v2r-cue-13-sigh.mp3",
+      "t": 432.96240000000586,
+      "progress": 1,
+      "scene": 13
+    },
+    {
+      "event": "ended",
+      "track": "v2r-cue-13-sigh.mp3",
+      "t": 432.96240000000586,
+      "progress": 1,
+      "scene": 13
+    },
+    {
+      "event": "playing",
+      "track": "v2r-intro-14.mp3",
+      "t": 435.1124000000058,
+      "progress": 0,
+      "scene": 14
+    },
+    {
+      "event": "pause",
+      "track": "v2r-intro-14.mp3",
+      "t": 442.12160000000665,
+      "progress": 0,
+      "scene": 14
+    },
+    {
+      "event": "ended",
+      "track": "v2r-intro-14.mp3",
+      "t": 442.12160000000665,
+      "progress": 0,
+      "scene": 14
+    },
+    {
+      "event": "playing",
+      "track": "v2r-cue-14-light.mp3",
+      "t": 443.5232000000067,
+      "progress": 0.038606962459092564,
+      "scene": 14
+    },
+    {
+      "event": "pause",
+      "track": "v2r-cue-14-light.mp3",
+      "t": 454.53760000000756,
+      "progress": 0.44769348492690697,
+      "scene": 14
+    },
+    {
+      "event": "ended",
+      "track": "v2r-cue-14-light.mp3",
+      "t": 454.53760000000756,
+      "progress": 0.44769348492690697,
+      "scene": 14
+    },
+    {
+      "event": "playing",
+      "track": "v2r-cue-14-distance.mp3",
+      "t": 455.07200000000756,
+      "progress": 0.4689102555950853,
+      "scene": 14
+    },
+    {
+      "event": "pause",
+      "track": "v2r-cue-14-distance.mp3",
+      "t": 467.58840000000896,
+      "progress": 0.999938247951075,
+      "scene": 14
+    },
+    {
+      "event": "ended",
+      "track": "v2r-cue-14-distance.mp3",
+      "t": 467.58840000000896,
+      "progress": 0.999938247951075,
+      "scene": 14
+    },
+    {
+      "event": "playing",
+      "track": "v2r-intro-15.mp3",
+      "t": 469.9244000000092,
+      "progress": 0,
+      "scene": 15
+    },
+    {
+      "event": "pause",
+      "track": "v2r-intro-15.mp3",
+      "t": 477.13480000000965,
+      "progress": 0,
+      "scene": 15
+    },
+    {
+      "event": "ended",
+      "track": "v2r-intro-15.mp3",
+      "t": 477.13480000000965,
+      "progress": 0,
+      "scene": 15
+    },
+    {
+      "event": "playing",
+      "track": "v2r-cue-15-moon.mp3",
+      "t": 481.27360000001,
+      "progress": 0.1926632445302122,
+      "scene": 15
+    },
+    {
+      "event": "pause",
+      "track": "v2r-cue-15-moon.mp3",
+      "t": 496.69400000001104,
+      "progress": 1,
+      "scene": 15
+    },
+    {
+      "event": "ended",
+      "track": "v2r-cue-15-moon.mp3",
+      "t": 496.69400000001104,
+      "progress": 1,
+      "scene": 15
+    },
+    {
+      "event": "playing",
+      "track": "v2r-intro-16.mp3",
+      "t": 499.28200000001027,
+      "progress": 0,
+      "scene": 16
+    },
+    {
+      "event": "pause",
+      "track": "v2r-intro-16.mp3",
+      "t": 507.360000000011,
+      "progress": 0,
+      "scene": 16
+    },
+    {
+      "event": "ended",
+      "track": "v2r-intro-16.mp3",
+      "t": 507.360000000011,
+      "progress": 0,
+      "scene": 16
+    },
+    {
+      "event": "playing",
+      "track": "v2r-cue-16-torrent.mp3",
+      "t": 509.36240000001084,
+      "progress": 0.0829360414747782,
+      "scene": 16
+    },
+    {
+      "event": "pause",
+      "track": "v2r-cue-16-torrent.mp3",
+      "t": 525.5184000000128,
+      "progress": 1,
+      "scene": 16
+    },
+    {
+      "event": "ended",
+      "track": "v2r-cue-16-torrent.mp3",
+      "t": 525.5184000000128,
+      "progress": 1,
+      "scene": 16
+    },
+    {
+      "event": "playing",
+      "track": "v2r-intro-17.mp3",
+      "t": 527.729200000013,
+      "progress": 0,
+      "scene": 17
+    },
+    {
+      "event": "pause",
+      "track": "v2r-intro-17.mp3",
+      "t": 536.0088000000142,
+      "progress": 0,
+      "scene": 17
+    },
+    {
+      "event": "ended",
+      "track": "v2r-intro-17.mp3",
+      "t": 536.0088000000142,
+      "progress": 0,
+      "scene": 17
+    },
+    {
+      "event": "playing",
+      "track": "v2r-cue-17-far.mp3",
+      "t": 537.5424000000145,
+      "progress": 0.037803812207804474,
+      "scene": 17
+    },
+    {
+      "event": "pause",
+      "track": "v2r-cue-17-far.mp3",
+      "t": 546.755600000016,
+      "progress": 0.43837487554577004,
+      "scene": 17
+    },
+    {
+      "event": "ended",
+      "track": "v2r-cue-17-far.mp3",
+      "t": 546.755600000016,
+      "progress": 0.43837487554577004,
+      "scene": 17
+    },
+    {
+      "event": "playing",
+      "track": "v2r-cue-17-near.mp3",
+      "t": 546.955200000016,
+      "progress": 0.4455175505340707,
+      "scene": 17
+    },
+    {
+      "event": "pause",
+      "track": "v2r-cue-17-near.mp3",
+      "t": 556.1012000000173,
+      "progress": 0.7193451384791633,
+      "scene": 17
+    },
+    {
+      "event": "ended",
+      "track": "v2r-cue-17-near.mp3",
+      "t": 556.1012000000173,
+      "progress": 0.7193451384791633,
+      "scene": 17
+    },
+    {
+      "event": "playing",
+      "track": "v2r-cue-17-knock.mp3",
+      "t": 556.3012000000174,
+      "progress": 0.7248561834555203,
+      "scene": 17
+    },
+    {
+      "event": "pause",
+      "track": "v2r-cue-17-knock.mp3",
+      "t": 567.3828000000192,
+      "progress": 0.9999997040139066,
+      "scene": 17
+    },
+    {
+      "event": "ended",
+      "track": "v2r-cue-17-knock.mp3",
+      "t": 567.3828000000192,
+      "progress": 0.9999997040139066,
+      "scene": 17
+    },
+    {
+      "event": "playing",
+      "track": "v2r-intro-18.mp3",
+      "t": 569.5332000000194,
+      "progress": 0,
+      "scene": 18
+    },
+    {
+      "event": "pause",
+      "track": "v2r-intro-18.mp3",
+      "t": 578.479200000021,
+      "progress": 0,
+      "scene": 18
+    },
+    {
+      "event": "ended",
+      "track": "v2r-intro-18.mp3",
+      "t": 578.479200000021,
+      "progress": 0,
+      "scene": 18
+    },
+    {
+      "event": "playing",
+      "track": "v2r-cue-18-city.mp3",
+      "t": 580.2144000000212,
+      "progress": 0.08111272436427942,
+      "scene": 18
+    },
+    {
+      "event": "pause",
+      "track": "v2r-cue-18-city.mp3",
+      "t": 594.6344000000232,
+      "progress": 1,
+      "scene": 18
+    },
+    {
+      "event": "ended",
+      "track": "v2r-cue-18-city.mp3",
+      "t": 594.6344000000232,
+      "progress": 1,
+      "scene": 18
+    },
+    {
+      "event": "playing",
+      "track": "v2r-intro-19.mp3",
+      "t": 596.8160000000225,
+      "progress": 0,
+      "scene": 19
+    },
+    {
+      "event": "pause",
+      "track": "v2r-intro-19.mp3",
+      "t": 604.4268000000237,
+      "progress": 0,
+      "scene": 19
+    },
+    {
+      "event": "ended",
+      "track": "v2r-intro-19.mp3",
+      "t": 604.4268000000237,
+      "progress": 0,
+      "scene": 19
+    },
+    {
+      "event": "playing",
+      "track": "v2r-cue-19-home.mp3",
+      "t": 606.0288000000238,
+      "progress": 0.08482001195776705,
+      "scene": 19
+    },
+    {
+      "event": "pause",
+      "track": "v2r-cue-19-home.mp3",
+      "t": 616.7100000000253,
+      "progress": 1,
+      "scene": 19
+    },
+    {
+      "event": "ended",
+      "track": "v2r-cue-19-home.mp3",
+      "t": 616.7100000000253,
+      "progress": 1,
+      "scene": 19
+    },
+    {
+      "event": "playing",
+      "track": "v2r-intro-20.mp3",
+      "t": 618.7844000000257,
+      "progress": 0,
+      "scene": 20
+    },
+    {
+      "event": "pause",
+      "track": "v2r-intro-20.mp3",
+      "t": 626.6952000000272,
+      "progress": 0,
+      "scene": 20
+    },
+    {
+      "event": "ended",
+      "track": "v2r-intro-20.mp3",
+      "t": 626.6952000000272,
+      "progress": 0,
+      "scene": 20
+    },
+    {
+      "event": "playing",
+      "track": "v2r-cue-20-fish.mp3",
+      "t": 628.2308000000274,
+      "progress": 0.07626800132442063,
+      "scene": 20
+    },
+    {
+      "event": "pause",
+      "track": "v2r-cue-20-fish.mp3",
+      "t": 641.7832000000295,
+      "progress": 1,
+      "scene": 20
+    },
+    {
+      "event": "ended",
+      "track": "v2r-cue-20-fish.mp3",
+      "t": 641.7832000000295,
+      "progress": 1,
+      "scene": 20
+    },
+    {
+      "event": "playing",
+      "track": "v2r-intro-21.mp3",
+      "t": 644.0068000000291,
+      "progress": 0,
+      "scene": 21
+    },
+    {
+      "event": "pause",
+      "track": "v2r-intro-21.mp3",
+      "t": 652.1536000000303,
+      "progress": 0,
+      "scene": 21
+    },
+    {
+      "event": "ended",
+      "track": "v2r-intro-21.mp3",
+      "t": 652.1536000000303,
+      "progress": 0,
+      "scene": 21
+    },
+    {
+      "event": "playing",
+      "track": "v2r-cue-21-dream.mp3",
+      "t": 653.7532000000306,
+      "progress": 0.07572657090129996,
+      "scene": 21
+    },
+    {
+      "event": "pause",
+      "track": "v2r-cue-21-dream.mp3",
+      "t": 668.1724000000327,
+      "progress": 1,
+      "scene": 21
+    },
+    {
+      "event": "ended",
+      "track": "v2r-cue-21-dream.mp3",
+      "t": 668.1724000000327,
+      "progress": 1,
+      "scene": 21
+    },
+    {
+      "event": "playing",
+      "track": "v2r-intro-22.mp3",
+      "t": 670.4336000000316,
+      "progress": 0,
+      "scene": 22
+    },
+    {
+      "event": "pause",
+      "track": "v2r-intro-22.mp3",
+      "t": 678.377600000033,
+      "progress": 0,
+      "scene": 22
+    },
+    {
+      "event": "ended",
+      "track": "v2r-intro-22.mp3",
+      "t": 678.377600000033,
+      "progress": 0,
+      "scene": 22
+    },
+    {
+      "event": "playing",
+      "track": "v2r-cue-22-sail.mp3",
+      "t": 680.1804000000334,
+      "progress": 0.06642290215540453,
+      "scene": 22
+    },
+    {
+      "event": "pause",
+      "track": "v2r-cue-22-sail.mp3",
+      "t": 698.0372000000367,
+      "progress": 0.999978070825243,
+      "scene": 22
+    },
+    {
+      "event": "ended",
+      "track": "v2r-cue-22-sail.mp3",
+      "t": 698.0372000000367,
+      "progress": 0.999978070825243,
+      "scene": 22
+    },
+    {
+      "event": "playing",
+      "track": "v2r-intro-23.mp3",
+      "t": 700.2280000000368,
+      "progress": 0,
+      "scene": 23
+    },
+    {
+      "event": "pause",
+      "track": "v2r-intro-23.mp3",
+      "t": 714.6476000000393,
+      "progress": 0,
+      "scene": 23
+    },
+    {
+      "event": "ended",
+      "track": "v2r-intro-23.mp3",
+      "t": 714.6476000000393,
+      "progress": 0,
+      "scene": 23
+    }
+  ],
+  "cues": [
+    {
+      "scene": 1,
+      "key": "touch",
+      "t": 24.243199999997458
+    },
+    {
+      "scene": 1,
+      "key": "open",
+      "t": 30.7867999999975
+    },
+    {
+      "scene": 2,
+      "key": "cup",
+      "t": 53.30639999999748
+    },
+    {
+      "scene": 2,
+      "key": "taste",
+      "t": 63.25319999999747
+    },
+    {
+      "scene": 2,
+      "key": "swallow",
+      "t": 73.93399999999735
+    },
+    {
+      "scene": 3,
+      "key": "hesitate",
+      "t": 95.31959999999673
+    },
+    {
+      "scene": 3,
+      "key": "stop",
+      "t": 104.86679999999652
+    },
+    {
+      "scene": 4,
+      "key": "draw",
+      "t": 125.7823999999951
+    },
+    {
+      "scene": 4,
+      "key": "gaze",
+      "t": 134.46159999999534
+    },
+    {
+      "scene": 5,
+      "key": "left",
+      "t": 157.55359999999612
+    },
+    {
+      "scene": 5,
+      "key": "up",
+      "t": 166.9027999999968
+    },
+    {
+      "scene": 5,
+      "key": "right",
+      "t": 177.7127999999975
+    },
+    {
+      "scene": 5,
+      "key": "down",
+      "t": 188.2599999999979
+    },
+    {
+      "scene": 6,
+      "key": "river",
+      "t": 210.88239999999885
+    },
+    {
+      "scene": 7,
+      "key": "snow",
+      "t": 232.33839999999904
+    },
+    {
+      "scene": 8,
+      "key": "roads",
+      "t": 257.72399999999953
+    },
+    {
+      "scene": 9,
+      "key": "height",
+      "t": 286.3111999999984
+    },
+    {
+      "scene": 10,
+      "key": "path",
+      "t": 317.1643999999993
+    },
+    {
+      "scene": 11,
+      "key": "high",
+      "t": 344.3783999999989
+    },
+    {
+      "scene": 11,
+      "key": "low",
+      "t": 356.3939999999995
+    },
+    {
+      "scene": 12,
+      "key": "bends",
+      "t": 381.3099999999999
+    },
+    {
+      "scene": 13,
+      "key": "stars",
+      "t": 406.5264000000027
+    },
+    {
+      "scene": 13,
+      "key": "sigh",
+      "t": 420.34520000000396
+    },
+    {
+      "scene": 14,
+      "key": "light",
+      "t": 443.3900000000067
+    },
+    {
+      "scene": 14,
+      "key": "distance",
+      "t": 454.8720000000076
+    },
+    {
+      "scene": 15,
+      "key": "moon",
+      "t": 481.07440000001003
+    },
+    {
+      "scene": 16,
+      "key": "torrent",
+      "t": 509.16280000001086
+    },
+    {
+      "scene": 17,
+      "key": "far",
+      "t": 537.4096000000145
+    },
+    {
+      "scene": 17,
+      "key": "near",
+      "t": 546.822000000016
+    },
+    {
+      "scene": 17,
+      "key": "knock",
+      "t": 556.1692000000173
+    },
+    {
+      "scene": 18,
+      "key": "city",
+      "t": 580.0816000000211
+    },
+    {
+      "scene": 19,
+      "key": "home",
+      "t": 605.8952000000238
+    },
+    {
+      "scene": 20,
+      "key": "fish",
+      "t": 628.0312000000274
+    },
+    {
+      "scene": 21,
+      "key": "dream",
+      "t": 653.5532000000305
+    },
+    {
+      "scene": 22,
+      "key": "sail",
+      "t": 680.1132000000333
+    }
+  ],
+  "media": [
+    {
+      "track": "v2r-intro-0.mp3",
+      "ended": true,
+      "duration": 10.511167
+    },
+    {
+      "track": "v2r-intro-1.mp3",
+      "ended": true,
+      "duration": 8.241083
+    },
+    {
+      "track": "v2r-cue-1-touch.mp3",
+      "ended": true,
+      "duration": 6.169958
+    },
+    {
+      "track": "v2r-cue-1-open.mp3",
+      "ended": true,
+      "duration": 9.475542
+    },
+    {
+      "track": "v2r-intro-2.mp3",
+      "ended": true,
+      "duration": 9.145958
+    },
+    {
+      "track": "v2r-cue-2-cup.mp3",
+      "ended": true,
+      "duration": 9.445083
+    },
+    {
+      "track": "v2r-cue-2-taste.mp3",
+      "ended": true,
+      "duration": 10.04875
+    },
+    {
+      "track": "v2r-cue-2-swallow.mp3",
+      "ended": true,
+      "duration": 10.395792
+    },
+    {
+      "track": "v2r-intro-3.mp3",
+      "ended": true,
+      "duration": 7.286708
+    },
+    {
+      "track": "v2r-cue-3-hesitate.mp3",
+      "ended": true,
+      "duration": 9.080042
+    },
+    {
+      "track": "v2r-cue-3-stop.mp3",
+      "ended": true,
+      "duration": 10.779333
+    },
+    {
+      "track": "v2r-intro-4.mp3",
+      "ended": true,
+      "duration": 6.071125
+    },
+    {
+      "track": "v2r-cue-4-draw.mp3",
+      "ended": true,
+      "duration": 8.173333
+    },
+    {
+      "track": "v2r-cue-4-gaze.mp3",
+      "ended": true,
+      "duration": 11.081083
+    },
+    {
+      "track": "v2r-intro-5.mp3",
+      "ended": true,
+      "duration": 9.090083
+    },
+    {
+      "track": "v2r-cue-5-left.mp3",
+      "ended": true,
+      "duration": 8.767292
+    },
+    {
+      "track": "v2r-cue-5-up.mp3",
+      "ended": true,
+      "duration": 10.369958
+    },
+    {
+      "track": "v2r-cue-5-right.mp3",
+      "ended": true,
+      "duration": 10.053833
+    },
+    {
+      "track": "v2r-cue-5-down.mp3",
+      "ended": true,
+      "duration": 10.777958
+    },
+    {
+      "track": "v2r-intro-6.mp3",
+      "ended": true,
+      "duration": 7.679917
+    },
+    {
+      "track": "v2r-cue-6-river.mp3",
+      "ended": true,
+      "duration": 11.513417
+    },
+    {
+      "track": "v2r-intro-7.mp3",
+      "ended": true,
+      "duration": 6.056417
+    },
+    {
+      "track": "v2r-cue-7-snow.mp3",
+      "ended": true,
+      "duration": 13.135083
+    },
+    {
+      "track": "v2r-intro-8.mp3",
+      "ended": true,
+      "duration": 7.615417
+    },
+    {
+      "track": "v2r-cue-8-roads.mp3",
+      "ended": true,
+      "duration": 14.0375
+    },
+    {
+      "track": "v2r-intro-9.mp3",
+      "ended": true,
+      "duration": 10.106458
+    },
+    {
+      "track": "v2r-cue-9-height.mp3",
+      "ended": true,
+      "duration": 16.813833
+    },
+    {
+      "track": "v2r-intro-10.mp3",
+      "ended": true,
+      "duration": 9.530333
+    },
+    {
+      "track": "v2r-cue-10-path.mp3",
+      "ended": true,
+      "duration": 15.580458
+    },
+    {
+      "track": "v2r-intro-11.mp3",
+      "ended": true,
+      "duration": 7.338
+    },
+    {
+      "track": "v2r-cue-11-high.mp3",
+      "ended": true,
+      "duration": 11.554542
+    },
+    {
+      "track": "v2r-cue-11-low.mp3",
+      "ended": true,
+      "duration": 12.802875
+    },
+    {
+      "track": "v2r-intro-12.mp3",
+      "ended": true,
+      "duration": 7.852125
+    },
+    {
+      "track": "v2r-cue-12-bends.mp3",
+      "ended": true,
+      "duration": 13.021375
+    },
+    {
+      "track": "v2r-intro-13.mp3",
+      "ended": true,
+      "duration": 8.266
+    },
+    {
+      "track": "v2r-cue-13-stars.mp3",
+      "ended": true,
+      "duration": 13.438875
+    },
+    {
+      "track": "v2r-cue-13-sigh.mp3",
+      "ended": true,
+      "duration": 12.217958
+    },
+    {
+      "track": "v2r-intro-14.mp3",
+      "ended": true,
+      "duration": 6.710958
+    },
+    {
+      "track": "v2r-cue-14-light.mp3",
+      "ended": true,
+      "duration": 11.142083
+    },
+    {
+      "track": "v2r-cue-14-distance.mp3",
+      "ended": true,
+      "duration": 12.453083
+    },
+    {
+      "track": "v2r-intro-15.mp3",
+      "ended": true,
+      "duration": 6.937958
+    },
+    {
+      "track": "v2r-cue-15-moon.mp3",
+      "ended": true,
+      "duration": 15.2555
+    },
+    {
+      "track": "v2r-intro-16.mp3",
+      "ended": true,
+      "duration": 7.761167
+    },
+    {
+      "track": "v2r-cue-16-torrent.mp3",
+      "ended": true,
+      "duration": 15.970542
+    },
+    {
+      "track": "v2r-intro-17.mp3",
+      "ended": true,
+      "duration": 8.029708
+    },
+    {
+      "track": "v2r-cue-17-far.mp3",
+      "ended": true,
+      "duration": 8.922208
+    },
+    {
+      "track": "v2r-cue-17-near.mp3",
+      "ended": true,
+      "duration": 8.878292
+    },
+    {
+      "track": "v2r-cue-17-knock.mp3",
+      "ended": true,
+      "duration": 10.885875
+    },
+    {
+      "track": "v2r-intro-18.mp3",
+      "ended": true,
+      "duration": 8.740167
+    },
+    {
+      "track": "v2r-cue-18-city.mp3",
+      "ended": true,
+      "duration": 14.120708
+    },
+    {
+      "track": "v2r-intro-19.mp3",
+      "ended": true,
+      "duration": 7.429292
+    },
+    {
+      "track": "v2r-cue-19-home.mp3",
+      "ended": true,
+      "duration": 10.314625
+    },
+    {
+      "track": "v2r-intro-20.mp3",
+      "ended": true,
+      "duration": 7.633958
+    },
+    {
+      "track": "v2r-cue-20-fish.mp3",
+      "ended": true,
+      "duration": 13.354083
+    },
+    {
+      "track": "v2r-intro-21.mp3",
+      "ended": true,
+      "duration": 7.977833
+    },
+    {
+      "track": "v2r-cue-21-dream.mp3",
+      "ended": true,
+      "duration": 14.213792
+    },
+    {
+      "track": "v2r-intro-22.mp3",
+      "ended": true,
+      "duration": 7.707167
+    },
+    {
+      "track": "v2r-cue-22-sail.mp3",
+      "ended": true,
+      "duration": 17.654542
+    },
+    {
+      "track": "v2r-intro-23.mp3",
+      "ended": true,
+      "duration": 14.223958
+    }
+  ],
+  "gaps": [
+    {
+      "from": "v2r-intro-0.mp3",
+      "to": "v2r-intro-1.mp3",
+      "seconds": 2.528
+    },
+    {
+      "from": "v2r-intro-1.mp3",
+      "to": "v2r-cue-1-touch.mp3",
+      "seconds": 1.067
+    },
+    {
+      "from": "v2r-cue-1-touch.mp3",
+      "to": "v2r-cue-1-open.mp3",
+      "seconds": 0.201
+    },
+    {
+      "from": "v2r-cue-1-open.mp3",
+      "to": "v2r-intro-2.mp3",
+      "seconds": 1.959
+    },
+    {
+      "from": "v2r-intro-2.mp3",
+      "to": "v2r-cue-2-cup.mp3",
+      "seconds": 1.401
+    },
+    {
+      "from": "v2r-cue-2-cup.mp3",
+      "to": "v2r-cue-2-taste.mp3",
+      "seconds": 0.268
+    },
+    {
+      "from": "v2r-cue-2-taste.mp3",
+      "to": "v2r-cue-2-swallow.mp3",
+      "seconds": 0.199
+    },
+    {
+      "from": "v2r-cue-2-swallow.mp3",
+      "to": "v2r-intro-3.mp3",
+      "seconds": 2.025
+    },
+    {
+      "from": "v2r-intro-3.mp3",
+      "to": "v2r-cue-3-hesitate.mp3",
+      "seconds": 1.135
+    },
+    {
+      "from": "v2r-cue-3-hesitate.mp3",
+      "to": "v2r-cue-3-stop.mp3",
+      "seconds": 0.201
+    },
+    {
+      "from": "v2r-cue-3-stop.mp3",
+      "to": "v2r-intro-4.mp3",
+      "seconds": 2.692
+    },
+    {
+      "from": "v2r-intro-4.mp3",
+      "to": "v2r-cue-4-draw.mp3",
+      "seconds": 1.468
+    },
+    {
+      "from": "v2r-cue-4-draw.mp3",
+      "to": "v2r-cue-4-gaze.mp3",
+      "seconds": 0.201
+    },
+    {
+      "from": "v2r-cue-4-gaze.mp3",
+      "to": "v2r-intro-5.mp3",
+      "seconds": 0.894
+    },
+    {
+      "from": "v2r-intro-5.mp3",
+      "to": "v2r-cue-5-left.mp3",
+      "seconds": 1.6
+    },
+    {
+      "from": "v2r-cue-5-left.mp3",
+      "to": "v2r-cue-5-up.mp3",
+      "seconds": 0.2
+    },
+    {
+      "from": "v2r-cue-5-up.mp3",
+      "to": "v2r-cue-5-right.mp3",
+      "seconds": 0.2
+    },
+    {
+      "from": "v2r-cue-5-right.mp3",
+      "to": "v2r-cue-5-down.mp3",
+      "seconds": 0.133
+    },
+    {
+      "from": "v2r-cue-5-down.mp3",
+      "to": "v2r-intro-6.mp3",
+      "seconds": 2.195
+    },
+    {
+      "from": "v2r-intro-6.mp3",
+      "to": "v2r-cue-6-river.mp3",
+      "seconds": 1.468
+    },
+    {
+      "from": "v2r-cue-6-river.mp3",
+      "to": "v2r-intro-7.mp3",
+      "seconds": 2.028
+    },
+    {
+      "from": "v2r-intro-7.mp3",
+      "to": "v2r-cue-7-snow.mp3",
+      "seconds": 1.402
+    },
+    {
+      "from": "v2r-cue-7-snow.mp3",
+      "to": "v2r-intro-8.mp3",
+      "seconds": 2.289
+    },
+    {
+      "from": "v2r-intro-8.mp3",
+      "to": "v2r-cue-8-roads.mp3",
+      "seconds": 1.802
+    },
+    {
+      "from": "v2r-cue-8-roads.mp3",
+      "to": "v2r-intro-9.mp3",
+      "seconds": 2.251
+    },
+    {
+      "from": "v2r-intro-9.mp3",
+      "to": "v2r-cue-9-height.mp3",
+      "seconds": 1.667
+    },
+    {
+      "from": "v2r-cue-9-height.mp3",
+      "to": "v2r-intro-10.mp3",
+      "seconds": 2.081
+    },
+    {
+      "from": "v2r-intro-10.mp3",
+      "to": "v2r-cue-10-path.mp3",
+      "seconds": 1.868
+    },
+    {
+      "from": "v2r-cue-10-path.mp3",
+      "to": "v2r-intro-11.mp3",
+      "seconds": 2.244
+    },
+    {
+      "from": "v2r-intro-11.mp3",
+      "to": "v2r-cue-11-high.mp3",
+      "seconds": 1.602
+    },
+    {
+      "from": "v2r-cue-11-high.mp3",
+      "to": "v2r-cue-11-low.mp3",
+      "seconds": 0.267
+    },
+    {
+      "from": "v2r-cue-11-low.mp3",
+      "to": "v2r-intro-12.mp3",
+      "seconds": 2.052
+    },
+    {
+      "from": "v2r-intro-12.mp3",
+      "to": "v2r-cue-12-bends.mp3",
+      "seconds": 1.735
+    },
+    {
+      "from": "v2r-cue-12-bends.mp3",
+      "to": "v2r-intro-13.mp3",
+      "seconds": 2.185
+    },
+    {
+      "from": "v2r-intro-13.mp3",
+      "to": "v2r-cue-13-stars.mp3",
+      "seconds": 1.202
+    },
+    {
+      "from": "v2r-cue-13-stars.mp3",
+      "to": "v2r-cue-13-sigh.mp3",
+      "seconds": 0.267
+    },
+    {
+      "from": "v2r-cue-13-sigh.mp3",
+      "to": "v2r-intro-14.mp3",
+      "seconds": 2.15
+    },
+    {
+      "from": "v2r-intro-14.mp3",
+      "to": "v2r-cue-14-light.mp3",
+      "seconds": 1.402
+    },
+    {
+      "from": "v2r-cue-14-light.mp3",
+      "to": "v2r-cue-14-distance.mp3",
+      "seconds": 0.534
+    },
+    {
+      "from": "v2r-cue-14-distance.mp3",
+      "to": "v2r-intro-15.mp3",
+      "seconds": 2.336
+    },
+    {
+      "from": "v2r-intro-15.mp3",
+      "to": "v2r-cue-15-moon.mp3",
+      "seconds": 4.139
+    },
+    {
+      "from": "v2r-cue-15-moon.mp3",
+      "to": "v2r-intro-16.mp3",
+      "seconds": 2.588
+    },
+    {
+      "from": "v2r-intro-16.mp3",
+      "to": "v2r-cue-16-torrent.mp3",
+      "seconds": 2.002
+    },
+    {
+      "from": "v2r-cue-16-torrent.mp3",
+      "to": "v2r-intro-17.mp3",
+      "seconds": 2.211
+    },
+    {
+      "from": "v2r-intro-17.mp3",
+      "to": "v2r-cue-17-far.mp3",
+      "seconds": 1.534
+    },
+    {
+      "from": "v2r-cue-17-far.mp3",
+      "to": "v2r-cue-17-near.mp3",
+      "seconds": 0.2
+    },
+    {
+      "from": "v2r-cue-17-near.mp3",
+      "to": "v2r-cue-17-knock.mp3",
+      "seconds": 0.2
+    },
+    {
+      "from": "v2r-cue-17-knock.mp3",
+      "to": "v2r-intro-18.mp3",
+      "seconds": 2.15
+    },
+    {
+      "from": "v2r-intro-18.mp3",
+      "to": "v2r-cue-18-city.mp3",
+      "seconds": 1.735
+    },
+    {
+      "from": "v2r-cue-18-city.mp3",
+      "to": "v2r-intro-19.mp3",
+      "seconds": 2.182
+    },
+    {
+      "from": "v2r-intro-19.mp3",
+      "to": "v2r-cue-19-home.mp3",
+      "seconds": 1.602
+    },
+    {
+      "from": "v2r-cue-19-home.mp3",
+      "to": "v2r-intro-20.mp3",
+      "seconds": 2.074
+    },
+    {
+      "from": "v2r-intro-20.mp3",
+      "to": "v2r-cue-20-fish.mp3",
+      "seconds": 1.536
+    },
+    {
+      "from": "v2r-cue-20-fish.mp3",
+      "to": "v2r-intro-21.mp3",
+      "seconds": 2.224
+    },
+    {
+      "from": "v2r-intro-21.mp3",
+      "to": "v2r-cue-21-dream.mp3",
+      "seconds": 1.6
+    },
+    {
+      "from": "v2r-cue-21-dream.mp3",
+      "to": "v2r-intro-22.mp3",
+      "seconds": 2.261
+    },
+    {
+      "from": "v2r-intro-22.mp3",
+      "to": "v2r-cue-22-sail.mp3",
+      "seconds": 1.803
+    },
+    {
+      "from": "v2r-cue-22-sail.mp3",
+      "to": "v2r-intro-23.mp3",
+      "seconds": 2.191
+    }
+  ],
+  "audioSeconds": 609.842163,
+  "errors": [],
+  "readyStyle": {
+    "before": "water-ring",
+    "after": "water-ring"
+  }
+}

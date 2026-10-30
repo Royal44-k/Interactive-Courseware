@@ -1,0 +1,16 @@
+山海行歌 · 中英双语诗境
+
+完整解压后，用 Edge 或 Chrome 打开 index.html。
+点击“走入山海”，开始行游。右上角可切换中文 / 中英对照 / English。
+画面、双语旁白、两首全文朗读、配乐和环境声均可离线使用。
+
+点右下按钮先行动，动作结束后再点一次继续。
+举剑后会随画面渐暗自动进入席外。
+P 暂停；空格继续；Esc 关闭面板。
+
+声音与全屏入口：行游小记。
+更多说明见“使用说明.md”。
+
+Extract all files, then open index.html in Edge or Chrome.
+Choose EN for English. Click the journey button to act, then again to continue.
+All media work offline. See Guide for sound settings and full screen.
